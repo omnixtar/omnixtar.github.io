@@ -9,3 +9,7 @@ Omni* currently consists of the following:
 3. OmniGDB (Omni Graph Database)
 
 Omni* is a suite of algorithms or libraries for establishing decentralised transactions and applications, with a final goal to establish a Decentralised Metaverse, abbreviated as DMeta.
+
+# Motivations
+1. MAGA revenues
+2. Simplified Metaprogramming
