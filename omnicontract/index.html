@@ -1,0 +1,708 @@
+<html>
+  <!--
+DMeta Hash Contract On the Separation of Disclosure and Royalties of the Source Code
+
+- You, a human agent of a company or government agency, may read the source code without making payments to the author or authors, but if you  execute this program on behalf of your company or agency for commercial purposes, we reserve the rights to claim royalties from you or your company or agency. 
+10:07 PM
+  -->
+  <head>
+  <title>DMetaContract: Decentralized Meta Contact</title>
+  <!--[if IE]>
+  <script type='text/javascript'>
+    (function() {
+      var tag = document.getElementById('basetag');
+      tag.href = location.protocol + '//' + location.host + '/jsencrypt/';
+    }());
+  </script>
+  <![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./jsencrypt.min.js"></script>
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"></head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">DMeta</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="demo/index.html">Demo</a>
+          </li>
+          <li>
+            <a href="test/index.html">Test</a>
+          </li>
+          <li>
+            <a href="https://github.com/travist/jsencrypt/archive/master.zip" role="button">Download</a>
+          </li>
+          <li>
+            <a href="https://github.com/travist/jsencrypt" role="button">GitHub Project</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="panel panel-default">
+    <div class="panel-heading"><h1>DMeta Decentralized Metaverse: DMeta Hash Contract</h1></div>
+    <div class="panel-body">
+		
+		
+    <div class="panel panel-default">
+    <div class="panel-heading"><h3>DMetaHash: Base64 53-bit Hash</h3></div>
+    <div class="panel-body">
+      
+      <div class="col-lg-5">
+        <label for="input">Contract to hash:</label><br>
+        <textarea id="input2" name="input" style="width: 100%" rows="4">Brian will transfer USD50 to Trinity, via local banks, after Adam sends TRX-USDT50 to Brian.</textarea>
+      </div>
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="execute2" class="btn btn-primary">DMetaHash</button>
+      </div>
+      <div class="col-lg-5">
+        <label for="crypted">DMetaHash of Contract:</label><br>
+        <textarea id="crypted2" name="crypted" style="width: 100%" rows="4">:Contract_Hash:</textarea>
+      </div>
+    
+      <div class="col-lg-5">
+        <label for="input">DMC3 Triplets:</label><br>
+        <textarea id="dmc3" name="input" style="width: 100%" rows="4">:Contract_Hash: :PBKA_Hash: :PBKB_Hash:</textarea>
+      </div>
+	    
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="bdmc3" class="btn btn-primary">DMC3</button>
+      <!-- </div>
+      <div class="col-lg-2" -->
+	      
+	      <br><label>&nbsp;</label><br>
+        
+	      <!-- label>&nbsp;</label><br -->
+	      
+        <button id="bhash4" class="btn btn-primary">ROOT</button>
+      </div>
+	    
+      <div class="col-lg-5">
+        <label for="crypted">Root Hash (Hash of All Hashes):</label><br>
+        <textarea id="hash4" name="crypted" style="width: 100%" rows="4">:Root_Hash:</textarea>
+      </div>
+	    
+    </div>
+    </div>
+  
+<style>
+    li+ul {padding-left: 20px;}
+</style>
+
+	<div class="row col-lg-12">
+        <div class="well">
+          <h3>
+            <p>Decentralized Meta Contract (DMetaContract, DMC) is arguably the simplest smart contract ever invented. 
+			</p>
+	    <p>The simplest form of DMC consists of THREE (3) DMetaHashes, which are collectively known as DMC3 or DMC Triplets:
+		<ul>
+		  <li> DMetaHash of the Public Key of Party A
+		  <li> DMetaHash of the Public Key of Party B
+		  <li> DMetaHash of the Contract texts (as shown above)
+		</ul>
+            <br>
+            <p> DMetaHash is a 53-bit integer hash encoded in Base64 string.</p>
+            <br>
+            
+            <p> Users may enter the Contract text in the top left text box above and press the DMetaHash button to generate the Contract Contents Hash, OR enter the following in browser console 
+            to verify 
+            the DMetaHash function for themselves:
+
+            <ul>
+				<li><code>bnToB64(cyrb53($('#input2').val())))</code> </li>  
+				<li><code>bnToB64(cyrb53('anystring'))</code> </li>              
+            </ul>
+            
+            <br>
+            <p>The public keys of Party A and B are shown below. Users may press the HPBKA and HPBKB buttons 
+		    to generate the hash of the public keys.
+		    </p>
+
+            <br>
+	    <p>Next, the user may press the DMC3 button to copy the DMC3 Triplets, then ROOT to generate
+		the Root Hash --- hash of DMC3 Triplets.
+		</p>
+		  
+	    <p>Finally, the user may go to the end of this page, click on the Readable button to generate a copy of Human Readable DMC.
+		  </p>
+
+
+		</div>
+      </div>
+  
+	<!-- div class="well">
+		div well
+           newad 
+          <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1902035200208763"
+          data-ad-slot="3517508761"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div -->
+
+		<div class="row col-lg-12">
+        
+  <div class="panel panel-default">
+    <div class="panel-heading">
+	<h3>Party A</h3> <!-- </div> -->
+    
+    <div class="row">
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="bhpbka" class="btn btn-primary">HPBKA</button>
+      </div>
+      <div class="col-lg-5">
+        <label for="crypted">DMetaHash of Public Key A:</label><br>
+        <textarea id="hpbka" name="crypted" style="width: 100%" rows="1">:PBKA_Hash:</textarea>
+      </div>
+    </div>
+
+	    <!-- /div -->      
+
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="btn-group">
+          <div class="input-group">
+            <span class="input-group-addon">Key Size</span>
+            <button class="btn btn-default dropdown-toggle" id="key-size" type="button" data-value="1024" data-toggle="dropdown">1024 bit <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a class="change-key-size" data-value="512" href="#">512 bit</a></li>
+              <li><a class="change-key-size" data-value="1024" href="#">1024 bit</a></li>
+              <li><a class="change-key-size" data-value="2048" href="#">2048 bit</a></li>
+              <li><a class="change-key-size" data-value="4096" href="#">4096 bit</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>&nbsp;<br>
+        <button id="generate" class="btn btn-primary">Generate New Keys</button>
+        <br>&nbsp;<br>
+        <span><i><small id="time-report">Generated in 687 ms</small></i></span>
+        <br>&nbsp;<br>
+        <label for="async-ck"><input id="async-ck" type="checkbox"> Async</label>
+      </div>
+	    
+	    <!-- Use DOM Inspector to copy outerhtml block, and check border of NEXT block, then paste -->
+	    
+      
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-6">
+            <label for="privkey">Private Key</label><br>
+            <small>
+              <textarea id="privkey" rows="15" style="width:100%"></textarea>
+            </small>
+          </div>
+          <div class="col-lg-6">
+            <label for="pubkey">Public Key</label><br>
+            <small><textarea id="pubkey" rows="15" style="width:100%" readonly="readonly"></textarea></small>
+          </div>
+        </div>
+      </div>
+</div>
+
+<!-- </div> -->
+<!-- </div> -->
+
+<div class="row">
+  
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-lg-5">
+        <label for="input">Text to encrypt:</label><br>
+        <textarea id="input" name="input" style="width: 100%" rows="4">This is a test!</textarea>
+      </div>
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="execute" class="btn btn-primary">Encrypt / Decrypt</button>
+      </div>
+      <div class="col-lg-5">
+        <label for="crypted">Encrypted:</label><br>
+        <textarea id="crypted" name="crypted" style="width: 100%" rows="4"></textarea>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>	
+	  <!-- div class="panel panel-default">
+	
+		  <div class="panel-heading"><h3>Party B</h3>
+		  
+		  </div -->
+		  
+		  
+<div class="panel panel-default">      
+      <div class="panel-heading">
+	      <h3>Party B</h3> <!-- </div> -->
+      
+      <div class="row">
+      <!-- div class="col-lg-2" -->
+	<div class="col-lg-2">
+          <label>&nbsp;</label><br>
+          <button id="bhpbkb" class="btn btn-primary">HPBKB</button>
+	</div>
+      	<div class="col-lg-5">
+	  <label for="crypted">DMetaHash of Public Key B:</label><br>
+  	  <textarea id="hpbkb" name="crypted" style="width: 100%" rows="1">:PBKB_Hash:</textarea>
+        </div>    
+      </div>
+		  
+      <div class="row">		  
+	<div class="col-lg-2">
+        <div class="btn-group">
+          <div class="input-group">
+            <span class="input-group-addon">Key Size</span>
+            <button class="btn btn-default dropdown-toggle" id="key-size" type="button" data-value="1024" data-toggle="dropdown">1024 bit <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a class="change-key-size" data-value="512" href="#">512 bit</a></li>
+              <li><a class="change-key-size" data-value="1024" href="#">1024 bit</a></li>
+              <li><a class="change-key-size" data-value="2048" href="#">2048 bit</a></li>
+              <li><a class="change-key-size" data-value="4096" href="#">4096 bit</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>&nbsp;<br>
+        <button id="generate2" class="btn btn-primary">Generate New Keys</button>
+        <br>&nbsp;<br>
+        <span><i><small id="time-report">Generated in 102 ms</small></i></span>
+        <br>&nbsp;<br>
+        <label for="async-ck"><input id="async-ck" type="checkbox"> Async</label>
+      </div>
+      
+      <div class="col-lg-10">
+        <div class="row">
+          <div class="col-lg-6">
+            <label for="privkey">Private Key</label><br>
+            <small>
+              <textarea id="privkey2" rows="15" style="width:100%"></textarea>
+            </small>
+          </div>
+          <div class="col-lg-6">
+            <label for="pubkey">Public Key</label><br>
+            <small><textarea id="pubkey2" rows="15" style="width:100%" readonly="readonly"></textarea></small>
+          </div>
+        </div>
+      </div>
+      </div>
+	      
+    <div class="panel-body">
+      <div class="col-lg-5">
+        <label for="input">Text to encrypt:</label><br>
+        <textarea id="input" name="input" style="width: 100%" rows="4">This is a test!</textarea>
+      </div>
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="execute" class="btn btn-primary">Encrypt / Decrypt</button>
+      </div>
+      <div class="col-lg-5">
+        <label for="crypted">Encrypted:</label><br>
+        <textarea id="crypted" name="crypted" style="width: 100%" rows="4"></textarea>
+      </div>
+    </div>
+  </div>
+	  </div>
+	  
+  <script type="text/javascript">
+  $(function () {
+
+    //Change the key size value for new keys
+    $(".change-key-size").each(function (index, value) {
+      var el = $(value);
+      var keySize = el.attr('data-value');
+      el.click(function (e) {
+        var button = $('#key-size');
+        button.attr('data-value', keySize);
+        button.html(keySize + ' bit <span class="caret"></span>');
+        e.preventDefault();
+      });
+    });
+
+    // Execute when they click the button.
+    $('#execute').click(function () {
+
+      // Create the encryption object.
+      var crypt = new JSEncrypt();
+
+      // Set the private.
+      crypt.setPrivateKey($('#privkey').val());
+      //return;
+      // If no public key is set then set it here...
+      var pubkey = $('#pubkey').val();
+      if (!pubkey) {
+        $('#pubkey').val(crypt.getPublicKey());
+      }
+
+      // Get the input and crypted values.
+      var input = $('#input').val();
+      var crypted = $('#crypted').val();
+
+      // Alternate the values.
+      if (input) {
+        $('#crypted').val(crypt.encrypt(input));
+        $('#input').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input').val(decrypted);
+        $('#crypted').val('');
+      }
+    });
+
+    $('#execute2').click(function () {
+
+      // Create the encryption object.
+      var crypt = new JSEncrypt();
+
+      // Set the private.
+      crypt.setPrivateKey($('#privkey').val());
+      //return;
+      // If no public key is set then set it here...
+      var pubkey = $('#pubkey').val();
+      if (!pubkey) {
+        $('#pubkey').val(crypt.getPublicKey());
+      }
+
+      // Get the input and crypted values.
+      var input = $('#input2').val();
+      var crypted = $('#crypted2').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#crypted2').val(bnToB64(cyrb53($('#input2').val())));
+	      
+
+	// 2022-05-11 write buffer to DOM, to save page!!
+	document.getElementById('input2').innerHTML=$('#input2').val();
+	      
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bdmc3').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#hpbka').val();
+      var crypted = $('#crypted2').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#crypted2').val(bnToB64(cyrb53($('#input2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+	    
+      $('#dmc3').val($('#crypted2').val() +' '+ $('#hpbka').val() +' '+ $('#hpbkb').val());
+    
+    });
+
+    $('#bhpbka').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey').val();
+      var crypted = $('#hpbka').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbka').val(bnToB64(cyrb53($('#pubkey').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bhpbkb').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+	  console.log('hpbkb 1128 1145');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbkb').val(bnToB64(cyrb53($('#pubkey2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bdmchr').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+      console.log('dmchr 1128 1835');
+	    
+      var dt = new Date();
+
+      $('#dmchr').val( "On this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+        +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
+        +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
+	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
+	    
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbkb').val(bnToB64(cyrb53($('#pubkey2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+	  
+    $('#bhash4').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey').val();
+      var crypted = $('#hpbka').val();
+
+	  console.log('bhash4 1128 1130');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hash4').val(bnToB64(cyrb53($('#dmc3').val())));
+
+	// 2022-05-11 write buffer to DOM, to save page!!
+	document.getElementById('dmc3').innerHTML=$('#dmc3').val();
+
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+
+    var generateKeys = function () {
+      var sKeySize = $('#key-size').attr('data-value');
+      var keySize = parseInt(sKeySize);
+      var crypt = new JSEncrypt({default_key_size: keySize});
+      var async = $('#async-ck').is(':checked');
+      var dt = new Date();
+      var time = -(dt.getTime());
+      if (async) {
+        $('#time-report').text('.');
+        var load = setInterval(function () {
+          var text = $('#time-report').text();
+          $('#time-report').text(text + '.');
+        }, 500);
+        crypt.getKey(function () {
+          clearInterval(load);
+          dt = new Date();
+          time += (dt.getTime());
+          $('#time-report').text('Generated in ' + time + ' ms');
+          $('#privkey').val(crypt.getPrivateKey());
+          $('#pubkey').val(crypt.getPublicKey());
+        });
+        return;
+      }
+      crypt.getKey();
+      dt = new Date();
+      time += (dt.getTime());
+      $('#time-report').text('Generated in ' + time + ' ms');
+      $('#privkey').val(crypt.getPrivateKey());
+      $('#pubkey').val(crypt.getPublicKey());
+    };
+
+  var generateKeys2 = function () {
+      var sKeySize = $('#key-size').attr('data-value');
+      var keySize = parseInt(sKeySize);
+      var crypt = new JSEncrypt({default_key_size: keySize});
+      var async = $('#async-ck').is(':checked');
+      var dt = new Date();
+      var time = -(dt.getTime());
+      if (async) {
+        $('#time-report').text('.');
+        var load = setInterval(function () {
+          var text = $('#time-report').text();
+          $('#time-report').text(text + '.');
+        }, 500);
+        crypt.getKey(function () {
+          clearInterval(load);
+          dt = new Date();
+          time += (dt.getTime());
+          $('#time-report').text('Generated in ' + time + ' ms');
+          $('#privkey2').val(crypt.getPrivateKey());
+          $('#pubkey2').val(crypt.getPublicKey());
+        });
+        return;
+      }
+      crypt.getKey();
+      dt = new Date();
+      time += (dt.getTime());
+      $('#time-report').text('Generated in ' + time + ' ms');
+      $('#privkey2').val(crypt.getPrivateKey());
+      $('#pubkey2').val(crypt.getPublicKey());
+    };
+
+	  
+	  
+    // If they wish to generate new keys.
+    $('#generate').click(generateKeys);
+    $('#generate2').click(generateKeys2);
+    generateKeys();
+  });
+  
+   const cyrb53 = function(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1>>>0);
+};
+
+
+function b64ToBn(b64) {
+  var bin = atob(b64);
+  var hex = [];
+
+  bin.split('').forEach(function (ch) {
+    var h = ch.charCodeAt(0).toString(16);
+    if (h.length % 2) { h = '0' + h; }
+    hex.push(h);
+  });
+
+  return BigInt('0x' + hex.join(''));
+}
+
+
+function bnToB64(bn) {
+  var hex = BigInt(bn).toString(16);
+  if (hex.length % 2) { hex = '0' + hex; }
+
+  var bin = [];
+  var i = 0;
+  var d;
+  var b;
+  while (i < hex.length) {
+    d = parseInt(hex.slice(i, i + 2), 16);
+    b = String.fromCharCode(d);
+    bin.push(b);
+    i += 2;
+  }
+
+  return btoa(bin.join(''));
+}
+
+
+  window.HT = { "D0uZDibksg==": "https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/", 
+             "Axy7Lh5jbw==": "https://docs.google.com/document/d/1ZfeoglyOo5FLjplUDQ2kgR-Umb0qbql_W7KqpykRaP0/",
+             "BfMGjHy9zQ==": "https://docs.google.com/document/d/19ACrifvOwK3-8cmeuuVvYeDdc5E24TAY20faZWErivo" }
+  
+</script>
+
+	</div>
+
+<style type="text/css">
+ta_hr {
+ width: 300px;
+ height: 100px;
+ background-color: yellow;
+ font-size: 1em;
+ font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ border: 1px solid black;
+}
+</style>
+		
+	<div class="well">
+	  <div class="col-lg-6">
+	    <label for="privkey"><h2>Human Readable DMC</h2></label> 
+	    <button id="bdmchr" class="btn btn-primary">Readable</button>
+            <large>
+              <textarea id="dmchr" rows="15" style="width:100%;font-size:18px;"></textarea>
+            </large>
+          </div>		  
+	</div>
+		
+    </div>
+		
+		
+
+</div>
+
+</body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20211111/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>
