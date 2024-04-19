@@ -77,12 +77,12 @@ DMeta Hash Contract On the Separation of Disclosure and Royalties of the Source 
         <button id="execute2" class="btn btn-primary">Omnihash</button>
       </div>
       <div class="col-lg-5">
-        <label for="crypted">DMetaHash of Contract:</label><br>
+        <label for="crypted">Omnihash of Contract:</label><br>
         <textarea id="crypted2" name="crypted" style="width: 100%" rows="4">:Contract_Hash:</textarea>
       </div>
     
       <div class="col-lg-5">
-        <label for="input">DMC3 Triplets:</label><br>
+        <label for="input">OHC3 Triplets:</label><br>
         <textarea id="dmc3" name="input" style="width: 100%" rows="4">:Contract_Hash: :PBKA_Hash: :PBKB_Hash:</textarea>
       </div>
 	    
@@ -114,21 +114,21 @@ DMeta Hash Contract On the Separation of Disclosure and Royalties of the Source 
 	<div class="row col-lg-12">
         <div class="well">
           <h3>
-            <p>Decentralized Meta Contract (DMetaContract, DMC) is arguably the simplest smart contract ever invented. 
+            <p>Omnihash Contract (OHC) is arguably the simplest smart contract ever invented. 
 			</p>
-	    <p>The simplest form of DMC consists of THREE (3) DMetaHashes, which are collectively known as DMC3 or DMC Triplets:
+	    <p>The simplest form of OHC consists of THREE (3) Omnihashes, which are collectively known as OHC3 or OHC Triplets:
 		<ul>
-		  <li> DMetaHash of the Public Key of Party A
-		  <li> DMetaHash of the Public Key of Party B
-		  <li> DMetaHash of the Contract texts (as shown above)
+		  <li> Omnihash of the Public Key of Party A
+		  <li> Omnihash of the Public Key of Party B
+		  <li> Omnihash of the Contract texts (as shown above)
 		</ul>
             <br>
-            <p> DMetaHash is a 53-bit integer hash encoded in Base64 string.</p>
+            <p> Omnihash is a 53-bit integer hash encoded in Base64 string.</p>
             <br>
             
-            <p> Users may enter the Contract text in the top left text box above and press the DMetaHash button to generate the Contract Contents Hash, OR enter the following in browser console 
+            <p> Users may enter the Contract text in the top left text box above and press the Omnihash button to generate the Contract Contents Hash, OR enter the following in browser console 
             to verify 
-            the DMetaHash function for themselves:
+            the Omnihash function for themselves:
 
             <ul>
 				<li><code>bnToB64(cyrb53($('#input2').val())))</code> </li>  
@@ -137,12 +137,12 @@ DMeta Hash Contract On the Separation of Disclosure and Royalties of the Source 
             
             <br>
             <p>The public keys of Party A and B are shown below. Users may press the HPBKA and HPBKB buttons 
-		    to generate the hash of the public keys.
+		    to generate the Omnihash of the public keys.
 		    </p>
 
             <br>
-	    <p>Next, the user may press the DMC3 button to copy the DMC3 Triplets, then ROOT to generate
-		the Root Hash --- hash of DMC3 Triplets.
+	    <p>Next, the user may press the OHC3 button to copy the OHC3 Triplets, then ROOT to generate
+		the Root Hash --- hash of OHC3 Triplets.
 		</p>
 		  
 	    <p>Finally, the user may go to the end of this page, click on the Readable button to generate a copy of Human Readable DMC.
