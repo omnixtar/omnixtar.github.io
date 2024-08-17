@@ -4,10 +4,11 @@ Omni*Web GitHub start page:
 https://omnixtar.github.io/oxw/
 
 Videos in the Omni*Web INTRO series:
-I. INTRO https://youtu.be/F8t8p4Rwuqg
-II. Overview https://youtu.be/clOLrMR4Iro
-III. Login Demo https://youtu.be/iI3kiAsm450
-IV. Train-Advert-Develop https://youtu.be/RL1aRpRmNdI
+
+- I. INTRO https://youtu.be/F8t8p4Rwuqg
+- II. Overview https://youtu.be/clOLrMR4Iro
+- III. Login Demo https://youtu.be/iI3kiAsm450
+- IV. Train-Advert-Develop https://youtu.be/RL1aRpRmNdI
 
 Omni*Web is a project aimed at building a truly decentralised web, owned and operated by individual users and free software programmers, based on its novel and unique TRIMEDIA business model, which is an abbreviation for Training, Infrastructure, Metaprogramming and Digital Assets. 
 
