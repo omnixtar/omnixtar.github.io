@@ -6,7 +6,9 @@ function httpGet(theUrl)
     xmlHttp.send( null );
     return xmlHttp.responseText;
 }
-var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
+// var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
+// Chrome has strict policy, BOTH first and second server needs to have ACAO, so use corsproxy
+var v1=httpGet("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
 var htmlDom = new DOMParser().parseFromString(v1, 'text/html');
 var vl1=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a').length 
 var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a')[vl1-1].getAttribute('href') 
