@@ -11,4 +11,5 @@ function httpGet(theUrl)
 var v1=httpGet("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
 var htmlDom = new DOMParser().parseFromString(v1, 'text/html');
 var vl1=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a').length 
-var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a')[vl1-1].getAttribute('href') 
+// var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a')[vl1-1].getAttribute('href') 
+var ngrok_addr="https://8a75-2001-d08-da-5986-f093-ef4e-d34-4828.ngrok-free.app/"
