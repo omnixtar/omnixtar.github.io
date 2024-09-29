@@ -11,7 +11,8 @@ async function httpGet(theUrl)
 }
 
 var v1
-var f1 = async function(){
+// var f1 = async function(){
+async function f1(){
 
 // var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
 // Chrome has strict policy, BOTH first and second server needs to have ACAO, so use corsproxy
