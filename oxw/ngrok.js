@@ -3,7 +3,8 @@ async function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
     // xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    await xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
+    // await xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
+    xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
     xmlHttp.send( null );
     // return await xmlHttp.responseText;
     return xmlHttp.responseText;
