@@ -3,9 +3,10 @@ async function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
     // xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-    xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
+    await xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
     xmlHttp.send( null );
-    return await xmlHttp.responseText;
+    // return await xmlHttp.responseText;
+    return xmlHttp.responseText;
 }
 // var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
 // Chrome has strict policy, BOTH first and second server needs to have ACAO, so use corsproxy
