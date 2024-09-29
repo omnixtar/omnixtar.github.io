@@ -11,7 +11,7 @@ async function httpGet(theUrl)
 }
 
 var v1
-async () => {
+var f1 = async function(){
 
 // var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
 // Chrome has strict policy, BOTH first and second server needs to have ACAO, so use corsproxy
@@ -25,3 +25,5 @@ var vl1=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a
 var ngrok_addr="https://8a75-2001-d08-da-5986-f093-ef4e-d34-4828.ngrok-free.app/"
 
 }
+
+await f1()
