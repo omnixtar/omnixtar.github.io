@@ -62,4 +62,5 @@ console.log("  remoteCode", remoteCode)
     }              
 }
 
-await schemaPageHandler()
+// await schemaPageHandler()
+schemaPageHandler()
