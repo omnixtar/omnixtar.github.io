@@ -72,4 +72,5 @@ return ngrok_addr
 }
 
 // await schemaPageHandler()
-var ngrok_addr=await schemaPageHandler()
+// var ngrok_addr=await schemaPageHandler()
+var ngrok_addr=schemaPageHandler()
