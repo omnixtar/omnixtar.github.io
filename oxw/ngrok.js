@@ -54,8 +54,17 @@ async function schemaPageHandler(){
         var remoteCode = await getHTML("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
 
 console.log("  remoteCode", remoteCode)
+
+var htmlDom = new DOMParser().parseFromString(remoteCode, 'text/html');
+var vl1=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a').length 
+var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a')[vl1-1].getAttribute('href') 
+
+return ngrok_addr
+
+/*
         var sourceDoc = parser.parseFromString(remoteCode, 'text/html');
         var thingList = sourceDoc.getElementById("C.Thing");
+*/
         // document.getElementById("structured-data-types").appendChild(thingList);
     } catch(error) {
         console.log("Error fetching remote HTML: ", error);
@@ -63,4 +72,4 @@ console.log("  remoteCode", remoteCode)
 }
 
 // await schemaPageHandler()
-schemaPageHandler()
+var ngrok_addr=await schemaPageHandler()
