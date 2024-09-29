@@ -1,5 +1,5 @@
 console.log("test ngrok.js 20240903")
-function httpGet(theUrl)
+async function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
