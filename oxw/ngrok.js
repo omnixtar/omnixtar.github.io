@@ -56,8 +56,8 @@ async function schemaPageHandler(){
 console.log("  remoteCode", remoteCode)
 
 var htmlDom = new DOMParser().parseFromString(remoteCode, 'text/html');
-var vl1=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a').length 
-var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[1].getElementsByTagName('a')[vl1-1].getAttribute('href') 
+var vl1=htmlDom.querySelectorAll('.js-timeline-item').length
+var ngrok_addr=htmlDom.querySelectorAll('.js-timeline-item')[vl1-1].getElementsByTagName('a')[3].getAttribute('href') 
 
 return ngrok_addr
 
