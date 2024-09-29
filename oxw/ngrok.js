@@ -28,4 +28,38 @@ var ngrok_addr="https://8a75-2001-d08-da-5986-f093-ef4e-d34-4828.ngrok-free.app/
 }
 
 // await f1()
-f1()
+// f1()
+
+function getHTML(url) {
+    return new Promise(function (resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', url, true);
+        xhr.responseType = 'document';
+        xhr.onload = function () {
+            var status = xhr.status;
+            if (status == 200) {
+                resolve(xhr.response.documentElement.innerHTML);
+            } else {
+                reject(status);
+            }
+        };
+        xhr.send();
+    });
+}
+
+async function schemaPageHandler(){
+    try {
+        var parser = new window.DOMParser();
+        // var remoteCode = await getHTML('https://schema.org/docs/full.html');
+        var remoteCode = await getHTML("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
+
+console.log("  remoteCode", remoteCode)
+        var sourceDoc = parser.parseFromString(remoteCode, 'text/html');
+        var thingList = sourceDoc.getElementById("C.Thing");
+        // document.getElementById("structured-data-types").appendChild(thingList);
+    } catch(error) {
+        console.log("Error fetching remote HTML: ", error);
+    }              
+}
+
+await schemaPageHandler()
