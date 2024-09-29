@@ -27,4 +27,5 @@ var ngrok_addr="https://8a75-2001-d08-da-5986-f093-ef4e-d34-4828.ngrok-free.app/
 
 }
 
-await f1()
+// await f1()
+f1()
