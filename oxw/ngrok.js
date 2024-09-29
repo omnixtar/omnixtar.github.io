@@ -2,7 +2,8 @@ console.log("test ngrok.js 20240903")
 async function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    // xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.open( "GET", theUrl, true ); // true for asynchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
 }
