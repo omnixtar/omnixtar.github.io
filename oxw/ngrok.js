@@ -8,9 +8,9 @@ async function httpGet(theUrl)
     // return await xmlHttp.responseText;
     return xmlHttp.responseText;
 }
-// var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
+var v1=httpGet("https://github.com/omnixtar/omnixtar.github.io/issues/1")
 // Chrome has strict policy, BOTH first and second server needs to have ACAO, so use corsproxy
-var v1=await httpGet("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
+// var v1=await httpGet("https://corsproxy.io/?https://github.com/omnixtar/omnixtar.github.io/issues/1")
 
 console.log(v1)
 
