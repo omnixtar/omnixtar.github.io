@@ -1,6 +1,6 @@
 # ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Omni*Doc
 
-OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects, by employing FORTH derived metaprogramming scripts on lines of texts, to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
+Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects, by employing FORTH derived metaprogramming scripts on lines of texts, to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
 
 
 [**Visit the website.**](https://markdown-here.com)<br>
