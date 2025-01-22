@@ -5,6 +5,7 @@ Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the
 - by employing FORTH derived metaprogramming scripts on lines of texts, 
 - to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
 
+---
 
 [**Visit the website.**](https://markdown-here.com)<br>
 [**Get it for Chrome.**](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)<br>
