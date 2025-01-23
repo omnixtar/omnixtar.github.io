@@ -12,6 +12,7 @@ Omnisophia means a Decentralised intelligent system *owned and operated by free 
 
 Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
 
+---
 
 Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects,
 
