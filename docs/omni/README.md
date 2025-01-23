@@ -6,7 +6,7 @@ Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the
 - (Omnisophia) to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
 
 ## MOM: Metaprogramming Omnisophia Metanarchy
-### Ultimate Goals of Decentralisation
+- ### Ultimate Goals of Decentralisation
 
 While this initial may look strange, it is in many respect the ultimate goal behind various decentralisation trends, from BitTorrent, Invisible Internet Project (I2P) to Bitcoin.
 
