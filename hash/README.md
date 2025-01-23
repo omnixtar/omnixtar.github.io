@@ -20,7 +20,9 @@ However, it was not until the
 
 ### Hash Functions & Public Key Cryptography
 
-[Hash functions](https://en.wikipedia.org/wiki/Hash_function) & [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) were introduced in the 1950s and 1970s respectively but it was not until 2009 that the launch of Bitcoin demonstrated the viability of decentralised information infrastructure.
+[Hash functions](https://en.wikipedia.org/wiki/Hash_function) & [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) were introduced in the 1950s and 1970s respectively but it was not until 2009 that the launch of Bitcoin demonstrated the viability of decentralised information infrastructure, which shall form the fundamental algorithms for Metanarchy.
+
+So indeed the computational foundation of Metanarchy and the legal framework of modern nation states (voting rights for coloured voters) were both established around 1970s.
 
 ---
 
