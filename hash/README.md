@@ -2,11 +2,10 @@
 - ## *YOUR brain is the weapon in the Omnisophia Metanarchy Revolution.* 
 - ## Bitcoin + Decentralised AI = Omnisophia
 
-<!-- 
-<table><tr><td valign="center"><img src="https://omnixtar.github.io/m/img/icon-oxw.png"> text </td></tr></table>
+https://en.wikipedia.org/wiki/Cardan_grille
 
-[Markdown Here logo](https: //raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png)
--->
+16th century Italian cryptographer Girolamo Cardano was attritbuted to have recorded method using a cardboard with holes to reveal a secret message, where letters are seen through holes when placed on a specific page on a designated book. This technique has thus been named Cardano grille.
+
 
 Omnisophia means a Decentralised intelligent system *owned and operated by free individuals and free software programmers*. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
 
