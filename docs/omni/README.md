@@ -1,4 +1,18 @@
-# ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Markdown Here
+# ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Omni*Doc
+
+Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects,
+
+- by employing FORTH derived metaprogramming scripts on lines of texts, 
+- to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
+
+## Metaprogramming Omnisophia Metanarchy
+
+Omnisophia means a Decentralised intelligent system owned and operated by free individuals and free software programmers. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
+
+Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
+
+
+---
 
 [**Visit the website.**](https://markdown-here.com)<br>
 [**Get it for Chrome.**](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)<br>
