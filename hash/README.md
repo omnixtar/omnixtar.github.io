@@ -14,6 +14,11 @@ Commercial 0.1% MMAGA first.
 
 Although mainstream American historians prefer to proclaim the year 1776 as the founding year of the United States of America, it was the Treaty of Paris in 1783 that officially marked the recognition by the British Crown.
 
+However, it was not until the
+[Voting Rights Act of 1965](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), that "coloured voters" in USA were finally given the rights to vote, almost two decades later than ordinary pariah Indians since India's independence from British rule.
+
+
+
 ---
 
 Omnisophia means a Decentralised intelligent system *owned and operated by free individuals and free software programmers*. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
