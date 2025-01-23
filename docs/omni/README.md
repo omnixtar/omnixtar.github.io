@@ -1,5 +1,7 @@
-# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)<sup><sub>Omni\*Web + Omni*Doc</sub></sup>
+# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc
 - ## Bitcoin + Decentralised AI = Omnisophia
+
+<table><tr><td valign="center"><img src="https://omnixtar.github.io/m/img/icon-oxw.png"> text </td></tr></table>
 
 [Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png)
 
