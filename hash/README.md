@@ -18,6 +18,9 @@ However, it was not until the
 [Voting Rights Act of 1965](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), that "coloured voters" in USA were finally given the rights to vote, almost two decades later than ordinary pariah Indians since India's independence from British rule.
 
 
+### Hash Functions & Public Key Cryptography
+
+[Hash functions](https://en.wikipedia.org/wiki/Hash_function) & [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) were introduced in the 1950s and 1970s respectively but it was not until 2009 that the launch of Bitcoin demonstrated the viability of decentralised information infrastructure.
 
 ---
 
