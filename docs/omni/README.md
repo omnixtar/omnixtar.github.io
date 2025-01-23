@@ -13,6 +13,11 @@ Omnisophia means a Decentralised intelligent system owned and operated by free i
 
 Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
 
+## Bitcoin Address: Hash of Public Key
+
+The implementation of the Bitcoin address as the hash of public key is a crucial breakthrough in decentralised systems. However, along with it, serious misconceptions regarding the hash of public key were propagated, misleading many to believe that no solutions exist beyond the blockchain architecture.
+
+Omni*Web is here to demonstrate a very lightweight implementation of the hash of public key being used as user identifiers, together with a whole body of hash calculus for all kinds of decentralised data and transactions.
 
 ---
 
