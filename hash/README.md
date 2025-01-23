@@ -10,7 +10,7 @@ We highlighted the history of Girolamo Cardano to demonstrate that, not even the
 
 Commercial 0.1% MMAGA first.
 
-## Legitimacy of Modern Nation States
+### Legitimacy of Modern Nation States
 
 Although mainstream American historians prefer to proclaim the year 1776 as the founding year of the United States of America, it was the Treaty of Paris in 1783 that officially marked the recognition by the British Crown.
 
