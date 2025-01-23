@@ -6,6 +6,7 @@ Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the
 - (Omnisophia) to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
 
 ## MOM: Metaprogramming Omnisophia Metanarchy
+### Ultimate Goals of Decentralisation
 
 While this initial may look strange, it is in many respect the ultimate goal behind various decentralisation trends, from BitTorrent, Invisible Internet Project (I2P) to Bitcoin.
 
@@ -18,6 +19,8 @@ Metanarchy means a new form of global and local governance based on transactions
 The implementation of the Bitcoin address as the hash of public key is a crucial breakthrough in decentralised systems. However, along with it, serious misconceptions regarding the hash of public key were propagated, misleading many to believe that no solutions exist beyond the blockchain architecture.
 
 Omni*Web is here to demonstrate a very lightweight implementation of the hash of public key being used as user identifiers, together with a whole body of hash calculus for all kinds of decentralised data and transactions.
+
+## Decentralised Artificial Intelligence Systems
 
 ---
 
