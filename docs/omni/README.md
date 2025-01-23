@@ -5,7 +5,7 @@ Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the
 - (Metaprogramming) by employing FORTH derived metaprogramming scripts on lines of texts, 
 - (Omnisophia) to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
 
-## Metaprogramming Omnisophia Metanarchy
+## MOM: Metaprogramming Omnisophia Metanarchy
 
 Omnisophia means a Decentralised intelligent system owned and operated by free individuals and free software programmers. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
 
