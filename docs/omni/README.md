@@ -1,4 +1,4 @@
-# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc
+# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)<sup><sub>Omni\*Web + Omni*Doc</sub></sup>
 - ## Bitcoin + Decentralised AI = Omnisophia
 
 [Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png)
