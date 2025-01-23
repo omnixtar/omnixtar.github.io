@@ -6,6 +6,9 @@
 
 16th century Italian cryptographer Girolamo Cardano was attritbuted to have recorded a method using a cardboard with holes to convey a secret message, where letters are seen through holes when placed on a specific page on a designated book. This technique has thus been named Cardano grille, which would become a predecessor of today's hash algorithms. 
 
+We highlighted the history of Girolamo Cardano to demonstrate that, not even the Pope may physically compel anyone to reveal any information unwillingly, which becomes the legitimate foundation of Metanarchy. 
+
+Commercial 0.1% MMAGA first.
 
 Omnisophia means a Decentralised intelligent system *owned and operated by free individuals and free software programmers*. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
 
