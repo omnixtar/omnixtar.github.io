@@ -1,4 +1,6 @@
 # ![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png) Omni\*Web + Omni*Doc
+- ## Bitcoin + Decentralised AI = Omnisophia
+
 
 Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects,
 
