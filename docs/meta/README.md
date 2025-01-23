@@ -1,5 +1,5 @@
 # ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc
-- ## YOUR brain is the weapon in the Metanarchy Revolution. 
+- ## *YOUR brain is the weapon in the new Metanarchy Revolution.* 
 - ## Bitcoin + Decentralised AI = Omnisophia
 
 <!-- 
