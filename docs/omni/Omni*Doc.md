@@ -7,6 +7,9 @@ Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the
 
 ## Metaprogramming Omnisophia Metanarchy
 
+Omnisophia means a Decentralised intelligent system owned and operated by free individuals and free software programmers. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
+
+Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
 
 
 ---
