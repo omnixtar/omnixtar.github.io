@@ -5,7 +5,7 @@
 <!-- 
 # ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc -->
 
-- ### *YOUR brain is the weapon ... Omnisophia Metanarchy Revolution.* 
+- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
 - ### Omnisophia: Bitcoin + Decentralised AI
 
 - ### [Cardano Grille](https://en.wikipedia.org/wiki/Cardan_grille)
