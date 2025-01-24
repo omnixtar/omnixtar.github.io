@@ -1,8 +1,10 @@
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 
-<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png"></td><td><h1>Omni\*Web + Omni*Doc</h1></td></tr></table>
+<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png"></td><td><h1>Omni*Web + Omni*Doc</h1></td></tr></table>
 
-# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc
+<!-- 
+# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc -->
+
 - ## *YOUR brain is the weapon in the Omnisophia Metanarchy Revolution.* 
 - ## Bitcoin + Decentralised AI = Omnisophia
 
