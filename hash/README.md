@@ -1,3 +1,4 @@
+<table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 # ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc
 - ## *YOUR brain is the weapon in the Omnisophia Metanarchy Revolution.* 
 - ## Bitcoin + Decentralised AI = Omnisophia
