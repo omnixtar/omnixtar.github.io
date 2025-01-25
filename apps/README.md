@@ -10,67 +10,30 @@
 
 ---
 
-- ### [Cardano Grille](https://en.wikipedia.org/wiki/Cardan_grille)
+Omni*Doc
 
-16th century Italian cryptographer Girolamo Cardano was attritbuted to have recorded a method using a cardboard with holes to convey a secret message, where letters are seen through holes when placed on a specific page on a designated book. This technique has thus been named Cardano grille, which would become a predecessor of today's hash algorithms. 
+Omni*Web
 
-We highlighted the history of Girolamo Cardano to demonstrate that, *not even the Pope may physically compel anyone to reveal any information unwillingly*, which becomes the legitimate foundation of Metanarchy. 
+Omni*Search
 
-Commercial 0.1% MMAGA first.
+In January 2025, a large number of Americans started using Chinese social media app Rednote, prior to the TikTok ban deadline under Biden’s administration. Subsequently, these American users of Rednote found out many inconvenient truths about the lives of ordinary people in China versus theirs, such as paying only 800 you as dollars a year for a law school degree versus over 200 thousands you as dollars in the United States. 
 
-### Legitimacy of Modern Nation States
+Likewise, there exist alternative future scenarios that are beyond common accepted realities, based on unknown breakthroughs in technology. In 2035 there are still aboriginal tribes in isolated communities in remote jungles or islands who have no knowledge of the Internet. Similarly, ordinary Internet users may not realize how breakthroughs in technology may change their lives in the future. 
 
-Although mainstream American historians prefer to proclaim the year 1776 as the founding year of the United States of America, it was the Treaty of Paris in 1783 that officially marked the recognition by the British Crown.
+The breakthroughs that we will bring through Omni*Web are based on hash algorithms and metaprogramming, two techniques already widely used in Bitcoin and other cryptocurrency platforms but not well known even amongst hard core “players”. The bitcoin address itself is a very large integer derived using hash algorithms. Metaprogramming is used within Bitcoin to execute commands derived from the FORTH programming language to process cryptocurrency transactions. 
 
-However, it was not until the
-[Voting Rights Act of 1965](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965), that "coloured voters" in USA were finally given the rights to vote, almost two decades later than ordinary pariah Indians since India's independence from British rule.
+3 breakthrough applications on Omni*Web derived from hash algorithms and metaprogramming are:
 
+Omni*Node 
+Omni*Search 
+Omni*Doc
 
-### Hash Functions & Public Key Cryptography
+Omni*Node is based on Invisible Internet Project (I2P), a major breakthrough in networking technology that liberate users from the tyranny of the Domain Name System, which literally prevented millions of programmers from collaborating freely by erecting an artificial wall where users must pay a fee for setting up a server. 
 
-[Hash functions](https://en.wikipedia.org/wiki/Hash_function) & [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) were introduced in the 1950s and 1970s respectively but it was not until 2009 that the launch of Bitcoin demonstrated the viability of decentralised information infrastructure, which shall form the fundamental algorithms for Metanarchy.
+This means any programmer or user may set up any number of server nodes on mobile devices or desktop computers using Omni*Node and share computing resources including network bandwidth, storage and processing power with other Omni*Web users, essentially become a cloud service provider at zero cost. 
 
-So indeed the computational foundation of Metanarchy and the legal framework of modern nation states (voting rights for coloured voters) were both established around 1970s.
+In theory, the number of computing devices owned by ordinary users and free software programmers far exceed that of any single trillion dollar technology company. Omni*Web hash algorithms known as Omnihash provide the glue to integrate these resources widely spread out from all over the world. 
 
----
+To illustrate, users and programmers of Omni*Web can easily create a cache server for Google, Bing or other search engines, known as Omni*Search, all well as add new search functions and data, to be stored on their own Omni*Node or share them on designated peers, with complete and total control, which is impossible under the current centralised cloud service regimes. 
 
-Omnisophia means a Decentralised intelligent system *owned and operated by free individuals and free software programmers*. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
-
-Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
-
----
-
-Omni\*Doc (pronounced "Omni Star Doc") or OXD is inspired by Project Xanadu, the World Wide Web, as well as several other predecessors. Its current format seeks to minimise user's efforts and maximise their effects,
-
-- (Metaprogramming) by employing FORTH derived metaprogramming scripts on lines of texts, 
-- (Omnisophia) to produce publicly accessible documents stored on Omni*Web nodes, using secure decentralised protocols.
-
-## MOM: Metaprogramming Omnisophia Metanarchy
-- ### Ultimate Goals of Decentralisation
-
-While this initial may look strange, it is in many respect the ultimate goal behind various decentralisation trends, from BitTorrent, Invisible Internet Project (I2P) to Bitcoin.
-
-Omnisophia means a Decentralised intelligent system owned and operated by free individuals and free software programmers. Omni meaning everything in Latin is just a disguise of the banned word proletariat or belonging to the ordinary people. Sophia is of course intelligence.
-
-Metanarchy means a new form of global and local governance based on transactions in the Metaverse. Political philosophers a century ago would coin the term anarchy for the lack of understanding to describe a system of governance without physical forms. Metanarchy would be the ultimate answer.
-
-## Bitcoin Address: Hash of Public Key
-
-The implementation of the Bitcoin address as the hash of public key is a crucial breakthrough in decentralised systems. However, along with it, serious misconceptions regarding the hash of public key were propagated, misleading many to believe that no solutions exist beyond the blockchain architecture.
-
-Omni*Web is here to demonstrate a very lightweight implementation of the hash of public key being used as user identifiers, together with a whole body of hash calculus for all kinds of decentralised data and transactions.
-
-## Decentralised Artificial Intelligence Systems
-
----
-
-[**Visit the website.**](https://markdown-here.com)<br>
-[**Get it for Chrome.**](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)<br>
-[**Get it for Firefox.**](https://addons.mozilla.org/firefox/addon/markdown-here/)<br>
-[**Get it for Safari.**](https://s3.amazonaws.com/markdown-here/markdown-here.safariextz)<br>
-[**Get it for Thunderbird.**](https://addons.mozilla.org/thunderbird/addon/markdown-here/)<br>
-[**Get it for Opera.**](https://addons.opera.com/extensions/details/markdown-here/)<br>
-[**Discuss it and ask questions in GitHub Discussions.**](https://github.com/adam-p/markdown-here/discussions)<br>
-
-*Markdown Here* is a Google Chrome, Firefox, Safari, Opera, and Thunderbird extension that lets you write email<sup>&dagger;</sup> in Markdown<sup>&Dagger;</sup> and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).
-
+Omni*Doc is an application that combines document editing functions with forum functions such as comment, share, like etc, capable of interfacing to most known existing social media applications via Omni*Web Omnihash and metaprogramming interface. 
