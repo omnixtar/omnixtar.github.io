@@ -14,11 +14,7 @@
 
 ---
 
-Omni*Doc
-
-Omni*Web
-
-Omni*Search
+Omni\*Doc Omni\*Web Omni\*Search
 
 In January 2025, a large number of Americans started using Chinese social media app Rednote, prior to the TikTok ban deadline under Biden’s administration. Subsequently, these American users of Rednote found out many inconvenient truths about the lives of ordinary people in China versus theirs, such as paying only 800 you as dollars a year for a law school degree versus over 200 thousands you as dollars in the United States. 
 
@@ -28,16 +24,16 @@ The breakthroughs that we will bring through Omni*Web are based on hash algorith
 
 3 breakthrough applications on Omni*Web derived from hash algorithms and metaprogramming are:
 
-Omni*Node 
-Omni*Search 
-Omni*Doc
+- Omni*Node 
+- Omni*Search 
+- Omni*Doc
 
 Omni*Node is based on Invisible Internet Project (I2P), a major breakthrough in networking technology that liberate users from the tyranny of the Domain Name System, which literally prevented millions of programmers from collaborating freely by erecting an artificial wall where users must pay a fee for setting up a server. 
 
-This means any programmer or user may set up any number of server nodes on mobile devices or desktop computers using Omni*Node and share computing resources including network bandwidth, storage and processing power with other Omni*Web users, essentially become a cloud service provider at zero cost. 
+This means any programmer or user may set up any number of server nodes on mobile devices or desktop computers using Omni\*Node and share computing resources including network bandwidth, storage and processing power with other Omni*Web users, essentially become a cloud service provider at zero cost. 
 
 In theory, the number of computing devices owned by ordinary users and free software programmers far exceed that of any single trillion dollar technology company. Omni*Web hash algorithms known as Omnihash provide the glue to integrate these resources widely spread out from all over the world. 
 
-To illustrate, users and programmers of Omni*Web can easily create a cache server for Google, Bing or other search engines, known as Omni*Search, all well as add new search functions and data, to be stored on their own Omni*Node or share them on designated peers, with complete and total control, which is impossible under the current centralised cloud service regimes. 
+To illustrate, users and programmers of Omni\*Web can easily create a cache server for Google, Bing or other search engines, known as Omni\*Search, all well as add new search functions and data, to be stored on their own Omni*Node or share them on designated peers, with complete and total control, which is impossible under the current centralised cloud service regimes. 
 
-Omni*Doc is an application that combines document editing functions with forum functions such as comment, share, like etc, capable of interfacing to most known existing social media applications via Omni*Web Omnihash and metaprogramming interface. 
+Omni\*Doc is an application that combines document editing functions with forum functions such as comment, share, like etc, capable of interfacing to most known existing social media applications via Omni*Web Omnihash and metaprogramming interface. 
