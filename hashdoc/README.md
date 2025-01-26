@@ -6,13 +6,14 @@
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
-<!-- 
-# ![O](https://omnixtar.github.io/m/img/icon-oxw.png)Omni\*Web + Omni*Doc -->
-
 - ### Omnisophia: Bitcoin + Decentralised AI
 - ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
 
 ---
+
+### Hash Document & Document Hash
+
+The title of this section may look strange but it is logically valid and easy to understand.
 
 Omni\*Doc Omni\*Web Omni\*Search
 
