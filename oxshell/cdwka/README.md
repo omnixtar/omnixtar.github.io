@@ -15,7 +15,7 @@
 <img src="./s1.png">
 -->
 
-### List All Colon Definition Words
+### Get Contents of Colon Definition Word
 ```=g_last cdwka: x:```
 - Show colon definition in key-array format. Must prefix CDW with one character to escape execution.
 
