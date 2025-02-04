@@ -16,11 +16,8 @@
 -->
 
 ### List All Colon Definition Words
-- cdw: ak: x:
-- Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
-- cdw: Read all colon definition words in SESSION()
-- ak: array_keys() extract array keys from associative array (JSON like)
-- x: sends chat box expressions by AJAX to backend.
+```=g_last cdwka: x:```
+- Show colon definition in key-array format. Must prefix CDW with one character to escape execution.
 
 <img src="./s1.png">
 
