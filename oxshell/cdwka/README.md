@@ -21,6 +21,8 @@
 
 <img src="./s1.png">
 
+<img src="./s2.png">
+
 ---
 
 Here's an implementation of a basic FORTH shell in JavaScript. This code provides a stack-based interpreter with core FORTH functionality and a REPL interface:
