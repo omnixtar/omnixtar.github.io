@@ -15,6 +15,7 @@
 <img src="./s1.png">
 -->
 
+### List All Colon Definition Words
 - cdw: ak: x:
 - Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
 - cdw: Read all colon definition words in SESSION()
