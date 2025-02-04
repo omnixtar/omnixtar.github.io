@@ -15,9 +15,11 @@
 <img src="./s1.png">
 -->
 
-- cdw: ak:
+- cdw: ak: x:
+- Enter the above in the nickname (adam) chat box.
 - Read all colon definition words in SESSION()
 - ak: array_keys() extract array keys from associative array (JSON like)
+- x: sends chat box expressions by AJAX to backend.
 
 <img src="./s1.png">
 
