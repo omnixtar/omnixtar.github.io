@@ -16,6 +16,11 @@
 
 <img src="./s1.png">
 
+- cdw: ak:
+- Read all colon definition words in SESSION()
+- ak: array_keys() extract array keys from associative array (JSON like)
+
+
 Here's an implementation of a basic FORTH shell in JavaScript. This code provides a stack-based interpreter with core FORTH functionality and a REPL interface:
 
 ```javascript
