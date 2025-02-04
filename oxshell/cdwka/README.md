@@ -6,8 +6,10 @@
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+<!-- 
 - ### Omnisophia: Bitcoin + Decentralised AI
 - ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
+-->
 
 ---
 
@@ -16,11 +18,11 @@
 <img src="./s1.png">
 -->
 
-<img src="./s1.png">
-
 - cdw: ak:
 - Read all colon definition words in SESSION()
 - ak: array_keys() extract array keys from associative array (JSON like)
+
+<img src="./s1.png">
 
 ---
 
