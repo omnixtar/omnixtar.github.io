@@ -10,9 +10,6 @@
 - ### Omnisophia: Bitcoin + Decentralised AI
 - ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
 -->
-
----
-
 <!-- 
 <img src="./s1.png" height="60">
 <img src="./s1.png">
