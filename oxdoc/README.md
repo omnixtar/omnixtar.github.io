@@ -28,148 +28,87 @@
 
 ---
 
-Here's an implementation of a basic FORTH shell in JavaScript. This code provides a stack-based interpreter with core FORTH functionality and a REPL interface:
+Decentralised Monetised Collaboration 
 
-```javascript
-const readline = require('readline');
+Demon Collab 
 
-class ForthShell {
-  constructor() {
-	this.stack = [];
-	this.dictionary = {
-  	'+': this.binOp((a, b) => b + a),
-  	'-': this.binOp((a, b) => b - a),
-  	'*': this.binOp((a, b) => b * a),
-  	'/': this.binOp((a, b) => Math.floor(b / a)),
-  	'DUP': this.stackOp(1, s => { s.push(s[s.length-1]); }),
-  	'DROP': this.stackOp(1, s => { s.pop(); }),
-  	'SWAP': this.stackOp(2, s => { [s[s.length-1], s[s.length-2]] = [s[s.length-2], s[s.length-1]]; }),
-  	'OVER': this.stackOp(2, s => { s.push(s[s.length-2]); }),
-  	'.': this.stackOp(1, s => { process.stdout.write(s.pop() + ' '); }),
-  	'EMIT': this.stackOp(1, s => { process.stdout.write(String.fromCharCode(s.pop())); }),
-  	'CR': { type: 'builtin', code: () => process.stdout.write('\n') },
-	};
-  }
+Demon’s Con
 
-  binOp(operation) {
-	return this.stackOp(2, s => {
-  	const a = s.pop();
-  	s.push(operation(a, s.pop()));
-	});
-  }
+Omni*DOC
 
-  stackOp(n, operation) {
-	return {
-  	type: 'builtin',
-  	code: () => {
-    	if (this.stack.length < n) throw new Error('Stack underflow');
-    	operation(this.stack);
-  	}
-	};
-  }
+It is interesting how word tricks in English and Latin play out.
 
-  processInput(input) {
-	const tokens = input.toUpperCase().split(/\s+/).filter(t => t);
-	let i = 0;
-    
-	try {
-  	while (i < tokens.length) {
-    	const token = tokens[i++];
-    	if (token === ':') this.defineWord(tokens, i), i = tokens.length;
-    	else this.processToken(token);
-  	}
-	} catch (e) {
-  	console.error('Error:', e.message);
-	}
-  }
+The Latin root of “collaborate” is “con” + “laboro”, where “con” is a variation of “cum” meaning “with”.
 
-  processToken(token) {
-	if (this.dictionary[token]) {
-  	const entry = this.dictionary[token];
-  	if (entry.type === 'builtin') entry.code();
-  	else entry.code.forEach(t => this.processToken(t));
-	} else if (!isNaN(token)) {
-  	this.stack.push(parseFloat(token));
-	} else {
-  	throw new Error(`Undefined word: ${token}`);
-	}
-  }
+As such, Decentralised Monetised Collaboration is shortened as “Demon's Con”.
 
-  defineWord(tokens, i) {
-	const name = tokens[i++];
-	if (!name) throw new Error('Missing word name');
-	if (!isNaN(name)) throw new Error('Invalid word name');
-    
-	const definition = [];
-	while (i < tokens.length && tokens[i] !== ';') {
-  	definition.push(tokens[i++]);
-	}
-    
-	if (tokens[i] !== ';') throw new Error('Missing ;');
-	this.dictionary[name.toUpperCase()] = {
-  	type: 'user',
-  	code: definition
-	};
-  }
-}
+We will tentatively use Demon's Con as the nickname for Decentralised Monetised Collaboration, as we have received feedback that the cryptocurrency industry now has such a bad reputation that we might as well use a Latin word trick to engage users. 
 
-// REPL Interface
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-  prompt: 'FORTH> '
-});
+We know some self proclaimed Christians have long associated cryptography with the works of Demons, in folklores like 666. We are interested in engaging in conversation with Christians or any self proclaimed believers in monotheistic religions as we are aware that there are many countries which still practise laws that may prosecute anyone unilaterally as conducting blasphemy, some punishable by death, in 2025 Anno Domino.
 
-const forth = new ForthShell();
+However, bringing up Christian demons and 666 also appeals to a large number of fans who are critical of Christian traditions as well as those affected by bad publicity about cryptocurrency and decentralised technologies, bearing in mind that the Washington Wall Street elites prefer to brainwash the American population so that they continue to maintain their monopoly of power in politics and finance. 
 
-rl.prompt()
-  .on('line', line => {
-	forth.processInput(line);
-	rl.prompt();
-  })
-  .on('close', () => {
-	console.log('\nExiting FORTH shell');
-	process.exit(0);
-  });
-```
 
-Key features:
+Decentralised Monetised Collaboration 
 
-1. **Core Operations**:
-   - Arithmetic: `+`, `-`, `*`, `/` (integer division)
-   - Stack manipulation: `DUP`, `DROP`, `SWAP`, `OVER`
-   - I/O: `.` (print), `EMIT` (ASCII character), `CR` (newline)
+Demon Collab 
 
-2. **User-defined Words**:
-   - Create new commands using `: ... ;` syntax
-   - Example: `: SQUARE DUP * ;`
+Demon’s Con
 
-3. **Error Handling**:
-   - Stack underflow detection
-   - Basic error messages
+As the name suggests, Decentralised Monetised Collaboration consists of 3 components: Decentralised infrastructure, Monetisation Legal Framework and Collaborative Transactions.
 
-4. **REPL Interface**:
-   - Interactive prompt
-   - Case-insensitive input
+Collaborative transactions are the most common as they include everything from Google documents to TikTok posts. 
 
-To use:
-1. Save as `forth.js`
-2. Run with Node.js: `node forth.js`
-3. Enter FORTH commands at the prompt
+Decentralised infrastructure includes everything from I2P invisible internet project which enables everyone to set up server hosts connected to Internet without the Domain Name System, to Omnihash which is a novel hash algorithm for representing ownership of any kind of digital assets. 
 
-Example session:
-```forth
-FORTH> 5 3 + . 8
-FORTH> : SQUARE DUP * ;
-FORTH> 5 SQUARE . 25
-FORTH> 72 101 108 108 111 EMIT EMIT EMIT EMIT EMIT CR Hello
-```
+Monetised Legal Framework means employing decentralised hash algorithms to establish digital legal contracts, including loans, payments and investments. 
 
-Note: This is a basic implementation. Real FORTH systems include more features like:
-- Floating-point operations
-- Strings
-- Control structures (IF/ELSE/THEN, loops)
-- File I/O
-- More sophisticated error handling
+What can we achieve by combining all 3 components of Decentralisation, Monetisation and Collaboration?
 
-You can extend this base implementation by adding more operations to the `dictionary` object.
+Adding Decentralisation to Collaboration will produce a UNIFIED interface to collaborative transactions. In plain English, it will enable you to combine posts and comments from ALL social media platforms into one integrated platform. 
+
+For example, one of the biggest bottlenecks of chatting with artificial intelligence systems is that the conversation results cannot be automatically published, shared and put into collaboration with other users or AI systems.
+
+With Omni*DOC, where D stands for Decentralisation, O for Oro or gold in Spanish, C for collaboration, a user’s conversation with any AI systems can be republished, shared, commented and so on just like any existing social media posts. 
+
+Omni*DOC will behave very differently from conventional social media platforms where the operator of the platform will appoint or employ moderators to filter inappropriate speeches. On Omni*DOC however, users themselves may make the decision to choose custom filters to filter out posts or comments that they themselves deem inappropriate. 
+
+Omni*DOC works by first converting any URL into a hash code, which can be anything from 53 bits to 512 bits or longer. 
+
+Secondly, the hash of URL of HURL will be shared amongst servers running Omni*Web modules.
+
+Thirdly, any of Omni*Web servers may decide to create cache copies of a given URL for further processing. 
+
+Up to this stage, Omni*Web behaves like a Decentralised cache and search network, i.e. instead of a huge centralised search engine operated by one company such as Google or Microsoft, the power of Omni*Web depends on the number server nodes participating. It basically works like Waybackmachine but its functionalities can be extended by any user or programmers, as long as they conform to Omni*Contract conditions and protocols. 
+
+Social media functionalities exist from step 4 onwards. Although there exist differences amongst social media platforms, different user interface elements are essentially functions which can be represented as paths in graph theory. Further, different paths are represented as hashes, as the ring properties of integers ensure hashes can be concatenated as input to produce an output hash which is also another integer. We may call this property type preservation, namely, the types of inputs and output are preserved. The type preservation property of hashes makes it convenient to manage various types of functions on social media applications. 
+
+First 3 stages, multiply servers. Applying hash in server address.
+
+Stage 4, multiply functionalities. Applying hash in data address. 
+
+In conventional MVC programming, function calls and data types are tightly coupled to types of data and how they are processed. In hash metaprogramming, everything is hash and hashes are compatible with each other due to type preservation property. 
+
+Hash applicable in server and data addresses due to type preservation property. 
+
+
+This document itself is an example of Omni*DOC anyone may comment, share and follow up etc or add functions they wish.
+
+Move this up as it is easiest to understand.
+
+
+
+
+
+
+
+
+For example, chat results with AI, repost, comments, follow up. 
+
+Demon Collab 
+
+Demon’s Con
+
+
+
+demonscon 
