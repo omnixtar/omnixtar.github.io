@@ -28,7 +28,7 @@
 
 ---
 
-Decentralised Monetised Collaboration 
+### Decentralised Monetised Collaboration 
 
 Demon Collab 
 
@@ -71,7 +71,7 @@ For example, one of the biggest bottlenecks of chatting with artificial intellig
 
 With Omni*DOC, where D stands for Decentralisation, O for Oro or gold in Spanish, C for collaboration, a user’s conversation with any AI systems can be republished, shared, commented and so on just like any existing social media posts. 
 
-Omni*DOC will behave very differently from conventional social media platforms where the operator of the platform will appoint or employ moderators to filter inappropriate speeches. On Omni*DOC however, users themselves may make the decision to choose custom filters to filter out posts or comments that they themselves deem inappropriate. 
+Omni\*DOC will behave very differently from conventional social media platforms where the operator of the platform will appoint or employ moderators to filter inappropriate speeches. On Omni*DOC however, users themselves may make the decision to choose custom filters to filter out posts or comments that they themselves deem inappropriate. 
 
 Omni*DOC works by first converting any URL into a hash code, which can be anything from 53 bits to 512 bits or longer. 
 
@@ -79,7 +79,7 @@ Secondly, the hash of URL of HURL will be shared amongst servers running Omni*We
 
 Thirdly, any of Omni*Web servers may decide to create cache copies of a given URL for further processing. 
 
-Up to this stage, Omni*Web behaves like a Decentralised cache and search network, i.e. instead of a huge centralised search engine operated by one company such as Google or Microsoft, the power of Omni*Web depends on the number server nodes participating. It basically works like Waybackmachine but its functionalities can be extended by any user or programmers, as long as they conform to Omni*Contract conditions and protocols. 
+Up to this stage, Omni\*Web behaves like a Decentralised cache and search network, i.e. instead of a huge centralised search engine operated by one company such as Google or Microsoft, the power of Omni\*Web depends on the number server nodes participating. It basically works like Waybackmachine but its functionalities can be extended by any user or programmers, as long as they conform to Omni*Contract conditions and protocols. 
 
 Social media functionalities exist from step 4 onwards. Although there exist differences amongst social media platforms, different user interface elements are essentially functions which can be represented as paths in graph theory. Further, different paths are represented as hashes, as the ring properties of integers ensure hashes can be concatenated as input to produce an output hash which is also another integer. We may call this property type preservation, namely, the types of inputs and output are preserved. The type preservation property of hashes makes it convenient to manage various types of functions on social media applications. 
 
@@ -91,24 +91,14 @@ In conventional MVC programming, function calls and data types are tightly coupl
 
 Hash applicable in server and data addresses due to type preservation property. 
 
-
 This document itself is an example of Omni*DOC anyone may comment, share and follow up etc or add functions they wish.
 
 Move this up as it is easiest to understand.
-
-
-
-
-
-
-
 
 For example, chat results with AI, repost, comments, follow up. 
 
 Demon Collab 
 
 Demon’s Con
-
-
 
 demonscon 
