@@ -91,6 +91,9 @@ In conventional MVC programming, function calls and data types are tightly coupl
 
 Hash applicable in server and data addresses due to type preservation property. 
 
+
+### Omni*DOC Example
+
 This document itself is an example of Omni*DOC anyone may comment, share and follow up etc or add functions they wish.
 
 Move this up as it is easiest to understand.
