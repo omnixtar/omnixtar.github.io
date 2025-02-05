@@ -107,3 +107,10 @@ Demon’s Con
 demonscon 
 
 links to backend, backend use I2P addresses
+
+- share
+- comment
+- like
+- dislike
+- etc.
+- clone! novel feature non existant in other social media platforms.
