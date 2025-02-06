@@ -114,3 +114,5 @@ links to backend, backend use I2P addresses
 - dislike
 - etc.
 - clone! novel feature non existant in other social media platforms.
+
+{% include my_snippet.html %}
