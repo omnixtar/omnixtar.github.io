@@ -115,4 +115,4 @@ links to backend, backend use I2P addresses
 - etc.
 - clone! novel feature non existant in other social media platforms.
 
-{% include ./my_snippet.html %}
+{% include my_snippet.html %}
