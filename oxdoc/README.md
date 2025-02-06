@@ -122,3 +122,5 @@ links to backend, backend use I2P addresses
 
 [Omni*Web][1]
 [1]:javascript:m_oxmobile()
+
+[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
