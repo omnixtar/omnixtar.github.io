@@ -24,6 +24,10 @@ Jekyll is the default markdown document parser on GitHub, which is very powerful
 
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
+This article itself will demonstrate several features of Omni*Web aiming at improving Jekyll documentation and promoting it, as well as introduce metaprogramming features that can be used to extend Jekyll's functionalities.
+
+Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
+
 - cdw: ak: x:
 - Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
 - cdw: Read all colon definition words in SESSION()
