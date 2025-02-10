@@ -28,6 +28,8 @@ This article itself will demonstrate several features of Omni*Web aiming at impr
 
 Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
 
+One of Omni*Web most important innovation is Decentralised Full Stack Programming (DFSP.
+
 - cdw: ak: x:
 - Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
 - cdw: Read all colon definition words in SESSION()
