@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    <style>
+      /* .custom-table th, .custom-table td { */
+      .highlight table th, .highlight table td, .highlight table tr {
+        /* padding: 121 1px; */
+        padding: 0px
+      }
+.my-5 {
+  margin-top: 16px !important;
+  margin-bottom: 32px !important;
+}
+.markdown-body table th, .markdown-body table td {
+  padding: 3px 13px;
+  border: 1px solid #dfe2e5;
+}
+    </style>
+
+    <!-- {- % % -} are Jekyll Liquid language Directives {{ varname }} are objects. They even work in HTML comments!! -->
+    {% for titles in site.data.titles %}
+    {% assign title = titles[1] %}
+    {% endfor %}
+
+    <title>{{ site.data.titles[1].name }}</title>
+    <!-- title>{{ page.title | default: site.title | default: site.github.repository_name }}</title -->
+  </head>
+  <body>
+
+    <!--
+    {% for title in site.data.titles %}
+    {{ title.name }}
+    {% endfor %}
+    {{ site.data.titles[0].name }}
+    -->
+
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <!--      {% if site.title and site.title != page.title %}
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+      -->
+<script>
+  console.log("hello ./_layout in default.html")
+</script>
+      {{ content }}
+
+      {% if site.github.private != true and site.github.license %}
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
