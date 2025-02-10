@@ -18,7 +18,12 @@ title: Markdown
 <img src="./s1.png">
 -->
 
-### List All Colon Definition Words
+### GitHub Jekyll Markdown Quickstart Hack
+
+Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
+
+Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
+
 - cdw: ak: x:
 - Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
 - cdw: Read all colon definition words in SESSION()
