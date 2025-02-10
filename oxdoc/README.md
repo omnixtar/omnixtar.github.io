@@ -119,6 +119,8 @@ links to backend, backend use I2P addresses
 
 {% assign title = 'site.data.people[page.author]' %}
 
+{% title %}
+
 {% include my_snippet.html %}
 
 [Hello World!][1]
