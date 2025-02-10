@@ -1,5 +1,4 @@
 ---
-{% assign title = 'site.data.people[page.author]' %}
 ---
 
 <table><tr>
