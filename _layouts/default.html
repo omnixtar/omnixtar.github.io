@@ -15,6 +15,11 @@
         padding: 0px
       }
     </style>
+
+    <!-- {% %} are Jekyll Liquid language Directives {{ varname }} are objects -->
+    {% for titles in site.data.titles %}
+    {% assign title = titles[1] %}
+    
     <title>{{ title }}</title>
     <!-- title>{{ page.title | default: site.title | default: site.github.repository_name }}</title -->
   </head>
