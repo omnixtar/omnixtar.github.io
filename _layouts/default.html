@@ -21,14 +21,14 @@
     {% assign title = titles[1] %}
     {% endfor %}
 
-    <title>{{ title }}</title>
+    <title>{{ title.name }}</title>
     <!-- title>{{ page.title | default: site.title | default: site.github.repository_name }}</title -->
   </head>
   <body>
 
     {% for titles in site.data.titles %}
     {% assign title = titles[1] %}
-    {{ title }}
+    {{ title.name }}
     {% endfor %}
 
     <div class="container-lg px-3 my-5 markdown-body">
