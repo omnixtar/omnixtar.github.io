@@ -12,35 +12,18 @@
       /* .custom-table th, .custom-table td { */
       .highlight table th, .highlight table td, .highlight table tr {
         /* padding: 121 1px; */
-        padding: 0px
+        padding: 0px; 
       }
     </style>
-
-    <!-- {- % % -} are Jekyll Liquid language Directives {{ varname }} are objects. They even work in HTML comments!! -->
-    {% for titles in site.data.titles %}
-    {% assign title = titles[1] %}
-    {% endfor %}
-
-    <title>{{ site.data.titles[0].name }}</title>
-    <!-- title>{{ page.title | default: site.title | default: site.github.repository_name }}</title -->
   </head>
   <body>
-
-    <!--
-    {% for title in site.data.titles %}
-    {{ title.name }}
-    {% endfor %}
-    {{ site.data.titles[0].name }}
-    -->
-
     <div class="container-lg px-3 my-5 markdown-body">
-
-      <!--      {% if site.title and site.title != page.title %}
+<!--      {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
-      -->
+-->
 <script>
-  console.log("hello ./_layout in default.html")
+  console.log("hello oxdoc in default.html")
 </script>
       {{ content }}
 
