@@ -1,7 +1,5 @@
 ---
-layout: markdown
-title: xEdit-Wiki
-permalink: /FalloutNV/Records.html
+layout: markdown.html
 ---
 <table><tr>
 <td>
