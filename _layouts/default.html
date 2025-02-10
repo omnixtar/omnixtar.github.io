@@ -26,8 +26,7 @@
   </head>
   <body>
 
-    {% for titles in site.data.titles %}
-    {% assign title = titles[1] %}
+    {% for title in site.data.titles %}
     {{ title.name }}
     {% endfor %}
 
