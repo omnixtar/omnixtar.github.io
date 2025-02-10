@@ -28,7 +28,22 @@ This article itself will demonstrate several features of Omni*Web aiming at impr
 
 Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
 
-One of Omni*Web most important innovation is Decentralised Full Stack Programming (DFSP.
+One of Omni*Web most important innovation is Decentralised Full Stack Programming (DFSP).
+
+### Decentralised Full Stack Programming using Hash
+
+Full stack programming has evolved out of the need to coordinate web browser front end and server back end functionalities. Over many years, many frameworks have been developed and front end modules have now included mobile device environments. Their complexities have grown exponentially and we now proposed a decentralised programming paradigm based on hashes, greatly simplifying overall full stack operations. 
+
+To summarise the whole idea before delving into details, we present an example where a user responds to a post with a comment on a GitHub page, where the URL of the original post and the user's comment, as well as the user's identifier are represented by hashes, and these hashes can be hashed using a hash function to produce a root hash, representing the overall transaction. 
+
+The user may submit the transaction JSON and its hash to a server independently operating unrelated to the GitHub page server, as long as it understands and complies with the protocols determined by the hashes. 
+
+Underlying decentralised full stack programming is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
+
+A user may claim the same identity with different hash identifiers as long as they can prove the chain of identities by verifying ciphers using the private key for each of the identities. 
+
+
+
 
 - cdw: ak: x:
 - Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
