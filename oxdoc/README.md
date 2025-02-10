@@ -115,6 +115,10 @@ links to backend, backend use I2P addresses
 - etc.
 - clone! novel feature non existant in other social media platforms.
 
+<!-- {% assign author = site.data.people[page.author] %} -->
+
+{% assign title = 'site.data.people[page.author]' %}
+
 {% include my_snippet.html %}
 
 [Hello World!][1]
