@@ -18,7 +18,8 @@ title: Decentralised Full Stack Programmming using Hash
 <img src="./s1.png">
 -->
 
-### GitHub Jekyll Markdown Quickstart Hack
+### Decentralised Full Stack Programmming using Hash
+#### GitHub Jekyll Markdown Quickstart Hack
 
 Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
 
