@@ -1,3 +1,7 @@
+---
+{% assign title = 'site.data.people[page.author]' %}
+---
+
 <table><tr>
 <td>
 <table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2>Omni*Web + Omni*DOC</h2></td></tr></table> 
