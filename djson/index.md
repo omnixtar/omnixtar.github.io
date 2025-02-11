@@ -40,6 +40,16 @@ In the DJSON above, the fields are:
 
 doc_hash means hash of URL of document.
 
+The following are the steps for generating the "like" DJSON of this article, accompanied by a video:
+
+1. Save a copy of this web page as a local file.
+2. Generate doc_hash for this document.
+3. Make a subdirectory for this document with doc_hash.
+4. Copy neccessary files and soft links.
+5. Open the local copy using I2P (Invisible Internet Project) and doc_hash.
+6. Start Omni*Shell from browser console.
+7. Refresh authentication token with user's public key.
+8. Send "like" DJSON from browser console using Omni*Shell Phoscript commands.
 
 
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
