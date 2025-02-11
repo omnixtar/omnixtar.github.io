@@ -21,13 +21,9 @@ title: DJSON Decentralised JSON
 ### DJSON: Decentralised JSON
 #### GitHub Jekyll Markdown Quickstart Hack
 
-Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
-
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
 This article itself will demonstrate several features of Omni*Web aiming at improving Jekyll documentation and promoting it, as well as introduce metaprogramming features that can be used to extend Jekyll's functionalities.
-
-Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
 
 One of Omni*Web most important innovation is Decentralised Full Stack Programming (DFSP).
 
@@ -42,6 +38,16 @@ The user may submit the transaction JSON and its hash to a server independently 
 Underlying decentralised full stack programming is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
 
 A user may claim the same identity with different hash identifiers as long as they can prove the chain of identities by verifying ciphers using the private key for each of the identities. 
+
+
+#### Jekyll
+
+Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
+
+Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
+
+
+
 
 
 
