@@ -46,7 +46,7 @@ The following are the steps for generating the "like" DJSON of this article, acc
 2. Generate doc_hash for this document.
 3. Make a subdirectory for this document with doc_hash.
 4. Copy neccessary files and soft links.
-5. Open the local copy on Omni*Web server using I2P (Invisible Internet Project) and doc_hash.
+5. Open the local copy on [Omni*Web server](https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/h/E5bnwoBdvg==/?nn=z) using I2P (Invisible Internet Project) and doc_hash.
 6. Start Omni*Shell from browser console.
 7. Refresh authentication token with user's public key.
 8. Send "like" DJSON from browser console using Omni*Shell Phoscript commands.
