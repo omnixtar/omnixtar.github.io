@@ -53,8 +53,11 @@ The following are the steps for generating the "like" DJSON of this article, acc
 
 If the steps above look daunting to you then you will be pleased to know that those are exactly what happen millions of times per seconds around the world when "like" buttons are clicked on social media platforms -- except that YOU, the users and free software programmers, ***do not OWN and OPERATE any part of that, and therefore CANNOT make any money out of it***.
 
+... which brings us to Omni\*Web aim -- to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
-Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
+---
+
+Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, 
 
 This article itself will demonstrate several features of Omni*Web aiming at improving Jekyll documentation and promoting it, as well as introduce metaprogramming features that can be used to extend Jekyll's functionalities.
 
