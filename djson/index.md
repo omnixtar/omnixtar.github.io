@@ -27,6 +27,10 @@ Underlying decentralised JSON is an extension of the Bitcoin address, which is d
 
 What makes DJSON so powerful is we call "type preservation property" of hash numbers and integers, which is derived from Ring theory properties of integers, where the operations of additon and multiplication on integers invariably result in integers as output. 
 
+The previous paragraph may sound like your typical high school mathematics nightmare, but it is the biggest secret underlying Bitcoin and other cryptocurrencies as well as novel decentralised social media platforms as we shall see in the following example:
+
+- how to add a like function to this GitHub markdown article
+
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
 This article itself will demonstrate several features of Omni*Web aiming at improving Jekyll documentation and promoting it, as well as introduce metaprogramming features that can be used to extend Jekyll's functionalities.
