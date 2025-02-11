@@ -1,5 +1,5 @@
 ---
-title: Decentralised Full Stack Programmming using Hash
+title: DJSON Decentralised JSON
 ---
 <table><tr>
 <td>
@@ -18,7 +18,7 @@ title: Decentralised Full Stack Programmming using Hash
 <img src="./s1.png">
 -->
 
-### Decentralised Full Stack Programmming using Hash
+### DJSON: Decentralised JSON
 #### GitHub Jekyll Markdown Quickstart Hack
 
 Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
