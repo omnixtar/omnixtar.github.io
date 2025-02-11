@@ -51,6 +51,8 @@ The following are the steps for generating the "like" DJSON of this article, acc
 7. Refresh authentication token with user's public key.
 8. Send "like" DJSON from browser console using Omni*Shell Phoscript commands.
 
+If the steps above look daunting to you then you will be pleased to know that those are exactly what happen millions of times per seconds around the world when "like" buttons are clicked on social media platforms -- except that YOU, the users and free software programmers, ***do not OWN and OPERATE any part of that, and therefore CANNOT make any money out of it***.
+
 
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
