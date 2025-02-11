@@ -29,7 +29,11 @@ What makes DJSON so powerful is we call "type preservation property" of hash num
 
 The previous paragraph may sound like your typical high school mathematics nightmare, but it is the biggest secret underlying Bitcoin and other cryptocurrencies as well as novel decentralised social media platforms as we shall see in the following example:
 
-- how to add a like function to this GitHub markdown article
+- how to add a like function to **this** GitHub markdown article
+
+We will reveal the answer first and explain later as we assume there are readers who are impatient: 
+
+
 
 Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, as Omni\*Web aim is to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
 
