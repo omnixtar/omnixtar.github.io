@@ -24,7 +24,7 @@ DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 6
 
 Underlying decentralised JSON is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
 
-What makes DJSON so powerful is we call "type preservation property" of hash numbers and integers, which is derived from Ring theory properties of integers, where the operations of additon and multiplication on integers invariably result in integers as output. 
+What makes DJSON so special and powerful is what we call "type preservation property" of hash numbers and integers, which is derived from Ring theory properties of integers, where the operations of additon and multiplication on integers invariably result in integers as output. 
 
 The previous paragraph may sound like your typical high school mathematics nightmare, but it is the biggest secret underlying Bitcoin and other cryptocurrencies as well as novel decentralised social media platforms as we shall see in the following example:
 
