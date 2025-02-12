@@ -15,7 +15,7 @@ title: DELTA Decentralised JSON
 
 The star character * also means anything in UNIX or Linux shell environments. 
 
-Since “Omni” is a hotly contested brand by many tech companies, including OpenAI and NVIDIA, we thought exploiting the legal loopholes in English speaking countries, where the star character cannot be included in a legal name, so that “Omni*” followed by whatever words cannot be legally registered, ensuring its usage in the free software world with no external interference. 
+Since “Omni” is a hotly contested brand by many tech companies, including OpenAI and NVIDIA, we thought of exploiting the legal loopholes in English speaking countries, where the star character cannot be included in a legal name, so that “Omni*” followed by whatever words cannot be legally registered, ensuring its usage in the free software world with no external interference. 
 
 The initial intention of using the Omni* prefix was to highlight the versatility of DJSON Decentralised JSON and hash codes in representing various types of digital assets and transactions, including user identities. 
 
