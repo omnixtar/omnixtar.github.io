@@ -21,6 +21,18 @@ title: DELTA Decentralised JSON
 ## Delta Operations: Forces behind Scientific Progress 
 ### DJSON: Decentralised JSON
 
+It is believed that modern science was kick started by Sir Isaac Newton's or Gottfried Wilhelm von Leibniz's calculus, which is the mathematics about calculating differences.
+
+Engineering reached its own breakthrough when negative feedback was invented or discovered, as surely nature has its own feedback mechanisms, and it is also a mechanism of employing the differences between variables.
+
+Then came delta modulation, improved upon pulse code modulation (PCM) for digitising analog signals.
+
+Finally, hash is in fact a form of delta output of a longer string.
+
+DJSON or Decentralised JSON is simply JSON with hashes.
+
+---
+
 DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 64 hash codes representing any kind of digital assets and entities, from user identifiers to social media actions such as like, comment and share, are embedded in the unassuming ubiquitous JSON strings.
 
 Underlying decentralised JSON is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
