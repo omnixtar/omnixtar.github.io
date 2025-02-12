@@ -19,6 +19,7 @@ Since “Omni” is a hotly contested brand by many tech companies, including Op
 
 The initial intention of using the Omni* prefix was to highlight the versatility of DJSON Decentralised JSON and hash codes in representing various types of digital assets and transactions, including user identities. 
 
+Omni\*LIKE, Omni\*DOC, Omni*Web, Omnihash, Omnitron ...
 
 ---
 
