@@ -21,6 +21,8 @@ The initial intention of using the Omni* prefix was to highlight the versatility
 
 Omni\*LIKE, Omni\*DOC, Omni*Web, Omnihash, Omnitron ...
 
+Omni*Web -- to create a truly decentralised web ecosystem, owned and operated by free individual users and free software programmers.
+
 ---
 
 Add hotizontal line when writing new article over old text.
