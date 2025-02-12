@@ -12,6 +12,17 @@ title: DELTA Decentralised JSON
 ## Autogeneration of CV using GitHub Markdown + DJSON + Omni*Web
 ### DJSON: Decentralised JSON
 
+---
+
+Add hotizontal line when writing new article over old text.
+
+Write in google doc or oxdoc first then paste in github.
+
+modify title and path later.
+
+use oxweb to manage all links hashes etc.
+---
+
 It is believed that modern science was kick started by Sir Isaac Newton's or Gottfried Wilhelm von Leibniz's calculus, which is the mathematics about calculating differences.
 
 Engineering reached its own breakthrough when negative feedback was invented or discovered, as surely nature has its own feedback mechanisms, and it is also a mechanism of employing the differences between variables.
