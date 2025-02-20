@@ -1,5 +1,5 @@
 ---
-title: DJSON Decentralised JSON
+title: Codex Omnia Possibilia
 ---
 <table><tr>
 <td>
@@ -8,6 +8,24 @@ title: DJSON Decentralised JSON
 <td>
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
+
+
+Codex Omnia Possibilia 
+With code, everything is possible.
+
+The funny thing about Latin slogan is that most commoners are not able to remember the grammar and filler words, and elites will be able to figure them out automatically. So keeping the slogan to minimal significant words with English translation will be good enough to appeal to both types of audience. 
+
+“Codex Omnia Possibilia” simply means “with code, everything is possible”.
+
+Educated elites or pious believers of certain books should be able to recognise the origin of “Omnia possibilia”. 
+
+“Codex” relates to an era when books were made from tree barks and conveys a sense of history on how everything has changed. 
+
+Indeed, books, knowledge and now computer program source code, had been and will be the agent of change for everything. 
+
+Hence the slogan for Omni*Web, Codex Omnia Possibilia. 
+
+
 
 <!-- 
 - ### Omnisophia: Bitcoin + Decentralised AI
