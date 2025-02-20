@@ -23,7 +23,8 @@ Educated elites or pious believers of certain books should be able to recognise 
 
 Indeed, books, knowledge and now computer program source code, had been and will be the agent of change for everything. 
 
-Hence the slogan for Omni*Web, Codex Omnia Possibilia. 
+Hence the slogan for Omni*Web, 
+- Codex Omnia Possibilia. 
 
 
 
