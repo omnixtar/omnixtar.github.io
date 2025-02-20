@@ -26,7 +26,7 @@ Indeed, books, knowledge and now computer program source code, had been and will
 Hence the slogan for Omni*Web, 
 - Codex Omnia Possibilia. 
 
-
+---
 
 <!-- 
 - ### Omnisophia: Bitcoin + Decentralised AI
