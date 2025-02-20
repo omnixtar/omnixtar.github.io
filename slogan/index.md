@@ -10,8 +10,8 @@ title: Codex Omnia Possibilia
 </td></tr></table>
 
 
-Codex Omnia Possibilia 
-With code, everything is possible.
+### Codex Omnia Possibilia 
+- With code, everything is possible.
 
 The funny thing about Latin slogan is that most commoners are not able to remember the grammar and filler words, and elites will be able to figure them out automatically. So keeping the slogan to minimal significant words with English translation will be good enough to appeal to both types of audience. 
 
