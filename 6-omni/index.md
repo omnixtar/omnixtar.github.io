@@ -1,5 +1,5 @@
 ---
-title: Codex Omnia Possibilia
+title: 6 Omni Features
 ---
 <table><tr>
 <td>
@@ -9,17 +9,20 @@ title: Codex Omnia Possibilia
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
-Omni*Web 6 Omni Features 
+## Omni*Web 6 Omni Features 
 
 With the slogan “Codex Omnia Possibilia”, meaning “with code, everything is possible, Omni*Web aims to build a truly decentralised web ecosystem owned and operated by free individual users and free software programmers. 
 
 The Omnia properties of Omni*Web can be summarised in 6 Omni features:
 
-Omne corpus, omnipresent
-omnidata, 
-omni-environment, omnilingual, omnipotent
+- Omne corpus 
+- Omnipresent
+- Omnidata
+- Omnilingual
+- Omni-environment
+- Omnipotent
 
-Omne corpus and omnipresent are the fundamental principles for decentralised systems.
+Omne corpus and omnipresent are the fundamental principles for constructing decentralised systems, which can be implemented on blockchains, secure web infrastructure, or other architectures.
 
 Omne corpus means everybody in Latin. It implies Omni*Shell employs a hash based decentralised user identifier known as Omnihash which makes every user having equal access control and rights, replacing the master slave scheme in centralised user management systems. 
 
