@@ -28,7 +28,9 @@ Omne corpus and omnipresent are the fundamental principles for constructing dece
 
 "Omnipresent" means Omnihash is used to manage desktop and mobile computing devices connected to Internet using free software decentralised systems such as I2P invisible internet project, so that anyone can connect their computers or mobile devices to the Internet as server for free without Domain Name System AND **make money from sharing computing resources**, from processing power, bandwidth to storage as well as data and source code, from anywhere around the world. 
 
-Omnidata means Omnihash user identifier can be extended to all types of digital assets, 
+"Omnidata" means Omnihash user identifier can be extended to all types of digital assets, from the user ID to server address, as well as all types of documents served from the server, from simple text messages to photos and videos.
+
+- Add Contracts as data.
 
 
 ---
