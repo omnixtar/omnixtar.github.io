@@ -30,7 +30,9 @@ Omne corpus and omnipresent are the fundamental principles for constructing dece
 
 "Omnidata" means Omnihash user identifier can be extended to all types of digital assets, from the user ID to server address, as well as all types of documents served from the server, from simple text messages to photos and videos.
 
-- Add Contracts as data.
+- Add Contracts and codes as data.
+
+One of the most important breakthroughs in Omni*Web is the ability to represent contracts amongst two or more parties as well as computer program source code as data.
 
 
 ---
