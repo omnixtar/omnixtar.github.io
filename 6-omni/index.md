@@ -32,8 +32,12 @@ Omne corpus and omnipresent are the fundamental principles for constructing dece
 
 - Add Contracts and codes as data.
 
+
+### Contract & Code as Omnidata
+
 One of the most important breakthroughs in Omni*Web is the ability to represent contracts amongst two or more parties as well as computer program source code as data.
 
+- Link to examples, add a short description before link
 
 ---
 
