@@ -9,6 +9,13 @@ title: 6 Omni Features
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+
+https://omnixtar.github.io/slogan/
+https://omnixtar.github.io/6-omni/
+
+
+---
+
 ## Omni*Web 6 Omni Features 
 
 With the slogan “Codex Omnia Possibilia”, meaning “with code, everything is possible, Omni*Web aims to build a truly decentralised web ecosystem owned and operated by free individual users and free software programmers. 
