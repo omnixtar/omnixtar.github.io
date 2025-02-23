@@ -10,8 +10,8 @@ title: 6 Omni Features
 </td></tr></table>
 
 
-https://omnixtar.github.io/slogan/
-https://omnixtar.github.io/6-omni/
+- https://omnixtar.github.io/slogan/
+- https://omnixtar.github.io/6-omni/
 
 
 ---
