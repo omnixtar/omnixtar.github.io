@@ -24,9 +24,9 @@ The Omnia properties of Omni*Web can be summarised in 6 Omni features:
 
 Omne corpus and omnipresent are the fundamental principles for constructing decentralised systems, which can be implemented on blockchains, secure web infrastructure, or other architectures.
 
-Omne corpus means everybody in Latin. It implies Omni*Shell employs a hash based decentralised user identifier known as Omnihash which makes every user having equal access control and rights, replacing the master slave scheme in centralised user management systems. 
+"Omne corpus" means everybody in Latin. It implies Omni*Web employs a hash based decentralised user identifier known as Omnihash which enables every user to have equal access control and rights, replacing the master slave scheme in conventional centralised user management systems. 
 
-Omnipresent means Omnihash is used to manage desktop and mobile computing devices connected to Internet using free software decentralised systems such as I2P invisible internet project, so that anyone can connect their computers or mobile devices to the Internet as server for free without Domain Name System and make money from sharing computing resources, from processing power, bandwidth to storage as well as data and source code, from anywhere around the world. 
+"Omnipresent" means Omnihash is used to manage desktop and mobile computing devices connected to Internet using free software decentralised systems such as I2P invisible internet project, so that anyone can connect their computers or mobile devices to the Internet as server for free without Domain Name System AND **make money from sharing computing resources**, from processing power, bandwidth to storage as well as data and source code, from anywhere around the world. 
 
 Omnidata means Omnihash user identifier can be extended to all types of digital assets, 
 
