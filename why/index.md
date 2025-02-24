@@ -30,6 +30,13 @@ If you do not understand what *incomes of the users and free software programmer
 - 3 paragraphs = 1 section?
 - use section to remind reader change of concept
 - Take keywords from text in next paragraph or section
+- Construct sentences using keywords from section heading
+
+How many factors?
+
+1. Centralised vs. Decentralised?
+2. User-Slave?
+3. what else?
 
 They make so much money using centralized architecture. We do Decentralised architecture.
 
