@@ -26,7 +26,8 @@ If you do not understand what *incomes of the users and free software programmer
 
 - Add links to sections at end of intro, so readers know branches
 
-
+- [Centralised vs. Decentralised](https://omnixtar.github.io/why/#centralised-vs-decentralised)
+- [Users As Slaves (User-Slaves)](https://omnixtar.github.io/why/#users-as-slaves-user-slaves)
 
 
 ### Centralised vs. Decentralised
