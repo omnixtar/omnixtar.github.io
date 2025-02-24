@@ -14,7 +14,7 @@ title: Why Omni*Web?
 
 ## Why Omni*Web?
 
-Because MMAGA made USD 1.8 trillion in 2024, but you do not get a dime from their profits.
+- *Because MMAGA made USD 1.8 trillion in 2024, but you do not get a dime from their profits.*
 
 They make so much money using centralized architecture. We do Decentralised architecture.
 
