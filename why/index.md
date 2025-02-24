@@ -18,7 +18,9 @@ title: Why Omni*Web?
 
 If you cannot understand the logic behind the answer given above, then we must congratulate you as you have just found the Red Pill to wake you up from the brainwash imposed on you by the English language mainstream media and education system. (*Monty Python LOL*)
 
-Firstly, if someone has shown you the bar chart of MMAGA revenues for 2023 and 2024 as above, and you are not able to relate it to the incomes of the users and free software programmers, then perhaps you should start asking why.
+Firstly, if someone has shown you the bar chart of MMAGA revenues for 2023 and 2024 as above, and you are not able to relate it to *the incomes of the users and free software programmers*, then perhaps you should start asking why.
+
+If you do not understand what *incomes of the users and free software programmers* mean, then perhaps you should start asking why.
 
 They make so much money using centralized architecture. We do Decentralised architecture.
 
