@@ -12,6 +12,31 @@ title: Why Omni*Web?
 <img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
 
 
+## Why Omni*Web?
+
+Because MMAGA made USD 1.8 trillion in 2024, but you do not get a dime from their profits.
+
+They make so much money using centralized architecture. We do Decentralised architecture.
+
+But should you? Why not?
+
+Analyse default mindset, accept user is slave.
+
+User as Slave Mindset 
+
+User-Slave
+
+and Omni*Web can make you own a piece. 
+
+Because with code, everything is possible.
+
+Propter codice, omnia possibilia sunt.
+
+Reply to comment with article about Omnihash digital assets on GitHub. 
+
+
+
+
 - [Omni*Web Slogan](https://omnixtar.github.io/slogan/)
 - [Omni*Web 6 Omni Features](https://omnixtar.github.io/6-omni/)
 
