@@ -24,6 +24,10 @@ If you do not understand what *incomes of the users and free software programmer
 
 *In the era after DeepSeek was launched, there is really no more excuses for NOT asking AI bots deeper questions that White Anglo Saxon Protestants Americans consider blamsphemous and politically incorrect.*
 
+- Add links to sections at end of intro, so readers know branches
+
+
+
 
 ### Centralised vs. Decentralised
 
@@ -35,10 +39,13 @@ If you do not understand what *incomes of the users and free software programmer
 How many factors?
 
 1. Centralised vs. Decentralised?
-2. User-Slave?
+2. Users as Slave?
 3. what else?
 
 They make so much money using centralized architecture. We do Decentralised architecture.
+
+
+### Users As Slaves (User-Slaves)
 
 But should you? Why not?
 
