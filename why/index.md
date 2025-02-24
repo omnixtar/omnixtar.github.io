@@ -1,5 +1,5 @@
 ---
-title: 6 Omni Features
+title: Why Omni*Web?
 ---
 <table><tr>
 <td>
@@ -8,6 +8,8 @@ title: 6 Omni Features
 <td>
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
+
+<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
 
 
 - [Omni*Web Slogan](https://omnixtar.github.io/slogan/)
