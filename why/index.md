@@ -22,6 +22,8 @@ Firstly, if someone has shown you the bar chart of MMAGA revenues for 2023 and 2
 
 If you do not understand what *incomes of the users and free software programmers* mean, then perhaps you should start asking why.
 
+*In the era after DeepSeek was launched, there is really no more excuses for asking AI bots deeper questions that White Anglo Saxon Protestants Americans consider blamsphemous and politically incorrect.*
+
 They make so much money using centralized architecture. We do Decentralised architecture.
 
 But should you? Why not?
