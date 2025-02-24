@@ -24,6 +24,13 @@ If you do not understand what *incomes of the users and free software programmer
 
 *In the era after DeepSeek was launched, there is really no more excuses for NOT asking AI bots deeper questions that White Anglo Saxon Protestants Americans consider blamsphemous and politically incorrect.*
 
+
+### Centralised vs. Decentralised
+
+- 3 paragraphs = 1 section?
+- use section to remind reader change of concept
+- Take keywords from text in next paragraph or section
+
 They make so much money using centralized architecture. We do Decentralised architecture.
 
 But should you? Why not?
