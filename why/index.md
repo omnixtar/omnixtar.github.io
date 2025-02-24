@@ -22,9 +22,11 @@ Firstly, if someone has shown you the bar chart of MMAGA revenues for 2023 and 2
 
 If you do not understand what *incomes of the users and free software programmers* mean, then perhaps you should start asking why.
 
-*In the era after DeepSeek was launched, there is really no more excuses for NOT asking AI bots deeper questions that White Anglo Saxon Protestants Americans consider blamsphemous and politically incorrect.*
+*In the era after DeepSeek was launched, there are really no more excuses for NOT asking AI bots deeper questions that White Anglo Saxon Protestants Americans consider blamsphemous and politically incorrect.*
 
+<!-- 
 - Add links to sections at end of intro, so readers know branches
+-->
 
 - [Centralised vs. Decentralised](https://omnixtar.github.io/why/#centralised-vs-decentralised)
 - [Users As Slaves (User-Slaves)](https://omnixtar.github.io/why/#users-as-slaves-user-slaves)
@@ -32,6 +34,7 @@ If you do not understand what *incomes of the users and free software programmer
 
 ### Centralised vs. Decentralised
 
+<!-- 
 - 3 paragraphs = 1 section?
 - use section to remind reader change of concept
 - Take keywords from text in next paragraph or section
@@ -42,6 +45,7 @@ How many factors?
 1. Centralised vs. Decentralised?
 2. Users as Slave?
 3. what else?
+-->
 
 They make so much money using centralized architecture. We do Decentralised architecture.
 
