@@ -34,6 +34,8 @@ If you do not understand what *incomes of the users and free software programmer
 
 ### Centralised vs. Decentralised
 
+- Omnipresent
+
 <!-- 
 - 3 paragraphs = 1 section?
 - use section to remind reader change of concept
@@ -51,6 +53,8 @@ They make so much money using centralized architecture. We do Decentralised arch
 
 
 ### Users As Slaves (User-Slaves)
+
+- Omne Corpus
 
 But should you? Why not?
 
