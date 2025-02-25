@@ -30,7 +30,7 @@ If you do not understand what *incomes of the users and free software programmer
 
 - [Centralised vs. Decentralised](https://omnixtar.github.io/why/#centralised-vs-decentralised)
 - [Users As Slaves (User-Slaves)](https://omnixtar.github.io/why/#users-as-slaves-user-slaves)
-
+- Technofeudalism vs. Technosocialism
 
 ### Centralised vs. Decentralised
 
@@ -63,6 +63,12 @@ Analyse default mindset, accept user is slave.
 User as Slave Mindset 
 
 User-Slave
+
+
+### Technofeudalism vs. Technosocialism
+
+
+### Conclusion: Codex Omnia Possibilia
 
 and Omni*Web can make you own a piece. 
 
