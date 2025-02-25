@@ -61,6 +61,10 @@ What kind of people can be bought and sold?
 
 - Users and Slaves.
 
+United Slaves of America LOL
+
+USlaves LOL
+
 - Omne Corpus
 
 But should you? Why not?
