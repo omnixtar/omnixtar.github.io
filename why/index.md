@@ -30,7 +30,10 @@ If you do not understand what *incomes of the users and free software programmer
 
 - [Centralised vs. Decentralised](https://omnixtar.github.io/why/#centralised-vs-decentralised)
 - [Users As Slaves (User-Slaves)](https://omnixtar.github.io/why/#users-as-slaves-user-slaves)
-- Technofeudalism vs. Technosocialism
+- [Technofeudalism vs. Technosocialism](https://omnixtar.github.io/why/#technofeudalism-vs-technosocialism)
+- [Conclusion: Codex Omnia Possibilia](https://omnixtar.github.io/why/#conclusion-codex-omnia-possibilia)
+
+
 
 ### Centralised vs. Decentralised
 
@@ -53,6 +56,10 @@ They make so much money using centralized architecture. We do Decentralised arch
 
 
 ### Users As Slaves (User-Slaves)
+
+What kind of people can be bought and sold? 
+
+- Users and Slaves.
 
 - Omne Corpus
 
