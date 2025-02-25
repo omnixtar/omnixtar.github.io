@@ -55,7 +55,7 @@ How many factors?
 They make so much money using centralized architecture. We do Decentralised architecture.
 
 
-### Users As Slaves (User-Slaves)
+### Users As Slaves (User-Slave / USlave)
 
 What kind of people can be bought and sold? 
 
