@@ -57,6 +57,22 @@ They make so much money using centralized architecture. We do Decentralised arch
 
 ### Users As Slaves (U-A-S / User-Slave / USlave)
 
+User as Slave Mindset 
+
+User-as-slave or its acronym UAS is unquestionably a very bad pun on the United States of America and the history of slavery, being the most important foundation of the most powerful empire of the modern world. 
+
+In fact, former Minister of Finance of Greece coined the term “Technofeudulism” to the same effect, hinting not so subtly at top American technology companies for essentially practicing feudalism,
+
+…. Apple, Facebook, and Amazon have changed the economy so much that it now resembles Europe’s medieval feudal system. The tech giants are the lords, while everyone else is a peasant, working their land for not much in return.
+
+While arguably 
+
+Slavery is arguably a slightly newer form of feudalism brought by descendants of lords and peasants from Europe to America, in that it was an oppression that crossed the racial boundary, as in White masters owning Black slaves, while feudalism was practiced within the same kingdom, with lords of different tribes ruling over peasants of their same kind. 
+
+While such barbaric practices may sound distant to the modern ears, the oppressors and oppressions have not been eliminated but progressed into forms that are hardly recognisable.
+
+One of the forms of oppression is in the MMAGA revenues chart that we presented at the beginning of this article. 
+
 What kind of people can be bought and sold? 
 
 - Users and Slaves.
