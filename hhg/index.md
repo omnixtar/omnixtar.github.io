@@ -9,6 +9,8 @@ title: Hyper Hash Graph
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+<center><img src="https://omnixtar.github.io/img/matrix-code.jpg" height="400"></center>
+
 <center><img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400"></center>
 
 
