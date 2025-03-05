@@ -9,7 +9,7 @@ title: Why Omni*Web?
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
-<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
+<img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png">
 
 
 ## Why Omni*Web?
