@@ -13,6 +13,8 @@ title: Hyper Hash Graph
 
 <center><img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400"></center>
 
+Link to MMAGA revenues
+
 
 ## Why Omni*Web?
 
