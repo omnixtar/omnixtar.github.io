@@ -9,7 +9,7 @@ title: Hyper Hash Graph
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
-<img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400">
+<center><img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400"></center>
 
 
 ## Why Omni*Web?
