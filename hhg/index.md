@@ -9,9 +9,6 @@ title: Hyper Hash Graph
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
-<center><img src="https://omnixtar.github.io/img/matrix-code.jpg" height="400"></center>
-
-<center><img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400"></center>
 
 Link to MMAGA revenues
 
@@ -20,7 +17,11 @@ Link to MMAGA revenues
 
 In the Matrix part 1, the audience was startled with the falling green texts representing pieces of code, indicating Neo has acquired the power to see through and change elements in the Matrix. 
 
+<center><img src="https://omnixtar.github.io/img/matrix-code.jpg" height="400"></center>
+
 The falling green texts of the Matrix is perhaps the most realistic and relatable movie sequence to portray the effect of using hash codes to identify the ownerships of digital assets, shown in the figure above, being the greatest secret in the digital era, as the master elites do not wish the user slaves to understand the secret that they can actually own pieces of digital assets, just like how the kings and lords during the dark ages kept the peasants illiterate so that they did not understand they have the rights to own land and private properties. 
+
+<center><img src="https://omnixtar.github.io/img/hyper-hash-graph-1.png" height="400"></center>
 
 This diagram, called hyper hash graph, shows how arbitrary strings can be transformed to respective hash codes, which are themselves strings, which can then be concatenated with other strings or hash codes, and further hashed to produce a final root hash. It is a graph as the edges are not unidirectional, as hashes can be used as indices to lookup the input strings. 
 
