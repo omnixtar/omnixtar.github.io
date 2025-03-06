@@ -26,6 +26,8 @@ This diagram, called hyper hash graph, shows how arbitrary strings can be transf
 
 To illustrate the significance of hyper hash graph on the economics and ecosystems of programmers, we shall compare this to the economics and ecosystems of electronic devices, which are made up of millions of different devices, in physical discrete parts, as well as being different modules within physical devices. 
 
+Within the electronic industry, the intellectual property of each component including modules within physical packages belong to separate owners, enforced by one of the most complex web of legal arrangments involving millions of legal officers, moving trillion dollars worth of parts annually.
+
 Live demo with code DJSON like this article 
 
 
