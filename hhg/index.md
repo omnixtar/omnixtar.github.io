@@ -29,6 +29,10 @@ To illustrate the significance of hyper hash graph on the economics and ecosyste
 
 Within the electronic industry, the intellectual property of each component including modules within physical packages belong to separate owners, enforced by one of the most complex web of legal arrangments involving millions of legal officers, moving trillion dollars worth of parts annually.
 
+However, within the software industry, two types of ecosystems exist: free software or open source, vs. proprietary software. Free software or open source libraries are being used within commercial systems such as those owned by MMAGA and other big tech companies, an abbreviation for Microsoft, Meta, Amazon, Google and Apple, WITHOUT an open and fair mechanism to reward the contributors, namely free software programmers who wrote the code in the first place.
+
+Hyper hash graph is here to overcome this problem.
+
 Live demo with code DJSON like this article 
 
 
