@@ -33,6 +33,14 @@ However, within the software industry, two types of ecosystems exist: free softw
 
 Hyper hash graph is here to overcome this problem.
 
+
+As illustrated in figure 2 above, the hyper hash graph (HHG) shows how we may express “Adam said a quick brown fox” using hash codes.
+
+1. the message “A quick brown fox” produces a hash code …. 
+2. the message “Adam …. said” produces a hash code
+
+
+
 Live demo with code DJSON like this article 
 
 
