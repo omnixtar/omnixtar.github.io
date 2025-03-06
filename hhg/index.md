@@ -24,6 +24,8 @@ The falling green texts of the Matrix is perhaps the most realistic and relatabl
 
 This diagram, called hyper hash graph, shows how arbitrary strings can be transformed to respective hash codes, which are themselves strings, which can then be concatenated with other strings or hash codes, and further hashed to produce a final root hash. It is a graph as the edges are not unidirectional, as hashes can be used as indices to lookup the input strings. 
 
+To illustrate the significance of hyper hash graph on the economics and ecosystems of programmers, we shall compare this to the economics and ecosystems of electronic devices, which are made up of millions of different devices, in physical discrete parts, as well as being different modules within physical devices. 
+
 Live demo with code DJSON like this article 
 
 
