@@ -9,6 +9,39 @@ title: Hyper Hash Graph
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+## MED Meta-Editing
+
+MED pronounced “em ee dee” for “meta-editing” or "meta-edit" is a tribute to “sed”, the stream editor from UNIX tools, and is not related to Meta-Editor of Metatrader ecosystem. 
+
+MED is spelled in upper case in documentation texts but spelled “med” in lower case in web address, directory or command names, for convenience purposes.
+
+MED is perhaps best described as the ultimate simplified form of hypermedia editor in the tradition of XANADU and the likes, with decades of programmer's efforts to produce an ideal information sharing system for everyone, introducing thousands of new implementations over the years but were rarely able to simplify them, until now, that is. 
+
+You are reading an example of MED. 
+
+MED is based on several principles including the following:
+
+The time of inputs for a piece of text are not in sequence, which produce outputs laid in specific sequence over space, but readers do not necessarily read the outputs in sequence but randomly according to their own emotions. 
+
+The smallest unit a URL may refer to could be a single character but that would be extreme cases. It is more likely that a markdown article on GitHub or similar websites would produce a URL for each section that is marked with # directives. 
+
+Unfortunately, most writers are preoccupied with perfectionism, spending too much time editing the last 20% of a section or an article, which is most likely skipped by readers.
+
+In MED, writers may leave the last 20% of a section or article with links to other sections or articles. These links may then be used as post-editing tags, where meta edit scripts may be applied in the future to edit these unfinished sections. 
+
+We should highlight the fact that all works are unfinished, and perhaps make that out slogan! Spending too much time to perfect an article is an unnecessary obsession.
+
+MED – all works are unfinished. Omnia opera imperfecta. 
+
+Links to DJSON etc.
+
+MED is an opportunity for any user to learn decentralised metaprogramming, by doing the simplest thing – writing articles. 
+
+Add like add posts etc. 
+
+Meta-Edit 
+
+
 ## Technologies & Revolutions
 
 The French revolution was a historic threshold where common men in Europe overthrew the ancien regime to redistribute wealth in the society, which eventually inspired many other revolutions around the world. 
