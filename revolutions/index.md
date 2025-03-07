@@ -17,7 +17,7 @@ Indeed, redistribution of wealth has been a primary driver of revolutions around
 
 The primary mechanisms for change in political revolutions and industrial revolutions have been armed rebellions and adoption of new technologies. Several rounds of industrial revolutions since Victorian England have created unprecedented levels of wealths, along with many rounds of world wars which redistributed wealth amongst nations and colonised peoples. 
 
-Simplest form: DJSON
+Simplest form: [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 
 ---
 
