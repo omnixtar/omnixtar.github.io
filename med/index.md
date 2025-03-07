@@ -24,7 +24,7 @@ You are reading an example of MED.
 
 MED is based on several principles including the following:
 
-The time of inputs for a piece of text are not in sequence, which produce outputs laid in specific sequence over space, but readers do not necessarily read the outputs in sequence but randomly according to their own emotions. 
+- The time of inputs for a piece of text are not in sequence, which produce outputs laid in specific sequence over space, but readers do not necessarily read the outputs in sequence but randomly according to their own emotions. 
 
 The smallest unit a URL may refer to could be a single character but that would be extreme cases. It is more likely that a markdown article on GitHub or similar websites would produce a URL for each section that is marked with # directives. 
 
