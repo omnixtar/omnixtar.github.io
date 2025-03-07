@@ -16,9 +16,9 @@ title: MED Meta-Editing
 
 MED pronounced “em ee dee” for “meta-editing” or "meta-edit" is a tribute to “sed”, the stream editor from UNIX tools, and is not related to Meta-Editor of Metatrader ecosystem. 
 
-MED is spelled in upper case in documentation texts but spelled “med” in lower case in web address, directory or command names, for convenience purposes.
-
 MED is perhaps best described as the ultimate simplified form of hypermedia editor in the tradition of XANADU and the likes, with decades of programmer's efforts to produce an ideal information sharing system for everyone, introducing thousands of new implementations over the years but were rarely able to simplify them, until now, that is. 
+
+MED is spelled in upper case in documentation texts but spelled “med” in lower case in web address, directory or command names, for convenience purposes.
 
 You are reading an example of MED. 
 
