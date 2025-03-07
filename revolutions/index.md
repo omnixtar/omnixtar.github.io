@@ -9,6 +9,17 @@ title: Hyper Hash Graph
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+## Technologies & Revolutions
+
+The French revolution was a historic threshold where common men in Europe overthrew the ancien regime to redistribute wealth in the society, which eventually inspired many other revolutions around the world. 
+
+Indeed, redistribution of wealth has been a primary driver of revolutions around the world, including China ever since the downfall of the first empire Qing Dynasty. 
+
+The primary mechanisms for change in political revolutions and industrial revolutions have been armed rebellions and adoption of new technologies. Several rounds of industrial revolutions since Victorian England have created unprecedented levels of wealths, along with many rounds of world wars which redistributed wealth amongst nations and colonised peoples. 
+
+Simplest form: DJSON
+
+
 
 Link to MMAGA revenues
 
