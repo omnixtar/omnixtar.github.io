@@ -11,6 +11,9 @@ title: Hyper Hash Graph
 
 ## MED Meta-Editing
 
+- MED – all works are unfinished. 
+- *Omnia opera imperfecta.*
+
 MED pronounced “em ee dee” for “meta-editing” or "meta-edit" is a tribute to “sed”, the stream editor from UNIX tools, and is not related to Meta-Editor of Metatrader ecosystem. 
 
 MED is spelled in upper case in documentation texts but spelled “med” in lower case in web address, directory or command names, for convenience purposes.
@@ -31,9 +34,7 @@ In MED, writers may leave the last 20% of a section or article with links to oth
 
 We should highlight the fact that all works are unfinished, and perhaps make that out slogan! Spending too much time to perfect an article is an unnecessary obsession.
 
-MED – all works are unfinished. Omnia opera imperfecta. 
-
-Links to DJSON etc.
+- Links to DJSON etc.
 
 MED is an opportunity for any user to learn decentralised metaprogramming, by doing the simplest thing – writing articles. 
 
