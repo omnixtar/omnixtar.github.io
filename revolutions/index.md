@@ -19,7 +19,7 @@ The primary mechanisms for change in political revolutions and industrial revolu
 
 Simplest form: DJSON
 
-
+---
 
 Link to MMAGA revenues
 
