@@ -20,7 +20,7 @@ title: DJSON Decentralised JSON
 
 ### DJSON: Decentralised JSON
 
-button
+ <button type="button">Click Me!</button> 
 
 DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 64 hash codes representing any kind of digital assets and entities, from user identifiers to social media actions such as like, comment and share, are embedded in the unassuming ubiquitous JSON strings.
 
