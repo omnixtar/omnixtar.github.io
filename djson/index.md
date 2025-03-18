@@ -20,7 +20,9 @@ title: DJSON Decentralised JSON
 
 ### DJSON: Decentralised JSON
 
- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> 
+ <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
+
+<button type="button" onclick="f(C_LIKE);">Like</button> 
 
 DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 64 hash codes representing any kind of digital assets and entities, from user identifiers to social media actions such as like, comment and share, are embedded in the unassuming ubiquitous JSON strings.
 
