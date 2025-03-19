@@ -30,6 +30,8 @@ The DJSON string is compressed using GZIP and encoded as URL safe base64 string,
 
 How does simply adding Omnihash or compatible hash codes to JSON strings make DJAX the biggest breakthrough since AJAX?
 
+This is due to the many powerful cybersecurity properties associated with hash codes that are usually overshadowed by other fanciers algorithms. 
+
 20 years have elapsed between AJAX and DJAX, a Decentralised version of the former, one of the most fundamental operations for sending data between front end browser or application and back end server.
 
 One may conjecture in hindsight what delayed the transition from AJAX to DJAX, given all the essential technologies existed way back in 2005. The Occam's razor answer might be MMAGA obstructions, given that if DJAX eventually command 0.1% of MMAGA revenues by 2030 which would exceed USD 1 billion annually. 
