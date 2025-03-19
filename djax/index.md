@@ -35,7 +35,7 @@ This is due to the many powerful cybersecurity properties associated with hash c
 We will illustrate the properties of Omnihash or hash codes with examples. The first example shown here is simply a like on this very article. The DJSON will record the following:
 
  nobody 
- ```
+ - ```
  H4sIAAAAAAAAA32P3Q6CMAxG36XXwPgJJuw5vNIYM3HSKaykKwmJ8d0darhS7772nC9p99C7m4UEpmD5iCYgJHdAthfQgCJj0ErR4N0shrPOCU6nzJE6X82sYo3Ydc7_daM1Mgm11K9e3CEFifNXf2HeDPYXH4mX7pKM4MdcbwrWcItv_voopkcCZV7WaV6lRbMtCl3VumyyalPv4PAE202GSwUBAAA= 
 ```
 ```
