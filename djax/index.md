@@ -32,6 +32,16 @@ How does simply adding Omnihash or compatible hash codes to JSON strings make DJ
 
 This is due to the many powerful cybersecurity properties associated with hash codes that are usually overshadowed by other fanciers algorithms. 
 
+We will illustrate the properties of Omnihash or hash codes with examples. The first example shown here is simply a like on this very article. The DJSON will record the following:
+
+ nobody H4sIAAAAAAAAA32P3Q6CMAxG36XXwPgJJuw5vNIYM3HSKaykKwmJ8d0darhS7772nC9p99C7m4UEpmD5iCYgJHdAthfQgCJj0ErR4N0shrPOCU6nzJE6X82sYo3Ydc7_daM1Mgm11K9e3CEFifNXf2HeDPYXH4mX7pKM4MdcbwrWcItv_voopkcCZV7WaV6lRbMtCl3VumyyalPv4PAE202GSwUBAAA= 
+ 
+ fgl_s 340 < 1 > array ( 0 => 
+ 
+ ["like","user_hash",{"href":"https://omnixtar.github.io/djax/","origin":"https://omnixtar.github.io","protocol":"https:","host":"omnixtar.github.io","hostname":"omnixtar.github.io","port":"","pathname":"/djax/","search":"","hash":""},"2025-03-19T11:35:29.365Z"]
+
+---
+
 20 years have elapsed between AJAX and DJAX, a Decentralised version of the former, one of the most fundamental operations for sending data between front end browser or application and back end server.
 
 One may conjecture in hindsight what delayed the transition from AJAX to DJAX, given all the essential technologies existed way back in 2005. The Occam's razor answer might be MMAGA obstructions, given that if DJAX eventually command 0.1% of MMAGA revenues by 2030 which would exceed USD 1 billion annually. 
