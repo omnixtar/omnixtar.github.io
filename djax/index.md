@@ -49,7 +49,7 @@ In the JSON string shown above,
 - `{"href":"https://omnixtar.github.io/djax/" ...}` is the URL of this article plus other additional information.
 - `"2025-03-19T11:35:29.365Z"` is the timestamp.
 
-
+As you can see, `user_hash` and timestamp will be unique and thus the hash code or Omnihash generated from this JSON string will be "cryptographically unique" as the look-up address.
 
 ---
 
