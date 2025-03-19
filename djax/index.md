@@ -45,7 +45,11 @@ We will illustrate the properties of Omnihash or hash codes with examples. The f
 In the JSON string shown above,
 
 - `"like"` is user's action.
-- `"user_hash"` is a dummy string where a user's identifier hash code can be inserted.See ... for example ...
+- `"user_hash"` is a dummy string where a user's identifier hash code can be inserted. See ... for example ...
+- `{"href":"https://omnixtar.github.io/djax/" ...}` is the URL of this article plus other additional information.
+- `"2025-03-19T11:35:29.365Z"` is the timestamp.
+
+
 
 ---
 
