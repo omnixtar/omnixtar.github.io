@@ -40,6 +40,8 @@ We will illustrate the properties of Omnihash or hash codes with examples. The f
 ```
 > <code>["like","user_hash",{"href":"https://omnixtar.github.io/djax/","origin":"https://omnixtar.github.io","protocol":"https:","host":"omnixtar.github.io","hostname":"omnixtar.github.io","port":"","pathname":"/djax/","search":"","hash":""},"2025-03-19T11:35:29.365Z"]</code>
 
+<img src="https://omnixtar.github.io//img/djson-like.png" height="60">
+
 In the JSON string shown above,
 
 - `"like"` is user's action.
