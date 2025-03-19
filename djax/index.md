@@ -42,7 +42,8 @@ We will illustrate the properties of Omnihash or hash codes with examples. The f
 
 In the JSON string shown above,
 
-- `"like"` is user's action
+- `"like"` is user's action.
+- `"user_hash"` is a dummy string where a user's identifier hash code can be inserted.See ... for example ...
 
 ---
 
