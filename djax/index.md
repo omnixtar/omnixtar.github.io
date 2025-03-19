@@ -24,6 +24,19 @@ title: DJSON Decentralised JSON
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
+For DJAX demonstration,  you may just press the LIKE button for this article, which generates a DJSON, which in turn is simply a JSON string consisting one or more Omnihash code, 
+
+20 years have elapsed between AJAX and DJAX, a Decentralised version of the former, one of the most fundamental operations for sending data between front end browser or application and back end server.
+
+One may conjecture in hindsight what delayed the transition from AJAX to DJAX, given all the essential technologies existed way back in 2005. The Occam's razor answer might be MMAGA obstructions, given that if DJAX eventually command 0.1% of MMAGA revenues by 2030 which would exceed USD 1 billion annually. 
+
+The above conjecture can be verified using DJAX as it spreads to include more server nodes contributed by free individual users and free software programmers. , with a theoretical upper limit engulfing all devices owned by individual users and free software programmers, practically exceeding those owned by non biological corporations. 
+
+So perhaps the simplicity of DJAX and the lack of explanation of its delay may be equally interesting to the potential of DJAX to create a truly Decentralised web ecosystem owned and operated by free individual users and free software programmers. 
+
+---
+
+
 DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 64 hash codes representing any kind of digital assets and entities, from user identifiers to social media actions such as like, comment and share, are embedded in the unassuming ubiquitous JSON strings.
 
 Underlying decentralised JSON is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
