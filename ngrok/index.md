@@ -26,7 +26,11 @@ title: DJSON Decentralised JSON
 
 For DJAX demonstration,  you may just press the LIKE button for this article, which generates a DJSON, which in turn is simply a JSON string consisting one or more Omnihash code, 
 
-The DJSON string is compressed using GZIP and encoded as URL safe base64 string, and sent to Omni*Web I2P (Invisible Internet Project) server or NGROK and saved. 
+The DJSON string is compressed using GZIP and encoded as URL safe base64 string, and sent to one of the 3 following options for storage:
+
+1. Omni*Web I2P (Invisible Internet Project) server
+2. NGROK 
+3. GitHub Issues
 
 How does simply adding Omnihash or compatible hash codes to JSON strings make DJAX the biggest breakthrough since AJAX?
 
