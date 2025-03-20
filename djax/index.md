@@ -51,6 +51,10 @@ In the JSON string shown above,
 
 As you can see, `user_hash` and timestamp will be unique and thus the hash code or Omnihash generated from this JSON string, `FCrM-oxkcg==` will be "cryptographically unique" as the look-up address.
 
+1. I2P
+2. NGROK
+3. GitHub Issues
+
 ---
 
 20 years have elapsed between AJAX and DJAX, a Decentralised version of the former, one of the most fundamental operations for sending data between front end browser or application and back end server.
