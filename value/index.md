@@ -22,6 +22,9 @@ title: DJSON Decentralised JSON
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
+<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
+
+
 <button type="button" onclick="f(C_LIKE);">Like (I2P)</button> <button type="button" onclick="f(C_LIKE);">Like (NGROK)</button> <button type="button" onclick="f(C_LIKE);">Like (GitHub)</button> 
 
 Relate Like button to MMAGA chart. Search GitHub repo for past article sections!
