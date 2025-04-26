@@ -9,6 +9,10 @@ title: Codex Omnia Possibilia
 <table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
 </td></tr></table>
 
+### SVFIG (Silicon Valley FORTH Interest Group)
+- [April 26 2025, How to share my latest FORTHish word
+with the world? DJSON + Phoscript = Omni*Web](https://omnixtar.github.io/svfig/SVFIG-2025-04.pdf)
+
 
 ### Codex Omnia Possibilia 
 - With code, everything is possible.
