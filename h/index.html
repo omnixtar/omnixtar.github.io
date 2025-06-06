@@ -72,7 +72,8 @@ atob(data.replace(/_/g, '/').replace(/-/g, '+'))
 
 function f_path(data)
 {
-	return (data.replace(/_/g, '/').replace(/-/g, '+'))
+	// return (data.replace(/_/g, '/').replace(/-/g, '+'))
+  return (data.replace(/\//g,'_').replace(/+/g, '-'))
 }
 	
 var qrcode = new QRCode(document.getElementById("qrcode"), {
