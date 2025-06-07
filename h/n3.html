@@ -180,7 +180,7 @@ async function f_genkeys()
 // f_genkeys();
 makeCode();
 
-var c_target;
+var c_target, matchIndices, s_url;
 function loadXMLDoc(theURL)
     {
         if (window.XMLHttpRequest)
@@ -197,6 +197,13 @@ function loadXMLDoc(theURL)
             {
                 // alert(xmlhttp.responseText);
 c_target = xmlhttp.responseText
+
+matchIndices = Array.from(c_target.matchAll("oxw_ngrok_addr")).map(x => x.index);
+l0 = matchIndices.length
+i0 = matchIndices[ l0-2 ]
+i1=c_target.substr(i0-100).indexOf("https")
+i2=c_target.substr(i0-100).indexOf("ngrok-free.app")
+s_url=c_target.substr(i0-100+i1,i2-7)
             }
         }
         xmlhttp.open("GET", theURL, false);
@@ -204,7 +211,6 @@ c_target = xmlhttp.responseText
     }
 
 loadXMLDoc("https://corsmirror.com/v1?url=https://github.com/omnixtar/omnixtar.github.io/issues/1")
-var matchIndices = Array.from(c_target.matchAll("oxw_ngrok_addr")).map(x => x.index);
 
 $('#genkeys').click(function () { f_genkeys() } );
 
