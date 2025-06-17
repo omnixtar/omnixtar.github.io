@@ -1,5 +1,5 @@
 ---
-title: OmniXWeb A Truly Decentralised Web Ecosystem
+title: OmniXWeb
 ---
 <table><tr>
 <td>
