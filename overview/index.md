@@ -23,6 +23,17 @@ title: Omni*Web
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
+Omni*Web is a free software or open source project, aimed at creating a truly decentralised web ecosystem, owned and operated by free individual users and free software programmers, employing the following breakthrough technologies:
+
+- I2P Invisible Internet Project, 
+- Omnihash, 
+- DJSON Decentralised JSON and
+- Phoscript metaprogramming script.
+
+The main keywords above are “truly decentralised web ecosystem, owned and operated”, and the essence lies in the word “owned”, a very common and important English word that is used daily, but poorly defined in the digital realm and yet very few people are aware of the consequences of lacking awareness on ownerships of digital assets, which is one of the educational goals Omni*Web aims to overcome. 
+
+---
+
 <button type="button" onclick="f(C_LIKE);">Like (I2P)</button> <button type="button" onclick="f(C_LIKE);">Like (NGROK)</button> <button type="button" onclick="f(C_LIKE);">Like (GitHub)</button> 
 
 1. BitDurian 
