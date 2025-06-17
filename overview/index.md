@@ -32,6 +32,8 @@ Omni*Web is a free software or open source project, aimed at creating a truly de
 
 The main keywords above are “truly decentralised web ecosystem, owned and operated”, and the essence lies in the word “owned”, a very common and important English word that is used daily, but poorly defined in the digital realm and yet very few people are aware of the consequences of lacking awareness on ownerships of digital assets, which is one of the educational goals Omni*Web aims to overcome. 
 
+- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
+
 ---
 
 <button type="button" onclick="f(C_LIKE);">Like (I2P)</button> <button type="button" onclick="f(C_LIKE);">Like (NGROK)</button> <button type="button" onclick="f(C_LIKE);">Like (GitHub)</button> 
