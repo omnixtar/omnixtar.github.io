@@ -17,14 +17,21 @@ https://omnixtar.github.io/omnicontract/
 - DJSON Decentralised JSON
 - Omni*Contract
 
+---
+
 - Omnihash
+
 A hash code
 
 - DJSON Decentralised JSON
+
 At least one signing party / owner
 
 - Omni*Contract
+
 At least two signing parties / owners
+
+---
 
 ## What does "Omni*" mean?
 
