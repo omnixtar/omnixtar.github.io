@@ -1,5 +1,5 @@
 ---
-title: OmniXWeb
+title: Omni*Web
 ---
 <table><tr>
 <td>
