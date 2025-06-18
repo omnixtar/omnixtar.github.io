@@ -23,7 +23,7 @@ https://omnixtar.github.io/omnicontract/
 
 We coin the term "Omnihash" with prefix Omni- to imply that hash code or hash number can be applied to *any kind of digital asset*.
 
-- Cardano grille
+- Cardano grille picture
 
 Let us try to explain hash numbers with a simple analogy. 16th century Italian mathematician Girolamo Cardano (1501–1576) (known in French as Jérôme Cardan) invented a method of passing secret messages, by punching holes at specific locations on a piece of paper, which acts as a mask, and will reveal the secret message when place on a designated page of a book. This is known as Cardano grille or Cardano mask. 
 
