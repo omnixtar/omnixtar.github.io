@@ -18,6 +18,43 @@ title: Omni*Web
 <img src="./s1.png">
 -->
 
+MMAGA revenues 
+DJSON 
+Digital assets 
+Open source tax
+Collaboration with DJSON 
+All above under 1 thread
+
+Separation of Disclosures & Royalties, Big Cloning & Open Source Tax
+
+OST first because it's simpler than big Cloning which involves developing new software 
+Create other sections based on available contents – fill gaps
+URL: MMAGA
+
+For each page, add like, follow, share button!
+And phos command line!! 
+
+
+It has been a common hypothesis that software companies, from the smallest one man team to MMAGA, use a huge portion of open source projects for internal operations as well as modules in finished products. To call this a “hypothesis” implies that there has been no systematic mechanism to verify and quantify such abuses. 
+
+To solve this problem is the same as using Omnihash to track the usage of free software and open source projects by all uses, from one man team to MMAGA, as well as non software companies. This requires programmers to change existing free software agreement to include clauses with Omnihash, typically stating that:
+
+We recognise the principle of “separation of disclosure and royalties”, where third party users may view, analyse and test (disclosure) source code of this project without payments, but may be subject to payments if parts of all said source code are deployed in operations affecting costs or incomes (royalties) of said users.
+
+Again, to implement Omnihash software tracking requires substantial cloud computing resources which can be provided by I2P Invisible Internet Project.
+
+With “separation disclosure and royalties”, free software programmers may generate incomes through the following mechanisms:
+
+Open Source Tax: to track all third party users of parts of all of source code of open source project, and charge fees accordingly, using Omnihash and DJSON Decentralised JSON.
+
+Big Cloning: free software programmers may use Omnihash and DJSON to collaborate on open source projects, much like how software companies hire programmers and pay subcontractors with cash payments. Omnihash and DJSON replace cash as the incentives to coordinate teamwork amongst programmers. 
+
+Cloning existing social media platforms is the safest and most certain approach to generate incomes, and is morally justified, as the existing social media platforms use a large portion of free software as low and middle level code, and we now use Omnihash and DJSON to coordinate teamwork to produce high level GUI code, to compete with existing commercial platforms.
+
+Need Phoscript in big Cloning 
+
+Above achieve initial goals of improving income. Then more. In real life, need recruitment. Multilevel network? BitDurian?
+
 ### Omni*Web: A Truly Decentralised Web Ecosystem
 - ... Owned & Operated by Free Individual Users & Free Software Programmers
 
