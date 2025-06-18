@@ -29,6 +29,7 @@ Let us try to explain hash numbers with a simple analogy. 16th century Italian m
 
 In modern computer systems, a hash function takes input from a very long string of characters, select random characters and bits from the input string, and perform some quick arithmetic operations to assemble the bits to form an output integer, the hash number, of a desired length, from 53 bits to 512 bits or whatever.
 
+A hash number is usually converted to base 64 or base 16 string for convenient handling.
 
 A hash code
 
