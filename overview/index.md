@@ -34,6 +34,7 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 
 - [Omnihash](https://omnixtar.github.io/omnihash/)
 - [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
+- [Omni*Contract]()
 
 ---
 
