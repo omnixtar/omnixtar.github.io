@@ -1,5 +1,5 @@
 ---
-title: DELTA Decentralised JSON
+title: Omnihash
 ---
 <table><tr>
 <td>
@@ -21,7 +21,7 @@ https://omnixtar.github.io/omnicontract/
 
 - Omnihash
 
-We coin the term "Omnihash" to imply that hash code or hash number can be applied to *any kind of digital asset*.
+We coin the term "Omnihash" with prefix Omni- to imply that hash code or hash number can be applied to *any kind of digital asset*.
 
 A hash code
 
