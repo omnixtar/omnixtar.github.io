@@ -31,7 +31,7 @@ In modern computer systems, a hash function takes input from a very long string 
 
 A hash number is usually converted to base 64 or base 16 string for convenient handling.
 
-A hash code
+- Examples of Omnihash, DJSON, Omni*Contract ....
 
 - DJSON Decentralised JSON
 
