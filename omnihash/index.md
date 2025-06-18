@@ -23,6 +23,8 @@ https://omnixtar.github.io/omnicontract/
 
 We coin the term "Omnihash" with prefix Omni- to imply that hash code or hash number can be applied to *any kind of digital asset*.
 
+- Cardano grille
+
 A hash code
 
 - DJSON Decentralised JSON
