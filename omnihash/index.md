@@ -21,6 +21,8 @@ https://omnixtar.github.io/omnicontract/
 
 - Omnihash
 
+We coin the term "Omnihash" to imply that hash code or hash number can be applied to *any kind of digital asset*.
+
 A hash code
 
 - DJSON Decentralised JSON
