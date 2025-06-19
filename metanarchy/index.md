@@ -24,6 +24,12 @@ We introduce the term “Metanarchy” that implies a much grander vision than D
 
 We envision the benefits of Metanarchy in the following categories:
 
+<!-- 
+1. put notes as html comments
+2. add links to end of section, max 1 page
+3. check all links to make sure navigation loop is complete
+-->
+
 1\. Big Cloning & Open source tax goals – income from Metaverse transactions.
 
 Big Cloning and Open Source Tax shall reverse the trends of widening rich poor gaps.
