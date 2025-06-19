@@ -37,6 +37,7 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 - [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 - [Omni*Contract]()
 - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
+- [Omni*Web Implementation](https://omnixtar.github.io/implementation/)
 - [Metanarchy](https://omnixtar.github.io/metanarchy/)
 
 
