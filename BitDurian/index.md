@@ -18,6 +18,78 @@ title: Omni*Web
 <img src="./s1.png">
 -->
 
+
+BitDurian: applications of Omni*Web focused on the Durian farming, training and investment. 
+
+BitDurian consists of several modules:
+
+Fruit tracking
+
+Decentralised investment is one of the most significant innovations in Omni*Web and BitDurian. 
+
+In conventional software projects, funding is usually managed centrally by a company, disbursing payments to individual programmes who are programmers or subcontractors. Blockchain programmers attempted to introduce decentralised finance methodologies to software development but their adoption has been problematic due to various technical and practical issues.
+
+In BitDurian fruit tracking system, where big and small farmers may take photos of Durian fruits on site to generate Omnihash and DJSON codes, which can then be scanned by customers to retrieve the on site photos and relevant information, each party involved in the software development, from programmers to farm owners, may pay in cash or record their transactions using Omnihash or DJSON, to be used as a credit note to claim payments in the future. 
+
+This implementation is greatly simplified compared to Blockchain based methodologies, and can be incrementally tested and expanded in live environments, as Omnihash and DJSON decentralised features enable complete isolation of types of transactions, allowing customers to participate in simulation and testing and perform actual payments separately. 
+
+
+Multilevel Advertising & Supplier Subsidies 
+
+Small farmers are usually extremely cost conscious and may be reluctant to adopt new technologies if it involves additional costs that they cannot afford.
+
+As such, suppliers of farming materials such as fertilisers and pesticides may offer small farmers subsidies to encourage them to adopt Omnihash fruit tracking system, as the suppliers usually have more capital and resources, and may use the subsidy scheme as an advertising campaign. 
+
+Needless to say, the supplier's subsidy scheme can be implemented using Omnihash and DJSON.
+
+In general, Omnihash and DJSON can be used for general purpose multilevel advertising, despite the notoriety associated with unscrupulous scammers, and we wish to highlight that proper use of cryptographic algorithms is crucial for eliminating corrupt actors and practices in business transactions. 
+
+Fruit Tracking, Subsidies, Advertising, Training, Investment 
+
+Besides fruit tracking, subsidies and advertising, Omnihash and DJSON can be used for training and investment purposes. In short, BitDurian and Omni*Web cover all aspects of the ecosystem of Durian agribusiness, and can be extended to other industries as well.
+
+Cash and capital rich, diversified to other sectors. 
+
+Durian is a unique agribusiness sector that possesses many features that are non existent in other types of fruits or businesses. BitDurian introduces decentralised investment tools that carry many innovative benefits. 
+
+To illustrate, according to unofficial statistics, there are around 30,000 acres of Durian plantations in West Malaysia, of which 20,000 acres are concentrated in Rauh, Pahang. The operating costs per acre per annum is around MYR 100k, and fruit output is around MYR 150k per acre per annum, making it one of the very few investment target with annual returns higher than 20%, as well as investment quantum as little as MYR 2500 per tree per annum. 
+
+These factors make Durian an investment vehicle that has the following exceptional features: 
+i. is accessible to everyone, from large institutional investors to individual small investors, 
+ii. has a large pool of knowledgeable experts as in farm owners and managers, and 
+iii. has exceptionally high annual returns. 
+
+The demand for operational funding at MYR 100k per acre per annum is no mean fest. Many plantation owners, large or small, would rather outsource the farms to subcontractors in exchange for payments before a new season than take the risks for a full year. Such transactions have been carried out amongst farm owners and subcontractors with little documentation as the Durian farmers are mostly Chinese descendants speaking various Cantonese dialects that few outsiders comprehend. 
+
+The increasing demands for Malaysian Durian, the crème de la crème, have pushed Durian prices towards MYR 80 per kg for branded variants such as Black Thorn and Musang King, and as high as MYR 120 per kg for Tupai King. 
+
+With new investors from China and elsewhere, coupled with Employees Provident Fund withdrawals at 50 and 55 years old, digitalisation of Durian contract funding using BitDurian and Omni*Web becomes a superior solution to modernise the Durian farming industry to comply with international investment practices and absorb these sources of funds. 
+
+Training 
+
+Having addressed funding issues for Durian farming, experienced Durian farm managers would become the most sought after experts, as they play THE key role in ensuring everything runs smoothly in the farm every minute, every day for a whole year until the next harvest. As such, a modern and efficient training scheme is required to manage the 30,000 acres and more newly cultivated farms in West Malaysia. 
+
+Again BitDurian employing Omnihash and DJSON provides an integrated platform for independent trainers made up of experienced farm managers to collaborate and train new farm managers at various farm locations owned by participating farm owners. 
+
+Linked with other types of training, programming, business etc.
+
+Omni*Web is a multidisciplinary platform for experts from other fields to collaborate and train new trainees. As such BitDurian trainers may collaborate with experts from other sectors such as software, business, marketing, hospitality and so on on Omni*Web. 
+
+
+Hence need training 
+
+Pressure for seasonal funding 
+
+Fruit tracking statistics 
+
+We have demonstrated Omni*Web and BitDurian provide a wide range of services from fruit tracking to subsidies, advertising, investment and training, across multiple disciplines. Fruit tracking statistics provide accurate data which can be used to analyse the prospects of investments. Performance of trainers and trainees, tracked using Omnihash and DJSON can also be used to predict profitability of farms. Advertising and subsidies further promote the growth of BitDurian and Omni*Web to prospective users, programmers and investors. 
+
+
+development 
+
+Decentralised investment 
+
+
 ### Omni*Web: A Truly Decentralised Web Ecosystem
 - ... Owned & Operated by Free Individual Users & Free Software Programmers
 
