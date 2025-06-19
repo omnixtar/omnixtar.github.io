@@ -21,7 +21,7 @@ title: Omni*Web
 ## Omni*Web Implementation 
 
 Previous sections focus on the conceptual and theoretical background of 
-Omni*Web, namely the goals and components of Omni*Web. In real life, however, implementations involve other factors, which may be dependent on each other and need to be arranged in sequence. 
+Omni\*Web, namely the goals and components of Omni*Web. In real life, however, implementations involve other factors, which may be dependent on each other and need to be arranged in sequence. 
 
 Refer to BitDurian 
 
