@@ -1,5 +1,5 @@
 ---
-title: Omni*Web
+title: Omni*Web Metanarchy
 ---
 <table><tr>
 <td>
@@ -17,6 +17,71 @@ title: Omni*Web
 <img src="./s1.png" height="60">
 <img src="./s1.png">
 -->
+
+## Goals of Metanarchy
+
+We introduce the term “Metanarchy” that implies a much grander vision than Decentralised Autonomous Organisations (DAO), to describe a global decentralised governance system based on transactions in Metaverse.
+
+We envision the benefits of Metanarchy in the following categories:
+
+Big Cloning & Open source tax goals – income from Metaverse transactions.
+
+Big Cloning and Open Source Tax shall reverse the trends of widening rich poor gaps.
+
+Not only software but other sectors, see BitDurian 
+
+MMAGA revenues graph
+
+Metaprogramming, also part of Big Cloning, non commercial effects – revolution of education. Free software education.
+
+Phoscript Metaprogramming can be extended to all industries besides software development, as Nobel prizes of 2024 showed Artificial Intelligence has dominated all sectors, and Phoscript Metaprogramming shall make programming accessible to everybody (Omne corpus).
+
+Phoscript in mathematics 
+
+Omni*Web 
+
+software applications in all 
+
+BitDurian – high value investment, urbanisation, industrialisation, for developing countries – left out by Bretton Woods etc.
+
+BitDurian is a significant application of Omni*Web for Durian industry, covering fruit tracking, e-commerce, tourism, training and investment. 
+
+With around MYR 100k per acre of annual operational costs, profit margins exceeding 50%, and more than 30,000 acres of farmland in West Malaysia alone, Durian farming industry is high value investment sector that is mature and accessible to everybody (Omne corpus) with investment quantum as little as MYR 10k per year. 
+
+Conventional investment, e-commerce and training schemes would be inadequate for Malaysian Durian ecosystem as it requires something much more flexible and transparent which Omni*Web BitDurian is capable of providing. 
+
+With the locations of Durian farms near urban centres, they are ideal land banks for future urban areas. Managing such development sustainably and transparently illustrates Omni*Web BitDurian as a Metanarchy project as traditionally this role was taken up by local governments. 
+
+Urbanisation 
+
+Malaysian detour – Chinese owned banks shut down in 1990s, marking start of exchange rate divergence between Singapore and Malaysia.
+
+Capital not in hands of brains but brotherhood.
+
+ 
+Decentralised AI 
+
+We have explored reducing rich poor gaps, revolution in education and economic development using Omni*Web to achieve Metanarchy. So far these are down to earth issues, degenerated systematic democratic corrupt regimes. Let us now explore some futuristic Metanarchy features that may even be banned in popular media because they may undermine the foundation of Washington Wall Street hegemony.
+
+Firstly, despite the hype surrounding Artificial Intelligence systems from ChatGPT to DeepSeek, little discussion has been heard about decentralised Artificial Intelligence, let alone about its implementation.
+
+With Omnihash being deployed as indices for databases used in artificial intelligence training, it immediately provides a realisable solution for decentralised AI. If we use the French acronym Intelligence Artificial, we end up with DEIA or DEI, both a pun for God or the new dirty word in Trump's America. 
+
+With I2P Invisible Internet Project applied to Omnihash DEIA, users and programmers of the world can contribute their computing resources to build the largest decentralised AI system that is owned by the users and programmers themselves. 
+
+If Metanarchy can generate substantial wealth for large populations, as well as significant AI computing power for military, then small nations may benefit more compared to the current superpowers or developed nations, as we believe the room for improvement for developed nations is smaller. 
+
+Further if future AI needs to consume large amount of energy and huge bandwidth of data, then nuclear powered ships or submarines with fibre optic cables and routers, controlled by small nations with Metanarchy friendly laws, which roam freely in the oceans, connecting land based nations, may become crucial kingmakers in the era where AI and data becomes critical commodities. 
+
+To use a fictional scenario to illustrate these futuristic ideas, imagine:
+
+Singapore 1.0 is the nation state Singapore which became independent from Malaysia in 1965 and did everything right to fast forward its development to become a developed country in a short space of 60 years.
+
+Singapore 2.0: With the help of Omni*Web Metanarchy BitDurian Malaysia with 450 times the land area of Singapore, Malaysia adopts the best practice of economic development, bypassing incompetent bureaucracy, to catch up with Singapore in 20 years.
+
+Singapore 3.0: Small island nations and coastal nations around the world pick up the Singapore-Malaysia Metanarchy development model, and deploy nuclear powered ships and submarines with AI data centres and fibre optic connections to other maritime and land based nodes. 
+
+---
 
 ## Omni*Web Implementation 
 
