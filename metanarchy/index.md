@@ -24,7 +24,7 @@ We introduce the term “Metanarchy” that implies a much grander vision than D
 
 We envision the benefits of Metanarchy in the following categories:
 
-- 1. Big Cloning & Open source tax goals – income from Metaverse transactions.
+1\. Big Cloning & Open source tax goals – income from Metaverse transactions.
 
 Big Cloning and Open Source Tax shall reverse the trends of widening rich poor gaps.
 
@@ -32,7 +32,7 @@ Not only software but other sectors, see BitDurian
 
 MMAGA revenues graph
 
-- 2. Metaprogramming, also part of Big Cloning, non commercial effects – revolution of education. Free software education.
+2\. Metaprogramming, also part of Big Cloning, non commercial effects – revolution of education. Free software education.
 
 Phoscript Metaprogramming can be extended to all industries besides software development, as Nobel prizes of 2024 showed Artificial Intelligence has dominated all sectors, and Phoscript Metaprogramming shall make programming accessible to everybody (Omne corpus).
 
@@ -42,7 +42,7 @@ Omni*Web
 
 software applications in all 
 
-- 3. BitDurian – high value investment, urbanisation, industrialisation, for developing countries – left out by Bretton Woods etc.
+3\. BitDurian – high value investment, urbanisation, industrialisation, for developing countries – left out by Bretton Woods etc.
 
 BitDurian is a significant application of Omni*Web for Durian industry, covering fruit tracking, e-commerce, tourism, training and investment. 
 
@@ -59,7 +59,7 @@ Malaysian detour – Chinese owned banks shut down in 1990s, marking start of ex
 Capital not in hands of brains but brotherhood.
 
  
-- 4. Decentralised AI 
+4\. Decentralised AI 
 
 We have explored reducing rich poor gaps, revolution in education and economic development using Omni*Web to achieve Metanarchy. So far these are down to earth issues, degenerated systematic democratic corrupt regimes. Let us now explore some futuristic Metanarchy features that may even be banned in popular media because they may undermine the foundation of Washington Wall Street hegemony.
 
