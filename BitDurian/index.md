@@ -19,7 +19,7 @@ title: Omni*Web
 -->
 
 
-BitDurian: applications of Omni*Web focused on the Durian farming, training and investment. 
+### BitDurian: Applications of Omni*Web focused on the Durian farming, training and investment
 
 BitDurian consists of several modules:
 
