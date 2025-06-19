@@ -18,6 +18,8 @@ title: Omni*Web Metanarchy
 <img src="./s1.png">
 -->
 
+- [Omni*Web Overview](https://omnixtar.github.io/overview/)
+
 ## Goals of Metanarchy
 
 We introduce the term “Metanarchy” that implies a much grander vision than Decentralised Autonomous Organisations (DAO), to describe a global decentralised governance system based on transactions in Metaverse.
