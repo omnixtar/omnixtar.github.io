@@ -18,6 +18,56 @@ title: Omni*Web
 <img src="./s1.png">
 -->
 
+Omni*Web Implementation 
+
+Previous sections focus on the conceptual and theoretical background of 
+Omni*Web, namely the goals and components of Omni*Web. In real life, however, implementations involve other factors, which may be dependent on each other and need to be arranged in sequence. 
+
+Refer to BitDurian 
+
+Multilevel network 
+
+Casino simulation 
+Use Kotlin Monocles Phoscript to justify 
+Use BitDurian and multilevel network to illustrate casino simulator is minimal footprint bootstrap.
+“Minimal footprint bootstrap”
+
+Consider a casino simulator based on Omnihash and DJSON Decentralised JSON, called Omni*Casino, which is a “minimal footprint bootstrap” project, as it requires the smallest number of dependencies, and is capable of attracting new users and programmers with its gambling elements. 
+
+Suppose we use O2P Omni Obscura Project or Omnihash tagged version of I2P Invisible Internet Project, as the backbone or infrastructure of Omni*Casino. Then in theory, Omni*Casino will possess the largest infrastructure for online casinos compared to all other operators. With Omnihash and DJSON Decentralised JSON, the gambling algorithms on Omni*Casino can also be made transparent and the most fair, thus making it attractive to players, as this is something that is impossible on other platforms. 
+
+Factors as attraction to use Omni*Casino, Kotlin Monocles? 
+Payout gui others girls, promotion, multilevel network effects 
+
+Factors as attraction to use Omni*Casino, Kotlin Monocles? 
+
+Let us consider various factors which may attract users to Omni*Casino:
+
+Payout: back end algorithms 
+GUI
+others 
+girls, 
+promotion, 
+multilevel network effects
+
+As Omnihash and DJSON provide equivalent incentives to cash and company shares for participating users and programmers, Omni*Casino or other modules of Omni*Web may be managed like those within a commercial company.
+
+As such, amongst the factors listed above, (1) and (2) are coding activities and (3) are non coding activities. We may then assign them to respective experts, who themselves will be identified using Omnihash decentralised user identifiers, and their works tracked using Omnihash and DJSON accordingly. 
+
+Amongst these, the payout algorithm will be academically challenging, as we may pose problems such as below: 
+
+P1: Given N nodes, each being a Linux server identified by Omnihash identifier O_n, located at various locations worldwide, how may we set up an algorithm to simulate a roulette operation, such that pings between any two nodes represent time lapses for the roulette spinning, such that the roulette shall decelerate and all the physical variables of the roulette and ball can be shared amongst N nodes to assure zero tampering, to achieve the most transparent and fair online roulette simulation? 
+
+As for factor (2) GUI, Phoscript metaprogramming shall play a crucial role, as it provides a simplified and unified script that is omnilingual, omnipotent and omni-environment, which overcomes significant drawbacks in recent GUI programming, namely frequent updates in programming languages and, too many variants and changes in Model-View-Controller related frameworks.
+
+Consequences of Phoscript metaprogramming ….. Omni*App one super app, collective effort to improve front end and back end …. 
+
+Phoscript metaprogramming not only simplifies and unifies commands across programming languages and operating system environments. Together with Omnihash and DJSON Decentralised JSON, they monetise and stratify (classify in layers) the data and scripts contributed by users and programmers as collective digital assets.
+
+In this way, users and programmers are motivated and incentivised by the values of the collective digital assets to collaborate, much like they would within a corporate environment, but with collective digital assets replacing company shares and cash payments. 
+
+---
+
 MMAGA revenues 
 DJSON 
 Digital assets 
