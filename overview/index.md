@@ -41,6 +41,20 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 - [Metanarchy](https://omnixtar.github.io/metanarchy/)
 
 
+### Commoditization of Compositional Intelligence
+
+The magic of Omni*Web can be summarised in 4 words: “commoditization of compositional intelligence.”
+
+“Compositional intelligence” is an inherent skill that human beings acquire and use in almost all kinds of tasks. It can be codified using metaprogramming scripts such as FORTH and its derivatives, specifically Phoscript in Omni*Web ecosystem, with examples ranging from adding two numbers (3 4 +), to sending messages in social media platforms ( “how are you?” send: ) and managing AI training data ( data_hash model train: ).
+
+Metaprogramming scripts transform tasks of arbitrary complexity into standardized string formats, which can be converted to hash codes, and associated with hash codes representing user identity, to become digital assets with ownership, also specified using hash codes. As such, “compositional intelligence”, namely the ability of every user to perform a wide range of tasks, can be codified and commoditized, hence lowering the barriers of everyone to acquire highly complex skills, and enabling them to work together to build sophisticated systems to compete with established companies with huge capital and long history. 
+
+In plain English, it means:
+
+I can acquire sophisticated skills from Omni*Web and contribute my parts to compete with MMAGA if I have time and patience to learn. 
+
+
+
 ---
 
 <button type="button" onclick="f(C_LIKE);">Like (I2P)</button> <button type="button" onclick="f(C_LIKE);">Like (NGROK)</button> <button type="button" onclick="f(C_LIKE);">Like (GitHub)</button> 
