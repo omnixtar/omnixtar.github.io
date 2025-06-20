@@ -25,6 +25,8 @@ title: Omni*Web
 
 Omni*Web is a free software or open source project, aimed at creating a truly decentralised web ecosystem, owned and operated by free individual users and free software programmers, employing the following breakthrough technologies:
 
+<!-- put links here -->
+
 - I2P Invisible Internet Project, 
 - Omnihash, 
 - DJSON Decentralised JSON and
