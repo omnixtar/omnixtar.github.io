@@ -38,12 +38,14 @@ Factors as attraction to use Omni*Casino, Kotlin Monocles?
 
 Let us consider various factors which may attract users to Omni*Casino:
 
-Payout: back end algorithms 
-GUI
-others 
-girls, 
-promotion, 
-multilevel network effects
+1\. Payout: back end algorithms 
+
+2\. GUI
+
+3\. others 
+- girls, 
+- promotion, 
+- multilevel network effects
 
 As Omnihash and DJSON provide equivalent incentives to cash and company shares for participating users and programmers, Omni\*Casino or other modules of Omni*Web may be managed like those within a commercial company.
 
