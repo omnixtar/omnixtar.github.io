@@ -1,5 +1,5 @@
 ---
-title: Omni*Web
+title: BitDurian
 ---
 <table><tr>
 <td>
@@ -23,7 +23,12 @@ title: Omni*Web
 
 BitDurian consists of several modules:
 
-Fruit tracking
+1\. Fruit tracking
+2\. Multilevel Advertising & Supplier Subsidies 
+3\. Training & Investment 
+
+
+1\. Fruit tracking
 
 Decentralised investment is one of the most significant innovations in Omni*Web and BitDurian. 
 
@@ -34,7 +39,7 @@ In BitDurian fruit tracking system, where big and small farmers may take photos 
 This implementation is greatly simplified compared to Blockchain based methodologies, and can be incrementally tested and expanded in live environments, as Omnihash and DJSON decentralised features enable complete isolation of types of transactions, allowing customers to participate in simulation and testing and perform actual payments separately. 
 
 
-Multilevel Advertising & Supplier Subsidies 
+2\. Multilevel Advertising & Supplier Subsidies 
 
 Small farmers are usually extremely cost conscious and may be reluctant to adopt new technologies if it involves additional costs that they cannot afford.
 
@@ -44,7 +49,7 @@ Needless to say, the supplier's subsidy scheme can be implemented using Omnihash
 
 In general, Omnihash and DJSON can be used for general purpose multilevel advertising, despite the notoriety associated with unscrupulous scammers, and we wish to highlight that proper use of cryptographic algorithms is crucial for eliminating corrupt actors and practices in business transactions. 
 
-Fruit Tracking, Subsidies, Advertising, Training, Investment 
+3\. Training & Investment 
 
 Besides fruit tracking, subsidies and advertising, Omnihash and DJSON can be used for training and investment purposes. In short, BitDurian and Omni*Web cover all aspects of the ecosystem of Durian agribusiness, and can be extended to other industries as well.
 
@@ -65,7 +70,7 @@ The increasing demands for Malaysian Durian, the crème de la crème, have pushe
 
 With new investors from China and elsewhere, coupled with Employees Provident Fund withdrawals at 50 and 55 years old, digitalisation of Durian contract funding using BitDurian and Omni*Web becomes a superior solution to modernise the Durian farming industry to comply with international investment practices and absorb these sources of funds. 
 
-Training 
+### Training 
 
 Having addressed funding issues for Durian farming, experienced Durian farm managers would become the most sought after experts, as they play THE key role in ensuring everything runs smoothly in the farm every minute, every day for a whole year until the next harvest. As such, a modern and efficient training scheme is required to manage the 30,000 acres and more newly cultivated farms in West Malaysia. 
 
