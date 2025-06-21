@@ -32,7 +32,7 @@ Omni\*Web BitDurian provides a wide range of services as follow:
 - investment and 
 - training.
 
-across multiple disciplines. 
+These application functions can be applied to other business sectors, from manufacturing to banking and tourism etc, as all human activities can be encoded and processed as DJSON (Decentralised JSON) transactions.
 
 Fruit tracking statistics provide accurate data which can be used to analyse the prospects of investments. Performance of trainers and trainees, tracked using Omnihash and DJSON can also be used to predict profitability of farms. Advertising and subsidies further promote the growth of BitDurian and Omni*Web to prospective users, programmers and investors.
 
