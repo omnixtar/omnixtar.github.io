@@ -41,7 +41,7 @@ In BitDurian fruit tracking system, where big and small farmers may take photos 
 
 This implementation is greatly simplified compared to Blockchain based methodologies, and can be incrementally tested and expanded in live environments, as Omnihash and DJSON decentralised features enable complete isolation of types of transactions, allowing customers to participate in simulation and testing and perform actual payments separately. 
 
-
+<br />
 2\. Multilevel Advertising & Supplier Subsidies 
 
 Small farmers are usually extremely cost conscious and may be reluctant to adopt new technologies if it involves additional costs that they cannot afford.
