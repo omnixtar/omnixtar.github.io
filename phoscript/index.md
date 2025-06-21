@@ -20,6 +20,16 @@ title: Phoscript
 
 ## Phoscript Metaprogramming
 
+1\. Payout: back end algorithms 
+
+2\. GUI
+
+3\. others 
+- girls, 
+- promotion, 
+- multilevel network effects
+
+
 As for factor (2) GUI, Phoscript metaprogramming shall play a crucial role, as it provides a simplified and unified script that is omnilingual, omnipotent and omni-environment, which overcomes significant drawbacks in recent GUI programming, namely frequent updates in programming languages and, too many variants and changes in Model-View-Controller related frameworks.
 
 Consequences of Phoscript metaprogramming ….. Omni*App one super app, collective effort to improve front end and back end …. 
