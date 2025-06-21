@@ -39,6 +39,7 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 - [Omni*Contract]()
 - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
 - [Omni*Web Implementation](https://omnixtar.github.io/implementation/)
+- [BitDurian](https://omnixtar.github.io/BitDurian/)
 - [Metanarchy](https://omnixtar.github.io/metanarchy/)
 
 <!--
