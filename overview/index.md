@@ -27,21 +27,24 @@ Omni*Web is a free software or open source project, aimed at creating a truly de
 
 <!-- put links here -->
 
-- I2P Invisible Internet Project, 
-- Omnihash, 
-- DJSON Decentralised JSON and
-- Phoscript metaprogramming script.
+- [I2P Invisible Internet Project](https://geti2p.net/en/), 
+- [Omnihash](https://omnixtar.github.io/omnihash/)
+- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
+- [Phoscript metaprogramming script]().
+
 
 The main keywords above are “truly decentralised web ecosystem, owned and operated”, and the essence lies in the word “owned”, a very common and important English word that is used daily, but poorly defined in the digital realm and yet very few people are aware of the consequences of lacking awareness on ownerships of digital assets, which is one of the educational goals Omni*Web aims to achieve. 
 
 - [Why Omni*Web?](https://omnixtar.github.io/why/)
-- [Omnihash](https://omnixtar.github.io/omnihash/)
-- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 - [Omni*Contract]()
 - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
 - [Omni*Web Implementation](https://omnixtar.github.io/implementation/)
 - [Metanarchy](https://omnixtar.github.io/metanarchy/)
 
+<!--
+- [Omnihash](https://omnixtar.github.io/omnihash/)
+- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
+-->
 
 ### Commoditization of Compositional Intelligence
 
