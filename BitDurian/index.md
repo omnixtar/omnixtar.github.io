@@ -24,9 +24,12 @@ title: BitDurian
 BitDurian consists of several modules:
 
 1\. Fruit tracking
+
 2\. Multilevel Advertising & Supplier Subsidies 
+
 3\. Training & Investment 
 
+---
 
 1\. Fruit tracking
 
@@ -60,8 +63,11 @@ Durian is a unique agribusiness sector that possesses many features that are non
 To illustrate, according to unofficial statistics, there are around 30,000 acres of Durian plantations in West Malaysia, of which 20,000 acres are concentrated in Rauh, Pahang. The operating costs per acre per annum is around MYR 100k, and fruit output is around MYR 150k per acre per annum, making it one of the very few investment target with annual returns higher than 20%, as well as investment quantum as little as MYR 2500 per tree per annum. 
 
 These factors make Durian an investment vehicle that has the following exceptional features: 
+
 i. is accessible to everyone, from large institutional investors to individual small investors, 
+
 ii. has a large pool of knowledgeable experts as in farm owners and managers, and 
+
 iii. has exceptionally high annual returns. 
 
 The demand for operational funding at MYR 100k per acre per annum is no mean fest. Many plantation owners, large or small, would rather outsource the farms to subcontractors in exchange for payments before a new season than take the risks for a full year. Such transactions have been carried out amongst farm owners and subcontractors with little documentation as the Durian farmers are mostly Chinese descendants speaking various Cantonese dialects that few outsiders comprehend. 
@@ -78,7 +84,7 @@ Again BitDurian employing Omnihash and DJSON provides an integrated platform for
 
 Linked with other types of training, programming, business etc.
 
-Omni*Web is a multidisciplinary platform for experts from other fields to collaborate and train new trainees. As such BitDurian trainers may collaborate with experts from other sectors such as software, business, marketing, hospitality and so on on Omni*Web. 
+Omni\*Web is a multidisciplinary platform for experts from other fields to collaborate and train new trainees. As such BitDurian trainers may collaborate with experts from other sectors such as software, business, marketing, hospitality and so on on Omni*Web. 
 
 
 Hence need training 
@@ -87,13 +93,15 @@ Pressure for seasonal funding
 
 Fruit tracking statistics 
 
-We have demonstrated Omni*Web and BitDurian provide a wide range of services from fruit tracking to subsidies, advertising, investment and training, across multiple disciplines. Fruit tracking statistics provide accurate data which can be used to analyse the prospects of investments. Performance of trainers and trainees, tracked using Omnihash and DJSON can also be used to predict profitability of farms. Advertising and subsidies further promote the growth of BitDurian and Omni*Web to prospective users, programmers and investors. 
+We have demonstrated Omni\*Web and BitDurian provide a wide range of services from fruit tracking to subsidies, advertising, investment and training, across multiple disciplines. Fruit tracking statistics provide accurate data which can be used to analyse the prospects of investments. Performance of trainers and trainees, tracked using Omnihash and DJSON can also be used to predict profitability of farms. Advertising and subsidies further promote the growth of BitDurian and Omni*Web to prospective users, programmers and investors. 
 
 
 development 
 
 Decentralised investment 
 
+
+---
 
 ### Omni*Web: A Truly Decentralised Web Ecosystem
 - ... Owned & Operated by Free Individual Users & Free Software Programmers
