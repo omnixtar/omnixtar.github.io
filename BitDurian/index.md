@@ -23,11 +23,11 @@ title: BitDurian
 
 BitDurian consists of several modules:
 
-1\. Fruit tracking
+- 1\. Fruit tracking
 
-2\. Multilevel Advertising & Supplier Subsidies 
+- 2\. Multilevel Advertising & Supplier Subsidies 
 
-3\. Training & Investment 
+- 3\. Training & Investment 
 
 ---
 
@@ -64,11 +64,11 @@ To illustrate, according to unofficial statistics, there are around 30,000 acres
 
 These factors make Durian an investment vehicle that has the following exceptional features: 
 
-i. is accessible to everyone, from large institutional investors to individual small investors, 
+- i. is accessible to everyone, from large institutional investors to individual small investors, 
 
-ii. has a large pool of knowledgeable experts as in farm owners and managers, and 
+- ii. has a large pool of knowledgeable experts as in farm owners and managers, and 
 
-iii. has exceptionally high annual returns. 
+- iii. has exceptionally high annual returns. 
 
 The demand for operational funding at MYR 100k per acre per annum is no mean fest. Many plantation owners, large or small, would rather outsource the farms to subcontractors in exchange for payments before a new season than take the risks for a full year. Such transactions have been carried out amongst farm owners and subcontractors with little documentation as the Durian farmers are mostly Chinese descendants speaking various Cantonese dialects that few outsiders comprehend. 
 
