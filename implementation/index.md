@@ -23,7 +23,7 @@ title: Omni*Web
 Previous sections focus on the conceptual and theoretical background of 
 Omni\*Web, namely the goals and components of Omni*Web. In real life, however, implementations involve other factors, which may be dependent on each other and need to be arranged in sequence. 
 
-BitDurian is an application module of Omni*Web focused on the Durian farming, training and investment.
+In [Omni\*Web BitDurian](https://omnixtar.github.io/BitDurian/) we demonstrate an application module of Omni*Web focused on the Durian farming, training and investment.
 
 Omni\*Web BitDurian provides a wide range of services as follow: 
 - fruit tracking,
