@@ -36,6 +36,14 @@ We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (
     - Singapore 2.0
     - Singapre 3.0
 
+### Take-off phase
+
+- Omni*Marketing
+
+- Omni*Casino
+
+- BitDurian
+
 In [Omni\*Web BitDurian](https://omnixtar.github.io/BitDurian/) we demonstrate an application module of Omni*Web focused on the Durian farming, training and investment.
 
 Omni\*Web BitDurian provides a wide range of services as follow: 
