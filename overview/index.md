@@ -54,6 +54,8 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 - [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 -->
 
+- Descriptions of videos and other links
+
 ### Commoditization of Compositional Intelligence
 
 The magic of Omni*Web can be summarised in 4 words: “commoditization of compositional intelligence.”
