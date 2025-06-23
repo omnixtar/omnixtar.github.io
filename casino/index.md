@@ -20,14 +20,17 @@ title: Omni*Casino
 
 ## Omni*Casino
 
-Multilevel network 
+- Omni*Marketing Multilevel network 
 
-Casino simulation 
-Use Kotlin Monocles Phoscript to justify 
-Use BitDurian and multilevel network to illustrate casino simulator is minimal footprint bootstrap.
-“Minimal footprint bootstrap”
+- Casino simulation 
+- Use Kotlin Monocles Phoscript to justify 
+- Use BitDurian and multilevel network to illustrate casino simulator is minimal footprint bootstrap.
+
+- “Minimal footprint bootstrap”
 
 Consider a casino simulator based on Omnihash and DJSON Decentralised JSON, called Omni*Casino, which is a “minimal footprint bootstrap” project, as it requires the smallest number of dependencies, and is capable of attracting new users and programmers with its gambling elements. 
+
+- Compared to BitDurian, Omni*Casino is a "minimal footprint bootstrap" -- factors = dependecies and sequence of implementation, which one first?
 
 Suppose we use O2P Omni Obscura Project or Omnihash tagged version of I2P Invisible Internet Project, as the backbone or infrastructure of Omni\*Casino. Then in theory, Omni*Casino will possess the largest infrastructure for online casinos compared to all other operators. With Omnihash and DJSON Decentralised JSON, the gambling algorithms on Omni*Casino can also be made transparent and the most fair, thus making it attractive to players, as this is something that is impossible on other platforms. 
 
