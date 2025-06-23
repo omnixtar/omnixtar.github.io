@@ -44,6 +44,8 @@ Omni*Marketing combines the best of multilevel marketing and “words of mouth�
 
 - Omni*Casino
 
+Omni\*Casino is a casino simulator based on Omnihash and DJSON Decentralised JSON, having the characteristics of “minimal footprint bootstrap”, as it requires the smallest number of dependencies, and is capable of attracting new users and programmers with its gambling elements.
+
 - BitDurian
 
 In [Omni\*Web BitDurian](https://omnixtar.github.io/BitDurian/) we demonstrate an application module of Omni*Web focused on the Durian farming, training and investment.
