@@ -42,11 +42,11 @@ We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (
 
 Omni*Marketing combines the best of multilevel marketing and “words of mouth”, by removing the cost component to be paid by the recruitee, making the cost of recommendation almost zero, and unifying all sectors and businesses with one generic decentralised identifier, namely Omnihash, further reducing the costs of creating independent multilevel networks, owned by separate business operators.
 
-- Omni*Casino
+- [Omni*Casino](https://omnixtar.github.io/casino/)
 
 Omni\*Casino is a casino simulator based on Omnihash and DJSON Decentralised JSON, having the characteristics of “minimal footprint bootstrap”, as it requires the smallest number of dependencies, and is capable of attracting new users and programmers with its gambling elements.
 
-- BitDurian
+- [BitDurian](https://omnixtar.github.io/BitDurian/)
 
 In [Omni\*Web BitDurian](https://omnixtar.github.io/BitDurian/) we demonstrate an application module of Omni*Web focused on the Durian farming, training and investment.
 
