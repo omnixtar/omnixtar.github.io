@@ -38,9 +38,13 @@ A hash number is usually converted to base 64 or base 16 string for convenient h
 
 - DJSON Decentralised JSON
 
+DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
+
 At least one signing party / owner
 
 - Omni*Contract
+
+Omni*Contract is a DJSON Decentralised JSON where there are at least two signing parties, with optional number of witnesses, all represented by Omnihash.
 
 At least two signing parties / owners
 
