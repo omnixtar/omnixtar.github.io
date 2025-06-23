@@ -32,6 +32,10 @@ A hash number is usually converted to base 64 or base 16 string for convenient h
 
 - Examples of Omnihash, DJSON, Omni*Contract ....
 
+- Donald agrees to pay Adam the value of 1 Troy ounce of .999 silver, or about USD 30, for providing 10 thousand views of advertisement.
+
+- QCekkiX3
+
 - DJSON Decentralised JSON
 
 At least one signing party / owner
