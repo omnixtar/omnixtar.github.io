@@ -38,18 +38,21 @@ In [this video clip](https://youtu.be/TYAonv-oJz4?&t=295s), starting at 04:55, a
 
 - Donald agrees to pay Adam the value of 1 Troy ounce of .999 silver, or about USD 30, for providing 10 thousand views of advertisement.
 
-- DJSON Decentralised JSON
+- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
 
+<!--
 At least one signing party / owner
+-->
 
-- Omni*Contract
+- [Omni*Contract](https://omnixtar.github.io/omnicontract/)
 
 Omni*Contract is a DJSON Decentralised JSON where there are at least two signing parties, with optional number of witnesses, all represented by Omnihash.
 
+<!--
 At least two signing parties / owners
-
+-->
 ---
 
 ## What does "Omni*" mean?
