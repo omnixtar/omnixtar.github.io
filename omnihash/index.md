@@ -3,11 +3,15 @@ title: Omnihash
 ---
 <table><tr>
 <td>
-<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2><a href="https://omnixtar.github.io/overview/">Omni*Web</a>
+<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2>
+<a href="https://omnixtar.github.io/overview/"> Omni*Web </a>
 </h2></td></tr></table> 
 </td>
 <td>
-<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td>2</td></tr></table>
+<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td>
+<td>
+<a href="https://omnixtar.github.io/overview/">*</a>
+</td></tr></table>
 </td></tr></table>
 
 ## Omnihash
