@@ -38,7 +38,9 @@ We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (
 
 ### Take-off phase
 
-- Omni*Marketing
+- [Omni*Marketing](https://omnixtar.github.io/marketing/)
+
+Omni*Marketing combines the best of multilevel marketing and “words of mouth”, by removing the cost component to be paid by the recruitee, making the cost of recommendation almost zero, and unifying all sectors and businesses with one generic decentralised identifier, namely Omnihash, further reducing the costs of creating independent multilevel networks, owned by separate business operators.
 
 - Omni*Casino
 
