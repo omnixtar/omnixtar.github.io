@@ -10,7 +10,7 @@ title: Omnihash
 <td>
 <table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td>
 <td>
-<h2><a href="https://omnixtar.github.io/overview/">*</a></h2>
+<h1><a href="https://omnixtar.github.io/overview/">*</a></h1>
 </td></tr></table>
 </td></tr></table>
 
