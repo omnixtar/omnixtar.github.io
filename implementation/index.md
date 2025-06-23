@@ -26,9 +26,10 @@ Omni\*Web, namely the goals and components of Omni*Web. In real life, however, i
 We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (OIP), consisting of:
 
 - Take-off phase
-  - Omni*Marketing
-  - Omni*Casino
-  - BitDurian
+  - [Omni*Marketing](https://omnixtar.github.io/marketing/)
+  - [Omni*Casino](https://omnixtar.github.io/casino/)
+  - [BitDurian](https://omnixtar.github.io/BitDurian/)
+
 - Cruise mode
   - Big Cloning
   - Open Source Tax
