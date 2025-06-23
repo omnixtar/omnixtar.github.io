@@ -24,6 +24,8 @@ We coin the term "Omnihash" with prefix Omni- to imply that hash code or hash nu
 
 - Cardano grille picture
 
+<img src="./img/CardanGrille.png">
+
 Let us try to explain hash numbers with a simple analogy. 16th century Italian mathematician Girolamo Cardano (1501–1576) (known in French as Jérôme Cardan) invented a method of passing secret messages, by punching holes at specific locations on a piece of paper, which acts as a mask, and will reveal the secret message when place on a designated page of a book. This is known as Cardano grille or Cardano mask. 
 
 In modern computer systems, a hash function takes input from a very long string of characters, select random characters and bits from the input string, and perform some quick arithmetic operations to assemble the bits to form an output integer, the hash number, of a desired length, from 53 bits to 512 bits or whatever.
