@@ -1,15 +1,8 @@
 ---
 title: DJSON Decentralised JSON
 ---
-<table><tr>
-<td>
-<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2>
-<a href="https://omnixtar.github.io/overview/"> Omni*Web </a>
-</h2></td></tr></table> 
-</td>
-<td>
-<table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
-</td></tr></table>
+
+{% include logo.html %}
 
 <!-- 
 - ### Omnisophia: Bitcoin + Decentralised AI
