@@ -19,7 +19,9 @@ title: BitDurian
 -->
 
 
-### BitDurian: Applications of Omni*Web focused on the Durian farming, training and investment
+### BitDurian: Omni*Web module for Durian farming, training and investment
+
+- [Overview](https://omnixtar.github.io/overview/)
 
 BitDurian consists of several modules:
 
