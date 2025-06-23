@@ -2,6 +2,7 @@
 title: Omnihash
 ---
 
+<!-- include file from _includes directory -->
 {% include logo.html %}
 
 ## Omnihash
