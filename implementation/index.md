@@ -18,10 +18,23 @@ title: Omni*Web
 <img src="./s1.png">
 -->
 
-## Omni*Web Implementation 
+## Omni*Web Implementation Plan
 
 Previous sections focus on the conceptual and theoretical background of 
 Omni\*Web, namely the goals and components of Omni*Web. In real life, however, implementations involve other factors, which may be dependent on each other and need to be arranged in sequence. 
+
+We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (OIP), consisting of:
+
+- Take-off phase
+  - Omni*Marketing
+  - Omni*Casino
+  - BitDurian
+- Cruise mode
+  - Big Cloning
+  - Open Source Tax
+  - Metanarchy
+    - Singapore 2.0
+    - Singapre 3.0
 
 In [Omni\*Web BitDurian](https://omnixtar.github.io/BitDurian/) we demonstrate an application module of Omni*Web focused on the Durian farming, training and investment.
 
