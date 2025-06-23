@@ -14,6 +14,8 @@ title: Omnihash
 </td></tr></table>
 </td></tr></table>
 
+{% include logo.html %}
+
 ## Omnihash
 
 - [Overview](https://omnixtar.github.io/overview/)
