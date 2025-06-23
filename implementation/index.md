@@ -34,6 +34,41 @@ Omni\*Web BitDurian provides a wide range of services as follow:
 
 These application functions can be applied to other business sectors, from manufacturing to banking and tourism etc, as all human activities can be encoded and processed as DJSON (Decentralised JSON) transactions.
 
+---
+
+## Consequences of Implementation Plan
+
+1\. Install-Click-Share
+
+2\. The one and largest multilevel network ever
+
+3\. Omnihash to replace cash as incentives of network development (software and other resources) 
+
+4\. MMAGA 0.1%
+
+5\. Metanarchy Singapore 3.0
+
+Let the lights of knowledge dispel darkness. 
+
+Elaborate benefits 
+
+ID is tied to business, not portable to other businesses. 
+
+This mechanism is counterintuitive to the conventional practice where 
+
+scientia vincere tenebras 	
+conquering darkness by science
+
+https://en.m.wikipedia.org/wiki/Post_tenebras_lux
+
+Omni*Web Motto
+Post tenebras lux
+Omnia vincit scientia
+
+
+---
+
+
 Fruit tracking statistics provide accurate data which can be used to analyse the prospects of investments. Performance of trainers and trainees, tracked using Omnihash and DJSON can also be used to predict profitability of farms. Advertising and subsidies further promote the growth of BitDurian and Omni*Web to prospective users, programmers and investors.
 
 
