@@ -30,7 +30,7 @@ We use the analogy of aircraft flight to describe Omni*Web Implementation Plan (
   - [Omni*Casino](https://omnixtar.github.io/casino/)
   - [BitDurian](https://omnixtar.github.io/BitDurian/)
 
-- Cruise mode
+- [Cruise mode: Metanarchy](https://omnixtar.github.io/metanarchy/)
   - Big Cloning
   - Open Source Tax
   - Metanarchy
