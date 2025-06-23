@@ -39,12 +39,13 @@ cruise mode
 
 The main keywords above are “truly decentralised web ecosystem, owned and operated”, and the essence lies in the word “owned”, a very common and important English word that is used daily, but poorly defined in the digital realm and yet very few people are aware of the consequences of lacking awareness on ownerships of digital assets, which is one of the educational goals Omni*Web aims to achieve. 
 
-- [Why Omni*Web?](https://omnixtar.github.io/why/)
-- [Omni*Contract]()
-- [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
+- [Omni*Web Fundamentals]()
+  - [Why Omni*Web?](https://omnixtar.github.io/why/)
+  - [Omni*Contract]()
+  - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
 - [Omni*Web Implementation](https://omnixtar.github.io/implementation/)
-- [BitDurian](https://omnixtar.github.io/BitDurian/)
-- [Metanarchy](https://omnixtar.github.io/metanarchy/)
+  - [Take-off Phase](https://omnixtar.github.io/implementation/)
+  - [Cruise Mode: Metanarchy](https://omnixtar.github.io/metanarchy/)
 
 <!--
 - [Omnihash](https://omnixtar.github.io/omnihash/)
