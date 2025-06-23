@@ -11,11 +11,9 @@ title: Omnihash
 
 ## Omnihash
 
-https://omnixtar.github.io/omnicontract/
-
-- Omnihash
-- DJSON Decentralised JSON
-- Omni*Contract
+- [Overview](https://omnixtar.github.io/overview/)
+- [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
+- [Omni*Contract](https://omnixtar.github.io/omnicontract/)
 
 ---
 
