@@ -32,6 +32,13 @@ A hash number is usually converted to base 64 or base 16 string for convenient h
 
 - Examples of Omnihash, DJSON, Omni*Contract ....
 
+https://youtu.be/TYAonv-oJz4
+at 04:55
+
+In the following video clip, starting at 04:55, a short contract text "Donald agrees ..." (full text as shown below) produces Omnihash QCekkiX3 when Omnihash button is clicked on [Omni*Contract](https://omnixtar.github.io/omnicontract/) web page:
+
+- https://youtu.be/TYAonv-oJz4?&t=295s
+
 - Donald agrees to pay Adam the value of 1 Troy ounce of .999 silver, or about USD 30, for providing 10 thousand views of advertisement.
 
 - QCekkiX3
