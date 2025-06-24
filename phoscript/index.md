@@ -8,6 +8,8 @@ title: Phoscript
 
 In [this video](https://youtu.be/mYjKS0KiJVg), we describe the principle of Bidirectional Shunting Yard Algorithm (BISYA), which is an extension and complement of Dijkstra's legendary Shunting Yard Algorithm, that has been employed as the core interpreter engine for countless programming languages since its introduction in the 1960s.
 
+FORTH programming language and its derivatives, including Phoscript used in Omni*Web, employ BISYA so that one standardised metaprogramming script can be executed in a variety of environments (omni-environment), using various programming languages (omnilingual), invoking all existing function libraries (omnipotent).
+
 1\. Payout: back end algorithms 
 
 2\. GUI
