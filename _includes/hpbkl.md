@@ -1,0 +1,2 @@
+- [HPBKL Hash of Public Key License](../HPBKL.md)
+  - HPBKL is a software and data license in compliance to "separation of disclosure and royalties" .... ([click for full text](../HPBKL.md))
