@@ -9,6 +9,8 @@ title: Omni*Web
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
+ {% include hpbkl.md %}
+
 Omni*Web is a free software or open source project, aimed at creating a truly decentralised web ecosystem, owned and operated by free individual users and free software programmers, employing the following breakthrough technologies:
 
 <!-- put links here
