@@ -54,6 +54,15 @@ In plain English, it means:
 
 - I can acquire sophisticated skills from Omni*Web and contribute my parts to compete with MMAGA if I have time and patience to learn. 
 
+
+## Omnia Vincit Scientia
+
+- Knowledge conquers all.
+
+Mainstream European historians prefer to believe that Gutenberg invented the printing press, rather than the hypothesis that such "inventions" were copied from China.
+
+
+
 ---
 
 <!-- 
