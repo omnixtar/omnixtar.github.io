@@ -34,9 +34,9 @@ Again, to implement Omnihash software tracking requires substantial cloud comput
 
 With “separation disclosure and royalties”, free software programmers may generate incomes through the following mechanisms:
 
-Open Source Tax: to track all third party users of parts of all of source code of open source project, and charge fees accordingly, using Omnihash and DJSON Decentralised JSON.
+1\. Open Source Tax: to track all third party users of parts of all of source code of open source project, and charge fees accordingly, using Omnihash and DJSON Decentralised JSON.
 
-Big Cloning: free software programmers may use Omnihash and DJSON to collaborate on open source projects, much like how software companies hire programmers and pay subcontractors with cash payments. Omnihash and DJSON replace cash as the incentives to coordinate teamwork amongst programmers. 
+2\. Big Cloning: free software programmers may use Omnihash and DJSON to collaborate on open source projects, much like how software companies hire programmers and pay subcontractors with cash payments. Omnihash and DJSON replace cash as the incentives to coordinate teamwork amongst programmers. 
 
 Cloning existing social media platforms is the safest and most certain approach to generate incomes, and is morally justified, as the existing social media platforms use a large portion of free software as low and middle level code, and we now use Omnihash and DJSON to coordinate teamwork to produce high level GUI code, to compete with existing commercial platforms.
 
