@@ -4,16 +4,9 @@ title: Phoscript
 
 {% include logo.html %}
 
-<!-- 
-- ### Omnisophia: Bitcoin + Decentralised AI
-- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
--->
-<!-- 
-<img src="./s1.png" height="60">
-<img src="./s1.png">
--->
-
 ## Phoscript Metaprogramming
+
+In [this video](https://youtu.be/mYjKS0KiJVg), we describe the principle of Bidirectional Shunting Yard Algorithm (BISYA), which is an extension and complement of Dijkstra's legendary Shunting Yard Algorithm, that has been employed as the core interpreter engine for countless programming languages since its introduction in the 1960s.
 
 1\. Payout: back end algorithms 
 
