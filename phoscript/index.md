@@ -10,6 +10,7 @@ In [this video](https://youtu.be/mYjKS0KiJVg), we describe the principle of Bidi
 
 FORTH programming language and its derivatives, including Phoscript used in Omni*Web, employ BISYA so that one standardised metaprogramming script can be executed in a variety of environments (omni-environment), using various programming languages (omnilingual), invoking all existing function libraries (omnipotent).
 
+<!--
 1\. Payout: back end algorithms 
 
 2\. GUI
@@ -20,7 +21,10 @@ FORTH programming language and its derivatives, including Phoscript used in Omni
 - multilevel network effects
 
 
-As for factor (2) GUI, Phoscript metaprogramming shall play a crucial role, as it provides a simplified and unified script that is omnilingual, omnipotent and omni-environment, which overcomes significant drawbacks in recent GUI programming, namely frequent updates in programming languages and, too many variants and changes in Model-View-Controller related frameworks.
+As for factor (2) GUI, 
+-->
+
+Phoscript metaprogramming shall play a crucial role for both front end and back end system development, as it provides a simplified and unified script that is omnilingual, omnipotent and omni-environment, which overcomes significant drawbacks in recent GUI programming, namely frequent updates in programming languages and, too many variants and changes in Model-View-Controller related frameworks.
 
 Consequences of Phoscript metaprogramming ….. Omni*App one super app, collective effort to improve front end and back end …. 
 
