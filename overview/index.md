@@ -65,6 +65,8 @@ If the European printing press machine was copied from China, then it is also re
 
 We mention these politically incorrect historiographic hypotheses to illistrate "omnia vincit scientia" or "knowledge conquers all", where pre-Renaissance European barbarians managed to dominate the world with copied Chinese arts and sciences, and therefore, whomever dominate the world today can also be conquered by "nova scientia" or "new knowledge". 
 
+  - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
+
 ---
 
 <!-- 
