@@ -72,6 +72,8 @@ In the following sections, we elaborate the background problems that Omni*Web ai
   - [Why Omni*Web?](https://omnixtar.github.io/why/)
   - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
 
+- The Power of Anonymous Free Software Programmers
+
 ---
 
 <!-- 
