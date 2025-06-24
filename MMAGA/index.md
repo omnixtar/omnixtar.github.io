@@ -1,23 +1,12 @@
 ---
 title: Omni*Web
 ---
-<table><tr>
-<td>
-<table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2>Omni*Web + Omni*DOC</h2></td></tr></table> 
-</td>
-<td>
-<table><tr><td>Jekyll Theme Primer</td><td>2</td></tr></table>
-</td></tr></table>
 
-<!-- 
-- ### Omnisophia: Bitcoin + Decentralised AI
-- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
--->
-<!-- 
-<img src="./s1.png" height="60">
-<img src="./s1.png">
--->
+{% include logo.html %}
 
+## MMAGA Dilemmas
+
+<!--
 MMAGA revenues 
 DJSON 
 Digital assets 
@@ -33,7 +22,7 @@ URL: MMAGA
 
 For each page, add like, follow, share button!
 And phos command line!! 
-
+-->
 
 It has been a common hypothesis that software companies, from the smallest one man team to MMAGA, use a huge portion of open source projects for internal operations as well as modules in finished products. To call this a “hypothesis” implies that there has been no systematic mechanism to verify and quantify such abuses. 
 
