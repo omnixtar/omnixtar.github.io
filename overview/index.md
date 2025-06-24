@@ -74,6 +74,10 @@ In the following sections, we elaborate the background problems that Omni*Web ai
 
 - The Power of Anonymous Free Software Programmers
 
+<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
+
+MMAGA revenue chart is perhaps the most vivid illustration of the power of free software programmers, as they are the real heroes who composed the source code of the programs that power the Internet and mobile devices in your hands.
+
 ---
 
 <!-- 
