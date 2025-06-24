@@ -63,7 +63,7 @@ Mainstream European historians prefer to believe that Gutenberg invented the pri
 
 If the European printing press machine was copied from China, then it is also reasonable to hypothesise than a significant portion of Renaissance knowledge in the arts and sciences (scientia) was also copied and translated from Chinese sources. 
 
-We mention these politically incorrect historiographic hypotheses to illistrate "omnia vincit scientia" or "knowledge conquers all", where pre-Renaissance European barbarians managed to dominate the world with copied Chinese arts and sciences, and therefore, whomever dominate the world today can also be conquered by "nova scientia" or 
+We mention these politically incorrect historiographic hypotheses to illistrate "omnia vincit scientia" or "knowledge conquers all", where pre-Renaissance European barbarians managed to dominate the world with copied Chinese arts and sciences, and therefore, whomever dominate the world today can also be conquered by "nova scientia" or "new knowledge". 
 
 ---
 
