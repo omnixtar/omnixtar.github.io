@@ -20,7 +20,7 @@ cruise mode
 - [I2P Invisible Internet Project](https://geti2p.net/en/), 
 - [Omnihash](https://omnixtar.github.io/omnihash/)
 - [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
-- [Phoscript metaprogramming script]().
+- [Phoscript metaprogramming script](https://omnixtar.github.io/phoscript/).
 
 
 The main keywords above are “truly decentralised web ecosystem, owned and operated”, and the essence lies in the word “owned”, a very common and important English word that is used daily, but poorly defined in the digital realm and yet very few people are aware of the consequences of lacking awareness on ownerships of digital assets, which is one of the educational goals Omni*Web aims to achieve. 
