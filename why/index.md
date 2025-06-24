@@ -8,7 +8,7 @@ title: Why Omni*Web?
 
 ## Why Omni*Web?
 
-- [HPBKL Hash of Public Key License](HPBKL.md)
+- [HPBKL Hash of Public Key License](../HPBKL.md)
 
 - *Because MMAGA made USD 1.8 trillion in 2024, but you do not get a dime from their profits.*
 
