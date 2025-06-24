@@ -38,7 +38,7 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 - [DJSON Decentralised JSON](https://omnixtar.github.io/djson/)
 -->
 
-- Descriptions of videos and other links
+- [ In progress ... ] Descriptions of videos and other links
 
 ### Commoditization of Compositional Intelligence
 
