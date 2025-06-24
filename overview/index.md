@@ -29,8 +29,8 @@ The main keywords above are “truly decentralised web ecosystem, owned and oper
 
 - [Omni*Web Fundamentals]()
   - [Why Omni*Web?](https://omnixtar.github.io/why/)
-  - [Omni*Contract]()
   - [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/)
+  - [Omnihash](https://omnixtar.github.io/omnihash/)
 - [Omni*Web Implementation](https://omnixtar.github.io/implementation/)
   - [Take-off Phase](https://omnixtar.github.io/implementation/)
   - [Cruise Mode: Metanarchy](https://omnixtar.github.io/metanarchy/)
