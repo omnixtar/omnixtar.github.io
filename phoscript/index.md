@@ -26,7 +26,9 @@ As for factor (2) GUI,
 
 Phoscript metaprogramming shall play a crucial role for both front end and back end system development, as it provides a simplified and unified script that is omnilingual, omnipotent and omni-environment, which overcomes significant drawbacks in recent GUI programming, namely frequent updates in programming languages and, too many variants and changes in Model-View-Controller related frameworks.
 
-Consequences of Phoscript metaprogramming ….. Omni*App one super app, collective effort to improve front end and back end …. 
+<!--
+Consequences of Phoscript metaprogramming ….. Omni*App one super app, collective effort to improve front end and back end ….
+--> 
 
 Phoscript metaprogramming not only simplifies and unifies commands across programming languages and operating system environments. Together with Omnihash and DJSON Decentralised JSON, they monetise and stratify (classify in layers) the data and scripts contributed by users and programmers as collective digital assets.
 
