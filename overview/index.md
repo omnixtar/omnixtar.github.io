@@ -61,7 +61,7 @@ In plain English, it means:
 
 Mainstream European historians prefer to believe that Gutenberg invented the printing press, rather than the hypothesis that such "inventions" were copied from China.
 
-
+If the European printing press machine was copied from China, then it is also reasonable to hypothesise than a significant portion of Renaissance knowledge in the arts and sciences (scientia) was also copied and translated from Chinese sources. 
 
 ---
 
