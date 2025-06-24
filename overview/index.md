@@ -4,15 +4,6 @@ title: Omni*Web
 
 {% include logo.html %}
 
-<!-- 
-- ### Omnisophia: Bitcoin + Decentralised AI
-- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
--->
-<!-- 
-<img src="./s1.png" height="60">
-<img src="./s1.png">
--->
-
 ### Omni*Web: A Truly Decentralised Web Ecosystem
 - ... Owned & Operated by Free Individual Users & Free Software Programmers
 
@@ -59,11 +50,18 @@ Metaprogramming scripts transform tasks of arbitrary complexity into standardize
 
 In plain English, it means:
 
-I can acquire sophisticated skills from Omni*Web and contribute my parts to compete with MMAGA if I have time and patience to learn. 
-
-
+- I can acquire sophisticated skills from Omni*Web and contribute my parts to compete with MMAGA if I have time and patience to learn. 
 
 ---
+
+<!-- 
+- ### Omnisophia: Bitcoin + Decentralised AI
+- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
+-->
+<!-- 
+<img src="./s1.png" height="60">
+<img src="./s1.png">
+-->
 
 <button type="button" onclick="f(C_LIKE);">Like (I2P)</button> <button type="button" onclick="f(C_LIKE);">Like (NGROK)</button> <button type="button" onclick="f(C_LIKE);">Like (GitHub)</button> 
 
