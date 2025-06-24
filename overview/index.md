@@ -78,6 +78,11 @@ In the following sections, we elaborate the background problems that Omni*Web ai
 
 MMAGA revenue chart is perhaps the most vivid illustration of the power of free software programmers, as they are the real heroes who composed the source code of the programs that power the Internet and mobile devices in your hands.
 
+As we explained in [MMAGA Dilemmas](https://omnixtar.github.io/MMAGA/), a significant but unknown portion of source code used in MMAGA and other commercial systems is contributed by free software programmers.
+
+As such, using Omnihash and DJSON Decentralised JSON, we may integrate and consolidate all existing free software programmers, and include more new programmers and users using simplified metaprogramming techniques with Phoscript, and accomplish greater achievements compared to MMAGA, which we call "Metanarchy", or decentralised self governing system based on transactions in the Metaverse. 
+
+
 ---
 
 <!-- 
