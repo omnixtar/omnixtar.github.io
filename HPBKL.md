@@ -2,6 +2,8 @@
 title: HPBKL
 ---
 
+{% include logo.html %}
+
 ## Hash of Public Key License (HPBKL)
 
 ### Separation of Disclosure & Royalties
