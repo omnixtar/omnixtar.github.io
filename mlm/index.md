@@ -9,7 +9,7 @@ title: Omni*Marketing
 1\. Start with no parent hash:
 
 - [https://omnixtar.github.io/h/](https://omnixtar.github.io/h/)
-- [Demo video]()
+- [Demo video](https://youtu.be/rH7oH7b47LE)
 
 2\. Start with a parent hash:
 
