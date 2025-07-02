@@ -16,6 +16,13 @@ title: FREE MLM
 - [https://omnixtar.github.io/h/?Du8iBzaMkw==](https://omnixtar.github.io/h/?Du8iBzaMkw==)
 - [Demo video](https://youtu.be/Kp5396NiWQk)
 
+
+### Secure Lookup using Hash Code
+
+Hash code, defined as a string encoded from a hash number, in base 64 or base 16 or other convenient encoding scheme, can be used as index in [hash tables](https://en.wikipedia.org/wiki/Hash_table).
+
+
+
 ```
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
 ```
