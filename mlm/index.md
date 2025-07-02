@@ -26,6 +26,8 @@ The DJSON Decentralised JSON shown above has the following fields:
 - ```h```: current user hash (YOU)
 - ```t```: current time
 
+<img src="https://omnixtar.github.io/img/Omnihash-reg.png">
+
 Priority list vs. Overall Roadmap 
 
 Priority list
