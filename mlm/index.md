@@ -27,6 +27,8 @@ title: FREE MLM
 
 3\. Using hash together with public key cryptography, the hash of public key can be used as a convenient user identifier.
 
+With these 3 properties listed above, hash code can be used to implement "secure lookup", as illustrated below.
+
 ```
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
 ```
