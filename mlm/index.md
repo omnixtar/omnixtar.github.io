@@ -27,6 +27,14 @@ The DJSON Decentralised JSON shown above has the following fields:
 - ```t```: current time
 
 <img src="https://omnixtar.github.io/img/Omnihash-reg.png">
+- Figure 1
+
+The meaning of DJSON is shown in the text box on the left in figure 1, literally:
+
+- Your hash is ....
+- Your parent hash is ....
+
+
 
 Priority list vs. Overall Roadmap 
 
