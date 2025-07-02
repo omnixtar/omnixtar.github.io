@@ -112,17 +112,13 @@ function makeCode (s_in) {
 	oText.value = "Your Hash is "+ s_in + "\nYour Parent Hash is "+ P + "\nYou have 0 downlines.\nInvite downlines with "+"";
 	
 	// s_in = bnToB64(cyrb53( JSON.stringify(J) ))
-	
 	// s_in = "http://192.168.237.80/h?" + s_in;
-	
 	// s_in = "https://abf1-121-123-207-197.ngrok-free.app/h?" + s_in
-	
-  s_in = "https://godmeta.github.io/h/?" + s_in
-
+  // s_in = "https://godmeta.github.io/h/?" + s_in
 	// oText.value = s_in;
-	
 	// 20231231 save pvk ?
-	
+  
+	s_in = "https://omnixtar.github.io/h/?" + s_in
 	qrcode.makeCode(s_in);
 }
 
