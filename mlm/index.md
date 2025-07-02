@@ -4,16 +4,15 @@ title: Omni*Marketing
 
 {% include logo.html %}
 
-<!-- 
-- ### Omnisophia: Bitcoin + Decentralised AI
-- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
--->
-<!-- 
-<img src="./s1.png" height="60">
-<img src="./s1.png">
--->
-
 ## Omni*Marketing 
+
+1. Start with no parent hash:
+
+- [https://omnixtar.github.io/h/](https://omnixtar.github.io/h/)
+
+2. Start with a parent hash:
+
+- [https://omnixtar.github.io/h/?Du8iBzaMkw==](https://omnixtar.github.io/h/?Du8iBzaMkw==)
 
 ```
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
