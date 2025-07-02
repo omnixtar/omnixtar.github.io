@@ -15,6 +15,10 @@ title: Omni*Marketing
 
 ## Omni*Marketing 
 
+```
+{"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
+```
+
 Priority list vs. Overall Roadmap 
 
 Priority list
