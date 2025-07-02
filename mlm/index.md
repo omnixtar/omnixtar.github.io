@@ -34,7 +34,7 @@ The meaning of DJSON is shown in the text box on the left in figure 1, literally
 - Your hash is ....
 - Your parent hash is ....
 
-
+- https://omnixtar.github.io/h/?Du8iBzaMkw==
 
 Priority list vs. Overall Roadmap 
 
