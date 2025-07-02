@@ -21,7 +21,7 @@ title: FREE MLM
 
 Hash code, defined as a string encoded from a hash number, in base 64 or base 16 or other convenient encoding scheme, can be used as index in [hash tables](https://en.wikipedia.org/wiki/Hash_table).
 
-
+However, a crucial but relatively unknown property of hash code, which can be paraphrased as "hashing a hash code with a random string produces another hash".
 
 ```
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
