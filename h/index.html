@@ -38,16 +38,16 @@ July 21, 2024
 	    <button id="save" class="btn btn-primary">Save</button>
 	    <br>Load Keypair 
   </div>
-      <large>
-        <textarea id="dmhs" rows="5" style="width:300px;font-size:18px;"></textarea>
-      </large>
 
-          	  
+  <textarea id="text" rows="3" style="width:300px;font-size:18px;"></textarea>
+      <large>
+        <textarea id="dmhs" rows="5" style="width:300px;font-size:14px;"></textarea>
+      </large>
+     	  
   <div class="col-lg-6" style="width: 50%;">	  
               <!-- /div -->
 	          	<!-- /div -->
 <!-- input id="text" type="text" value="http://jindo.dev.naver.com/collie" style="width:80%" / -->
-          <textarea id="text" rows="3" style="width:300px;font-size:18px;"></textarea>
 <!-- br / -->
     <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div> 
     <p> <br> <br> <br> </p>
@@ -255,7 +255,7 @@ $('#omni').click(async function () {
 	    
       var dt = new Date();
 
-      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
         +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
         +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
 	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
