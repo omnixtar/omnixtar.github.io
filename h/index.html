@@ -255,7 +255,7 @@ $('#omni').click(async function () {
 	    
       var dt = new Date();
 
-      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nCopy & Save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
         +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
         +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
 	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
