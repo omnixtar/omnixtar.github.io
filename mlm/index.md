@@ -6,12 +6,12 @@ title: Omni*Marketing
 
 ## Omni*Marketing 
 
-1. Start with no parent hash:
+1\. Start with no parent hash:
 
 - [https://omnixtar.github.io/h/](https://omnixtar.github.io/h/)
 - [Demo video]()
 
-2. Start with a parent hash:
+2\. Start with a parent hash:
 
 - [https://omnixtar.github.io/h/?Du8iBzaMkw==](https://omnixtar.github.io/h/?Du8iBzaMkw==)
 - [Demo video]()
