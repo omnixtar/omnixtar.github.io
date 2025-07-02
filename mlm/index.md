@@ -14,7 +14,7 @@ title: Omni*Marketing
 2\. Start with a parent hash:
 
 - [https://omnixtar.github.io/h/?Du8iBzaMkw==](https://omnixtar.github.io/h/?Du8iBzaMkw==)
-- [Demo video]()
+- [Demo video](https://youtu.be/Kp5396NiWQk)
 
 ```
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
