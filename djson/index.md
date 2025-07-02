@@ -4,15 +4,6 @@ title: DJSON Decentralised JSON
 
 {% include logo.html %}
 
-<!-- 
-- ### Omnisophia: Bitcoin + Decentralised AI
-- ### *YOUR brain is the weapon .... Omnisophia Metanarchy Revolution.* 
--->
-<!-- 
-<img src="./s1.png" height="60">
-<img src="./s1.png">
--->
-
 ### DJSON: Decentralised JSON
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
