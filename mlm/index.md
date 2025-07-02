@@ -1,10 +1,10 @@
 ---
-title: Omni*Marketing
+title: FREE MLM
 ---
 
 {% include logo.html %}
 
-## Omni*Marketing 
+## Omnihash: THE One & Only FREE Multilevel Marketing 
 
 1\. Start with no parent hash:
 
