@@ -19,6 +19,13 @@ title: Omni*Marketing
 {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
 ```
 
+The DJSON Decentralised JSON shown above has the following fields:
+
+- ```x```: type, ```REG``` for "registration"
+- ```p```: parent hash, or "upline"
+- ```h```: current user hash (YOU)
+- ```t```: current time
+
 Priority list vs. Overall Roadmap 
 
 Priority list
