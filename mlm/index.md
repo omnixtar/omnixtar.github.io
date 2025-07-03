@@ -53,12 +53,16 @@ s
 
 - [Demo video](https://youtu.be/uhAiESx_gPU)
 
+
+<img src="https://omnixtar.github.io/img/Hash-DJSON.png">
+- Figure 1
+
+Figure 1 follows the end of the demo video, with ```s``` showing all items on the stack, and ```s[8]``` is the hash of DJSON ```EEiDu2e-xQ==```.
+
 ```
 Array(9) [ "a", "b", "c", "g", "h", "i", "e", "f", "EEiDu2e-xQ==" ]
 ```
-
-<img src="https://omnixtar.github.io/img/Hash-DJSON.png">
-
+- All items on stack ```s```
 
 
 ```
