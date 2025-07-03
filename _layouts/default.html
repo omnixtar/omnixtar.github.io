@@ -100,11 +100,12 @@ Promise.resolve("Hello GZIP!")
     XU={}; XU.h="user_hash"
 f_like=function(){var date = new Date();
 s.push(["like",XU.h,window.location,date.toISOString()])} 
-
-
-
 </script>
 
+<!-- include script in _layouts/default.html
+  but imported .js files must be in LOCAL ./js subdirectory,
+  NOT global /js subdirectory
+-->
 <script src="js/omni.js"></script>
 
       {{ content }}
