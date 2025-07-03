@@ -53,6 +53,16 @@ s
 
 - [Demo video](https://youtu.be/uhAiESx_gPU)
 
+1\. ```omnistart()``` initiates Omni*Shell which processes data using a stack machine.
+
+2\. ```f_hbp()``` comprises 3 steps, namely:
+- ```h```: hash function ```cyrb53()```
+- ```b```: base 64 encoded string ```bnToB64()```
+- ```p```: "path safe" string, replacing ```/``` with ```_``` and ```+``` with ```-```
+
+3\. ```s.push()``` pushes DJSON on to the stack.
+
+4\. ```f('hbp:')``` calls `f_hbp()` to obtain the hash code, and pushes the result at the top of the stack ```s[8]```.
 
 <img src="https://omnixtar.github.io/img/Hash-DJSON.png">
 - Figure 1
