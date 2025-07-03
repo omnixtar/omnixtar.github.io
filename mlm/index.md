@@ -33,7 +33,8 @@ With these 3 properties listed above, hash code can be used to implement "secure
 ### HDJS: Hash of DJSON
 
 ```
-f_hbp=function(){var data=bnToB64(cyrb53(s.pop())); s.push(data.split("/").join("_").split("+").join("-"))}
+f_hbp=function(){var data=bnToB64(cyrb53(s.pop())); 
+  s.push(data.split("/").join("_").split("+").join("-"))}
 
 s.push('{"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}')
 
