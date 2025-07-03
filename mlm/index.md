@@ -53,7 +53,7 @@ s
 
 - [Demo video](https://youtu.be/uhAiESx_gPU)
 
-1\. ```omnistart()``` initiates Omni*Shell which processes data using a stack machine.
+1\. ```omnistart()``` initiates Omni*Shell which processes data using Phoscript stack machine.
 
 2\. ```f_hbp()``` comprises 3 steps, namely:
 - ```h```: hash function ```cyrb53()```
