@@ -43,6 +43,9 @@ s.push('{"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:1
 f('hbp:')
 
 s
+```
+
+```
 Array(9) [ "a", "b", "c", "g", "h", "i", "e", "f", "EEiDu2e-xQ==" ]
 ```
 
