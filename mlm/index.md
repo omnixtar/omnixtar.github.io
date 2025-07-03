@@ -32,6 +32,12 @@ With these 3 properties listed above, hash code can be used to implement "secure
 
 ### HDJS: Hash of DJSON
 
+Copy the source code shown below.
+
+Press F12 to open the browser console.
+
+Paste the code to execute them to obtain the Hash of DJSON.
+
 ```
 omnistart()
 
