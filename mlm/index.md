@@ -98,6 +98,8 @@ The meaning of DJSON is shown in the text box on the left in figure 2, literally
 - Your hash is ....
 - Your parent hash is ....
 
+Finally, we may put both HDJS and DJSON into one JSON object with the following code:
+
 <img src="https://omnixtar.github.io/img/hdjs.png">
 
 ```
