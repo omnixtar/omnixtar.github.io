@@ -80,6 +80,9 @@ HDJS: EEiDu2e-xQ==
 DJSON: {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
 ```
 
+
+### REG "Registration" DJSON
+
 The DJSON Decentralised JSON shown above has the following fields:
 
 - ```x```: type, ```REG``` for "registration"
