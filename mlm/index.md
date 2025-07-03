@@ -98,6 +98,8 @@ The meaning of DJSON is shown in the text box on the left in figure 2, literally
 - Your hash is ....
 - Your parent hash is ....
 
+<img src="https://omnixtar.github.io/img/hdjs.png">
+
 ```
 j0={h:"EEiDu2e-xQ==", s:'{"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}'}
 Object { h: "EEiDu2e-xQ==", s: '{"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}' }
