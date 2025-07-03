@@ -74,6 +74,7 @@ Figure 1 follows the end of the demo video, with ```s``` showing all items on th
 Array(9) [ "a", "b", "c", "g", "h", "i", "e", "f", "EEiDu2e-xQ==" ]
 ```
 
+- HDJS and DJSON:
 ```
 HDJS: EEiDu2e-xQ==
 DJSON: {"x":"REG","p":"Du8iBzaMkw==","h":"HYfPy1agMA==","t":"2025-07-02T08:13:13.449Z"}
