@@ -14,76 +14,17 @@ July 21, 2024
 	for the damages you have incurred for deploying the source code pertaining to clause (1).
   -->
 <head>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js
-"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-        <script src="../js/omni.js" type="text/javascript"></script>
+
         <script src="./Phos/libphos.js" type="module"></script>
         <script type="text/javascript" src="./jsencrypt.min.js"></script>
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="qrcode.js"></script>
   <script type="text/javascript" src="aes.js"></script>
-
-<script>
-  console.log("hello in 202503 ./_layout / default.html")
-
-  // https://gist.github.com/asidko/9c7064027039411a11323eaf7d8ea2a4
-// Paste the following example to browser console
-
-
-// Comppreses string to GZIP. Retruns a Promise with Base64 string
-const compress = string => {
-    const blobToBase64 = blob => new Promise((resolve, _) => {
-        const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result.split(',')[1]);
-        reader.readAsDataURL(blob);
-    });
-    const byteArray = new TextEncoder().encode(string);
-    const cs = new CompressionStream('gzip');
-    const writer = cs.writable.getWriter();
-    writer.write(byteArray);
-    writer.close();
-    return new Response(cs.readable).blob().then(blobToBase64);
-};
-
-// Decompresses base64 encoded GZIP string. Retruns a string with original text.
-const decompress = base64string => {
-    const bytes = Uint8Array.from(atob(base64string), c => c.charCodeAt(0));
-    const cs = new DecompressionStream('gzip');
-    const writer = cs.writable.getWriter();
-    writer.write(bytes);
-    writer.close();
-    return new Response(cs.readable).arrayBuffer().then(function (arrayBuffer) {
-        return new TextDecoder().decode(arrayBuffer);
-    });
-}
-
-/////////////////////
-// Checking
-/////////////////////
-Promise.resolve("Hello GZIP!")
-    .then(v => {
-        console.log("Original value: %s", v);
-        return v;
-    })
-    .then(v => compress(v))
-    .then(v => {
-        console.log("Compressed value: %s", v);
-        return v;
-    })
-    .then(v => decompress(v))
-    .then(v => console.log("Decomporessed value: %s", v));
-
-    XU={}; XU.h="user_hash"
-f_like=function(){var date = new Date();
-s.push(["like",XU.h,window.location,date.toISOString()])} 
-</script>
-
 
 <div class="row col-lg-12">
 
@@ -97,16 +38,16 @@ s.push(["like",XU.h,window.location,date.toISOString()])}
 	    <button id="save" class="btn btn-primary">Save</button>
 	    <br>Load Keypair 
   </div>
-      <large>
-        <textarea id="dmhs" rows="5" style="width:300px;font-size:18px;"></textarea>
-      </large>
 
-          	  
+  <textarea id="text" rows="3" style="width:300px;font-size:18px;"></textarea>
+      <large>
+        <textarea id="dmhs" rows="5" style="width:300px;font-size:14px;"></textarea>
+      </large>
+     	  
   <div class="col-lg-6" style="width: 50%;">	  
               <!-- /div -->
 	          	<!-- /div -->
 <!-- input id="text" type="text" value="http://jindo.dev.naver.com/collie" style="width:80%" / -->
-          <textarea id="text" rows="3" style="width:200px;font-size:18px;"></textarea>
 <!-- br / -->
     <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div> 
     <p> <br> <br> <br> </p>
@@ -133,7 +74,7 @@ function f_path(data)
 {
 	// return (data.replace(/_/g, '/').replace(/-/g, '+'))
   // return (data.replace(/\//g,'_').replace(/+/g, '-'))
-    return data.split("/").join("_").split("+").join("-")
+  return data.split("/").join("_").split("+").join("-")
 }
 	
 var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -171,21 +112,13 @@ function makeCode (s_in) {
 	oText.value = "Your Hash is "+ s_in + "\nYour Parent Hash is "+ P + "\nYou have 0 downlines.\nInvite downlines with "+"";
 	
 	// s_in = bnToB64(cyrb53( JSON.stringify(J) ))
-	
 	// s_in = "http://192.168.237.80/h?" + s_in;
-	
 	// s_in = "https://abf1-121-123-207-197.ngrok-free.app/h?" + s_in
-	
   // s_in = "https://godmeta.github.io/h/?" + s_in
-
-  // s_in = "https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/bd/H-xchGCVBg==/m/photo_6204122672330295776_y.jpg"
-
-  s_in = "https://0c7d-2001-d08-da-6c35-5c1f-6b6e-2c80-cfff.ngrok-free.app/bd/H-xchGCVBg==/m/photo_6204122672330295776_y.jpg"
-
 	// oText.value = s_in;
-	
 	// 20231231 save pvk ?
-	
+
+	s_in = "https://omnixtar.github.io/h/?" + s_in
 	qrcode.makeCode(s_in);
 }
 
@@ -238,38 +171,6 @@ async function f_genkeys()
 
 // f_genkeys();
 makeCode();
-
-var c_target, matchIndices, s_url;
-function loadXMLDoc(theURL)
-    {
-        if (window.XMLHttpRequest)
-        {// code for IE7+, Firefox, Chrome, Opera, Safari, SeaMonkey
-            xmlhttp=new XMLHttpRequest();
-        }
-        else
-        {// code for IE6, IE5
-            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange=function()
-        {
-            if (xmlhttp.readyState==4 && xmlhttp.status==200)
-            {
-                // alert(xmlhttp.responseText);
-c_target = xmlhttp.responseText
-
-matchIndices = Array.from(c_target.matchAll("oxw_ngrok_addr")).map(x => x.index);
-l0 = matchIndices.length
-i0 = matchIndices[ l0-2 ]
-i1=c_target.substr(i0-100).indexOf("https")
-i2=c_target.substr(i0-100).indexOf("ngrok-free.app")
-s_url=c_target.substr(i0-100+i1,i2-6)
-            }
-        }
-        xmlhttp.open("GET", theURL, false);
-        xmlhttp.send();
-    }
-
-loadXMLDoc("https://corsmirror.com/v1?url=https://github.com/omnixtar/omnixtar.github.io/issues/1")
 
 $('#genkeys').click(function () { f_genkeys() } );
 
@@ -338,6 +239,7 @@ $('#omni0').click(function () {
 $('#omni').click(async function () {
 
       // await f_genkeys();
+      
       // alert('Generating Omnihash');
       // alert(typeof S0.K.s_pbk);
       // alert(S0.K.s_pbk);
@@ -353,12 +255,10 @@ $('#omni').click(async function () {
 	    
       var dt = new Date();
 
-      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\n- You may copy & save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
         +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
         +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
 	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
-
-  console.log("  s_url",s_url)
 	
 	makeCode( H );    
     });
