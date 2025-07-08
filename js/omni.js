@@ -7,7 +7,7 @@ function include(url) {
 
 // mkeval_l("omnihash")
 // DmII2G1lww==
-var omnihash=function(){
+// var omnihash=function(){
 var cyrb53=function(str, seed = 0){
     let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
     for (let i = 0, ch; i < str.length; i++) {
@@ -42,7 +42,8 @@ var mkeval_l=function(FN){ // *_l means long form before minified
   console.log(bnToB64(cyrb53(FN+"="+j1.s)))
   return FN+"="+j1.s
 }
-}
+
+// }
 
 
 // bnToB64(cyrb53(s0))
@@ -202,7 +203,7 @@ var omnihelp=function(){
   else console.log(arguments[0].toString())
 }
 
-omnihash()
+var omnihash;
 
 var omnilist=[ include, omnihash, cyrb53, bnToB64, mkeval_l, gunzipinit, setctxmenu, phosinit, omnistart, omnihelp ]
 
