@@ -7,8 +7,8 @@ function include(url) {
 
 // mkeval_l("omnihash")
 // DmII2G1lww==
-omnihash=function(){
-cyrb53=function(str, seed = 0){
+var omnihash=function(){
+var cyrb53=function(str, seed = 0){
     let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
     for (let i = 0, ch; i < str.length; i++) {
         ch = str.charCodeAt(i);
@@ -19,7 +19,7 @@ cyrb53=function(str, seed = 0){
     h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
     return 4294967296 * (2097151 & h2) + (h1>>>0);
 }
-bnToB64=function bnToB64(bn){
+var bnToB64=function bnToB64(bn){
   var hex = BigInt(bn).toString(16);
   if (hex.length % 2) { hex = '0' + hex; }
   var bin = [];
@@ -34,7 +34,7 @@ bnToB64=function bnToB64(bn){
   }
   return btoa(bin.join(''));
 }
-mkeval_l=function(FN){ // *_l means long form before minified
+var mkeval_l=function(FN){ // *_l means long form before minified
   var j1={n:FN}
   j1.s=eval(j1.n).toString()
   j1.t=(new Date()).toISOString()
@@ -49,14 +49,14 @@ mkeval_l=function(FN){ // *_l means long form before minified
 // "GD8AiV9ndg==" 
 // mkeval_l("gunzipinit")
 // HXw/kMdxzg==
-gunzipinit=function(){gunzip=e=>{const r=Uint8Array.from(atob(e),(e=>e.charCodeAt(0))),n=new DecompressionStream("gzip"),t=n.writable.getWriter();return t.write(r),t.close(),new Response(n.readable).arrayBuffer().then((function(e){return(new TextDecoder).decode(e)}))},getgzfn_js=async function(s){var s1=await gunzip(s),j3=JSON.parse(s1),j4=JSON.parse(j3.s);return eval(j4.n+"="+j4.s),j3}}
+var gunzipinit=function(){gunzip=e=>{const r=Uint8Array.from(atob(e),(e=>e.charCodeAt(0))),n=new DecompressionStream("gzip"),t=n.writable.getWriter();return t.write(r),t.close(),new Response(n.readable).arrayBuffer().then((function(e){return(new TextDecoder).decode(e)}))},getgzfn_js=async function(s){var s1=await gunzip(s),j3=JSON.parse(s1),j4=JSON.parse(j3.s);return eval(j4.n+"="+j4.s),j3}}
 
 // mkeval_l("setctxmenu")
 // EbM8JXJgtQ== debugger eval code:33:11
-setctxmenu=function(){var e,n;void 0===window.s&&(window.s=[]);var t=window.s;document.addEventListener?document.addEventListener("contextmenu",(function(o){alert("You've tried to open context menu "+o.clientX+" "+o.clientY),e=document.elementFromPoint(o.clientX,o.clientY),t.push(e),n=prompt("tpe "+e.outerHTML),console.log("sp0",n),n.length>0&&(":"==n[n.length-1]?M.F(n):e.innerHTML=n),o.preventDefault()}),!1):document.attachEvent("oncontextmenu",(function(){alert("You've tried to open context menu"),window.event.returnValue=!1}))}
+var setctxmenu=function(){var e,n;void 0===window.s&&(window.s=[]);var t=window.s;document.addEventListener?document.addEventListener("contextmenu",(function(o){alert("You've tried to open context menu "+o.clientX+" "+o.clientY),e=document.elementFromPoint(o.clientX,o.clientY),t.push(e),n=prompt("tpe "+e.outerHTML),console.log("sp0",n),n.length>0&&(":"==n[n.length-1]?M.F(n):e.innerHTML=n),o.preventDefault()}),!1):document.attachEvent("oncontextmenu",(function(){alert("You've tried to open context menu"),window.event.returnValue=!1}))}
 
-phosinit=function(){
-Phos=function(){
+var phosinit=function(){
+var Phos=function(){
     // var S=[] // this is local, not accessible outside
     $ = this // macro
     this.S=[]
@@ -144,15 +144,15 @@ Phos=function(){
         return s.pop();
     }
 }
-M=new Phos()
-f=M.F
-f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
-f_sym=[ f_add ]
-a_sym = [ "+" ]
+var M=new Phos()
+var f=M.F
+var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
+var f_sym=[ f_add ]
+var a_sym = [ "+" ]
 f('a b c : d e f ; g h i d') 
 }
 
-f_id=function(){var a=s.pop();s.pop().setAttribute('id',a)}
+var f_id=function(){var a=s.pop();s.pop().setAttribute('id',a)}
 
 function idlist(){
 	var nodes= document.body.getElementsByTagName('*'),
@@ -189,13 +189,13 @@ var nodes = s.pop()
 	// return A;
 }
 
-omnistart=function(){setctxmenu();phosinit();}
+var omnistart=function(){setctxmenu();phosinit();}
 
 console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.");
 
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
-omnihelp=function(){
+var omnihelp=function(){
   console.log(arguments)
   if (arguments.length==0) console.log("omnihash() to activate hash based code verification functions.\nmkeval_l('function_name') to get hash code of function. Scroll up if function body is too long.\nomnilist shows list of Omni*Shell initialisation functions.");
   else if (arguments[0]=="all") f_all()
@@ -204,7 +204,7 @@ omnihelp=function(){
 
 omnihash()
 
-omnilist=[ include, omnihash, cyrb53, bnToB64, mkeval_l, gunzipinit, setctxmenu, phosinit, omnistart, omnihelp ]
+var omnilist=[ include, omnihash, cyrb53, bnToB64, mkeval_l, gunzipinit, setctxmenu, phosinit, omnistart, omnihelp ]
 
 
 function getAllFunctions(){ 
@@ -217,4 +217,4 @@ function getAllFunctions(){
        return allfunctions
 }
 
-f_all=function(){s.push(getAllFunctions())} 
+var f_all=function(){s.push(getAllFunctions())} 
