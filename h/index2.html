@@ -236,10 +236,11 @@ $('#omni0').click(function () {
 }))
 });
 
+var s_up;
+
 $('#omni').click(async function () {
 
       // await f_genkeys();
-      
       // alert('Generating Omnihash');
       // alert(typeof S0.K.s_pbk);
       // alert(S0.K.s_pbk);
@@ -248,12 +249,15 @@ $('#omni').click(async function () {
       var input = $('#pubkey2').val();
       var crypted = $('#hpbkb').val();
 
-      console.log('bdmhs 2023 12 31 ', S0.K.s_pbk);
+      // console.log('bdmhs 2023 12 31 ', S0.K.s_pbk);
       
       // var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) )
       var H = f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) )
-	    
       var dt = new Date();
+
+      s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()})
+      //  + "\n\n- You may copy & save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+
 
       $('#dmhs').val( JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\n- You may copy & save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
         +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
