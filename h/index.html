@@ -331,7 +331,6 @@ var s_up;
 $('#omni').click(async function () {
 
       // await f_genkeys();
-      
       // alert('Generating Omnihash');
       // alert(typeof S0.K.s_pbk);
       // alert(S0.K.s_pbk);
@@ -353,9 +352,15 @@ $('#omni').click(async function () {
         +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
 	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
 	
-	makeCode( H );    
+	    makeCode( H );    
+
+      z0=await compress(s_up)
+      s_djs=s_url+"/oxm/upline.php?z="+urlenc(z0) 
+
     });
 
+var z0, s_djs;
+function urlenc(s0){return s0.split('+').join('-').split('/').join('_').split('=').join('.')}
 	
 $('#bdmhs').click(function () {
 
