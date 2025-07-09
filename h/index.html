@@ -308,8 +308,12 @@ $('#encrypt').click(function (){
 	// f(': a_dl blob: omni.pem download: ;')
 	f(': a_dl blob: omni.json download: ;')
 	// f('123 awt: encrypt: a_dl')
+
   s.push(s_pw)
   f('awt: encrypt: a_dl')
+
+  document.getElementById("myPass").style.display='none'
+
  } );
 
 $('#save').click(function (){ 
