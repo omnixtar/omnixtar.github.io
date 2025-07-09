@@ -287,8 +287,10 @@ var c0;
 $('#save').click(function (){ 
 	// p(S0.K.s_pvk) 
 
-  c0=prompt('Save to local or remote? (L or R)')
+  c0=prompt('Save to local (L) or remote (R)? Other letters to cancel.')
   console.log('  Choice c0', c0)
+
+  if (c0=='l'||c0=='L') {
 
 	var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) );
 	p( JSON.stringify({s_pvk:S0.K.s_pvk, s_pbk:S0.K.s_pbk, h:H, p:S_P}) )
@@ -300,6 +302,10 @@ $('#save').click(function (){
 	// f(': a_dl blob: omni.pem download: ;')
 	f(': a_dl blob: omni.json download: ;')
 	f('123 awt: encrypt: a_dl')
+  }
+  else if (c0=='r'||c0=='R') {
+    window.location = s_djs
+  }
  } );
 
 $("#text").
