@@ -293,7 +293,7 @@ var c0;
 
 $('#encrypt').click(function (){ 
   
-  console.log('password', document.getElementById('password'))
+  console.log('password', document.getElementById('password').value)
 
   var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) );
 	p( JSON.stringify({s_pvk:S0.K.s_pvk, s_pbk:S0.K.s_pbk, h:H, p:S_P}) )
