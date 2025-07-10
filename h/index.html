@@ -186,11 +186,16 @@ var GA // GET array
 
 if (S_P.indexOf('&')>-1) {
   GA = S_P.split('&')
+  S_P = GA[0]
   for (let k in GA) {
         console.log(`${k}: ${GA[k]}`);
         if (k>0 && GA[k].substr(0,3)=="nn=") break;
     }
   nn = GA[k].split('=')[1]
+}
+else {
+  if (S_P.substr(0,3)=="nn=") nn=S_P.split('=')[1]
+  else S_P = "root" // default parent
 }
 
 function makeCode (s_in) {		
