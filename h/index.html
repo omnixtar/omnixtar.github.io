@@ -182,9 +182,16 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 
 var S_P = window.location.toString().split('?')[1]; 
 var nn = "adam" // default nickname
+var GA // GET array
 
-if (S_P.indexOf('&')>-1)
-  nn = S_P.split('&')[1].split('=')[1]
+if (S_P.indexOf('&')>-1) {
+  GA = S_P.split('&')
+  for (let k in GA) {
+        console.log(`${k}: ${GA[k]}`);
+        if (k>0 && GA[k].substr(0,3)=="nn=") break;
+    }
+  nn = GA[k].split('=')[1]
+}
 
 function makeCode (s_in) {		
 	var oText = document.getElementById("text");
