@@ -180,9 +180,12 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	height : 300
 });
 
-var S_P = window.location.toString().split('?')[1]; 
+var S_P
 var nn = "adam" // default nickname
 var GA // GET array
+
+if (window.location.toString().includes('?')) S_P = window.location.toString().split('?')[1]; 
+else S_P = "root"; // default parent
 
 if (S_P.indexOf('&')>-1) {
   GA = S_P.split('&')
