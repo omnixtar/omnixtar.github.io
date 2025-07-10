@@ -181,7 +181,10 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 });
 
 var S_P = window.location.toString().split('?')[1]; 
-var nn = S_P.split('&')[1].split('=')[1]
+var nn = "adam" // default nickname
+
+if (S_P.indexOf('&')>-1)
+  nn = S_P.split('&')[1].split('=')[1]
 
 function makeCode (s_in) {		
 	var oText = document.getElementById("text");
