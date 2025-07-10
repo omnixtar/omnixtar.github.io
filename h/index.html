@@ -316,7 +316,7 @@ $('#encrypt').click(function (){
   if (s_pw.length<1) s_pw="abc123" // default
 
   var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) );
-	p( JSON.stringify({s_pvk:S0.K.s_pvk, s_pbk:S0.K.s_pbk, h:H, p:S_P}) )
+	p( JSON.stringify({s_pvk:S0.K.s_pvk, s_pbk:S0.K.s_pbk, h:H, p:S_P, nn:nn, t:dt.toISOString()}) )
 
 //	gui_dsc.js:        M.F(': save_auth savekp: ' + get_param.nn + ' AUTH_CSV: ; awt: rsa_oaep: save_auth ');
 //        let ctxScript = '(async () => { K = await f_' + f1 + '("' + VM + '"); return S[S.length-1]; })().then((value) => { console.log(value); M.F("' + f2 + '")  ; } )';
@@ -382,7 +382,7 @@ $('#omni0').click(function () {
 }))
 });
 
-var s_up;
+var s_up, dt;
 
 $('#omni').click(async function () {
 
@@ -399,7 +399,7 @@ $('#omni').click(async function () {
       
       // var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) )
       var H = f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) )   
-      var dt = new Date();
+      dt = new Date();
 
       s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()});
 
