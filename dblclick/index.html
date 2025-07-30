@@ -48,6 +48,33 @@
           clickCount = 0;
         }, 300);
       });
+
+      function onLongPress(element, callback) {
+  let timer;
+
+  element.addEventListener('touchstart', () => { 
+    timer = setTimeout(() => {
+      timer = null;
+      callback();
+    }, 500);
+  });
+
+  function cancel() {
+    clearTimeout(timer);
+  }
+
+  element.addEventListener('touchend', cancel);
+  element.addEventListener('touchmove', cancel);
+}
+
+// And then:
+
+// onLongPress(element, () => {
+onLongPress(document, () => {
+  // console.log('Long pressed', element);
+  alert("Omni*Web onLongPress")
+});
+
     </script>
     <svg
       class="animate__animated"
