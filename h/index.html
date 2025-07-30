@@ -270,6 +270,11 @@ if (typeof get_param.nn==="undefined") get_param.nn = "U_OMNI"
 console.log("omnistart", typeof omnistart)
 console.log("ctx", typeof get_param.ctx)
 
+if (typeof get_param!=="undefined")
+if (typeof get_param.ctx!=="undefined")
+if (typeof omnistart!=="undefined") 
+if (get_param.ctx=="on") omnistart()
+
 // var f_genkeys = async function () {
 async function f_genkeys() 
 {
