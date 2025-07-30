@@ -222,6 +222,8 @@ function parse_query_string(query) {
 
 console.log("parse_query_string", typeof parse_query_string)
 
+if (typeof get_param!=="undefined") console.log("get_param", get_param)
+
 var omnihelp=function(){
   console.log(arguments)
   if (arguments.length==0) console.log("omnihash() to activate hash based code verification functions.\nmkeval_l('function_name') to get hash code of function. Scroll up if function body is too long.\nomnilist shows list of Omni*Shell initialisation functions.");
