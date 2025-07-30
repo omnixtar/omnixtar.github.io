@@ -49,9 +49,9 @@ function onLongPress(element, callback) {
 
 // And then:
 // onLongPress(element, () => {
-onLongPress(document, () => {
+onLongPress(document, (e) => {
   // console.log('Long pressed', element);
-  alert("Omni*Web onLongPress")
+  alert("Omni*Web onLongPress"+e)
 });
 
 </script>
