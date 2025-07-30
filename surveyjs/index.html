@@ -14,6 +14,24 @@
 
     <script src="../js/omni.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+
+    var query = window.location.search.substring(1);
+var get_param = parse_query_string(query);
+if (typeof get_param.nn==="undefined") get_param.nn = "U_OMNI"
+// get_param = { nn: "U_OMNI" } // special user name for Omnihash
+
+console.log("omnistart", typeof omnistart)
+console.log("ctx", typeof get_param.ctx)
+
+if (typeof get_param!=="undefined")
+if (typeof get_param.ctx!=="undefined")
+if (typeof omnistart!=="undefined") 
+if (get_param.ctx=="on") omnistart()
+
+</script>
+
+
     <div id="surveyContainer"></div>
 </body>
 </html>
