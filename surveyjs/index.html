@@ -54,7 +54,7 @@ function onLongPress(element, callback) {
 // onLongPress(element, () => {
 onLongPress(document, () => {
   // console.log('Long pressed', element);
-  var x,y
+  var x,y,e=e_touch
   if(e.type.includes(`touch`)) {
     const { touches, changedTouches } = e.originalEvent ?? e;
     const touch = touches[0] ?? changedTouches[0];
