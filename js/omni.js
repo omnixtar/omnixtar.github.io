@@ -218,7 +218,7 @@ function parse_query_string(query) {
     return query_string;
 }
 
-var query = window.location.search.substring(1);
+// var query = window.location.search.substring(1);
 
 console.log("parse_query_string", typeof parse_query_string)
 
