@@ -196,6 +196,8 @@ console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that ligh
 
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
+console.log("parse_query_string", typeof parse_query_string)
+
 var omnihelp=function(){
   console.log(arguments)
   if (arguments.length==0) console.log("omnihash() to activate hash based code verification functions.\nmkeval_l('function_name') to get hash code of function. Scroll up if function body is too long.\nomnilist shows list of Omni*Shell initialisation functions.");
