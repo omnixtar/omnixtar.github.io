@@ -29,10 +29,13 @@ if (typeof get_param.ctx!=="undefined")
 if (typeof omnistart!=="undefined") 
 if (get_param.ctx=="on") omnistart()
 
+var e_touch
+
 function onLongPress(element, callback) {
   let timer;
 
-  element.addEventListener('touchstart', () => { 
+  element.addEventListener('touchstart', (e) => { 
+    e_touch = e
     timer = setTimeout(() => {
       timer = null;
       callback();
@@ -49,9 +52,9 @@ function onLongPress(element, callback) {
 
 // And then:
 // onLongPress(element, () => {
-onLongPress(document, (e) => {
+onLongPress(document, () => {
   // console.log('Long pressed', element);
-  alert("Omni*Web onLongPress"+e)
+  alert("Omni*Web onLongPress "+e_touch)
 });
 
 </script>
