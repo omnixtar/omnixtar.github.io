@@ -54,7 +54,17 @@ function onLongPress(element, callback) {
 // onLongPress(element, () => {
 onLongPress(document, () => {
   // console.log('Long pressed', element);
-  alert("Omni*Web onLongPress "+e_touch.type)
+  var x,y
+  if(e.type.includes(`touch`)) {
+    const { touches, changedTouches } = e.originalEvent ?? e;
+    const touch = touches[0] ?? changedTouches[0];
+    x = touch.pageX;
+    y = touch.pageY;
+} else if (e.type.includes(`mouse`)) {
+    x = e.clientX;
+    y = e.clientY;
+}
+  alert("Omni*Web onLongPress "+e_touch.type+" "+x+" "+y)
 });
 
 </script>
