@@ -249,3 +249,7 @@ function getAllFunctions(){
 }
 
 var f_all=function(){s.push(getAllFunctions())} 
+
+function f_e(){ M.F(eval(s.pop())) }
+function f_ev(){ s.push(eval(s.pop())) }
+var f_a=function(){alert(s.pop())} 
