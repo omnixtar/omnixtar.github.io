@@ -151,7 +151,7 @@ var f=M.F
 // Global variables
 window.f=M.F
 window.M=M
-window.S0 = S0
+window.S0 = M.S0
 
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
 var f_sym=[ f_add ]
