@@ -148,6 +148,7 @@ var Phos=function(){
 var M=new Phos()
 var f=M.F
 window.f=M.F
+window.M=M
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
 var f_sym=[ f_add ]
 var a_sym = [ "+" ]
