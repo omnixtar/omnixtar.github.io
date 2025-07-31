@@ -50,6 +50,9 @@ function onLongPress(element, callback) {
   element.addEventListener('touchmove', cancel);
 }
 
+// top of stack
+var t=function(){return s[s.length-1]} 
+
 // And then:
 // onLongPress(element, () => {
 onLongPress(document, () => {
@@ -64,7 +67,9 @@ onLongPress(document, () => {
     x = e.clientX;
     y = e.clientY;
 }
-  alert("Omni*Web onLongPress "+e_touch.type+" "+x+" "+y)
+  var sp0 = prompt("Omni*Shell")
+  f(sp0)
+  alert("Omni*Web onLongPress "+e_touch.type+" "+x+" "+y+" "+t())
 });
 
 </script>
