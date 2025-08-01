@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Survey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+    <!-- script src="../js/omni.js" type="text/javascript"></script -->
+    <script src="../h/Phos/libphos.js" type="module"></script>
+    <script type="text/javascript">
+
+var query = window.location.search.substring(1);
+var get_param = parse_query_string(query);
+if (typeof get_param.nn==="undefined") get_param.nn = "U_OMNI"
+// get_param = { nn: "U_OMNI" } // special user name for Omnihash
+
+console.log("omnistart", typeof omnistart)
+console.log("ctx", typeof get_param.ctx)
+
+if (typeof get_param!=="undefined")
+if (typeof get_param.ctx!=="undefined")
+if (typeof omnistart!=="undefined") 
+if (get_param.ctx=="on") omnistart()
+
+var e_touch
+
+function onLongPress(element, callback) {
+  let timer;
+
+  element.addEventListener('touchstart', (e) => { 
+    e_touch = e
+    timer = setTimeout(() => {
+      timer = null;
+      callback();
+    }, 500);
+  });
+
+  function cancel() {
+    clearTimeout(timer);
+  }
+
+  element.addEventListener('touchend', cancel);
+  element.addEventListener('touchmove', cancel);
+}
+
+// top of stack
+var t=function(){return s[s.length-1]} 
+
+// And then:
+// onLongPress(element, () => {
+onLongPress(document, () => {
+  // console.log('Long pressed', element);
+  var x,y,e=e_touch
+  if(e.type.includes(`touch`)) {
+    const { touches, changedTouches } = e.originalEvent ?? e;
+    const touch = touches[0] ?? changedTouches[0];
+    x = touch.pageX;
+    y = touch.pageY;
+} else if (e.type.includes(`mouse`)) {
+    x = e.clientX;
+    y = e.clientY;
+}
+  var sp0 = prompt("Omni*Shell")
+  f(sp0)
+  alert("Omni*Web onLongPress "+e_touch.type+" "+x+" "+y+" "+t())
+});
+
+</script>
+
+
+    <div id="surveyContainer"></div>
+</body>
+</html>
