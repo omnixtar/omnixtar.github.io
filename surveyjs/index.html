@@ -72,6 +72,34 @@ onLongPress(document, () => {
   alert("Omni*Web onLongPress "+e_touch.type+" "+x+" "+y+" "+t())
 });
 
+a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
+// traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
+
+function traverse(e, func) { // b=[]; a.push(b); 
+    
+    // nc+=b64(n); // child indices concatenated as string
+    
+    m++; var n=0; // child index, local copy must have var
+    
+    if (m==1) { /*c.push([999]);*/ d=c[c.length-1]; }
+    if (m>=2) { /*d.push([777]);*/ d=d[d.length-1]; }
+    if (a.length<m) a.push([888]); b=a[m-1]
+	  ca.push(d); 
+    Array.from(e.children).forEach(child => {
+        nc+=b64(n) // not cat n (sibling), should be parent's index
+        b.push([m,n++,child.outerHTML.substr(0,child.outerHTML.indexOf('>')+1)])
+        d.push(b[b.length-1])
+		traverse(child, func) // at end of traverse, if child is not last, next child;
+// if child is last, pop function, m--
+    }); 
+    func(e); m--; // move d
+    ca.pop(); d=ca[ca.length-1];
+		tc.push(nc)
+    nc=nc.substring(0,nc.length-1) // remove last character
+    
+}
+
+
 </script>
 
 
