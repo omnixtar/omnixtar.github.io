@@ -75,6 +75,8 @@ onLongPress(document, () => {
 a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
 // traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
 
+function b64(n){if(n>=0&&n<=9)return n.toString();else if(n>=10&&n<=35)return String.fromCharCode(n+55);else if(n>=36&&n<=61)return String.fromCharCode(n+61)}
+
 function traverse(e, func) { // b=[]; a.push(b); 
     
     // nc+=b64(n); // child indices concatenated as string
