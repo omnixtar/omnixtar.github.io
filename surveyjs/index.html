@@ -75,6 +75,13 @@ onLongPress(document, () => {
 a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
 // traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
 
+pa=[]; get_c=function(c0){L=c0.length; p=c[0]; for(i=0; i<L; i++){
+if(i==0){console.log(c0[i],p,p[c0[i]]);p=p[c0[i]]}
+else{console.log(c0[i],p,p[parseInt(c0[i])+3]);p=p[parseInt(c0[i])+3]}pa.push(p)}
+return c[0]}
+
+// get_c("2000010100010000")
+
 function b64(n){if(n>=0&&n<=9)return n.toString();else if(n>=10&&n<=35)return String.fromCharCode(n+55);else if(n>=36&&n<=61)return String.fromCharCode(n+61)}
 
 function traverse(e, func) { // b=[]; a.push(b); 
