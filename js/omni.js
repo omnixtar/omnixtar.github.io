@@ -257,3 +257,10 @@ var f_all=function(){s.push(getAllFunctions())}
 function f_e(){ M.F(eval(s.pop())) }
 function f_ev(){ s.push(eval(s.pop())) }
 var f_a=function(){alert(s.pop())} 
+
+// must have var for function to make it a proper variable
+// else the scope is local execution
+var f_hide=function(){document.getElementById(s.pop()).style.display='none'}
+
+var f_show=function(){document.getElementById(s.pop()).style.display='block'}
+// must declare function in omni.js? why?

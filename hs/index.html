@@ -506,12 +506,6 @@ function bnToB64(bn) {
 document.getElementById("myPass").style.display='none'
 
 // 20250804 DOM Tree Code
-// must have var for function to make it a proper variable
-// else the scope is local execution
-var f_hide=function(){document.getElementById(s.pop()).style.display='none'}
-
-var f_show=function(){document.getElementById(s.pop()).style.display='block'}
-
 a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
 // traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
 
