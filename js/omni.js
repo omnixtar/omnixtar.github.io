@@ -59,7 +59,7 @@ var setctxmenu=function(){var e,n;void 0===window.s&&(window.s=[]);var t=window.
 var phosinit=function(){
 var Phos=function(){
     // var S=[] // this is local, not accessible outside
-    $ = this // macro
+    var $ = this // macro; 20250804 use var to localise, $ is used by jquery
     this.S=[]
     var S=this.S // still need var S for local code access
     S[0]={}
