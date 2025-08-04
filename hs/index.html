@@ -81,7 +81,6 @@ July 21, 2024
   // https://gist.github.com/asidko/9c7064027039411a11323eaf7d8ea2a4
 // Paste the following example to browser console
 
-
 // Comppreses string to GZIP. Retruns a Promise with Base64 string
 const compress = string => {
     const blobToBase64 = blob => new Promise((resolve, _) => {
@@ -473,7 +472,6 @@ $('#bdmhs').click(function () {
     return 4294967296 * (2097151 & h2) + (h1>>>0);
 };
 
-
 function b64ToBn(b64) {
   var bin = atob(b64);
   var hex = [];
@@ -486,7 +484,6 @@ function b64ToBn(b64) {
 
   return BigInt('0x' + hex.join(''));
 }
-
 
 function bnToB64(bn) {
   var hex = BigInt(bn).toString(16);
@@ -507,6 +504,45 @@ function bnToB64(bn) {
 }
 */
 document.getElementById("myPass").style.display='none'
+
+// 20250804 DOM Tree Code
+a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
+// traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
+
+pa=[]; get_c=function(c0){L=c0.length; p=c[0]; for(i=0; i<L; i++){
+if(i==0){console.log(c0[i],p,p[c0[i]]);p=p[c0[i]]}
+else{console.log(c0[i],p,p[parseInt(c0[i])+3]);p=p[parseInt(c0[i])+3]}pa.push(p)}
+// return c[0]}
+return pa[pa.length-1]}
+
+// get_c("2000010100010000")
+
+function b64(n){if(n>=0&&n<=9)return n.toString();else if(n>=10&&n<=35)return String.fromCharCode(n+55);else if(n>=36&&n<=61)return String.fromCharCode(n+61)}
+
+function traverse(e, func) { // b=[]; a.push(b); 
+    
+    // nc+=b64(n); // child indices concatenated as string
+    
+    m++; var n=0; // child index, local copy must have var
+    
+    if (m==1) { /*c.push([999]);*/ d=c[c.length-1]; }
+    if (m>=2) { /*d.push([777]);*/ d=d[d.length-1]; }
+    if (a.length<m) a.push([888]); b=a[m-1]
+	  ca.push(d); 
+    Array.from(e.children).forEach(child => {
+        nc+=b64(n) // not cat n (sibling), should be parent's index
+        b.push([m,n++,child.outerHTML.substr(0,child.outerHTML.indexOf('>')+1)])
+        d.push(b[b.length-1])
+		traverse(child, func) // at end of traverse, if child is not last, next child;
+// if child is last, pop function, m--
+    }); 
+    func(e); m--; // move d
+    ca.pop(); d=ca[ca.length-1];
+		tc.push(nc)
+    nc=nc.substring(0,nc.length-1) // remove last character
+    
+}
+
 </script>
 
 <!-- ?php
