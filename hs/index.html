@@ -420,8 +420,8 @@ $('#omni').click(async function () {
       var H = f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) )   
       dt = new Date();
 
-      s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:$('#hash4').val()});
-      s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:$('#hash4').val()});
+      // s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:$('#hash4').val()});
+      s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:survey.data});
 
 
 
