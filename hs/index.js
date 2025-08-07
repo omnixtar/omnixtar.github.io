@@ -9,7 +9,8 @@ const surveyJson = {
         name: "LastName",
         title: "Enter your last name:",
         type: "text"
-    }]
+    }],
+    showCompletedPage: false,
 };
 
 const survey = new Survey.Model(surveyJson);
