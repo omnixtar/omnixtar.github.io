@@ -13,9 +13,10 @@ const surveyJson = {
 };
 
 const survey = new Survey.Model(surveyJson);
-
+var s_res
 function alertResults (sender) {
     const results = JSON.stringify(sender.data);
+    s_res = results 
     alert(results);
     // saveSurveyResults(
     //     "https://your-web-service.com/" + SURVEY_ID,
