@@ -423,8 +423,6 @@ $('#omni').click(async function () {
       // s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:$('#hash4').val()});
       s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:survey.data});
 
-
-
       $('#dmhs').val( JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\n- You may copy & save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
         +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
         +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
