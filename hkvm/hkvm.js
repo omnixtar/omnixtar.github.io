@@ -16,9 +16,9 @@ f_t=function(){
             var mz=s1.indexOf(" hkvm: ");
             var ss=atob(s.pop())
             s.push(btoa(ss.substr(0,ss.indexOf(" //m "))))
-            console.log(sb.indexOf(" // m"),s1.substr(ms+4,mz-ms-5)+"=END")
+            console.log("hkvm",sb.indexOf("//m"),s1.substr(ms+4,mz-ms-4)+"=END")
             // s.push(sb);
-            s.push(s1.substr(ms+4,mz-ms-5));
+            s.push(s1.substr(ms+4,mz-ms-4));
             f_hkvm();
         }
         else {
