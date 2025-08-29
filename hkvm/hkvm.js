@@ -9,8 +9,8 @@ f_t=function(){
     // s.push(sb);
     if (sb[sb.length-2]=="hhkv:") f_hhkv();
     else if (sb[sb.length-2]=="hkvm:") {
-        console.log("hkvm")
-        var mm=sb.indexOf(" //m "); // delimiter includes spaces; in value field use "//m" or brackets etc.
+        var mm=sb.indexOf("//m"); // delimiter includes spaces; in value field use "//m" or brackets etc.
+        console.log("hkvm", mm) // search "hkvm" in console
         if (mm>=0) {
             var ms=s1.indexOf(" //m ");
             var mz=s1.indexOf(" hkvm: ");
