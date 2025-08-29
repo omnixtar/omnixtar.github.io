@@ -21,12 +21,17 @@ f_t=function(){
             f_hkvm();
         }
         else {
-
+            var ss=atob(s.pop())
+            s.push(btoa(ss.substr(0,ss.indexOf("hkvm:")-1)))
+            // console.log(sb.indexOf("//m"),s1.substr(ms+4,mz-ms-5)+"END")
+            // s.push("no-mm")
+            s.push("mk_hash")
+            f_hkvm();
         }
     }
 }
 
-
+// Ev3JhSBR-A== H-xchGCVBg== a hello world //m array: HKVM ap: 1 2 3 hkvm: t:
 
 // Duniix: Decentralized "Unix"
 
