@@ -33,6 +33,17 @@ f_t=function(){
 
 // Ev3JhSBR-A== H-xchGCVBg== a hello world //m array: HKVM ap: 1 2 3 hkvm: t:
 
+f_hkvm=function(){
+    var mm=s.pop()
+    var v=s.pop()
+    var k=s.pop()
+    var h2=s.pop()
+    var h1=s.pop()
+    s.push(h1 + ' ' + h2 + ' 2 pick: UDIR bv: 1 pick: r_hf jd: isodt: 0 ri: array: '+ v + ' b64d: ' + k + ' apk: 5 ri: '+ mm +' UDIR rbv: swap: 2 msss: w: s: x:') // remove je:
+    f_a_cdw_p()
+}
+
+
 // Duniix: Decentralized "Unix"
 
 // Back end:  SP + PBK = ciphertext
