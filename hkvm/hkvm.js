@@ -9,13 +9,13 @@ f_t=function(){
     // s.push(sb);
     if (sb[sb.length-2]=="hhkv:") f_hhkv();
     else if (sb[sb.length-2]=="hkvm:") {
-        var mm=sb.indexOf("//m");
+        var mm=sb.indexOf(" //m "); // delimiter includes spaces; in value field use "//m" or brackets etc.
         if (mm>=0) {
-            var ms=s1.indexOf("//m");
-            var mz=s1.indexOf("hkvm:");
+            var ms=s1.indexOf(" //m ");
+            var mz=s1.indexOf(" hkvm: ");
             var ss=atob(s.pop())
-            s.push(btoa(ss.substr(0,ss.indexOf("//m")-1)))
-            console.log(sb.indexOf("//m"),s1.substr(ms+4,mz-ms-5)+"END")
+            s.push(btoa(ss.substr(0,ss.indexOf(" //m "))))
+            console.log(sb.indexOf(" // m"),s1.substr(ms+4,mz-ms-5)+"=END")
             // s.push(sb);
             s.push(s1.substr(ms+4,mz-ms-5));
             f_hkvm();
