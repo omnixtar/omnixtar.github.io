@@ -33,6 +33,10 @@ f_t=function(){
 
 // Ev3JhSBR-A== H-xchGCVBg== a hello world //m array: HKVM ap: 1 2 3 hkvm: t:
 
+// Ev3JhSBR-A== H-xchGCVBg== a hello world //m test-mm hkvm: t:
+
+// Ev3JhSBR-A== H-xchGCVBg== a hello world hkvm: t:
+
 f_hkvm=function(){
     var mm=s.pop()
     var v=s.pop()
