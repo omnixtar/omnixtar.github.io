@@ -1,0 +1,654 @@
+<html>
+  <!--
+Omni* Hash Contract 
+- On the zSeparation of Disclosure and Royalties of the Source Code
+July 21, 2024
+	
+1. You, a human agent of a company or government agency, may read the source code without 
+	making payments to the author or authors, but if you  execute this program on behalf of 
+	your company or agency for commercial purposes, we reserve the rights to claim royalties 
+	from you or your company or agency. 
+2. Your copy of source code shall be attached with at least one Omni* Hash Contract bearing the Omnihash
+	of a Omni* Agent and your own Omnihash, to authorise you the permissions to use or modify said source code, 
+	otherwise you shall pay maximum penalties allowed by a legal court of your jurisdiction,
+	for the damages you have incurred for deploying the source code pertaining to clause (1).
+  -->
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js
+"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <title>My First Survey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/survey-core/survey-core.min.css" type="text/css" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+  <script src="../js/omni.js" type="text/javascript"></script>
+  <script src="./Phos/libphos.js" type="module"></script>
+  <script type="text/javascript" src="./jsencrypt.min.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="qrcode.js"></script>
+  <script type="text/javascript" src="aes.js"></script>
+
+<div id="d0-omni" class="row col-lg-12" style="overflow-y:scroll;">
+
+	<!-- div class="well" -->
+	  
+	<div class="col-lg-6" style="width: 100%;">
+	    <label for="privkey"><h2>Omni* Omnihash</h2></label>
+		<br>
+	     <button id="omni" class="btn btn-primary">Omnihash</button>
+	    <button id="genkeys" class="btn btn-primary">GenKeys</button>
+	    <button id="save" class="btn btn-primary">Save</button>
+      <button id="help" class="btn btn-primary">Help</button>
+      <div id="myPass">
+        Enter encrypt password then press Encrypt button<br>
+        <input name="myPass" id="password" type="password" />
+        <button id="encrypt" class="btn btn-primary">Encypt</button>
+      </div>
+	    <br>Load Keypair 
+  </div>
+
+  <textarea id="text" rows="3" style="width:300px;font-size:18px;"></textarea>
+      <large>
+        <textarea id="dmhs" rows="5" style="width:300px;font-size:14px;"></textarea>
+      </large>
+     	  
+  <div class="col-lg-6" style="width: 50%;">	  
+              <!-- /div -->
+	          	<!-- /div -->
+<!-- input id="text" type="text" value="http://jindo.dev.naver.com/collie" style="width:80%" / -->
+<!-- br / -->
+    <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div> 
+    <p> <br> <br> <br> </p>
+  </div>
+</div>
+
+<script>
+  console.log("hello in 202503 ./_layout / default.html")
+
+  // https://gist.github.com/asidko/9c7064027039411a11323eaf7d8ea2a4
+// Paste the following example to browser console
+
+// Comppreses string to GZIP. Retruns a Promise with Base64 string
+const compress = string => {
+    const blobToBase64 = blob => new Promise((resolve, _) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result.split(',')[1]);
+        reader.readAsDataURL(blob);
+    });
+    const byteArray = new TextEncoder().encode(string);
+    const cs = new CompressionStream('gzip');
+    const writer = cs.writable.getWriter();
+    writer.write(byteArray);
+    writer.close();
+    return new Response(cs.readable).blob().then(blobToBase64);
+};
+
+// Decompresses base64 encoded GZIP string. Retruns a string with original text.
+const decompress = base64string => {
+    const bytes = Uint8Array.from(atob(base64string), c => c.charCodeAt(0));
+    const cs = new DecompressionStream('gzip');
+    const writer = cs.writable.getWriter();
+    writer.write(bytes);
+    writer.close();
+    return new Response(cs.readable).arrayBuffer().then(function (arrayBuffer) {
+        return new TextDecoder().decode(arrayBuffer);
+    });
+}
+
+/////////////////////
+// Checking
+/////////////////////
+Promise.resolve("Hello GZIP!")
+    .then(v => {
+        console.log("Original value: %s", v);
+        return v;
+    })
+    .then(v => compress(v))
+    .then(v => {
+        console.log("Compressed value: %s", v);
+        return v;
+    })
+    .then(v => decompress(v))
+    .then(v => console.log("Decomporessed value: %s", v));
+
+    XU={}; XU.h="user_hash"
+f_like=function(){var date = new Date();
+s.push(["like",XU.h,window.location,date.toISOString()])} 
+</script>
+
+<script type="text/javascript">
+  
+  var c_target, matchIndices, s_url;
+  function loadXMLDoc(theURL)
+    {
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari, SeaMonkey
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                // alert(xmlhttp.responseText);
+c_target = xmlhttp.responseText
+
+matchIndices = Array.from(c_target.matchAll("oxw_ngrok_addr")).map(x => x.index);
+l0 = matchIndices.length
+i0 = matchIndices[ l0-2 ]
+i1=c_target.substr(i0-100).indexOf("https")
+i2=c_target.substr(i0-100).indexOf("ngrok-free.app")
+s_url=c_target.substr(i0-100+i1,i2-6)
+            }
+        }
+        xmlhttp.open("GET", theURL, false);
+        xmlhttp.send();
+    }
+
+loadXMLDoc("https://corsmirror.com/v1?url=https://github.com/omnixtar/omnixtar.github.io/issues/1")
+
+/*
+function fgl_path() // path safe b64
+{
+  global $S;
+  $a = array_pop($S);
+  // echo '  in path: '.$a." ".strpos($a, '/')."\n";
+  if (strpos($a, '/')>=0) { $a = str_replace('/', '_', $a); } // echo $a; }
+  if (strpos($a, '+')>=0) $a = str_replace('+', '-', $a);
+  $S[]=$a;
+}
+
+atob(data.replace(/_/g, '/').replace(/-/g, '+'))
+*/
+
+function f_path(data)
+{
+	// return (data.replace(/_/g, '/').replace(/-/g, '+'))
+  // return (data.replace(/\//g,'_').replace(/+/g, '-'))
+  return data.split("/").join("_").split("+").join("-")
+}
+	
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+	width : 300,
+	height : 300
+});
+
+var S_P
+var nn = "adam" // default nickname
+var GA // GET array
+
+if (window.location.toString().includes('?')) S_P = window.location.toString().split('?')[1]; 
+else S_P = "root"; // default parent
+
+if (S_P.indexOf('&')>-1) {
+  GA = S_P.split('&')
+  S_P = GA[0]
+  var k
+  for (k in GA) {
+        console.log(`${k}: ${GA[k]}`);
+        if (k>0 && GA[k].substr(0,3)=="nn=") break;
+    }
+  nn = GA[k].split('=')[1]
+}
+else {
+  if (S_P.substr(0,3)=="nn=") nn=S_P.split('=')[1]
+  else S_P = "root" // default parent
+}
+
+function makeCode (s_in) {		
+	var oText = document.getElementById("text");
+	var elText = document.getElementById("dmhs");
+	
+	if (!elText.value) {
+		alert("Input a text");
+		elText.focus();
+		return;
+	}
+	
+	// qrcode.makeCode(elText.value);
+	
+	// s_in = "https://localhost/h?" + s_in;
+	
+	// 20231231 combine window.location with HPBKA to generate new hash
+	// window.location is parent hash
+	
+	console.log(window.location.toString().split('?')[1])
+	
+	var P = window.location.toString().split('?')[1]; 
+	
+	J = { p: window.location.toString().split('?')[1], h: s_in }
+	
+	console.log( bnToB64(cyrb53( JSON.stringify(J) )))
+	
+	oText.value = "Your Hash is "+ s_in + "\nYour Parent Hash is "+ S_P + "\nYou have 0 downlines.\nInvite downlines with "+"";
+	
+	// s_in = bnToB64(cyrb53( JSON.stringify(J) ))
+	// s_in = "http://192.168.237.80/h?" + s_in;
+	// s_in = "https://abf1-121-123-207-197.ngrok-free.app/h?" + s_in
+  // s_in = "https://godmeta.github.io/h/?" + s_in
+	// oText.value = s_in;
+	// 20231231 save pvk ?
+
+	s_in = "https://omnixtar.github.io/h/?" + s_in
+	qrcode.makeCode(s_in);
+}
+
+function parse_query_string(query) {
+    var vars = query.split('&');
+    var query_string = {};
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        var key = decodeURIComponent(pair[0]);
+        var value = decodeURIComponent(pair[1]);
+        if (typeof query_string[key] === 'undefined') {
+            query_string[key] = decodeURIComponent(value);
+        } else if (typeof query_string[key] === 'string') {
+            var arr = [
+                query_string[key],
+                decodeURIComponent(value)
+            ];
+            query_string[key] = arr;
+        } else {
+            query_string[key].push(decodeURIComponent(value));
+        }
+    }
+    return query_string;
+}
+
+var query = window.location.search.substring(1);
+var get_param = parse_query_string(query);
+if (typeof get_param.nn==="undefined") get_param.nn = "U_OMNI"
+// get_param = { nn: "U_OMNI" } // special user name for Omnihash
+
+console.log("omnistart", typeof omnistart)
+console.log("ctx", typeof get_param.ctx)
+
+if (typeof get_param!=="undefined")
+if (typeof get_param.ctx!=="undefined")
+if (typeof omnistart!=="undefined") 
+if (get_param.ctx=="on") omnistart()
+
+// var f_genkeys = async function () {
+async function f_genkeys() 
+{
+    console.log('f_genkeys');
+    var S0 = M.S[0];
+    
+    // var get_param = parse_query_string(query);
+    // 20230602
+    // After GenKeys button is clicked, check dialogue box for text – must have filename for pem file, and optional password, or Phoscript expression, else execute default generate keys.
+    
+    // if S0.K is already loaded, just run AUTH_CSV: no need savekp:
+    if (typeof S0.K !== 'object') {
+        M.F(': save_auth savekp: ' + get_param.nn + ' AUTH_CSV: ; awt: rsa_oaep: save_auth ');
+        console.log('after rsa_oaep:', M.S);
+    } else {
+        M.S.push(S0.K.s_pbk); // 20230616 need s_pbk somehow!! for back end!!
+        M.S.push(S0.K.pair);
+        M.F(get_param.nn + ' AUTH_CSV:');
+    }
+};
+
+// f_genkeys();
+makeCode();
+
+$('#genkeys').click(function () { f_genkeys() } );
+
+// $('#load').click(function () { f_genkeys() } );
+// f('load load:') // bind button id="load"
+
+function r_load(id) {
+    var M = window.M;
+    var L = document.getElementById(id);
+    
+    // L.addEventListener('change', function () {
+    L.onclick = function(){
+        var fr = new FileReader();
+        fr.onload = function(){
+            M.S.push(fr.result);
+        };
+        // fr.readAsText(this.files[0]);
+    };
+}
+
+// r_load("load");
+var c0;
+
+$('#encrypt').click(function (){ 
+  var s_pw = document.getElementById('password').value
+  console.log('password', s_pw)
+
+  if (s_pw.length<1) s_pw="abc123" // default
+
+  var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) );
+	p( JSON.stringify({s_pvk:S0.K.s_pvk, s_pbk:S0.K.s_pbk, h:H, p:S_P, nn:nn, t:dt.toISOString()}) )
+
+//	gui_dsc.js:        M.F(': save_auth savekp: ' + get_param.nn + ' AUTH_CSV: ; awt: rsa_oaep: save_auth ');
+//        let ctxScript = '(async () => { K = await f_' + f1 + '("' + VM + '"); return S[S.length-1]; })().then((value) => { console.log(value); M.F("' + f2 + '")  ; } )';
+
+	// f(': a_ecn 123 encrypt: ;')
+	// f(': a_dl blob: omni.pem download: ;')
+	f(': a_dl blob: omni-'+nn+'.json download: ;')
+	// f('123 awt: encrypt: a_dl')
+
+  s.push(s_pw)
+  f('awt: encrypt: a_dl')
+
+  document.getElementById("myPass").style.display='none'
+
+ } );
+
+$('#save').click(function (){ 
+	// p(S0.K.s_pvk) 
+
+  c0=prompt('Save to local (L) or remote (R)? Other letters to cancel.')
+  console.log('  Choice c0', c0)
+
+  if (c0=='l'||c0=='L') {
+    document.getElementById("myPass").style.display='block'
+
+	  }
+  else if (c0=='r'||c0=='R') {
+    window.location = s_djs
+  }
+ } );
+
+$('#help').click(function (){ 
+    window.location = "https://omnixtar.github.io/h/help"
+ } );
+
+
+$("#text").
+	on("blur", function () {
+		makeCode();
+	}).
+	on("keydown", function (e) {
+		if (e.keyCode == 13) {
+			makeCode();
+		}
+	});
+
+$('#omni0').click(function () {
+
+;(function(next) {
+	
+	f_genkeys(); // generate key pair when page loads
+	
+	for(let i=0; i<10; i++) {
+		console.log('first', i)
+	}
+  next()
+}(function() {
+	for(let i=0; i<10; i++) {
+		console.log('next', i)
+	}
+	
+	console.log( S0.K.s_pbk )
+}))
+});
+
+var s_up, dt;
+
+$('#omni').click(async function () {
+
+      // await f_genkeys();
+      // alert('Generating Omnihash');
+      // alert(typeof S0.K.s_pbk);
+      // alert(S0.K.s_pbk);
+      
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+      console.log('bdmhs 2023 12 31 ', S0.K.s_pbk);
+      
+      // var H = bnToB64( cyrb53( btoa(S0.K.s_pbk) ) )
+      var H = f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) )   
+      dt = new Date();
+
+      // s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:$('#hash4').val()});
+      s_up=JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,nn:nn,t:dt.toISOString(),r:survey.data});
+
+      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),x:"REG",p:S_P,h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\n- You may copy & save this DJSON Decentralised JSON ..." + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+        +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
+        +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
+	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
+	
+	    makeCode( H );    
+
+      z0=await compress(s_up)
+      s_djs=s_url+"/oxm/upline.php?z="+urlenc(z0) 
+
+    });
+
+var z0, s_djs;
+function urlenc(s0){return s0.split('+').join('-').split('/').join('_').split('=').join('.')}
+	
+$('#bdmhs').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+      console.log('bdmhs 2023 12 31 ', S0.K.s_pbk);
+      
+      var H = bnToB64( cyrb53( S0.K.s_pbk ) )
+	    
+      var dt = new Date();
+
+      $('#dmhs').val( JSON.stringify({c:$('#input2').val(),h:H,t:dt.toISOString(),r:$('#hash4').val()}) + "\n\nOn this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+        +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
+        +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
+	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
+	
+	makeCode( H );    
+    });
+    
+  /*
+   const cyrb53 = function(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1>>>0);
+};
+
+function b64ToBn(b64) {
+  var bin = atob(b64);
+  var hex = [];
+
+  bin.split('').forEach(function (ch) {
+    var h = ch.charCodeAt(0).toString(16);
+    if (h.length % 2) { h = '0' + h; }
+    hex.push(h);
+  });
+
+  return BigInt('0x' + hex.join(''));
+}
+
+function bnToB64(bn) {
+  var hex = BigInt(bn).toString(16);
+  if (hex.length % 2) { hex = '0' + hex; }
+
+  var bin = [];
+  var i = 0;
+  var d;
+  var b;
+  while (i < hex.length) {
+    d = parseInt(hex.slice(i, i + 2), 16);
+    b = String.fromCharCode(d);
+    bin.push(b);
+    i += 2;
+  }
+
+  return btoa(bin.join(''));
+}
+*/
+document.getElementById("myPass").style.display='none'
+
+// 20250804 DOM Tree Code
+a=[]; b=[]; c=[[]]; d=[]; ca=[]; tc=[]; m=0; n=0; nc=""; 
+// traverse(document.body, (e) => {console.log(JSON.stringify(ca[ca.length-1]))})
+
+pa=[]; get_c=function(c0){L=c0.length; p=c[0]; for(i=0; i<L; i++){
+if(i==0){console.log(c0[i],p,p[c0[i]]);p=p[c0[i]]}
+else{console.log(c0[i],p,p[parseInt(c0[i])+3]);p=p[parseInt(c0[i])+3]}pa.push(p)}
+// return c[0]}
+return pa[pa.length-1]}
+
+// get_c("2000010100010000")
+
+function b64(n){if(n>=0&&n<=9)return n.toString();else if(n>=10&&n<=35)return String.fromCharCode(n+55);else if(n>=36&&n<=61)return String.fromCharCode(n+61)}
+
+function traverse(e, func) { // b=[]; a.push(b); 
+    
+    // nc+=b64(n); // child indices concatenated as string
+    
+    m++; var n=0; // child index, local copy must have var
+    
+    if (m==1) { /*c.push([999]);*/ d=c[c.length-1]; }
+    if (m>=2) { /*d.push([777]);*/ d=d[d.length-1]; }
+    if (a.length<m) a.push([888]); b=a[m-1]
+	  ca.push(d); 
+    Array.from(e.children).forEach(child => {
+        nc+=b64(n) // not cat n (sibling), should be parent's index
+        b.push([m,n++,child.outerHTML.substr(0,child.outerHTML.indexOf('>')+1)])
+        d.push(b[b.length-1])
+		traverse(child, func) // at end of traverse, if child is not last, next child;
+// if child is last, pop function, m--
+    }); 
+    func(e); m--; // move d
+    ca.pop(); d=ca[ca.length-1];
+		tc.push(nc)
+    nc=nc.substring(0,nc.length-1) // remove last character
+    
+}
+
+</script>
+
+<!-- ?php
+
+if ( isset($_GET['r']) ) echo $_GET['r'];
+
+? -->
+
+<script type="module">
+
+// alert('hello '+ typeof location.search);
+// alert((location.search.length));
+
+if ( location.search.length > 0 ) p();
+
+function p()
+{
+// Add Phos comment box to DOM
+var S=[]
+S.push(document.createElement('form'))      // S[0]
+S.push(document.createElement('textarea'))  // S[1]
+S.push(document.createElement('div'))       // S[2]
+S.push(document.createElement('button'))    // S[3]
+S.push(document.createTextNode('PHOS'))     // S[4]
+
+window.S[0].dlb['PHOS'] = S;
+
+var style = document.createElement('style');
+style.innerHTML = 'body {font-family: Arial, Helvetica, sans-serif;} * {box-sizing: border-box;} /* The popup chat - hidden by default */ .chat-popup {  display: none;  position: fixed;  bottom: 0;  right: 15px;  border: 3px solid #f1f1f1;  z-index: 9;} .open-button {  background-color: #555;  color: white;  padding: 16px 20px;  border: none;  cursor: pointer;  opacity: 0.8;  position: fixed;  bottom: 23px;  right: 28px;  width: 280px;}  .form-container {  max-width: 300px;  padding: 10px;  background-color: white; } .form-container textarea {  width: 100%;  padding: 15px;  margin: 5px 0 22px 0;  border: none;  background: #f1f1f1;  resize: none;  min-height: 200px; }　.form-container .btn {  background-color: #4CAF50;  color: white;  padding: 16px 20px;  border: none;  cursor: pointer;  width: 100%;  margin-bottom:10px;  opacity: 0.8;　}'
+// Get the first script tag
+var ref = document.querySelector('body');
+// Insert our new styles before the first script tag
+ref.parentNode.insertBefore(style, ref);
+ref.append(S[2])    // div
+S[2].append(S[0])   // form
+S[0].append(S[3])   // button
+S[3].append(S[4])   // PHOS
+S[2].className='chat-popup'
+// "chat-popup"
+S[2].style.display='block'
+S[0].append(S[1])   // form textarea
+S[0].className='form-container'
+S[1].className='form-container textarea'
+// "form-container textarea"
+S[3].className='form-container btn'
+S[3].style.backgroundColor='red'
+S[3].onclick=function(){alert( S[1].value ); M.F(S[1].value); }
+S[0].style.backgroundColor='grey'
+window.onbeforeunload = function(){ return 'Reload?';} // prevent page reload
+}
+
+function include(url) {
+  var s = document.createElement("script");
+  s.setAttribute("type", "text/javascript");
+  s.setAttribute("src", url);
+  document.body.appendChild(s);
+}
+
+include("./Phos/gui_dsc.js");
+include("./init.js");
+
+f_genkeys();
+
+// f('body getn: 0 i:')
+f('div getn: 1 i:')
+f('pem file:')
+f('pem load:')
+
+// document.getElementsByTagName('div')[1].append(S[5]);
+
+function waitUntilElementPresent(cssLocator, timeoutInSeconds) {
+    var currentTime = new Date().getTime();
+    var endTime = currentTime + timeoutInSeconds * 1000;
+    var checkExist = setInterval(function () {
+        if (document.querySelectorAll(cssLocator).length) {  console.log(document.querySelectorAll(cssLocator))
+            clearInterval(checkExist);
+            document.querySelectorAll(cssLocator)[0].style.display='none'
+            document.querySelectorAll(cssLocator)[1].style.display='none'
+	    document.querySelectorAll(cssLocator)[2].style.display='none'
+            return;
+        } else if (endTime < new Date().getTime()) {
+            clearInterval(checkExist);
+            console.log('not found in specified time.');
+            return;
+        } else {
+            console.log('waiting for element to be present…');
+        } 
+    }, 100); 
+}
+waitUntilElementPresent('div.chat-popup',5)
+
+
+</script>
+
+<!--
+<?php
+if ( isset($_GET['nn']) ) echo $_GET['nn'];
+echo "<script>console.log('2021 02 21'); ". file_get_contents("init.js") ."</script>";
+?>
+<script src="init.js"></script>
+-->
+
+    <div id="surveyContainer"></div>
+
+</body>
+
+
+
+</html>
+
