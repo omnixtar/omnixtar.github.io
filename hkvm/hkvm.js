@@ -48,6 +48,7 @@ f_hkvm=function(){
     f_a_cdw_p()
 }
 
+// 4 ri: put start hash in DJSON
 
 // Duniix: Decentralized "Unix"
 
