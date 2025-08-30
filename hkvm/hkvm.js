@@ -51,6 +51,28 @@ f_hkvm=function(){
 // 4 ri: put start hash in DJSON
 // X_COMMENT 3 ri: replaces Recipient
 
+// drag elements
+const pointerDrag = (el) => {
+
+  const move = (ev) => {
+    el.style.left = `${el.offsetLeft + ev.movementX}px`
+    el.style.top = `${el.offsetTop + ev.movementY}px`
+  };
+  
+  const dragStart = (ev) => el.setPointerCapture(ev.pointerId);
+  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && move(ev);
+  const noDefault = (ev) => ev.preventDefault();
+  
+  el.addEventListener("pointerdown", dragStart);
+  el.addEventListener("pointermove", drag);
+  el.addEventListener("touchstart", noDefault); // Instead of CSS touch-action: none;
+};
+document.querySelectorAll("div").forEach(pointerDrag);
+
+f("OMNI dlb:") // dialogue box with button OMNI
+S[12][1].value="yes" // textarea
+
+
 // Duniix: Decentralized "Unix"
 
 // Back end:  SP + PBK = ciphertext
