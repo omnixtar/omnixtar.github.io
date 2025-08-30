@@ -44,7 +44,7 @@ f_hkvm=function(){
     var k=s.pop()
     var h2=s.pop()
     var h1=s.pop()
-    s.push(h1 + ' ' + h2 + ' 2 pick: UDIR bv: 1 pick: r_hf jd: isodt: 0 ri: array: '+ v + ' b64d: ' + k + ' apk: 5 ri: '+ mm +' s: x:') // remove je:
+    s.push(h1 + ' ' + h2 + ' 2 pick: UDIR bv: 1 pick: r_hf jd: isodt: 0 ri: array: '+ v + ' b64d: ' + k + ' apk: 5 ri: swap: 4 ri: '+ mm +' s: x:') // remove je:
     f_a_cdw_p()
 }
 
