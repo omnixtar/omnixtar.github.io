@@ -75,6 +75,8 @@ S[12][1].value="yes" // textarea
 // load iframe
 var iframe = document.createElement('iframe');
 iframe.onload = function() { alert('myframe is loaded'); };
+iframe.src="reddit.html"
+document.body.appendChild(iframe); // add it to wherever you need it in the document
 
 // Duniix: Decentralized "Unix"
 
