@@ -72,6 +72,9 @@ document.querySelectorAll("div").forEach(pointerDrag);
 f("OMNI dlb:") // dialogue box with button OMNI
 S[12][1].value="yes" // textarea
 
+// load iframe
+var iframe = document.createElement('iframe');
+iframe.onload = function() { alert('myframe is loaded'); };
 
 // Duniix: Decentralized "Unix"
 
