@@ -1,96 +1,99 @@
-f_t=function(){
-    var s1=S[2][1].value; var sa=tok(s1," ");
-    s.push(sa[0])
-    sa=tok(sa[1]," "); s.push(sa[0]);
-    sa=tok(sa[1]," "); s.push(sa[0]);
-    // s.push(sa[1]);
-    var sb=s1.split(" ");
-    s.push(btoa(sa[1])); // escape space delimiter
-    // s.push(sb);
-    if (sb[sb.length-2]=="hhkv:") f_hhkv();
-    else if (sb[sb.length-2]=="hkvm:") {
-        var mm=sb.indexOf("//m"); // delimiter includes spaces; in value field use "//m" or brackets etc.
-        console.log("hkvm", mm) // search "hkvm" in console
-        if (mm>=0) {
-            var ms=s1.indexOf(" //m ");
-            var mz=s1.indexOf(" hkvm: ");
-            var ss=atob(s.pop())
-            s.push(btoa(ss.substr(0,ss.indexOf(" //m "))))
-            console.log("hkvm",sb.indexOf("//m"),s1.substr(ms+4,mz-ms-4)+"=END")
-            // s.push(sb);
-            s.push(s1.substr(ms+4,mz-ms-4));
-            f_hkvm();
-        }
-        else {
-            var ss=atob(s.pop())
-            s.push(btoa(ss.substr(0,ss.indexOf("hkvm:")-1)))
-            // console.log(sb.indexOf("//m"),s1.substr(ms+4,mz-ms-5)+"END")
-            // s.push("no-mm")
-            s.push("mk_hash UDIR rbv: swap: 2 msss: w:")
-            f_hkvm();
-        }
-    }
+Element.prototype.drag = function( $s ){
+
+	var remove = document.removeEventListener;
+	var add    = document.addEventListener;
+
+	var docMouseMove = function(e){
+		
+		this.style.left = (e.clientX-this.offsetX)+'px';
+		this.style.top  = (e.clientY-this.offsetY)+'px';
+
+		if($s.onDrag) $s.onDrag.call(this,e);
+		
+    this.$h = null;
+    
+    var bc = this.getBoundingClientRect();
+    var c = {x:bc.left+(bc.width/2),y:bc.top+(bc.height/2)};
+    
+    this.classList.add('draggable-hide');
+    
+    var el = document.elementFromPoint(c.x,c.y);
+        
+    if(el && el.isDroppable) this.$h = el;
+    
+    if(this.$h && this.$h.onHover) this.$h.onHover.call(this.$h,this,e);
+    
+    this.classList.remove('draggable-hide');
+    
+	}.bind(this);
+
+	var docMouseUp = function(e){
+    
+		remove('mousemove',docMouseMove);
+		remove('mouseup',docMouseUp);
+    
+		document.body.classList.remove('draggable-move');
+    
+		if(this.$h && this.$h.onDrop) this.$h.onDrop.call(this.$h,this,e);
+		if($s.onStop) $s.onStop.call(this,e);
+    
+	}.bind(this);
+
+	this.addEventListener('mousedown',function(e){
+    
+		this.offsetX = e.offsetX;
+		this.offsetY = e.offsetY;
+    
+		this.classList.add('draggable');
+    
+		document.body.classList.add('draggable-move');
+    
+		add('mousemove',docMouseMove);
+		add('mouseup',docMouseUp);
+    
+		if($s.onStart) $s.onStart.call(this,e);
+    
+	}.bind(this));
+
 }
 
-// Ev3JhSBR-A== H-xchGCVBg== a hello world //m array: HKVM ap: 1 2 3 hkvm: t:
+Element.prototype.drop = function($s){
+  
+  this.isDroppable = true;
 
-// Ev3JhSBR-A== H-xchGCVBg== a hello world //m test-mm hkvm: t:
+	this.onHover = $s.onHover;
+	this.onDrop  = $s.onDrop;
 
-// Ev3JhSBR-A== H-xchGCVBg== a hello world hkvm: t:
-
-f_hkvm=function(){
-    var mm=s.pop()
-    var v=s.pop()
-    var k=s.pop()
-    var h2=s.pop()
-    var h1=s.pop()
-    s.push(h1 + ' ' + h2 + ' 2 pick: UDIR bv: 1 pick: r_hf jd: isodt: 0 ri: array: '+ v + ' b64d: ' + k + ' apk: 5 ri: swap: 4 ri: X_COMMENT 3 ri: '+ mm +' s: x:') // remove je:
-    f_a_cdw_p()
 }
 
-// 4 ri: put start hash in DJSON
-// X_COMMENT 3 ri: replaces Recipient
+dragItem.drag({
+  onStart : function(event){
+    this.innerHTML = 'onStop Event...'
+  },
+  onDrag : function(event){
+    this.innerHTML = 'onDrag Event...'
+  },
+  onStop : function(event){
+    this.innerHTML = 'onStop Event...'
+  }
+});
 
-// drag elements
-const pointerDrag = (el) => {
+dropItem.drop({
+  onDrop : function( item, event ){
+    this.innerHTML = 'onDrop Event...';
+  },
+  onHover : function( item, event ){
+    this.innerHTML = 'being Hovered';
+  }
+});
 
-  const move = (ev) => {
-    el.style.left = `${el.offsetLeft + ev.movementX}px`
-    el.style.top = `${el.offsetTop + ev.movementY}px`
-  };
-  
-  const dragStart = (ev) => el.setPointerCapture(ev.pointerId);
-  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && move(ev);
-  const noDefault = (ev) => ev.preventDefault();
-  
-  el.addEventListener("pointerdown", dragStart);
-  el.addEventListener("pointermove", drag);
-  el.addEventListener("touchstart", noDefault); // Instead of CSS touch-action: none;
-};
-document.querySelectorAll("div").forEach(pointerDrag);
+// https://stackoverflow.com/questions/7790725/javascript-track-mouse-position
+onclick = function(e){console.log("click:", e.clientX, e.clientY)}
+onmouseup = function(e){console.log("mouse up:", e.clientX, e.clientY)}
+onmousedown = function(e){console.log("mouse down:", e.clientX, e.clientY)}
+onmousemove = function(e){console.log("mouse location:", e.clientX, e.clientY)}
 
-f("OMNI dlb:") // dialogue box with button OMNI
-S[12][1].value="yes" // textarea
 
-// load iframe
-var iframe = document.createElement('iframe');
-iframe.onload = function() { alert('myframe is loaded'); };
-iframe.src="reddit.html"
-document.body.appendChild(iframe); // add it to wherever you need it in the document
-
-window.document.getElementsByTagName("iframe")[1].setAttribute("height","400px") 
-window.document.getElementsByTagName("iframe")[0].setAttribute("width","500px")
-
-f("VIDEO dlb:") // Use Inspect element to set variable, then append
-document.querySelectorAll("div").forEach(pointerDrag);
-temp2.append(document.createElement("video"))
-
-f("OMNI dlb:")
-temp0.append(iframe)
-
-document.body.appendChild(iframe); 
-
-<video width="300" autoplay="autoplay" controls="true" src="web/kikie.mp4"></video>
 
 
 // Duniix: Decentralized "Unix"
