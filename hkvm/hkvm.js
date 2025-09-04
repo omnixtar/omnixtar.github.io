@@ -90,6 +90,9 @@ temp0.append(iframe)
 
 document.body.appendChild(iframe); 
 
+<video width="300" autoplay="autoplay" controls="true" src="web/kikie.mp4"></video>
+
+
 // Duniix: Decentralized "Unix"
 
 // Back end:  SP + PBK = ciphertext
