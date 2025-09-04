@@ -81,6 +81,9 @@ document.body.appendChild(iframe); // add it to wherever you need it in the docu
 window.document.getElementsByTagName("iframe")[1].setAttribute("height","400px") 
 
 
+f("VIDEO dlb:") // Use Inspect element to set variable, then append
+document.querySelectorAll("div").forEach(pointerDrag);
+temp2.append(document.createElement("video"))
 
 // Duniix: Decentralized "Unix"
 
