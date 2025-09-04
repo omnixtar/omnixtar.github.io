@@ -78,6 +78,10 @@ iframe.onload = function() { alert('myframe is loaded'); };
 iframe.src="reddit.html"
 document.body.appendChild(iframe); // add it to wherever you need it in the document
 
+window.document.getElementsByTagName("iframe")[1].setAttribute("height","400px") 
+
+
+
 // Duniix: Decentralized "Unix"
 
 // Back end:  SP + PBK = ciphertext
