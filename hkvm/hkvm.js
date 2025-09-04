@@ -92,6 +92,25 @@ document.body.appendChild(iframe);
 
 <video width="300" autoplay="autoplay" controls="true" src="web/kikie.mp4"></video>
 
+// Omni*Web mod if dx,dy<T onclick()
+const pointerDrag = (el) => {
+
+  const move = (ev) => {
+    el.style.left = `${el.offsetLeft + ev.movementX}px`
+    el.style.top = `${el.offsetTop + ev.movementY}px`
+  };
+  
+  const dragStart = (ev) => el.setPointerCapture(ev.pointerId);
+  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && move(ev);
+  const noDefault = (ev) => ev.preventDefault();
+  
+  el.addEventListener("pointerdown", dragStart);
+  el.addEventListener("pointermove", drag);
+  el.addEventListener("touchstart", noDefault); // Instead of CSS touch-action: none;
+};
+document.querySelectorAll("div").forEach(pointerDrag);
+
+
 
 // Duniix: Decentralized "Unix"
 
