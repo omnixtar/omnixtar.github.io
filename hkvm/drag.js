@@ -1,3 +1,22 @@
+pointerDrag = (el) => {
+
+  const move = (ev) => {
+    el.style.left = `${el.offsetLeft + ev.movementX}px`
+    el.style.top = `${el.offsetTop + ev.movementY}px`
+console.log(ev.pointerId, el.hasPointerCapture(ev.pointerId),el.offsetTop,ev.clientY,"t=0919")
+  };
+  
+  const dragStart = (ev) => el.setPointerCapture(ev.pointerId);
+  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && ((ev.clientY-el.offsetTop)<100) && move(ev);
+  const noDefault = (ev) => ev.preventDefault();
+  
+  el.addEventListener("pointerdown", dragStart);
+  el.addEventListener("pointermove", drag);
+  el.addEventListener("pointerup", (el)=>{console.log("up",el,el.pointerId);document.elementFromPoint(el.clientX,el.clientY).onclick()});
+  el.addEventListener("touchstart", noDefault); // Instead of CSS touch-action: none;
+};
+document.querySelectorAll("div").forEach(pointerDrag); // need this every time. so must reload page?
+
 Element.prototype.drag = function( $s ){
 
 	var remove = document.removeEventListener;
