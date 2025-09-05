@@ -17,6 +17,40 @@ console.log(ev.pointerId, el.hasPointerCapture(ev.pointerId),el.offsetTop,ev.cli
 };
 document.querySelectorAll("div").forEach(pointerDrag); // need this every time. so must reload page?
 
+---
+// conditional dragStart
+const pointerDrag = (el) => {
+
+  const move = (ev) => {
+    el.style.left = `${el.offsetLeft + ev.movementX}px`
+    el.style.top = `${el.offsetTop + ev.movementY}px`
+  };
+  
+  const dragStart = (ev) => {
+    if (ev.target.closest("button, input, textarea, [contenteditable]")) return;
+    el.setPointerCapture(ev.pointerId);
+  };
+  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && move(ev);
+  const dragEnd   = (ev) => el.releasePointerCapture(ev.pointerId);
+  
+  el.addEventListener("pointerdown", dragStart);
+  el.addEventListener("pointermove", drag);
+  el.addEventListener("pointerup", dragEnd);
+};
+
+// Use like:
+document.querySelectorAll(".box").forEach(pointerDrag);
+
+// TEST BUTTON CLICK
+document.querySelector("#test").addEventListener("click", () => {
+  console.log("Works!")
+});
+
+
+
+
+---
+
 Element.prototype.drag = function( $s ){
 
 	var remove = document.removeEventListener;
