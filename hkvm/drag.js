@@ -56,6 +56,18 @@ console.log(document.elementFromPoint(el.clientX,el.clientY))
 s.push(event)
 }
 
+f_ifre=function(){ifre(s.pop())}
+
+function ifre(iframe){ // capture iframe element on click
+var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+if (typeof iframeDoc.addEventListener != "undefined") {
+    iframeDoc.addEventListener("click", iframeClickHandler, false);
+} else if (typeof iframeDoc.attachEvent != "undefined") {
+    iframeDoc.attachEvent ("onclick", iframeClickHandler);
+}
+}
+
 // var iframe = document.getElementById("myIframe");
 var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
 
