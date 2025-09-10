@@ -46,6 +46,24 @@ document.querySelector("#test").addEventListener("click", () => {
   console.log("Works!")
 });
 
+// capture iframe element on click
+function iframeClickHandler(event) {
+    event.preventDefault();
+alert("Iframe clicked");
+    
+var el=event
+console.log(document.elementFromPoint(el.clientX,el.clientY))
+s.push(event)
+}
+
+// var iframe = document.getElementById("myIframe");
+var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+if (typeof iframeDoc.addEventListener != "undefined") {
+    iframeDoc.addEventListener("click", iframeClickHandler, false);
+} else if (typeof iframeDoc.attachEvent != "undefined") {
+    iframeDoc.attachEvent ("onclick", iframeClickHandler);
+}
 
 
 
