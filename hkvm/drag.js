@@ -68,6 +68,10 @@ function ifre(iframe){ // capture iframe element on click
   }
 }
 
+f_href=function(){s.push(s.pop().target.getAttribute("href"))}
+
+s[22].target.getAttribute("href") 
+
 // var iframe = document.getElementById("myIframe");
 var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
 
