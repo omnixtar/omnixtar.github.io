@@ -69,6 +69,8 @@ function ifre(iframe){ // capture iframe element on click
 }
 
 f_href=function(){s.push(s.pop().target.getAttribute("href"))}
+f_j=function(){d=s.pop();n=s.pop();l=s.length;s.push(s.slice(l-n,l).join(d))}
+f("a b 2 / j:") // join string a/b
 
 s[22].target.getAttribute("href") 
 
