@@ -54,7 +54,7 @@ var gunzipinit=function(){gunzip=e=>{const r=Uint8Array.from(atob(e),(e=>e.charC
 
 // mkeval_l("setctxmenu")
 // EbM8JXJgtQ== debugger eval code:33:11
-var setctxmenu=function(){var e,n;void 0===window.s&&(window.s=[]);var t=window.s;document.addEventListener?document.addEventListener("contextmenu",(function(o){alert("You've tried to open context menu "+o.clientX+" "+o.clientY),e=document.elementFromPoint(o.clientX,o.clientY),t.push(e),n=prompt("tpe "+e.outerHTML),console.log("sp0",n),n.length>0&&(":"==n[n.length-1]?M.F(n):e.innerHTML=n),o.preventDefault()}),!1):document.attachEvent("oncontextmenu",(function(){alert("You've tried to open context menu"),window.event.returnValue=!1}))}
+var setctxmenu=function(){var e,n;void 0===window.s&&(window.s=[]);var t=window.s;document.addEventListener?document.addEventListener("contextmenu",(function(o){alert("You've tried to open context menu "+o.clientX+" "+o.clientY),e=document.elementFromPoint(o.clientX,o.clientY),s.push(e),n=prompt("tpe "+e.outerHTML),console.log("sp0",n),n.length>0&&(":"==n[n.length-1]?M.F(n):e.innerHTML=n),o.preventDefault()}),!1):document.attachEvent("oncontextmenu",(function(){alert("You've tried to open context menu"),window.event.returnValue=!1}))}
 
 var phosinit=function(){
 var Phos=function(){
