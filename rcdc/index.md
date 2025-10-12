@@ -87,17 +87,17 @@ Omnihash and DJSON Decentralised JSON are not actually completely novel algorith
 
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object: 
 
-- ["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==", "CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]
+- ```["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==", "CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]```
 - timestamp, action, current_user_ID, prev_msg_owner, doc_hash, messages
-- (doc_hash: hash of URL of document)
+- (```doc_hash```: hash of URL of document)
 
 - DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.
 - https://youtu.be/_w-E4Z4Ju5s 
 - https://omnixtar.github.io/djson/ 
 
 In summary, the DJSON example above means the following:
-- User CXAGcRKevA== gave a like to a post marked by HymWBzfj9A==
-- User CXAGcRKevA== is the owner of this DJSON, and no one else, as dictated by the public key cryptography algorithms of Omni*Web, and any other compliant systems.
+- User ```CXAGcRKevA==``` gave a like to a post marked by HymWBzfj9A==
+- User ```CXAGcRKevA==``` is the owner of this DJSON, and no one else, as dictated by the public key cryptography algorithms of Omni*Web, and any other compliant systems.
 
 The input to a hash function is a string of arbitrary length, representing any digital asset, such as an article, webpage, document, photo, image, video, audio, personal information, or even program source code. The output of a hash function, the hash code, is a unique string that identifies the input digital asset. Since the hash code can be used to represent any kind of digital assets, it is called “Omnihash”. DJSON Decentralised JSON is perhaps the simplest representation of decentralised ownership of digital assets, as compared to Blockchain entities and other implementations. 
 
@@ -127,7 +127,7 @@ To illustrate the power of simplification of metaprogramming, the following is P
          old_record swap: 0 i: last 4 replace: isodt: 0 replace: dup: 2 i: 3 replace: 2 pick: 
          2 replace: 1 pick: 5 replace: mk_hash wm1 nl: . . . wm2 s: ')+'; : A_AUTH1 B: 
          B_AUTH1 F_O ; A_AUTH1')
-```
+
 
 We cited this example as this is one of the most common operations used in web services, so programmers familiar with various programming languages may verify how much native programming language code will be required to perform the same function. Obviously, one of the most important feature of metaprogramming is macro, that is to say any combination of words shown in this example can further be shortened using macros, where ``` : B_AUTH1 …. ; ``` ( colon NAME definitions semicolon ) itself is a macro definition, otherwise known as Colon Definition Word in the FORTH programming language, from which Phoscript is derived.
 
