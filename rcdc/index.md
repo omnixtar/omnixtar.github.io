@@ -34,8 +34,8 @@ The fundamental principle of Omni*Web is to use hash codes (or hash codes) to id
 This allows users and programmers to manage the ownership and usage rights of these digital assets, helping them collect "open source tax" or other fees from third-party users, particularly commercial entities, thereby increasing revenue for both regular users and open source programmers. The name Omni\*Web is derived from Omnihash which is used to "identify all forms of digital assets." The star (\*) character represents "any characters of any lengths" in programming languages, and Omni, which is Latin for "anything," hence the name Omni*Web.
 
 - Omni*Web: Crypto-Metaprogramming (CMP) as alternative to Model-View-Controller; towards Metanarchy
-- https://youtu.be/P_M3PVn9J7I 
-- https://omnixtar.github.io/omnicontract/ 
+- [https://youtu.be/P_M3PVn9J7I](https://youtu.be/P_M3PVn9J7I) 
+- [https://omnixtar.github.io/omnicontract/](https://omnixtar.github.io/omnicontract/) 
 
 This article first illustrates the principles of "open-share-inherit" of open source software through urban and rural training programs, then explains its technical principles, highlighting the "mentorship" or training mechanism as an ideal mechanism for the equitable distribution of social wealth in the post-industrial era, replacing companies and families.
 
@@ -93,7 +93,7 @@ DJSON Decentralised JSON is a JSON object or its encoded string where at least o
 
 - DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.
 - [https://youtu.be/_w-E4Z4Ju5s](https://youtu.be/_w-E4Z4Ju5s) 
-- https://omnixtar.github.io/djson/ 
+- [https://omnixtar.github.io/djson/](https://omnixtar.github.io/djson/) 
 
 In summary, the DJSON example above means the following:
 - User ```CXAGcRKevA==``` gave a like to a post marked by HymWBzfj9A==
