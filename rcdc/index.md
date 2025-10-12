@@ -4,8 +4,8 @@ title: Omni*Web
 
 {% include logo.html %}
 
-### Omni*Web: A Truly Decentralised Web Ecosystem
-- ... Owned & Operated by Free Individual Users & Free Software Programmers
+<!-- ### Omni*Web: A Truly Decentralised Web Ecosystem
+- ... Owned & Operated by Free Individual Users & Free Software Programmers -->
 
 ### Omni*Web Metanarchy: Prelude to Asimov's Foundation
 
