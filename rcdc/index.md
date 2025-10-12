@@ -10,8 +10,8 @@ title: Omni*Web
 ### Omni*Web Metanarchy: Prelude to Asimov's Foundation
 
 Omni*Web (pronounced “Omni-Star-Web”) is: 
-- an open-source project that aims at creating a truly decentralised web ecosystem, 
-- owned and operated by free individual users and free software programmers. 
+- an open-source project that aims at creating a **truly decentralised web ecosystem**, 
+- owned and operated by **free individual users and free software programmers**. 
 
 Omni\*Web employs Omnihash, a hashcode that represents all types of digital assets, hence the name “Omni”.  Omni*Web aims to:
 - revolutionise the ownerships and rights of use of open-source software and user information, 
