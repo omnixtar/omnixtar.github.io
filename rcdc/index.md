@@ -11,9 +11,7 @@ title: Omni*Web
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
-<!--
- {% include hpbkl.md %}
--->
+<!-- {% include hpbkl.md %} -->
 
 Omni*Web (pronounced “Omni-Star-Web”) is: 
 - an open-source project that aims at creating a truly decentralised web ecosystem, 
@@ -33,11 +31,11 @@ The previous paragraphs introduce several complex and novel concepts, so this ar
 
 The fundamental principle of Omni*Web is to use hash codes (or hash codes) to identify all forms of digital assets, such as articles, web pages, documents, photos, images, videos, audio, personal information, and even program source code. This hash code that represents all types of digital assets is therefore known as Omnihash. 
 
-This allows users and programmers to manage the ownership and usage rights of these digital assets, helping them collect "open source tax" or other fees from third-party users, particularly commercial entities, thereby increasing revenue for both regular users and open source programmers. The name Omni*Web is derived from Omnihash which is used to "identify all forms of digital assets." The star (*) character represents "any characters of any lengths" in programming languages, and Omni, which is Latin for "anything," hence the name Omni*Web.
+This allows users and programmers to manage the ownership and usage rights of these digital assets, helping them collect "open source tax" or other fees from third-party users, particularly commercial entities, thereby increasing revenue for both regular users and open source programmers. The name Omni\*Web is derived from Omnihash which is used to "identify all forms of digital assets." The star (\*) character represents "any characters of any lengths" in programming languages, and Omni, which is Latin for "anything," hence the name Omni*Web.
 
-Omni*Web: Crypto-Metaprogramming (CMP) as alternative to Model-View-Controller; towards Metanarchy
-https://youtu.be/P_M3PVn9J7I 
-https://omnixtar.github.io/omnicontract/ 
+- Omni*Web: Crypto-Metaprogramming (CMP) as alternative to Model-View-Controller; towards Metanarchy
+- https://youtu.be/P_M3PVn9J7I 
+- https://omnixtar.github.io/omnicontract/ 
 
 This article first illustrates the principles of "open-share-inherit" of open source software through urban and rural training programs, then explains its technical principles, highlighting the "mentorship" or training mechanism as an ideal mechanism for the equitable distribution of social wealth in the post-industrial era, replacing companies and families.
 
@@ -45,7 +43,7 @@ Isaac Asimov's Foundation is an inspiration for Omni*Web Metanarchy, and much of
 
 The idea of “wealth redistribution through unarmed revolutions” would have been a 100 degree blasphemy in today's politically correct English speaking world. So Asimov's Foundation – scientists using Psychohistory to restore order of the Galactic Empire – would be the closest thing to Marxism without spelling it out. 
 
-1. Nursery Supermarket + Aquatic Training Courses (R=Rural)
+### 1. Nursery Supermarket + Aquatic Training Courses (R=Rural)
 (In collaboration with Malaysia Nature Society.)
 
 Plant nurseries and pet aquatic shops in Malaysia are two particularly interesting businesses. Kuala Lumpur's land prices are relatively low among Asian cities. Unused land is readily available in the city. In the 2000s, before the city's intensive construction, many Chinese business owners were already operating plant nurseries on these vacant lots. Because potted plants occupy a small area and are highly valuable, these plant nurseries have been able to survive the city's rapid development. Similarly, pet aquatic shops, with their small footprint and high value, have also been able to survive the city's rapid development.
@@ -64,7 +62,8 @@ The core activity of the Omni*Web Nursery Supermarket & Aquatic Training Program
 
 As mentioned previously, the influx of local Chinese Malaysians into urban areas now faces the dual pressures of the Sino-US trade war and the surge in PRC Chinese immigrant investment and entrepreneurship. These new generations of urban Chinese Malaysians generally lack agricultural knowledge, leaving many agricultural jobs to be filled directly by foreign workers. While urban Chinese Malaysians may not necessarily engage in direct agricultural work, Omni*Web nursery & aquatic training courses allow them to acquire relevant knowledge, enabling them to invest in and participate in agricultural management. This represents a significant shift in postmodern counter-urbanization.
 
-2. Cooking Class: "Eat, Drink, Travel, Learn" 吃喝玩乐
+### 2. Cooking Class: "Eat, Drink, Travel, Learn" 吃喝玩乐
+
 We begin by explaining Malaysia’s rural background and agricultural training in order to give our foreign and Chinese friends a preliminary understanding of Malaysia’s business environment.
 
 Next, we will describe a cooking class training program for urban residents with the slogan "Eat, Drink, Travel, and Learn." We collaborate with Toastmasters International, which is an international network for training public speaking, whose origin referred to the toastmaster, a staple at Western banquets, whose role was to give speeches at banquets. Because speeches at banquets were not a custom in Asia, the functions of speeches and banquets were separated as Toastmasters clubs grew in Asia. "He" (喝 drinking) represents replicating the toastmaster's dual function of giving speeches at banquets in Asian societies.
@@ -78,7 +77,8 @@ Next, we will describe a cooking class training program for urban residents with
 In short, "Eat, Drink, Travel & Learn" focuses on entertaining practical training, targeting a wide range of audiences, including high-end tourists, and promotes and trains skills including but not limited to cooking and public speaking, forming a unique training and entrepreneurship model.
 
 
-3. Omnihash & DJSON Decentralized JSON
+### 3. Omnihash & DJSON Decentralized JSON
+
 Omni*Web is an open-source project that uses hash codes, known as Omnihash, to revolutionise the ownerships and the rights of use of open-source software and user information. Its goal is to "achieve wealth redistribution through unarmed means." 
 
 The secret to “redistributing wealth through unarmed means” in the post-industrial era lies in Omni*Web “mentorship” (师门 “shimen”, teacher-student training framework) and “hash codes” (Omnihash).
@@ -86,47 +86,53 @@ The secret to “redistributing wealth through unarmed means” in the post-indu
 Omnihash and DJSON Decentralised JSON are not actually completely novel algorithms, but a series of old but not very well known algorithms, but when combined in specific ways together, they become one of the world's most magical and important secret recipes, being able for achieving "redistribution of wealth through unarmed revolutions."
 
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object: 
-["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==", "CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]
-timestamp, action, current_user_ID, prev_msg_owner, doc_hash, messages
-(doc_hash: hash of URL of document)
-DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.
-https://youtu.be/_w-E4Z4Ju5s 
-	https://omnixtar.github.io/djson/ 
+
+- ["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==", "CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]
+- timestamp, action, current_user_ID, prev_msg_owner, doc_hash, messages
+- (doc_hash: hash of URL of document)
+
+- DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.
+- https://youtu.be/_w-E4Z4Ju5s 
+- https://omnixtar.github.io/djson/ 
 
 In summary, the DJSON example above means the following:
-User CXAGcRKevA== gave a like to a post marked by HymWBzfj9A==
-User CXAGcRKevA== is the owner of this DJSON, and no one else, as dictated by the public key cryptography algorithms of Omni*Web, and any other compliant systems.
+- User CXAGcRKevA== gave a like to a post marked by HymWBzfj9A==
+- User CXAGcRKevA== is the owner of this DJSON, and no one else, as dictated by the public key cryptography algorithms of Omni*Web, and any other compliant systems.
 
 The input to a hash function is a string of arbitrary length, representing any digital asset, such as an article, webpage, document, photo, image, video, audio, personal information, or even program source code. The output of a hash function, the hash code, is a unique string that identifies the input digital asset. Since the hash code can be used to represent any kind of digital assets, it is called “Omnihash”. DJSON Decentralised JSON is perhaps the simplest representation of decentralised ownership of digital assets, as compared to Blockchain entities and other implementations. 
 
-I2P Invisible Internet Project, Decentralised Cloud Computing & Metanarchy
+### I2P Invisible Internet Project, Decentralised Cloud Computing & Metanarchy
+
 I2P, also known as the Invisible Internet Project, was launched in 2003 and its focus was to circumvent the US-controlled Domain Name System (DNS) by using a hash code as a pointer to Internet address. I2P can be enhanced with additional functionalities in Omni*Web, such as "voluntary censorship compliance", depending on the demands of law enforcement agencies in applicable jurisdictions. 
 
 To use a crude example to describe the impact of I2P Invisible Internet Project and domain name services, it's like "castrating stray cats." Castrating stray cats is a relatively effective method of controlling the proliferation of stray cats in many countries and regions. Domain name services, like castrating stray cats, prevent the open source programmer community from expanding and reproducing, as registering a domain name costs at least RMB 100 annually. Censorship concerning I2P Invisible Internet Project and related technologies is also quite pervasive. 
 
 If I2P Invisible Internet Project becomes widespread, open source programmers could very well organize and establish themselves into super-multinational corporations comparable to the MMAGA, potentially giving rise to a future form of government: Metanarchy – self governance by free individual users and free software programmers based of decentralised transactions in the Metaverse.
 
-4. Metaprogramming, Free Software & Free Education 
-The claims in preceding sections may seem quite extraordinary, but anyone who plays online games has already experienced this: online games are part of a simulation system. The difference between online games and Omni*Web is that Omni*Web users and programmers can use metaprogramming instructions to input accurate mathematical models and verify all phenomena within and outside the system.
+### 4. Metaprogramming, Free Software & Free Education 
+The claims in preceding sections may seem quite extraordinary, but anyone who plays online games has already experienced this: online games are part of a simulation system. The difference between online games and Omni\*Web is that Omni*Web users and programmers can use metaprogramming instructions to input accurate mathematical models and verify all phenomena within and outside the system.
 
 Let us quickly recap what we have explored so far, 
-from renting nursery plots space to provide agricultural training, 
-to cooking classes 
-as illustration of free software principles of open-share-inherit for creating mentorship networks that transcend families and companies, 
-with the ultimate aim to achieve “wealth redistribution without armed revolutions”. 
+- from renting nursery plots space to provide agricultural training, 
+- to cooking classes 
+- as illustration of free software principles of open-share-inherit for creating mentorship networks that transcend families and companies, 
+- with the ultimate aim to achieve “wealth redistribution without armed revolutions”. 
 
 To illustrate the power of simplification of metaprogramming, the following is Phoscript commands for sending front end data in JavaScript to the back end of Omni*Web server, which then translate the commands to PHP functions for writing the data to the filesystem:
 
+```
 f(': B_AUTH1 HTTP SESSION: AUTH i: PBK i: o_hash.json l_cdwjs h_b64 dup: last '+ utoa(S[2][1].value) +' b64d: 2 pick: s:'+ (false?' last rg: newest 5 4 sspl: old_record swap: 0 i: last 4 replace: isodt: 0 replace: dup: 2 i: 3 replace: 2 pick: 2 replace: 1 pick: 5 replace: mk_hash wm1 nl: . . wm2 s: ':' reply_to g_x 0 i: old_record swap: 0 i: last 4 replace: isodt: 0 replace: dup: 2 i: 3 replace: 2 pick: 2 replace: 1 pick: 5 replace: mk_hash wm1 nl: . . . wm2 s: ')+'; : A_AUTH1 B: B_AUTH1 F_O ; A_AUTH1')
+```
 
-We cited this example as this is one of the most common operations used in web services, so programmers familiar with various programming languages may verify how much native programming language code will be required to perform the same function. Obviously, one of the most important feature of metaprogramming is macro, that is to say any combination of words shown in this example can further be shortened using macros, where : B_AUTH1 …. ; ( colon NAME definitions semicolon ) itself is a macro definition, otherwise known as Colon Definition Word in the FORTH programming language, from which Phoscript is derived.
+We cited this example as this is one of the most common operations used in web services, so programmers familiar with various programming languages may verify how much native programming language code will be required to perform the same function. Obviously, one of the most important feature of metaprogramming is macro, that is to say any combination of words shown in this example can further be shortened using macros, where ``` : B_AUTH1 …. ; ``` ( colon NAME definitions semicolon ) itself is a macro definition, otherwise known as Colon Definition Word in the FORTH programming language, from which Phoscript is derived.
 
 Notice that Phoscript is unifying both JavaScript and PHP in the above example and can be ported to any other known host programming languages, thus making learning programming much easier in the future. 
 
-Conclusions: Digital Assets & Wealth Redistribution 
+### Conclusions: Digital Assets & Wealth Redistribution 
+
 This article explores novel algorithms to manage digital assets of users and free software programmers, with the aim of achieving redistribution of wealth without violent means.
 
-We discussed Omni*Web RCDC plan, which includes rural (R) and city (C) development and training programs and decentralised cryptography (D) and metaprogramming modules (C) of Omni*Web. The rural and city development and training programs were inspired by the success of free software projects and communities, which demonstrated that open and transparent sharing of knowledge of free software has successfully created critical software modules used by MMAGA, whose combined revenues in 2024 nearly reached USD 1.8 trillion. 
+We discussed Omni\*Web RCDC plan, which includes rural (R) and city (C) development and training programs and decentralised cryptography (D) and metaprogramming modules (C) of Omni*Web. The rural and city development and training programs were inspired by the success of free software projects and communities, which demonstrated that open and transparent sharing of knowledge of free software has successfully created critical software modules used by MMAGA, whose combined revenues in 2024 nearly reached USD 1.8 trillion. 
 
 This means we utilise plots of land space as measures of digital assets, consisting of knowledge and training in plant nursery and aquatics, which can be rented and reinvested to recruit more trainees and to create more digital assets, providing a zero barriers of entry for trainees with little to no initial wealth. The same mechanisms exist in free software communities where knowledge is shared and created. Cooking classes are the other type of digital assets that can be acquired with zero initial capital. 
 
