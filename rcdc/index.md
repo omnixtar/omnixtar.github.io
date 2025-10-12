@@ -24,11 +24,11 @@ Omni\*Web employs Omnihash, a hashcode that represents all types of digital asse
 
 The previous paragraphs introduce several complex and novel concepts, so this article will attempt to explain Omni*Web philosophy and implementation plans, abbreviated as “RCDC”, by first introducing two entrepreneurship training programs for rural (R) and city (C) environments, before embarking on the technical aspects of decentralised cryptography (D) and metaprogramming (C=coding). To help Star War fans memorise RCDC, think of R2D2, where C is the Roman numeral for 100:
 
-1. Nursery Rental + Aquatic Training Courses (R=Rural)
-2. Cooking Class (C=City)
-3. DJSON Decentralized JSON (D=Decentralised Cryptography)
+1. [Nursery Rental + Aquatic Training Courses (R=Rural)](https://omnixtar.github.io/rcdc/#1-nursery-supermarket--aquatic-training-courses-rrural)
+2. [Cooking Class (C=City)](https://omnixtar.github.io/rcdc/#2-cooking-class-eat-drink-travel-learn-%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90)
+3. [DJSON Decentralized JSON (D=Decentralised Cryptography)](https://omnixtar.github.io/rcdc/#3-omnihash--djson-decentralized-json)
 - [I2P Invisible Internet Project, Decentralised Cloud Computing & Metanarchy](https://omnixtar.github.io/rcdc/#i2p-invisible-internet-project-decentralised-cloud-computing--metanarchy)
-4. Metaprogramming (C=Coding)
+4. [Metaprogramming (C=Coding)](https://omnixtar.github.io/rcdc/#4-metaprogramming-free-software--free-education)
 
 The fundamental principle of Omni*Web is to use hash codes (or hash codes) to identify all forms of digital assets, such as articles, web pages, documents, photos, images, videos, audio, personal information, and even program source code. This hash code that represents all types of digital assets is therefore known as Omnihash. 
 
