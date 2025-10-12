@@ -9,10 +9,6 @@ title: Omni*Web
 
 ### Omni*Web Metanarchy: Prelude to Asimov's Foundation
 
- <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
-
-<!-- {% include hpbkl.md %} -->
-
 Omni*Web (pronounced “Omni-Star-Web”) is: 
 - an open-source project that aims at creating a truly decentralised web ecosystem, 
 - owned and operated by free individual users and free software programmers. 
