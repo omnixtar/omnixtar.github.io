@@ -27,6 +27,7 @@ The previous paragraphs introduce several complex and novel concepts, so this ar
 1. Nursery Rental + Aquatic Training Courses (R=Rural)
 2. Cooking Class (C=City)
 3. DJSON Decentralized JSON (D=Decentralised Cryptography)
+- [I2P Invisible Internet Project, Decentralised Cloud Computing & Metanarchy](https://omnixtar.github.io/rcdc/#i2p-invisible-internet-project-decentralised-cloud-computing--metanarchy)
 4. Metaprogramming (C=Coding)
 
 The fundamental principle of Omni*Web is to use hash codes (or hash codes) to identify all forms of digital assets, such as articles, web pages, documents, photos, images, videos, audio, personal information, and even program source code. This hash code that represents all types of digital assets is therefore known as Omnihash. 
