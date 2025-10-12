@@ -92,7 +92,7 @@ DJSON Decentralised JSON is a JSON object or its encoded string where at least o
 - (```doc_hash```: hash of URL of document)
 
 - DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.
-- https://youtu.be/_w-E4Z4Ju5s 
+- [https://youtu.be/_w-E4Z4Ju5s](https://youtu.be/_w-E4Z4Ju5s) 
 - https://omnixtar.github.io/djson/ 
 
 In summary, the DJSON example above means the following:
