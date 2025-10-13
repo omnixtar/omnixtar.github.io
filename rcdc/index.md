@@ -14,8 +14,8 @@ Omni*Web (pronounced “Omni-Star-Web”) is:
 - owned and operated by **free individual users and free software programmers**. 
 
 Omni\*Web employs **Omnihash**, a hashcode that represents *all types of digital assets*, hence the name “Omni”.  Omni*Web aims to:
-- revolutionise the *ownerships and rights of use* of open-source software and user information, 
-- thus helping users and free software programmers to reclaim incomes from digital assets that are rightfully theirs, from existing commercial entities who abuse them. 
+- revolutionise the **ownerships and rights of use** of open-source software and user information, 
+- thus helping users and free software programmers to **reclaim incomes from digital assets** that are rightfully theirs, from existing commercial entities who abuse them. 
 - ultimately to achieve **“wealth redistribution through unarmed revolutions”.** 
 
 The previous paragraphs introduce several complex and novel concepts, so this article will attempt to explain Omni*Web philosophy and implementation plans, abbreviated as “RCDC”, by first introducing two entrepreneurship training programs for rural (R) and city (C) environments, before embarking on the technical aspects of decentralised cryptography (D) and metaprogramming (C=coding). To help Star War fans memorise RCDC, think of R2D2, where C is the Roman numeral for 100:
