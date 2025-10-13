@@ -13,7 +13,7 @@ Omni*Web (pronounced “Omni-Star-Web”) is:
 - an open-source project that aims at creating a **truly decentralised web ecosystem**, 
 - owned and operated by **free individual users and free software programmers**. 
 
-Omni\*Web employs **Omnihash**, a hashcode that represents *all types of digital assets*, hence the name “Omni”.  Omni*Web aims to:
+Omni\*Web employs **Omnihash**, a hashcode that represents **all types of digital assets**, hence the name “Omni”.  Omni*Web aims to:
 - revolutionise the **ownerships and rights of use** of open-source software and user information, 
 - thus helping users and free software programmers to **reclaim incomes from digital assets** that are rightfully theirs, from existing commercial entities who abuse them. 
 - ultimately to achieve **“wealth redistribution through unarmed revolutions”.** 
