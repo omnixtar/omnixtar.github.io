@@ -32,6 +32,16 @@ DJSON Decentralised JSON is a JSON object or its encoded string where at least o
 
 - Omnihash: DgV6_qnujw==
 
+1. The existence of (Omni)hash implies the input string concerned has been fed into a hash function to obtain the (Omni)hash. 
+
+2. A second party (anyone other than the first party) may feed the same input to the same hash function to obtain the same (Omni)hash, to verify the hash is correct, and therefore the first party has indeed performed step (1).
+
+3. Step (2) implies *the input string is* **as intended** by the first party.
+
+4. Step (3) is the default inference, as agreed by all parties concerned.
+
+*We omit "Omni" for convenience where it is implied.*
+
 *Key-value format of DJSON can be included as a string in Array-String of DJSON.*
 
 - *Refer to "contract" for terms and conditions for "repo".*
