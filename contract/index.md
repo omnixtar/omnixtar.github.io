@@ -32,6 +32,19 @@ DJSON Decentralised JSON is a JSON object or its encoded string where at least o
 
 - Omnihash: DgV6_qnujw==
 
+Try this yourself:
+
+1. Press F12 to bring up browser console.
+2. Run the following code:
+```
+omnistart()
+j0=["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]
+s.push(JSON.stringify(j0))
+f('h53: b64: path:')
+s[s.length-1] 
+```
+
+---
 1. The existence of (Omni)hash implies the input string concerned has been fed into a hash function to obtain the (Omni)hash. 
 
 2. A second party (anyone other than the first party) may feed the same input to the same hash function to obtain the same (Omni)hash, to verify the hash is correct, and therefore the first party has indeed performed step (1).
