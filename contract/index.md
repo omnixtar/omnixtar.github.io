@@ -10,6 +10,20 @@ title: DJSON Decentralised JSON
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
+- On the Separation of Disclosure and Royalties of the Source Code
+July 21, 2024
+	
+1. You, a human agent of a company or government agency, may read the source code without 
+	making payments to the author or authors, but if you  execute this program on behalf of 
+	your company or agency for commercial purposes, we reserve the rights to claim royalties 
+	from you or your company or agency. 
+
+2. Your copy of source code shall be attached with at least one Omni* Hash Contract bearing the Omnihash
+	of a Omni* Agent and your own Omnihash, to authorise you the permissions to use or modify said source code, 
+	otherwise you shall pay maximum penalties allowed by a legal court of your jurisdiction,
+	for the damages you have incurred for deploying the source code pertaining to clause (1).
+
+
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
 
 
