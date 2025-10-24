@@ -23,6 +23,7 @@ July 21, 2024
 	otherwise you shall pay maximum penalties allowed by a legal court of your jurisdiction,
 	for the damages you have incurred for deploying the source code pertaining to clause (1).
 
+---
 
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
 
