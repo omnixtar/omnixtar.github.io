@@ -28,7 +28,11 @@ July 21, 2024
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
 
 
-- ```["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]```
+- ```["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/"}]```
+
+*Key-value format of DJSON can be included as a string in Array-String of DJSON.*
+
+- *Refer to "contract" for terms and conditions for "repo".*
 
 In the DJSON above, the fields are:
 
