@@ -6,6 +6,12 @@ function include(url) {
 }
 
 // 2025-10-24
+function f_h53()
+{
+   var S = s;
+   S.push(cyrb53(S.pop()));
+}
+var f_b64=function(){s.push(bnToB64(s.pop()))}
 function f_path() // path safe b64
 {
   // $a = array_pop($S);
