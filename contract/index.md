@@ -4,7 +4,7 @@ title: DJSON Decentralised JSON
 
 {% include logo.html %}
 
-### DJSON: Decentralised JSON
+### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
