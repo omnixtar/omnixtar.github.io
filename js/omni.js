@@ -5,6 +5,19 @@ function include(url) {
   document.body.appendChild(s);
 }
 
+// 2025-10-24
+function f_path() // path safe b64
+{
+  // $a = array_pop($S);
+  var $a = s.pop()
+  // echo '  in path: '.$a." ".strpos($a, '/')."\\n";
+  // if (strpos($a, '/')>=0) { $a = str_replace('/', '_', $a); } // echo $a; }
+  if ($a.indexOf('/')>=0) { $a = $a.replaceAll('/', '_'); } 
+  // if (strpos($a, '+')>=0) $a = str_replace('+', '-', $a);
+  if ($a.indexOf('+')>=0) { $a = $a.replaceAll('+', '-'); } 
+  s.push($a)
+}
+
 // mkeval_l("omnihash")
 // DmII2G1lww==
 // var omnihash=function(){
