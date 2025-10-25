@@ -12,6 +12,9 @@ title: Codex Omnia Possibilia
 ### SVFIG (Silicon Valley FORTH Interest Group)
 - [April 26 2025, How to share my latest FORTHish word
 with the world? DJSON + Phoscript = Omni*Web](https://omnixtar.github.io/svfig/SVFIG-2025-04.pdf)
+- [October 25 2025, The roles of FORTH in
+blockchain technologies
+and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf)
 
 
 ### Codex Omnia Possibilia 
