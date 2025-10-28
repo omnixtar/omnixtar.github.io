@@ -45,9 +45,9 @@ s[s.length-1]
 ```
 
 ---
-1. The existence of (Omni)hash implies the input string concerned has been fed into a hash function to obtain the (Omni)hash. 
+1. The existence of (Omni)hash implies the input string concerned has been fed into a hash function to obtain the (Omni)hash, presumably by the first party (or User A). 
 
-2. A second party (anyone other than the first party) may feed the same input to the same hash function to obtain the same (Omni)hash, to verify the hash is correct, and therefore the first party has indeed performed step (1).
+2. A second party (anyone other than the first party, by defauly YOU, User B) may feed the same input to the same hash function to obtain the same (Omni)hash, to verify the hash is correct, and therefore the first party has indeed performed step (1).
 
 3. Step (2) implies *the input string is* **as intended** by the first party.
 
