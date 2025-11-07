@@ -19,6 +19,8 @@ document.querySelectorAll("div").forEach(pointerDrag); // need this every time. 
 
 ---
 // conditional dragStart
+// https://stackoverflow.com/a/79756361/2778276
+// https://jsfiddle.net/8e0y7rtv/
 const pointerDrag = (el) => {
 
   const move = (ev) => {
