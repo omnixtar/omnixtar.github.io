@@ -113,11 +113,7 @@ var Phos=function(){
                 var $WA = $CDW[$v];
                 if (end($WA) == ';')
                     array_pop($WA); // remove ; in definition before execution
-                S0.CDW.push([
-                    $v,
-                    $vk,
-                    {}
-                ]);
+                S0.CDW.push([ $v, $vk, {} ]);
                 console.log(1176, 'before FGLA', JSON.stringify(S0.CDW));
                 // await FGLA($WA);
                 FGLA($WA);
