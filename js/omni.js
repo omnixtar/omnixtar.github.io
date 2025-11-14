@@ -111,20 +111,14 @@ var Phos=function(){
             } 
             else if (in_array($v, array_keys($CDW))) {
                 var $WA = $CDW[$v];
-                if (end($WA) == ';')
-                    array_pop($WA); // remove ; in definition before execution
-                S0.CDW.push([ $v, $vk, {} ]);
-                console.log(1176, 'before FGLA', JSON.stringify(S0.CDW));
-                // await FGLA($WA);
-                FGLA($WA);
-                S0.CDW.pop();
-                console.log(1183, 'after FGLA', JSON.stringify(S0.CDW));
+                if (end($WA) == ';') array_pop($WA); // remove ; in definition before execution
+                S0.CDW.push([ $v, $vk, {} ]); // console.log(1176, 'before FGLA', JSON.stringify(S0.CDW)); // await FGLA($WA);
+                FGLA($WA); S0.CDW.pop(); // console.log(1183, 'after FGLA', JSON.stringify(S0.CDW));
                 S0.cda = end(S0.CDW);
             } 
             else if ($v[$l - 1] == ':') { // colon suffix word after symbol else : will fail
               var $fn = $v.substr(0, $l-1);
-              if (typeof eval("f_"+$fn)!=="undefined")           
-                // console.log('is func', $v, typeof eval("f_"+$fn))
+              if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
                 eval("f_"+$fn+"()")
             } else s.push(e)
           }
