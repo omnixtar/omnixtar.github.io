@@ -88,7 +88,7 @@ var Phos=function(){
     $WA.map(e=>{
           console.log(i, e);
           var $v=e, $vk=i; $l=$v.length; 
-          if (!c_cdw && $v==':') {
+          if (!c_cdw && $v==':') { // COLON DEFINITION WORD
              c_cdw=true;
              console.log('  CDW start ', W[i+1])
              ic = i+2; // start index of CDW
