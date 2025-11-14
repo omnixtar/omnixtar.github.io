@@ -85,7 +85,7 @@ var Phos=function(){
     var FGLA = function($WA) {
     // arguments[0].split(' ').map(e=>{
     var c_cdw=false; var i=0, ic, W=$WA;
-    $WA.map(e=>{
+    $WA.map(e=>{ // WORD ARRAY
           console.log(i, e);
           var $v=e, $vk=i; $l=$v.length; 
           if (!c_cdw && $v==':') { // COLON DEFINITION WORD
