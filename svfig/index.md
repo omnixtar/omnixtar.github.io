@@ -18,7 +18,9 @@ Model-View-Controller Architecture](https://omnixtar.github.io/svfig/Crypto-Meta
 - [October 25 2025, The roles of FORTH in
 blockchain technologies
 and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf)
-
+- [November 15 2025, The roles of FORTH in
+blockchain technologies
+and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf)
 
 ### Codex Omnia Possibilia 
 - With code, everything is possible.
