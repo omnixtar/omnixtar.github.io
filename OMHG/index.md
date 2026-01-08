@@ -1,8 +1,10 @@
 ---
-title: DJSON Decentralised JSON
+title: OMHG Omnihash Graph
 ---
 
 {% include logo.html %}
+
+### OMHG: Omnihash Graph
 
 ### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
 
