@@ -18,6 +18,14 @@ OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode se
 
 In a nutshell, OMHG is a bit like the good old BitTorrent which you may share files with the rest of the Internet, but it is much more powerful to cover all the latest features of social media, such as posting videos, commenting, following, sharing and so on. 
 
+<button type="button" onclick="f(C_LIKE);">Like</button> 
+
+To illustrate, you may click the "Like" button shown above. 
+
+In conventional Model-View-Controller (MVC) systems, pressing the "Like" button will trigger a series of functions in front end and back end, finally storing the action as a record in a centralised database.
+
+CMP, store in localStorage or ....
+
 OMHG Omnihash Graph is a crucial and revolutionary model for users and programmers to build a truly decentralised web ecosystem, owned and operated by individual users and free software programmers themselves, to be known as Omni*Web. 
 
 Please refer to the following page for a definition of Omnihash, a hashcode format used to represent any type of digital assets, hence "omni".
