@@ -10,7 +10,7 @@ title: OMHG Omnihash Graph
 
 OMHG Omnihash Graph is a crucial and revolutionary model for users and programmers to build a truly decentralised web ecosystem, owned and operated by individual users and free software programmers themselves, to be known as Omni*Web. 
 
-### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
+- [Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)](https://omnixtar.github.io/contract)
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
