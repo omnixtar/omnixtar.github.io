@@ -14,6 +14,11 @@ Please refer to the following page for a definition of Omnihash, a hashcode form
 
 - [Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)](https://omnixtar.github.io/contract)
 
+To understand OMHG Omnihash Graph, we may start with the good old Windows File Explorer:
+
+- [Working with the File Explorer in Windows 10](https://uis.georgetown.edu/file-explorer/)
+
+
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
