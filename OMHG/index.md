@@ -8,7 +8,12 @@ title: OMHG Omnihash Graph
 
 - *We play with abbreviations just to help users remember crucial concepts.*
 
-OMHG Omnihash Graph employs hashcodes to represent its nodes, which encode security features so that individual nodes can be stored in a distributed and decentralised manner on user's own devices and shared using OMHG compliant protocols. 
+OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
+
+- employs hashcodes to represent its nodes, which 
+- encode security features 
+- stored in a distributed and decentralised manner on user's own devices
+- shared using OMHG compliant protocols*.
 
 In a nutshell, OMHG is a bit like the good old BitTorrent which you may share files with the rest of the Internet, but it is much more powerful to cover all the latest features of social media, such as posting videos, commenting, following, sharing and so on. 
 
