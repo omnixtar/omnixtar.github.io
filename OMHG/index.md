@@ -10,7 +10,8 @@ title: OMHG Omnihash Graph
 
 OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
 
-- employs hashcodes to represent its nodes, which 
+- *(rewriting the italic points ....)*
+- employs hashcodes to represent its nodes, 
 - encode security features 
 - stored in a distributed and decentralised manner on user's own devices
 - shared using OMHG compliant protocols*.
