@@ -18,6 +18,12 @@ To understand OMHG Omnihash Graph, we may start with the good old Windows File E
 
 - [Working with the File Explorer in Windows 10](https://uis.georgetown.edu/file-explorer/)
 
+You can think of the Internet as an extension of your own computer's file system, with every file being represented by an address call Uniform Resource Locator (URL) or Uniform Resource Indentifier (URI), where the first part is the address of the host (website), and the second part is the path (directory plus filename), e.g. this web page:
+
+- https://omnixtar.github.io/OMHG/
+- Hostname: omnixtar.github.io
+- Directory: OMHG
+- Filename: index.md (omitted)
 
  <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
