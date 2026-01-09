@@ -60,6 +60,7 @@ temp1.style.width="600px"  // temp1 is iframe
 
 iframe session variables are separate from its parent!!
 
+localStorage of iframe is not shared with parent!!
 
 CMP, store in localStorage or ....
 
