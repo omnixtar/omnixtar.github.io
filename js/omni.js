@@ -343,4 +343,5 @@ var delay = ( function() {
 delay(function(){
     // do stuff
     console.log("typeof M", typeof M)
+    window.S0=M.S[0]
 }, 5000 ); // end delay
