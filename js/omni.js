@@ -207,6 +207,8 @@ console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that ligh
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
 console.log("  omni.js define S0 2026-01 text only")
+console.log("typeof M", typeof M)
+console.log("M",M)
 
 function parse_query_string(query) {
     var vars = query.split('&');
