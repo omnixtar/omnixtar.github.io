@@ -51,7 +51,15 @@ s.push(btoa(S0.K.s_pbk)) // need btoa()
 f("dup: h53: b64: path:")
 
 f("OMNI dlb:") // create new div for iframe
+temp0.append(document.createElement('iframe'))
+pointerDrag(temp0)
+temp1.src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/o/?nn=adam" // oxm GenKeys and AUTH still not working
+temp1.style.height="400px" // show dialogue box in one screen
+temp1.style.width="600px"  // temp1 is iframe
 ```
+
+iframe session variables are separate from its parent!!
+
 
 CMP, store in localStorage or ....
 
