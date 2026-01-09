@@ -155,6 +155,7 @@ var f=M.F
 window.f=M.F
 window.M=M
 window.S0 = M.S[0]
+console.log("  omni.js define S0 2026-01",S0)
 
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
 var f_sym=[ f_add ]
