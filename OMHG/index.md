@@ -29,6 +29,8 @@ Essentially, hashcodes have 2 chained (concatentation) properties that make them
 - (i) chained strings
 - (ii) chained functions
 
+- link to chained properties
+
 CMP, store in localStorage or ....
 
 OMHG Omnihash Graph is a crucial and revolutionary model for users and programmers to build a truly decentralised web ecosystem, owned and operated by individual users and free software programmers themselves, to be known as Omni*Web. 
