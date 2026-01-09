@@ -32,6 +32,11 @@ Essentially, hashcodes have 2 chained (concatentation) properties that make them
 
 - link to chained properties
 
+In the operations described above, a component string and its hash (hash number of hashcode) may be derived from a GUI event input (such as a click, or texts in an input field) or a user identifier (hash of public key).
+
+As such, the final hash (hash number or hashcode) is a string that is representative of all the component items and the operations performed on them. e.g.
+
+- User A pressed button X at time T.
 
 CMP, store in localStorage or ....
 
