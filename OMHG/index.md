@@ -43,6 +43,13 @@ Let H1 denote the hashcode with literal value XXXXYYYY above.
 
 H1 and its pre-hashed contents are secure to be sent via networks as they can be encrypted and recovered using public key cryptography, thus eliminating the need for centralised or centrally managed Model-View-Controller and similar schemes. 
 
+Hash of Public Key
+
+```
+s.push(btoa(S0.K.s_pbk)) // need btoa()
+f("dup: h53: b64: path:")
+```
+
 CMP, store in localStorage or ....
 
 OMHG Omnihash Graph is a crucial and revolutionary model for users and programmers to build a truly decentralised web ecosystem, owned and operated by individual users and free software programmers themselves, to be known as Omni*Web. 
