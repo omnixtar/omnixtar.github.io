@@ -26,10 +26,13 @@ In conventional Model-View-Controller (MVC) systems, pressing the "Like" button 
 
 Essentially, hashcodes have 2 chained (concatentation) properties that make them suitable for decentralised network applications, as follow:
 
-- (i) chained strings
+
+- (i) chained strings: When a hashcode is chained (concatenated) with another string, they form another string, which produces a hash (hash number or hashcode) that is representative of the input string.
+
 - (ii) chained functions
 
 - link to chained properties
+
 
 CMP, store in localStorage or ....
 
