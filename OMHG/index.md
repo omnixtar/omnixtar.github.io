@@ -37,6 +37,11 @@ In the operations described above, a component string and its hash (hash number 
 As such, the final hash (hash number or hashcode) is a string that is representative of all the component items and the operations performed on them. e.g.
 
 - User A pressed button X at time T.
+- Hashcode XXXXYYYY represents the above event.
+
+Let H1 denote the hashcode with literal value XXXXYYYY above. 
+
+H1 and its pre-hashed contents are secure to be sent via networks as they can be encrypted and recovered using public key cryptography, thus eliminating the need for centralised or centrally managed Model-View-Controller and similar schemes. 
 
 CMP, store in localStorage or ....
 
