@@ -209,7 +209,7 @@ alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (
 console.log("  omni.js define S0 2026-01 text only")
 waitUntilObjectPresent("M",2)
 console.log("typeof M", typeof M)
-console.log("M",M)
+// console.log("M",M)
 
 function parse_query_string(query) {
     var vars = query.split('&');
