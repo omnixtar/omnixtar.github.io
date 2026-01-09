@@ -207,7 +207,7 @@ console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that ligh
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
 console.log("  omni.js define S0 2026-01 text only")
-waitUntilObjectPresent(M,2)
+waitUntilObjectPresent("M",2)
 console.log("typeof M", typeof M)
 console.log("M",M)
 
@@ -295,7 +295,7 @@ function waitUntilObjectPresent(obj, timeoutInSeconds) {
     var endTime = currentTime + timeoutInSeconds * 1000;
     var checkExist = setInterval(function () {
         // if (document.querySelectorAll(cssLocator).length) {
-        if (typeof obj==="object") {
+        if (typeof eval(obj)==="object") {
             clearInterval(checkExist);
             return;
         } else if (endTime < new Date().getTime()) {
