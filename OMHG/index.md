@@ -49,6 +49,8 @@ H1 and its pre-hashed contents are secure to be sent via networks as they can be
 ```
 s.push(btoa(S0.K.s_pbk)) // need btoa()
 f("dup: h53: b64: path:")
+
+f("OMNI dlb:") // create new div for iframe
 ```
 
 CMP, store in localStorage or ....
