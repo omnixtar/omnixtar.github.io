@@ -38,6 +38,8 @@ As such, the final hash (hash number or hashcode) is a string that is representa
 
 - User A pressed button X at time T.
 - Hashcode XXXXYYYY represents the above event.
+- A JSON string represents the above -- Meta JSON.
+- Omnihash -- hash of Meta JSON -- is the label on a node in Omnihash Graph (OMHG).
 
 Let H1 denote the hashcode with literal value XXXXYYYY above. 
 
