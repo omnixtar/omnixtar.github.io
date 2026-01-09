@@ -24,6 +24,11 @@ To illustrate, you may click the "Like" button shown above.
 
 In conventional Model-View-Controller (MVC) systems, pressing the "Like" button will trigger a series of functions in front end and back end, finally storing the action as a record in a centralised database.
 
+Essentially, hashcodes have 2 chained (concatentation) properties that make them suitable for decentralised network applications, as follow:
+
+- (i) chained strings
+- (ii) chained functions
+
 CMP, store in localStorage or ....
 
 OMHG Omnihash Graph is a crucial and revolutionary model for users and programmers to build a truly decentralised web ecosystem, owned and operated by individual users and free software programmers themselves, to be known as Omni*Web. 
