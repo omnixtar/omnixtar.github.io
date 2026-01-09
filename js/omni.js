@@ -312,6 +312,7 @@ function waitUntilObjectPresent(obj, timeoutInSeconds) {
 // Posted by Etienne Martin, modified by community. See post 'Timeline' for change history
 // Retrieved 2026-01-09, License - CC BY-SA 4.0
 
+/*
 const delay = ms => new Promise(res => setTimeout(res, ms));
 const waitM = async () => {
   await delay(5000);
@@ -319,6 +320,27 @@ const waitM = async () => {
 
   await delay(5000);
   console.log("Waited an additional 5s", typeof M);
-};
+}; */
 
-await waitM()
+// await waitM()
+
+// Source - https://stackoverflow.com/a/28173606
+// Posted by Avatar, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-09, License - CC BY-SA 4.0
+
+var delay = ( function() {
+    var timer = 0;
+    return function(callback, ms) {
+        clearTimeout (timer);
+        timer = setTimeout(callback, ms);
+    };
+})();
+
+// Source - https://stackoverflow.com/a/28173606
+// Posted by Avatar, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-09, License - CC BY-SA 4.0
+
+delay(function(){
+    // do stuff
+    console.log("typeof M", typeof M)
+}, 5000 ); // end delay
