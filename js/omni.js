@@ -207,6 +207,7 @@ console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that ligh
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
 console.log("  omni.js define S0 2026-01 text only")
+waitUntilObjectPresent(M,2)
 console.log("typeof M", typeof M)
 console.log("M",M)
 
@@ -249,7 +250,6 @@ var omnihash;
 
 var omnilist=[ include, omnihash, cyrb53, bnToB64, mkeval_l, gunzipinit, setctxmenu, phosinit, omnistart, omnihelp ]
 
-
 function getAllFunctions(){ 
         var allfunctions=[];
           for ( var i in window) {
@@ -272,3 +272,38 @@ var f_hide=function(){document.getElementById(s.pop()).style.display='none'}
 
 var f_show=function(){document.getElementById(s.pop()).style.display='block'}
 // must declare function in omni.js? why?
+
+function waitUntilElementPresent(cssLocator, timeoutInSeconds) {
+    var currentTime = new Date().getTime();
+    var endTime = currentTime + timeoutInSeconds * 1000;
+    var checkExist = setInterval(function () {
+        if (document.querySelectorAll(cssLocator).length) {
+            clearInterval(checkExist);
+            return;
+        } else if (endTime < new Date().getTime()) {
+            clearInterval(checkExist);
+            console.log('not found in specified time.');
+            return;
+        } else {
+            console.log('waiting for element to be present…');
+        } 
+    }, 100); 
+}
+
+function waitUntilObjectPresent(obj, timeoutInSeconds) {
+    var currentTime = new Date().getTime();
+    var endTime = currentTime + timeoutInSeconds * 1000;
+    var checkExist = setInterval(function () {
+        // if (document.querySelectorAll(cssLocator).length) {
+        if (typeof obj==="object") {
+            clearInterval(checkExist);
+            return;
+        } else if (endTime < new Date().getTime()) {
+            clearInterval(checkExist);
+            console.log('not found in specified time.');
+            return;
+        } else {
+            console.log('waiting for element to be present…');
+        } 
+    }, 100); 
+}
