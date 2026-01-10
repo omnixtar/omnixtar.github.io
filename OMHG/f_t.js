@@ -53,7 +53,8 @@ f_t=function(){ // x:
   if (p_cdw>0) console.log(t().substring(p_cdw)); // return;
   if (t().substring(0,1)==":") s.push(t().substring(0,p_cdw)) // assume : CDW .... ; 
   // else s.push(": a_cmd "+t().substring(0,p_cdw)+" ;");// if initial string is not : then add : a_cmd ... ; to make CDW
-else s.push(": a_cmd "+ a_msg[a_msg.length-1] +" "+ t().substring(0,p_cdw)+" ;");// a_msg top for iframe parent postMessage
+  // else s.push(": a_cmd "+ a_msg[a_msg.length-1] +" "+ t().substring(0,p_cdw)+" ;");// a_msg top for iframe parent postMessage
+  else s.push(": a_cmd "+ btoa(a_msg[a_msg.length-1]) +" b64d: "+ t().substring(0,p_cdw)+" ;"); // a_msg top for iframe parent postMessage; btoa escape spaces
   f(t()) // must execute t() top of stack
   if (typeof a_cdw==="undefined") a_cdw={} // create first time
   var otmp={}
