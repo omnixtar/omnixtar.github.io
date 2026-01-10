@@ -31,3 +31,24 @@ else s.push(": a_cmd "+ a_msg[a_msg.length-1] +" "+ t().substring(0,p_cdw)+" ;")
   }
   f(a_cdw[n_cdw])
 }
+
+// ====
+
+pointerDrag = (el) => {
+
+  const move = (ev) => {
+    el.style.left = `${el.offsetLeft + ev.movementX}px`
+    el.style.top = `${el.offsetTop + ev.movementY}px`
+  };
+  
+  const dragStart = (ev) => {
+    if (ev.target.closest("button, input, textarea, [contenteditable]")) return;
+    el.setPointerCapture(ev.pointerId);
+  };
+  const drag      = (ev) => el.hasPointerCapture(ev.pointerId) && move(ev);
+  const dragEnd   = (ev) => el.releasePointerCapture(ev.pointerId);
+  
+  el.addEventListener("pointerdown", dragStart);
+  el.addEventListener("pointermove", drag);
+  el.addEventListener("pointerup", dragEnd);
+};
