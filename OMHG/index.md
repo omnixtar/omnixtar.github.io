@@ -24,6 +24,11 @@ In a nutshell, OMHG is a bit like the good old BitTorrent which you may share fi
 
 To illustrate, you may click the "Like" button shown above. 
 
+```
+b1.onclick=function(){s.push(this)} // push button on stack
+```
+
+
 In conventional Model-View-Controller (MVC) systems, pressing the "Like" button will trigger a series of functions in front end and back end, finally storing the action as a record in a centralised database.
 
 Essentially, hashcodes have 2 chained (concatentation) properties that make them suitable for decentralised network applications, as follow:
