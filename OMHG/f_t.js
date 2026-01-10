@@ -16,7 +16,25 @@ D0.querySelectorAll('iframe')[0].src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63i
 D0.querySelectorAll('iframe')[0].height="400px"
 D0.querySelectorAll('iframe')[0].width="600px"
 
+// parent window
+a_msg=[]
+function msgf(event) {
+    a_msg.push(event.data);
+    console.log("message from child 20260110", event.data);
+    // f_t()
+}
+window.addEventListener("message", msgf);
+
+
 // ====
+// iframe child
+a_msg=[]
+function msgf(event) {
+    a_msg.push(event.data);
+    console.log("message from parent 20260110", event.data);
+    f_t()
+}
+window.addEventListener("message", msgf);
 
 f_t=function(){ // x:
   f('dlb_nn pfr: ') // add e: e: after n_cdw definition, no need to call dlb_n
