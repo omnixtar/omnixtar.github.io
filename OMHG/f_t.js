@@ -26,7 +26,7 @@ function msgf(event) {
 window.addEventListener("message", msgf);
 
 // post message from parent console
-S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage('from parent 20260110 0006',"*")
+S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage('from parent 20260110 0006',"*") // remember last "*" parameter!!
 
 // ====
 // iframe child
