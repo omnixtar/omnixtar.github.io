@@ -7,6 +7,17 @@ S[1][2].querySelectorAll('iframe')[0].width="600px"
 
 // ====
 
+f("OMNI dlb:")
+D0=S[1][2] 
+pointerDrag( D0 ) 
+D0.querySelectorAll('textarea')[0].remove() 
+D0.append(document.createElement('iframe')) 
+D0.querySelectorAll('iframe')[0].src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam"
+D0.querySelectorAll('iframe')[0].height="400px"
+D0.querySelectorAll('iframe')[0].width="600px"
+
+// ====
+
 f_t=function(){ // x:
   f('dlb_nn pfr: ') // add e: e: after n_cdw definition, no need to call dlb_n
   // s0 = preg_replace('/s+/', ' ', $a);
