@@ -1,3 +1,9 @@
+f("OMNI dlb:")
+pointerDrag( S[1][2] ) 
+S[1][2].querySelectorAll('textarea')[0].remove() 
+
+// ====
+
 f_t=function(){ // x:
   f('dlb_nn pfr: ') // add e: e: after n_cdw definition, no need to call dlb_n
   // s0 = preg_replace('/s+/', ' ', $a);
