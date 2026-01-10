@@ -26,6 +26,9 @@ To illustrate, you may click the "Like" button shown above.
 
 ```
 b1.onclick=function(){s.push(this)} // push button on stack
+
+// traverse ancestors, use tagNames as ID
+e=b1;while(e.tagName!="BODY"){console.log(e.tagName);if(e.tagName=="BODY")break;e=e.parentElement}
 ```
 
 
