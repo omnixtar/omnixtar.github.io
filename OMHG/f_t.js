@@ -1,3 +1,8 @@
+// Button
+temp0.onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML )} 
+
+// ====
+
 f("OMNI dlb:")
 pointerDrag( S[1][2] ) 
 S[1][2].querySelectorAll('textarea')[0].remove() 
@@ -93,3 +98,4 @@ pointerDrag = (el) => {
   el.addEventListener("pointermove", drag);
   el.addEventListener("pointerup", dragEnd);
 };
+
