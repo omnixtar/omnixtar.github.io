@@ -33,6 +33,10 @@ window.addEventListener("message", msgf);
 // post message from parent console
 S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage('from parent 20260110 0006',"*") // remember last "*" parameter!!
 
+// include outerHTML utf8_to_b64()
+temp0.onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML );S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage('from parent 20260110 button '+utf8_to_b64(t()),"*") // remember last "*" parameter!!
+}
+
 // ====
 // iframe child
 a_msg=[]
