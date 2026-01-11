@@ -108,6 +108,10 @@ pointerDrag = (el) => {
 temp0.onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML );S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage(JSON.stringify({m:'from parent 20260110 button', c:utf8_to_b64(t())}),"*") // remember last "*" parameter!!
 }
 
+// add time to JSON
+temp0.onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML );f("now:");var t0=s.pop();S[1][2].querySelectorAll('iframe')[0].contentWindow.postMessage(JSON.stringify({t:t0, m:'from parent 20260110 button', c:utf8_to_b64(t())}),"*") // remember last "*" parameter!!
+}
+
 // decode JSON
 f_t=function(){ // x:
   f('dlb_nn pfr: ') // add e: e: after n_cdw definition, no need to call dlb_n
