@@ -197,3 +197,6 @@ f_t=function(){ // x:
 
 // insertAdjacentElement; after omnistart(), right click pushes clicked element on stack
 f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))} 
+
+// innerHTML
+f_ih=function(){var ti=s.pop();s.pop().innerHTML=ti} 
