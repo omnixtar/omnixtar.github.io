@@ -4,7 +4,9 @@ title: OMHG Omnihash Graph
 
 {% include logo.html %}
 
-### OMHG: Omnihash Graph
+### moddaDOM (MaoZeDOM)
+
+One may make the joke of planting a Communist virus in the name of a software project, so that it gets past the MAGA censors in Trumpland.
 
 - *We play with abbreviations just to help users remember crucial concepts.*
 
