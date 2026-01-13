@@ -10,6 +10,8 @@ One may make the joke of planting a Communist virus in the name of a software pr
 
 In essence, moddaDOM is a new approach in manipulating DOM, by providing security features using Omnihash DJSON Decentralised JSON, thus simplifying DOM manipulation, representing a generational breakthrough away from Model-View-Controller architecture.
 
+The name moddaDOM implies "every USER has the rights and ability to modify the DOM elements in the front end of the app", as behind the scenes, we have something new to provide the security features that were previously provided by Model-View-Controller or similar architectures.
+
 - *We play with abbreviations just to help users remember crucial concepts.*
 
 OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
