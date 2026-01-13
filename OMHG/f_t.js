@@ -194,9 +194,11 @@ f_t=function(){ // x:
   f(a_cdw[n_cdw])
 }
 
+// insertAdjacentElement + createElement
+f_iace=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))}
 
 // insertAdjacentElement; after omnistart(), right click pushes clicked element on stack
-f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))} 
+f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",(e))} 
 
 // innerHTML
 f_ih=function(){var ti=s.pop();s.pop().innerHTML=ti} 
