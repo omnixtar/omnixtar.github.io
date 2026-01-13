@@ -12,6 +12,8 @@ In essence, moddaDOM is a new approach in manipulating DOM, by providing securit
 
 The name moddaDOM implies "every USER has the rights and ability to modify the DOM elements in the front end of the app", as behind the scenes, we have something new to provide the security features that were previously provided by Model-View-Controller or similar architectures.
 
+- as part of Crypto-Metaprogramming (CMP)
+
 - *We play with abbreviations just to help users remember crucial concepts.*
 
 OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
