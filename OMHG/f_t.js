@@ -193,3 +193,7 @@ f_t=function(){ // x:
   }
   f(a_cdw[n_cdw])
 }
+
+
+// insertAdjacentElement; after omnistart(), right click pushes clicked element on stack
+f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))} 
