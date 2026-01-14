@@ -211,3 +211,9 @@ f_oh=function(){s.push(s.pop().outerHTML)}
 
 // innerHTML
 f_ih=function(){s.push(s.pop().innerHTML)} 
+
+// JSON.stringify
+f_je=function(){s.push(JSON.stringify(s.pop()))}
+
+// s.slice( n )
+f_ss=function(){s.push(s.slice(s.pop()))}
