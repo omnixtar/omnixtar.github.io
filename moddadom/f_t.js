@@ -220,3 +220,6 @@ f_ss=function(){s.push(s.slice(s.pop()))}
 
 // splice
 f_sp=function(){var n=s.pop();t().splice(n)}
+
+// splice stack
+f_ssp=function(){s.splice(s.pop())} 
