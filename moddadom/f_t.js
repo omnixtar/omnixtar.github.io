@@ -250,3 +250,10 @@ f_qsa=function(){s.push(document.querySelectorAll(s.pop()))}
 
 // to array 
 f_ta=function(){s.push([...s.pop()])}
+
+// A[i]
+function f_i() {
+        var a = s.pop();
+        var b = s.pop();
+        s.push(b[a]);
+    }
