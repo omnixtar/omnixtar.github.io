@@ -205,3 +205,9 @@ f_ih=function(){var ti=s.pop();s.pop().innerHTML=ti}
 
 // top of stack = last alphabet f_t() is reserved for testing
 f_z=function(){alert(t())}
+
+// outerHTML
+f_oh=function(){s.push(s.pop().outerHTML)} 
+
+// innerHTML
+f_ih=function(){s.push(s.pop().innerHTML)} 
