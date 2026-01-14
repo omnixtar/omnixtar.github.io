@@ -253,3 +253,6 @@ f_ta=function(){s.push([...s.pop()])}
 
 // A[i]
 f_i=function(){var a = s.pop();var b = s.pop();s.push(b[a]);}
+
+// nextElementSibling
+f_nes=function(){s.push(s.pop().nextElementSibling)}
