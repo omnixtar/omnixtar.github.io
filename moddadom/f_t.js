@@ -197,6 +197,9 @@ f_t=function(){ // x:
 // insertAdjacentElement + createElement
 f_iace=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))}
 
+// insertAdjacentElement + createElement textarea
+f_iate=function(){s.pop().insertAdjacentElement("afterend",document.createElement('textarea'))}
+
 // insertAdjacentElement; after omnistart(), right click pushes clicked element on stack
 f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",(e))} 
 
