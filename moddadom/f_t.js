@@ -202,3 +202,6 @@ f_iae=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",(e))}
 
 // innerHTML
 f_ih=function(){var ti=s.pop();s.pop().innerHTML=ti} 
+
+// top of stack = last alphabet f_t() is reserved for testing
+f_z=function(){alert(t())}
