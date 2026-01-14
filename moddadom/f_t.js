@@ -241,3 +241,6 @@ f_g=function(){s.push(document.getElementById(s.pop()))}
 
 // value
 f_v=function(){s.push(s.pop().value)}
+
+// append
+f_app=function(){f_swap();s.pop().append(s.poo())}
