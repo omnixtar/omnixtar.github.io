@@ -235,3 +235,6 @@ f_swap=function(){var a=s.pop();var b=s.pop();s.push(a);s.push(b)}
 
 // substr
 f_sst=function(){var q=s.pop();var p=s.pop();s.push(s.pop().substr(p,q))}
+
+// getElementById; x id: to set id
+f_g=function(){s.push(document.getElementById(s.pop()))}
