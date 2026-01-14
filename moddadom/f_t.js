@@ -223,3 +223,12 @@ f_sp=function(){var n=s.pop();t().splice(n)}
 
 // splice stack
 f_ssp=function(){s.splice(s.pop())} 
+
+// duplicate top of stack
+f_dup=function(){s.push(t())} 
+
+// swap
+f_swap=function(){var a=s.pop();var b=s.pop();s.push(a);s.push(b)}
+
+// substr
+f_sst=function(){var q=s.pop();var p=s.pop();s.push(s.pop().substr(p,q))}
