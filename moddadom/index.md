@@ -14,6 +14,14 @@ The name moddaDOM implies "every USER has the rights and ability to modify the D
 
 - as part of Crypto-Metaprogramming (CMP)
 
+[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
+
+[Omni*Web](javascript:%28function%28%29%7Bm_oxmobile%28%29%7D%29%28%29%3B)
+
+[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
+
+[omnistart()](javascript:%28function%28%29%7Bomnistart%28%29%7D%29%28%29%3B)
+
 - *We play with abbreviations just to help users remember crucial concepts.*
 
 OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
