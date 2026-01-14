@@ -247,3 +247,6 @@ f_app=function(){f_swap();s.pop().append(s.pop())}
 
 // querySelectorAll
 f_qsa=function(){s.push(document.querySelectorAll(s.pop()))}
+
+// to array 
+f_ta=function(){s.push([...s.pop()])}
