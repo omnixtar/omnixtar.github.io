@@ -1,6 +1,6 @@
 i3p: // right click anywhere
 nes: // right click textarea
-t().src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam"
+t().src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/o/?nn=adam"
 
 // iframe message event
 function msgf(event) {
