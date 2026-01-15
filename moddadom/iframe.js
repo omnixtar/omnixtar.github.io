@@ -7,3 +7,7 @@ function msgf(event) {
 }
 a_msg = []
 window.addEventListener("message", msgf);
+
+// in Parent
+iframe.contentWindow.postMessage("hello 1318","*")
+
