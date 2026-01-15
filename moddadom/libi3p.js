@@ -53,6 +53,9 @@ f_app=function(){f_swap();s.pop().append(s.pop())}
 // querySelectorAll
 f_qsa=function(){s.push(document.querySelectorAll(s.pop()))}
 
+// dom.querySelectorAll
+f_dqsa=function(){var e=s.pop();s.push(s.pop().querySelectorAll(e))}
+
 // to array 
 f_ta=function(){s.push([...s.pop()])}
 
