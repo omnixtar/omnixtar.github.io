@@ -23,8 +23,8 @@ f_ih=function(){s.push(s.pop().innerHTML)}
 // JSON.stringify
 f_je=function(){s.push(JSON.stringify(s.pop()))}
 
-// s.slice( n )
-f_ss=function(){s.push(s.slice(s.pop()))}
+// s.slice( n ) stack slice
+f_sts=function(){s.push(s.slice(s.pop()))}
 
 // splice
 f_sp=function(){var n=s.pop();t().splice(n)}
@@ -38,8 +38,8 @@ f_dup=function(){s.push(t())}
 // swap
 f_swap=function(){var a=s.pop();var b=s.pop();s.push(a);s.push(b)}
 
-// substr
-f_sst=function(){var q=s.pop();var p=s.pop();s.push(s.pop().substr(p,q))}
+// substr rename sts stack slice
+f_ss=function(){var q=s.pop();var p=s.pop();s.push(s.pop().substr(p,q))}
 
 // getElementById; x id: to set id
 f_g=function(){s.push(document.getElementById(s.pop()))}
