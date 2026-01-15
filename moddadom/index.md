@@ -22,6 +22,8 @@ The name moddaDOM implies "every USER has the rights and ability to modify the D
 
 [omnistart()](javascript:%28function%28%29%7Bomnistart%28%29%7D%29%28%29%3B)
 
+[iframe I2P i3p()](javascript:%28function%28%29%7Bi3p%28%29%7D%29%28%29%3B)
+
 - *We play with abbreviations just to help users remember crucial concepts.*
 
 OMHG Omnihash Graph *employs hashcodes to represent its nodes*, which *encode security features* so that individual nodes can be *stored in a distributed and decentralised manner on user's own devices* and *shared using OMHG compliant protocols*. 
