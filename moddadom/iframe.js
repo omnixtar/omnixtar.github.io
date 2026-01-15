@@ -5,3 +5,5 @@ function msgf(event) {
   console.log("message from parent 20260110", event.data);
   f_t()
 }
+a_msg = []
+window.addEventListener("message", msgf);
