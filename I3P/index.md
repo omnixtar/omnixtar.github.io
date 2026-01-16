@@ -1,10 +1,10 @@
 ---
-title: OMHG Omnihash Graph
+title: I3P iframe + I2P Invisible Internet Project
 ---
 
 {% include logo.html %}
 
-### moddaDOM (MaoZeDOM)
+### I3P: <iframe> + I2P Invisible Internet Project
 
 One may make the joke of planting a Communist virus in the name of a software project, so that it gets past the MAGA censors in Trumpland.
 
