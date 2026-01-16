@@ -6,6 +6,10 @@ title: I3P iframe + I2P Invisible Internet Project
 
 ### I3P: <iframe> + I2P Invisible Internet Project
 
+#### Solution for Truly Decentralised Internet
+
+<button type="button" onclick="f(C_LIKE);">Like</button> 
+
 One may make the joke of planting a Communist virus in the name of a software project, so that it gets past the MAGA censors in Trumpland.
 
 In essence, moddaDOM is a new approach in manipulating DOM, by providing security features using Omnihash DJSON Decentralised JSON, thus simplifying DOM manipulation, representing a generational breakthrough away from Model-View-Controller architecture.
