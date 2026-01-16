@@ -1,3 +1,5 @@
+// assign element as S0.var
+f_as=function(){S0[s.pop()]=s.pop()} 
 
 // insertAdjacentElement + createElement
 f_iace=function(){var e=s.pop();s.pop().insertAdjacentElement("afterend",document.createElement(e))}
