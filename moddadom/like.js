@@ -1,0 +1,3 @@
+temp1.onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();document.querySelectorAll('iframe')[0].contentWindow.postMessage(JSON.stringify({t:t0,m:'from_parent_20260110_button',c:utf8_to_b64(t()),x:"like",u:window.location}),"*")}
+utf8_to_b64=function(str){return(window.btoa(unescape(encodeURIComponent(str))));}
+f_now=function(){S0.d=eval(decodeURI("new%20Date()"));s.push(S0.d.toISOString());}
