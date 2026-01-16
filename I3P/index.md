@@ -6,7 +6,7 @@ title: I3P iframe + I2P Invisible Internet Project
 
 ### I3P: <iframe> + I2P Invisible Internet Project
 
-#### Solution for Truly Decentralised Internet
+#### -- Solution for Truly Decentralised Internet
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
