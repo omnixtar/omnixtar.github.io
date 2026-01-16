@@ -66,3 +66,12 @@ f_i=function(){var a = s.pop();var b = s.pop();s.push(b[a]);}
 
 // nextElementSibling
 f_nes=function(){s.push(s.pop().nextElementSibling)}
+
+// utf8_to_b64
+utf8_to_b64=function(str){return(window.btoa(unescape(encodeURIComponent(str))));}
+
+// time now, use decode URI to avoid space
+f_now=function(){S0.d=eval(decodeURI("new%20Date()"));s.push(S0.d.toISOString());}
+
+// assign like action to element
+f_like=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();document.querySelectorAll('iframe')[0].contentWindow.postMessage(JSON.stringify({t:t0,m:'from_parent_20260110_button',c:utf8_to_b64(t()),x:"like",u:window.location}),"*")}}
