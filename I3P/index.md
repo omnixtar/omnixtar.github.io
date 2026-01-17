@@ -10,6 +10,13 @@ title: I3P iframe + I2P Invisible Internet Project
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
+
+[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
+
+[omnistart()](javascript:%28function%28%29%7Bomnistart%28%29%7D%29%28%29%3B)
+
+[iframe I2P i3p()](javascript:%28function%28%29%7Bi3p%28%29%7D%29%28%29%3B)
+
 One may make the joke of planting a Communist virus in the name of a software project, so that it gets past the MAGA censors in Trumpland.
 
 In essence, moddaDOM is a new approach in manipulating DOM, by providing security features using Omnihash DJSON Decentralised JSON, thus simplifying DOM manipulation, representing a generational breakthrough away from Model-View-Controller architecture.
