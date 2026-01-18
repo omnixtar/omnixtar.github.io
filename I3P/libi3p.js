@@ -99,3 +99,6 @@ delay(function(){
 }, 5000 ); // must wait for f to load
 
 // new convention _x for colon definition words
+
+// no need to load omnistart() --> will override libphos.js
+setctxmenu()
