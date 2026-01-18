@@ -90,6 +90,10 @@ function f_pick() {
     }
 
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
-f(": _c 1 pick: cln: swap: sih: iae: ;")
+delay(function(){
+    // do stuff
+    console.log("typeof f", typeof f)
+    f(": _c 1 pick: cln: swap: sih: iae: ;")
+}, 5000 ); // must wait for f to load
 
 // new convention _x for colon definition words
