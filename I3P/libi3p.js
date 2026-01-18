@@ -84,6 +84,11 @@ f_sih=function(){S0.X0=s.pop();S0.X1=s.pop();S0.X1.innerHTML=S0.X0;s.push(S0.X1)
 
 f_cln=function(){s.push(s.pop().cloneNode())}
 
+function f_pick() {
+        var n = s.pop();
+        s.push(s[s.length - 1 - n]);
+    }
+
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
 f(": _c 1 pick: cln: swap: sih: iae: ;")
 
