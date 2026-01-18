@@ -83,3 +83,8 @@ f_post=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentEleme
 f_sih=function(){S0.X0=s.pop();S0.X1=s.pop();S0.X1.innerHTML=S0.X0;s.push(S0.X1)}
 
 f_cln=function(){s.push(s.pop().cloneNode())}
+
+// clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
+f(": _c 1 pick: cln: swap: sih: iae: ;")
+
+// new convention _x for colon definition words
