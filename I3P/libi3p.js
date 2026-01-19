@@ -83,7 +83,7 @@ f_post=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentEleme
 f_share=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"share",u:window.location}),"*")}}
 
 // follow: need user ID -- extract from omnixtar.github.io in back end.
-f_follow=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"share",u:window.location}),"*")}}
+f_follow=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"follow",u:window.location}),"*")}}
 
 // dup: cln: Follow sih: iae: // click button, clone, rename, insert
 f_sih=function(){S0.X0=s.pop();S0.X1=s.pop();S0.X1.innerHTML=S0.X0;s.push(S0.X1)}
