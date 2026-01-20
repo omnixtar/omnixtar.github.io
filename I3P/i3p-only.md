@@ -17,8 +17,6 @@ title: I3P iframe + I2P Invisible Internet Project
 
 [iframe I2P i3p()](javascript:%28function%28%29%7Bi3p%28%29%7D%29%28%29%3B)
 
-[iframe ngrok ngrok()](javascript:%28function%28%29%7Bngrok%28%29%7D%29%28%29%3B)
-
 
 One may make the joke of planting a Communist virus in the name of a software project, so that it gets past the MAGA censors in Trumpland.
 
