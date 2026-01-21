@@ -86,7 +86,7 @@ f_share=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElem
 f_follow=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"follow",u:window.location}),"*")}}
 
 // search: keywords g_x .... need eval somewhere? run x: of iframe nickname button onclick function? f_a_cdw_x();
-f_search=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"follow",u:window.location}),"*")}}
+f_search=function(){s.pop().onclick=function(){s.push(this);s.push(t().parentElement.previousElementSibling.outerHTML);f("now:");t0=s.pop();S0.V0.contentWindow.postMessage(JSON.stringify({t:t0,m:S0.T0.value,c:utf8_to_b64(t()),x:"search",u:window.location}),"*")}}
 
 // dup: cln: Follow sih: iae: // click button, clone, rename, insert
 f_sih=function(){S0.X0=s.pop();S0.X1=s.pop();S0.X1.innerHTML=S0.X0;s.push(S0.X1)}
