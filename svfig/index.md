@@ -21,9 +21,7 @@ and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf)
 - [November 15 2025, The roles of FORTH in
 blockchain technologies
 and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf)
-- [January 24 2026, The roles of FORTH in
-blockchain technologies
-and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf)
+- [January 24 2026, BFF001 Hilbert Hotel with Infinite Cabinets](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-1.pdf)
 
 ### Codex Omnia Possibilia 
 - With code, everything is possible.
