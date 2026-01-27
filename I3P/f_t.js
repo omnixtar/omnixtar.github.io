@@ -35,7 +35,9 @@ s.forEach(e=>{if (typeof e=="string") if (e.substr(0,10)=='[{"a_cmd":') a_cmd.pu
 
 for(i in s){n=s.length-1-i;console.log(n,s[n]);if(i>5)break;} 
 
-for(i in s){n=s.length-1-i;e=s[n];if(typeof e=="string")if(e.substr(0,10)=='[{"a_cmd":'){a_cmd.push(e);break};console.log(n,s[n]);if(i>5)break;}
+// pa: post ajax
+f_pa=function(){for(i in s){n=s.length-1-i;e=s[n];if(typeof e=="string")if(e.substr(0,10)=='[{"a_cmd":'){a_cmd.push(e);break};console.log(n,s[n]);if(i>5)break;}}
+
 
 
 // post message from parent console
