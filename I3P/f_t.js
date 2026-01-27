@@ -26,7 +26,7 @@ a_msg=[]
 function msgf(event) {
     a_msg.push(event.data);
     console.log("message from child 20260110", event.data);
-    // f_t()
+    f_pm() // pm: post (after) message f_t()
 }
 window.addEventListener("message", msgf);
 
