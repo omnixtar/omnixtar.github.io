@@ -67,6 +67,19 @@ for(i in ta){if(i==0)p=e.substr(0,ta[i][0]);else p=e.substr(ta[i-1][0]+ta[i-1][1
 
 for(i in ta){if(i==0)p=e.substr(0,ta[i][0]+1);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7)+1);q=encodeURI( JSON.parse(a_msg[12])[1].r[i].substr(6) );console.log(p+q+'"></td>')} 
 
+// post ajax
+s[493].indexOf('[{"a_cmd":')
+s[493].substr(4479)
+JSON.parse(s[493].substr(4479))[1].r 
+window.parent.postMessage(s[493].substr(4479),"*")
+
+// in parent
+JSON.parse(a_msg[13])[1].r[0]
+"Graph/img/449066482_18445073290003079_7430182187062279257_n.jpg"
+
+JSON.parse(a_msg[13])[1].r.slice(0,6)
+Array(6) [ "Graph/img/449066482_18445073290003079_7430182187062279257_n.jpg", "Graph/img/Screenshot from 2026-01-28 09-29-20.png", "Graph/img/Screenshot from 2026-01-13 12-20-27.png", "Graph/img/0b3863466bbe7f9313e0f9fb253a72a5.png", "Graph/img/Screenshot 2025-11-15 20:29:15.png", "Graph/img/Screenshot from 2025-11-05 00-14-42.png" ]
+
 // ====
 
 // post message from parent console
