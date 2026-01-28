@@ -55,6 +55,9 @@ temp1.parentNode.childNodes[1].innerHTML='<img width=300 src="https://866196a35a
 temp1.parentNode.parentNode.append( temp1.parentNode.cloneNode() )
 temp1.parentNode.parentNode.childNodes[1].innerHTML=temp1.parentNode.parentNode.childNodes[0].innerHTML 
 
+// img src
+temp1.parentNode.parentNode.childNodes[1].childNodes[0].childNodes[0].src 
+
 // ====
 
 // post message from parent console
