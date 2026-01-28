@@ -51,6 +51,10 @@ temp0.src="https://866196a35a9f.ngrok-free.app/upload/"+JSON.parse(a_msg[12])[1]
 temp1.parentNode.append( temp1.cloneNode() )
 temp1.parentNode.childNodes[1].innerHTML='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[4].substr(6) )+'">' 
 
+// clone row
+temp1.parentNode.parentNode.append( temp1.parentNode.cloneNode() )
+temp1.parentNode.parentNode.childNodes[1].innerHTML=temp1.parentNode.parentNode.childNodes[0].innerHTML 
+
 // ====
 
 // post message from parent console
