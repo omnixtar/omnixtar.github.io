@@ -80,6 +80,9 @@ JSON.parse(a_msg[13])[1].r[0]
 JSON.parse(a_msg[13])[1].r.slice(0,6)
 Array(6) [ "Graph/img/449066482_18445073290003079_7430182187062279257_n.jpg", "Graph/img/Screenshot from 2026-01-28 09-29-20.png", "Graph/img/Screenshot from 2026-01-13 12-20-27.png", "Graph/img/0b3863466bbe7f9313e0f9fb253a72a5.png", "Graph/img/Screenshot 2025-11-15 20:29:15.png", "Graph/img/Screenshot from 2025-11-05 00-14-42.png" ]
 
+// need parseInt to convert (i in ta) to int?
+v="";for(i in ta){if(i==0)p=e.substr(0,ta[i][0]+1);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7)+1);q=encodeURI( JSON.parse(a_msg[13])[1].r[parseInt(i)+3].substr(6) );v+=p+q+'"></td>';console.log(i,v)}
+
 // ====
 
 // post message from parent console
