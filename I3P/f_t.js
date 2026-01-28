@@ -65,6 +65,8 @@ e1 ='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI(
 
 for(i in ta){if(i==0)p=e.substr(0,ta[i][0]);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7));q=encodeURI( JSON.parse(a_msg[12])[1].r[i].substr(6) );console.log(p,q)} 
 
+for(i in ta){if(i==0)p=e.substr(0,ta[i][0]+1);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7)+1);q=encodeURI( JSON.parse(a_msg[12])[1].r[i].substr(6) );console.log(p+q+'"></td>')} 
+
 // ====
 
 // post message from parent console
