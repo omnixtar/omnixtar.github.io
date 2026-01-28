@@ -86,6 +86,22 @@ Array(6) [ "Graph/img/449066482_18445073290003079_7430182187062279257_n.jpg", "G
 // need parseInt to convert (i in ta) to int?
 v="";for(i in ta){if(i==0)p=e.substr(0,ta[i][0]+1);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7)+1);q=encodeURI( JSON.parse(a_msg[13])[1].r[parseInt(i)+3].substr(6) );v+=p+q+'"></td>';console.log(i,v)}
 
+e1 ='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[2].substr(6) )+'">'
+
+s.push([...e.matchAll(/\/img\//g)].map(x=>{p=x.index;q=e.substr(p).indexOf('"><');console.log(p,q);return[p,q]}) )
+
+e=temp1.parentNode.parentNode.childNodes[1].innerHTML
+
+temp1.parentNode.childNodes[2].innerHTML='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[2].substr(6) )+'">'
+
+temp1.parentNode.append( temp1.cloneNode() )
+
+temp1.parentNode.childNodes[1].innerHTML='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[4].substr(6) )+'">'
+
+temp1.parentNode.childNodes[1].innerHTML='<img width=300 src=""https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[3].substr(6) )+'">'
+
+temp0.src="https://866196a35a9f.ngrok-free.app/upload/"+JSON.parse(a_msg[12])[1].r[2].substr(6) 
+
 // ====
 
 // post message from parent console
