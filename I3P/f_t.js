@@ -58,6 +58,9 @@ temp1.parentNode.parentNode.childNodes[1].innerHTML=temp1.parentNode.parentNode.
 // img src
 temp1.parentNode.parentNode.childNodes[1].childNodes[0].childNodes[0].src 
 
+// get string position to replace
+[...e.matchAll(/\/img\//g)].map(x=>{p=x.index;q=e.substr(p).indexOf('"><');console.log(p,q);return[p,q]})
+
 // ====
 
 // post message from parent console
