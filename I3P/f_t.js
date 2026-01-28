@@ -47,6 +47,8 @@ S0.$CDW.F_O.push("pa:")
 // img src
 temp0.src="https://866196a35a9f.ngrok-free.app/upload/"+JSON.parse(a_msg[12])[1].r[3].substr(6) 
 
+temp1.parentNode.childNodes[1].innerHTML='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[4].substr(6) )+'">' 
+
 // ====
 
 // post message from parent console
