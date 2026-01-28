@@ -21,6 +21,7 @@ D0.querySelectorAll('iframe')[0].src="https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63i
 D0.querySelectorAll('iframe')[0].height="400px"
 D0.querySelectorAll('iframe')[0].width="600px"
 
+// 20260128
 // parent window
 a_msg=[]
 function msgf(event) {
