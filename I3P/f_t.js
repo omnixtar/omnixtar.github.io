@@ -115,6 +115,12 @@ tr0.parentElement.append(tr0.cloneNode())
 tr0.parentElement.childNodes[1].innerHTML=tr0.innerHTML
 '<td><img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300"></td><td><img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300"></td><td><img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300"></td>' 
 
+// change td0 img src
+p0=tr0.childNodes[1].childNodes[0].src.substr(0,43)
+"https://866196a35a9f.ngrok-free.app/upload/"
+
+tr0.childNodes[1].childNodes[0].src=p0+JSON.parse(a_msg[0])[1].r[1].substr(6) 
+
 // ====
 
 // post message from parent console
