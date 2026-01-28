@@ -105,6 +105,17 @@ temp0.src="https://866196a35a9f.ngrok-free.app/upload/"+JSON.parse(a_msg[12])[1]
 temp1.outerHTML
 '<table><tbody><tr><td><img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300"></td></tr></tbody></table>' 
 
+tr0=temp1.childNodes[0].childNodes[0]
+tr0.childNodes[0]
+td0=tr0.childNodes[0]
+tr0.append(td0.cloneNode())
+
+tr0.childNodes[0].innerHTML
+'<img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300">'
+
+tr0.childNodes[1].innerHTML=tr0.childNodes[0].innerHTML
+'<img src="https://866196a35a9f.ngrok-free.app/upload/img/Durian-Farm-Land-Gerik-Perak-Gerik-Malaysia.jpg" width="300">' 
+
 // ====
 
 // post message from parent console
