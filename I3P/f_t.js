@@ -31,6 +31,8 @@ function msgf(event) {
 }
 window.addEventListener("message", msgf);
 
+f_pm=function(){console.log("  in f_pm", a_msg[a_msg.length-1])}
+
 // 20260127 a_cmd
 s.forEach(e=>{if (typeof e=="string") if (e.substr(0,10)=='[{"a_cmd":') a_cmd.push(e) })
 
