@@ -166,6 +166,19 @@ f("dup: dup: cln: 2dup: iae: 1 pick: gih: sih:")
 // 1 cell table
 "<table><tr><td>abc</td></tr></table>" 
 
+// Source - https://stackoverflow.com/a/494348
+// Posted by Crescent Fresh, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-29, License - CC BY-SA 4.0
+
+function createElementFromHTML(htmlString) {
+  var div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+
+  // Change this to div.childNodes to support multiple top-level nodes.
+  return div.firstChild;
+}
+
+
 // ====
 
 // post message from parent console
