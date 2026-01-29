@@ -178,6 +178,8 @@ function createElementFromHTML(htmlString) {
   return div.firstChild;
 }
 
+// 1cell:
+f_1cell=function(){s.push(createElementFromHTML("<table><tr><td>abc</td></tr></table>"))}
 
 // ====
 
