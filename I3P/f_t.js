@@ -154,7 +154,7 @@ f_2dup=function(){f("1 pick: 1 pick:")}
 f("dup: dup: cn: 0 i: 2dup: cln: 2dup: append:") 
 f("3 pick: gih: 2 pick: swap: sih:")
 
-// front colon is alias to keep alphabets string as data
+// front colon is alias to keep alphabets string as data; if aliases increase, use a_* b_* etc
 // dup td
 f(": :dtd dup: dup: cn: 0 i: 2dup: cln: 2dup: append: 3 pick: gih: 2 pick: swap: sih: ;")
 
