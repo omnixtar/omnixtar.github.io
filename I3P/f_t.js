@@ -143,6 +143,12 @@ s.push(s[9].cloneNode())
 f("append:")
 s[10].childNodes[1].innerHTML=s[10].childNodes[0].innerHTML
 
+// dup td from tr
+// s.push(s[9].parentElement)
+// s.push(s[9].cloneNode())
+f("dup: dup: cn: 0 i: cln: append:")
+// s[10].childNodes[1].innerHTML=s[10].childNodes[0].innerHTML
+
 // ====
 
 // post message from parent console
