@@ -152,6 +152,7 @@ f("dup: dup: cn: 0 i: cln: append:")
 f_2dup=function(){f("1 pick: 1 pick:")} 
 
 f("dup: dup: cn: 0 i: 2dup: cln: 2dup: append:") 
+f("3 pick: gih: 2 pick: swap: sih:")
 
 // ====
 
