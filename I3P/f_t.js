@@ -134,7 +134,7 @@ f_cn=function(){s.push(s.pop().childNodes)}
 
 f("table ce: tr ce: td ce: append: append:")
 
-
+s[4].childNodes[0].childNodes[0].innerHTML="abc"
 
 // ====
 
