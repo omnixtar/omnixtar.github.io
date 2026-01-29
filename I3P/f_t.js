@@ -129,9 +129,12 @@ ta[i].childNodes[0].src=p0+JSON.parse(a_msg[0])[1].r[i].substr(6)
 
 // append:
 f_append=function(){var a=s.pop();var b=s.pop();b.append(a);s.push(b)}
-f("table ce: tr ce: append:")
 
 f_cn=function(){s.push(s.pop().childNodes)}
+
+f("table ce: tr ce: td ce: append: append:")
+
+
 
 // ====
 
