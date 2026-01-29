@@ -121,6 +121,12 @@ p0=tr0.childNodes[1].childNodes[0].src.substr(0,43)
 
 tr0.childNodes[1].childNodes[0].src=p0+JSON.parse(a_msg[0])[1].r[1].substr(6) 
 
+// querySelectorAll
+ta=[...tr0.parentElement.querySelectorAll('td')]
+for(i in ta){ console.log(i,ta[i].childNodes[0].src,p0+JSON.parse(a_msg[0])[1].r[i].substr(6))
+ta[i].childNodes[0].src=p0+JSON.parse(a_msg[0])[1].r[i].substr(6)
+}
+
 // ====
 
 // post message from parent console
