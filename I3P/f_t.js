@@ -163,6 +163,9 @@ f(": :dtbl dup: dup: cln: 2dup: iae: 1 pick: gih: sih: ;")
 
 f("dup: dup: cln: 2dup: iae: 1 pick: gih: sih:") 
 
+// 1 cell table
+"<table><tr><td>abc</td></tr></table>" 
+
 // ====
 
 // post message from parent console
