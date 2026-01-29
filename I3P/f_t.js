@@ -136,6 +136,13 @@ f("table ce: tr ce: td ce: append: append:")
 
 s[4].childNodes[0].childNodes[0].innerHTML="abc"
 
+// dup td -- s[8] is table
+s.push(s[8].nextElementSibling.childNodes[0].childNodes[0].childNodes[0])
+s.push(s[9].parentElement)
+s.push(s[9].cloneNode())
+f("append:")
+s[10].childNodes[1].innerHTML=s[10].childNodes[0].innerHTML
+
 // ====
 
 // post message from parent console
