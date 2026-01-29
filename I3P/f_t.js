@@ -159,6 +159,8 @@ f("3 pick: gih: 2 pick: swap: sih:")
 f(": :dtd dup: dup: cn: 0 i: 2dup: cln: 2dup: append: 3 pick: gih: 2 pick: swap: sih: ;")
 
 
+f("dup: dup: cln: 2dup: iae: 1 pick: gih: sih:") 
+
 // ====
 
 // post message from parent console
