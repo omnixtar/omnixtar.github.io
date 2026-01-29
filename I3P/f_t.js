@@ -149,6 +149,10 @@ s[10].childNodes[1].innerHTML=s[10].childNodes[0].innerHTML
 f("dup: dup: cn: 0 i: cln: append:")
 // s[10].childNodes[1].innerHTML=s[10].childNodes[0].innerHTML
 
+f_2dup=function(){f("1 pick: 1 pick:")} 
+
+f("dup: dup: cn: 0 i: 2dup: cln: 2dup: append:") 
+
 // ====
 
 // post message from parent console
