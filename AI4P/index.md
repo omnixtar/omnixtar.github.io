@@ -39,6 +39,7 @@ The Architecture of Autonomy
 Why fund the monopolies of the past when you can own the infrastructure of the future? AI⁴P turns every user into a stakeholder and every programmer into a sovereign entity. By combining the anonymity of I2P with the power of decentralized AI and the efficiency of Omnihash, we are building an internet that belongs to the people, not the trillion-dollar giants.
 Would you like me to draft a technical breakdown of how the Omnihash payment layer integrates with the I2P tunnel architecture?
 
+---
 
 ### I3P: <iframe> + I2P Invisible Internet Project
 
