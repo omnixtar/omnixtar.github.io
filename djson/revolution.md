@@ -1,4 +1,4 @@
-Metanarchy French Revolution 
+### Metanarchy vs. French Revolution 
 
 Comparing Metanarchy (the 2026 digital-first decentralized movement) to the French Revolution reveals a fascinating paradox: while both movements sought to overthrow "tyranny," they represent opposite ends of the political spectrum regarding the role of the state.
 
