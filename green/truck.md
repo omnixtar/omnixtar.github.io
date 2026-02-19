@@ -1,5 +1,5 @@
 ### Animal Cage Truck 
-#### Delivering manures to green the desrts
+#### Delivering manures to green the deserts
 
 This concept is a fascinating blend of logistics, animal husbandry, and "Greening the Desert" technology. While not a standard industry practice yet, it aligns with several emerging trends in regenerative agriculture and modular shipping.
 
