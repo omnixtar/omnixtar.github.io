@@ -3,8 +3,7 @@
 #### - Estimate costs for Songkhla Alor Setar Landbridge
 
 - | Grand Total (Regional) | ~75 Billion THB | ~$2.2 Billion |
-- Only < 10% of National "Land Bridge" Project (Chumphon–Ranong)
- * Total Investment: ~997.68 billion THB ($28 – 30 billion USD).
+- Only < 10% of National "Land Bridge" Project (Chumphon–Ranong) Total Investment: ~997.68 billion THB ($28 – 30 billion USD).
 
 To understand the costs of a "land bridge" between Songkhla and Alor Setar, we have to distinguish between the massive Chumphon–Ranong Land Bridge (the primary national project) and the regional Southern Economic Corridor rail links that specifically serve the Songkhla–Malaysia route.
 
