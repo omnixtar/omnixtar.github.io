@@ -1,4 +1,4 @@
-#### Ad Astra: from Space Elevators to Pentatronia
+### Ad Astra: from Space Elevators to Pentatronia
 
 In the beginning, there was the tether.
 
