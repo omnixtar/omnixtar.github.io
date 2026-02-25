@@ -1,5 +1,81 @@
 ### Ad Astra: from Space Elevators to Pentatronia
 
+#### Hotel Pentatronia
+- On a dark cosmic highway
+- Cool plasma in my wake
+- Warm glow of fusion reactors
+- Rising up through the hull
+
+- Up ahead in the distance
+- I saw a spinning light
+- My ship grew heavy and my scans grew dim
+- I had to dock for the night
+
+- There she stood in the airlock
+- I heard the docking bell
+- And I was thinkin' to myself
+- "This could be heaven or this could be hell"
+
+- Then she lit up a hologram
+- And she showed me the way
+- There were voices down the corridors
+- I thought I heard them say
+
+- Welcome to the Hotel Pentatronia
+- Such a lovely place (such a lovely place)
+- Such a lovely face
+- Plenty of room at the Hotel Pentatronia
+- Any time of year (any time of year)
+- You can find it here
+
+- Her mind is graphene-twisted
+- She got the mirrors on the ceiling
+- The pink champagne on ice
+- And she said, "We are all just traders here
+- Of our own device"
+
+- And in the master's chambers
+- They gather for the feast
+- They stab it with their steely knives
+- But they just can't kill the beast
+
+- Last thing I remember
+- I was running for the bay
+- I had to find the passage back
+- To the place I was before
+
+- "Relax," said the night man
+- "We are programmed to receive
+- You can check out any time you like
+- But you can never leave!"
+
+- Welcome to the Hotel Pentatronia
+- Such a lovely place (such a lovely place)
+- Such a lovely face
+- They're livin' it up at the Hotel Pentatronia
+- What a nice surprise (what a nice surprise)
+- Bring your alibis
+
+- Mirrors on the ceiling
+- The pink champagne on ice
+- And she said, "We are all just prisoners here
+- Of our own device"
+
+- And in the master's chambers
+- They gather for the feast
+- They stab it with their steely knives
+- But they just can't kill the beast
+
+- Last thing I remember
+- I was running for the bay
+- I had to find the passage back
+- To the place I was before
+
+- "Relax," said the night man
+- "We are programmed to receive
+- You can check out any time you like
+- But you can never leave!"
+
 In the beginning, there was the tether.
 
 A single carbon thread, finer than spider silk yet stronger than any steel humanity had ever forged, rose from the equatorial jungles of Earth like a silver vein reaching for the sky. It stretched beyond the clouds, past the edge of breathable air, through the Van Allen belts, and into the quiet cold of geostationary orbit—36,000 kilometers above the blue marble that had cradled our species for two hundred thousand years. Climbers glided upward on electromagnetic rails, silent as prayers, carrying the first wave of dreamers who no longer belonged solely to gravity.
