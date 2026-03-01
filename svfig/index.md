@@ -21,9 +21,9 @@ and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf)
 - [November 15 2025, The roles of FORTH in
 blockchain technologies
 and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf)
-- [January 24 2026, BFF001 Hilbert Hotel with Infinite Cabinets](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-1.pdf)
+- [January 24 2026, BBF001 Hilbert Hotel with Infinite Cabinets](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-1.pdf)
   - [January 24 2026, I3P: <iframe> + I2P Invisible Internet Project](https://omnixtar.github.io/svfig/I3P-iframe-I2P.pdf)
-- [February 28 2026, BFF002 AGI Self-Identity Using Hash of Public Key & Reselling AI Server Tokens w. Omnihash](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-02.pdf)
+- [February 28 2026, BBF002 AGI Self-Identity Using Hash of Public Key & Reselling AI Server Tokens w. Omnihash](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-02.pdf)
   - [Grok summary](https://omnixtar.github.io/svfig/OXW-2026-02)
 
 ### Codex Omnia Possibilia 
