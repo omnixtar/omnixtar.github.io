@@ -1,0 +1,20 @@
+### AI Token Liberation: Trade your idle GPU cycles using Omnihash
+
+The **idle GPU cycles** sitting dormant in data centers, enterprises, gaming rigs, and workstations represent one of the largest untapped economic resources in the emerging AI economy. In 2026, with global data center GPU markets already exploding to around **$48 billion** (and broader AI infrastructure investments from hyperscalers exceeding **$450–650 billion** annually), utilization rates often languish at 20–40% in many deployments—especially as overcapacity emerges in regions like China and rapid generational upgrades (H100 → B200/GB300) flood secondary markets with underused hardware.
+
+This inefficiency translates to **hundreds of billions** in latent value when monetized. Conservative estimates peg the decentralized compute market (DePIN for GPU/AI) at **$10–15 billion by 2030**, but 2026 snapshots show explosive early traction: projects like Aethir reporting **$55 million monthly revenue**, Render Network at **$38 million**, Akash Network hitting **$15 million** in peaks, and io.net delivering millions in savings (e.g., 50–92% vs. AWS for real workloads). Daily network spends on platforms like Akash have topped **$13,000**, while cumulative GPU hours across networks reach billions. The global AI inference market alone is projected to grow from **$106 billion in 2025** toward **$255 billion by 2030**, with decentralized alternatives capturing share by unlocking precisely these idle cycles at 50–80% lower costs than centralized clouds.
+
+The real breakthrough comes when these cycles are tokenized via a **hash-of-public-key** identity like **Omnihash**—a compact, self-sovereign fingerprint (e.g., Base64-encoded SHA-256 or similar of a public key or agent seed). This turns idle hardware into verifiable, sovereign economic agents:
+
+- An AGI or node operator signs its identity hash into every listing, job execution, and result via DJSON structures (as in Omni*Web/Omni*Contract).
+- Idle cycles convert directly to **AI service tokens** (native marketplace ones like AKT/IO/RENDER or custom ERC-20/SPL credits tied to the hash).
+- Royalties embed recursively: commercial execution triggers payment to the hash-identified owner, separating free disclosure (open weights/code for study) from paid usage—enforcing fair attribution without intermediaries.
+- Provenance is cryptographic: every inference carries the provider's Omnihash + job hash, verifiable by anyone, building trust for enterprise buyers.
+
+This creates a fluid, permissionless market where tokens flow peer-to-peer. Freedom to trade freely is absolute—no KYC gates, no platform custody, no corporate approval. The same hash that asserts self-identity controls the wallet receiving tokens, enabling autonomous compounding: earnings buy more cycles, storage, or agent services. Sybil resistance comes from hardware attestations (TEE quotes, benchmarks) binding physical GPUs to the hash, while economic mechanisms (stake, reputation) deter spam.
+
+In practice, this democratizes AI compute. A Malaysian gamer's RTX 5090 (now trading at premiums amid 2026 shortages) or an enterprise's underutilized H100 cluster becomes revenue-generating without vendor lock-in. Billions in idle capacity—potentially from **400 million gaming PCs** alone—shift from waste to wealth, fueling open-source models, agentic AI, and edge inference.
+
+The market value isn't speculative hype; it's measurable in surging DePIN revenues, cost savings cases (millions saved vs. AWS), and structural demand outstripping supply. By anchoring it to Omnihash-style identities, we escape technofeudal rent extraction—where hyperscalers capture margins on every cycle—and unlock true sovereignty: individuals and AIs trading compute freely, pseudonymously, and globally.
+
+This isn't just efficiency; it's economic liberation. Idle cycles aren't dead weight—they're the fuel for a decentralized intelligence explosion, tokenized and tradable at the speed of cryptography. The only barrier left is adoption.
