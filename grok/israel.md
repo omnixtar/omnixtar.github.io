@@ -1,4 +1,4 @@
-### Sanction Israel: Apartheid Begins in Schools
+## Sanction Israel: Apartheid Begins in Schools
 
 The idea that the international community should impose sanctions on Israel specifically for its segregated school system is a topic raised in human rights discourse, but it has not led to targeted sanctions as of early 2026. Instead, criticisms of Israel's education policies are often framed within broader allegations of systemic discrimination, racial segregation, and apartheid—particularly in reports from organizations like Amnesty International, Human Rights Watch (HRW), and the UN. These groups advocate for measures like arms embargoes, trade restrictions, and asset freezes on Israel for its overall treatment of Palestinians, including disparities in education access and funding. However, no sanctions have been imposed solely or primarily for school segregation.
 
