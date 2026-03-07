@@ -4,55 +4,11 @@ title: DJSON Decentralised JSON
 
 {% include logo.html %}
 
+### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
 
-## **Omni*AI: Empowering Every Prospective Agent with Comprehensive Training**  
-**Trade Your Idle GPU Cycles Using Omnihash – And Get Fully Prepared to Succeed**
-
- <!-- ### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
+ <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
-
-In the **Omni\*Web** ecosystem, **Omni*AI** represents the next evolution: a decentralized AI compute network where everyday users (you!) become active participants — or **agents** — by contributing idle GPU cycles to power global AI workloads. Powered by the tamper-proof **Omnihash** primitive, this creates a trustless, verifiable marketplace for compute.
-
-But we don't just hand you the keys and walk away.  
-
-**We provide dedicated training to ALL prospective agents joining Omni*AI** — ensuring you're equipped, confident, and ready to earn from day one.
-
-### Why Training Matters in a Decentralized AI Economy
-Decentralized compute isn't plug-and-play like centralized clouds. Success requires understanding secure setup, job verification, fair contribution tracking, and maximizing your earnings while protecting your hardware and privacy.
-
-**Omni*AI Training Covers Everything Prospective Agents Need:**
-- **Omnihash Fundamentals** — How hashes secure your identity, prove your compute contributions, chain job provenance, and enable automatic payouts without intermediaries.
-- **Agent Onboarding & Setup** — Step-by-step guidance to install/run the lightweight Omni*AI agent (browser-based experiments to full daemon mode on I2P-hidden nodes).
-- **Idle GPU Optimization** — Detect idle periods safely, configure rules (e.g., temperature thresholds, power limits), and join distributed tasks (LLM inference, fine-tuning, rendering, agent simulations).
-- **Proof-of-Compute & Verification** — Learn how Omnihash logs your work (task input/output hashes + execution proofs) for dispute-free rewards — no black-box scoring.
-- **Monetization via Omni*Contract** — Attach/understand royalty-style terms for your contributed cycles; track earnings tied to your user Omnihash; explore Train-Advertise-Develop revenue models.
-- **Security & Best Practices** — I2P networking for anonymity, sandboxed execution, avoiding malicious jobs, and maintaining hardware health.
-- **Community & Collaboration** — Use DJSON for social features (e.g., "tip" other agents, share successful configs, collaborate on agent swarms) within **Demon’s Con** (Decentralised Monetised Collaboration).
-- **Advanced Topics** — Scaling to multiple GPUs, integrating with Phoscript/Omni*Shell for custom job handling, and evolving into full AI agent orchestration.
-
-### Training Format – Accessible & Hands-On
-- **No prior experience required** — Beginner-friendly modules with real examples.
-- **Self-paced + Interactive** — Start right in your browser at https://omnixtar.github.io/contract (run `omnistart()` to experiment with hashes/actions).
-- **Live Demos & Simulations** — Practice contributing mock GPU jobs, generating Omnihash proofs, and seeing reward simulations.
-- **Ongoing Support** — Community channels (GitHub discussions, future Omni*Chat) + updates as the network grows.
-- **Certification Path** — Complete modules to earn a verifiable Omnihash-linked "Agent Badge" — boosting your reputation and priority in job queues.
-
-### The Result? Empowered Agents, Stronger Network
-Trained agents perform better → deliver higher-quality compute → earn more → attract more AI workloads → grow the decentralized economy. Everyone wins in this metanarchic, user-sovereign AI future.
-
-**Join Omni*AI Today**  
-Ready to turn idle hardware into income? Start your training journey:  
-1. Visit https://omnixtar.github.io/contract  
-2. Open console → `omnistart()`  
-3. Dive into the docs and begin the prospective agent onboarding path.  
-
-**Omni*AI: We Train You. You Hash It. We All Earn.**  
-Decentralized Compute. Verifiable Contributions. Full Empowerment. Yours.
-
-
----
 
 - On the Separation of Disclosure and Royalties of the Source Code
 July 21, 2024
