@@ -9,9 +9,10 @@ title: DJSON Decentralised JSON
 
 - *Tomorrow's revolution begins today.*
 
-- **Trade Your Idle GPU Cycles Using Omnihash – And Get Fully Prepared to Succeed**
+- *Trade Your Idle GPU Cycles Using Omnihash – and Start Owning A Piece of Tomorrow's Web.*
 
- <!-- ### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
+ <!-- And Get Fully Prepared to Succeed*
+ ### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
  <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
