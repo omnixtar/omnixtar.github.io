@@ -17,7 +17,7 @@ title: DJSON Decentralised JSON
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
-In the **Omni\*Web** ecosystem, **Omni*AI** represents the next evolution: a decentralized AI compute network where everyday users (you!) become active participants — or **Omni\*Agents** — by contributing idle GPU cycles to power global AI workloads. Powered by the tamper-proof **Omnihash** primitive, this creates a trustless, verifiable marketplace for compute.
+In the **Omni\*Web** ecosystem, **Omni*AI** represents the next evolution: a decentralized AI compute network where everyday users (you!) become active participants — or **Omni\*Agents** — by contributing idle GPU cycles to power global AI workloads. Powered by the tamper-proof [**Omnihash**](https://omnixtar.github.io/contract/) primitive, this creates a trustless, verifiable marketplace for compute.
 
 But we don't just hand you the keys and walk away.  
 
