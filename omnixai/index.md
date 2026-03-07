@@ -1,0 +1,250 @@
+---
+title: DJSON Decentralised JSON
+---
+
+{% include logo.html %}
+
+### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
+
+ <!-- <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
+
+<button type="button" onclick="f(C_LIKE);">Like</button> 
+
+- On the Separation of Disclosure and Royalties of the Source Code
+July 21, 2024
+	
+1. You, a human agent of a company or government agency, may read the source code without 
+	making payments to the author or authors, but if you  execute this program on behalf of 
+	your company or agency for commercial purposes, we reserve the rights to claim royalties 
+	from you or your company or agency. 
+
+2. Your copy of source code shall be attached with at least one Omni* Hash Contract bearing the Omnihash
+	of a Omni* Agent and your own Omnihash, to authorise you the permissions to use or modify said source code, 
+	otherwise you shall pay maximum penalties allowed by a legal court of your jurisdiction,
+	for the damages you have incurred for deploying the source code pertaining to clause (1).
+
+---
+
+DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
+
+
+- ```["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]```
+
+- Omnihash: DgV6_qnujw==
+
+Try this yourself:
+
+1. Press F12 to bring up browser console.
+2. Run the following code:
+```
+omnistart()
+j0=["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]
+s.push(JSON.stringify(j0))
+f('h53: b64: path:')
+s[s.length-1] 
+```
+
+---
+1. The existence of (Omni)hash implies the input string concerned has been fed into a hash function to obtain the (Omni)hash, presumably by the first party (or User A). 
+
+2. A second party (anyone other than the first party, by defauly YOU, User B) may feed the same input to the same hash function to obtain the same (Omni)hash, to verify the hash is correct, and therefore the first party has indeed performed step (1).
+
+3. Step (2) implies *the input string is* **as intended** by the first party.
+
+4. Step (3) is the default inference, as agreed by all parties concerned.
+
+*We omit "Omni" for convenience where it is implied.*
+
+*Key-value format of DJSON can be included as a string in Array-String of DJSON.*
+
+- *Refer to "contract" for terms and conditions for "repo".*
+
+In the DJSON above, the fields are:
+
+- timestamp, action, current_user_ID, prev_msg_owner, doc_hash, messages
+
+doc_hash means hash of URL of document.
+
+DJSON or Decesntralised JSON is a critical breakthrough by Omni*Web where base 64 hash codes representing any kind of digital assets and entities, from user identifiers to social media actions such as like, comment and share, are embedded in the unassuming ubiquitous JSON strings.
+
+Underlying decentralised JSON is an extension of the Bitcoin address, which is derived from the hash of a public key, to be used as a user identifier. The generalisation of the hash of public key as user identifier is a breakthrough in decentralised computing, as previous frameworks based on blockchains or cryptocurrencies are heavily monopolised by miners.
+
+What makes DJSON so special and powerful is what we call "type preservation property" of hash numbers and integers, which is derived from Ring theory properties of integers, where the operations of additon and multiplication on integers invariably result in integers as output. 
+
+The previous paragraph may sound like your typical high school mathematics nightmare, but it is the biggest secret underlying Bitcoin and other cryptocurrencies as well as novel decentralised social media platforms as we shall see in the following example:
+
+- how to add a like function to **this** GitHub markdown article
+
+We will reveal the answer first and explain later as we assume there are readers who are impatient: 
+
+- ```["2025-02-11T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==","HymWBzfj9A== s: x:"]```
+
+In the DJSON above, the fields are:
+
+- timestamp, action, current_user_ID, prev_msg_owner, doc_hash, messages
+
+doc_hash means hash of URL of document.
+
+The following are the steps for generating the "like" DJSON of this article, accompanied by a video:
+
+1. Save a copy of this web page as a local file on Omni*Web server.
+2. Generate doc_hash for this document.
+3. Make a subdirectory for this document with doc_hash.
+4. Copy neccessary files and soft links.
+5. Open the local copy on [Omni*Web server](https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/h/E5bnwoBdvg==/?nn=z) using I2P (Invisible Internet Project) and doc_hash.
+6. Start Omni*Shell from browser console.
+7. Refresh authentication token with user's public key.
+8. Send "like" DJSON from browser console using Omni*Shell Phoscript commands.
+
+If the steps above look daunting to you then you will be pleased to know that those are exactly what happen millions of times per seconds around the world when "like" buttons are clicked on social media platforms -- except that YOU, the users and free software programmers, ***do not OWN and OPERATE any part of that, and therefore CANNOT make any money out of it***.
+
+... which brings us to Omni\*Web aim -- to create a truly decentralised web ecosystem, **OWNED and OPERATED by free individual users and free software programmers, capable of providing free alternatives to ALL existing services** provided by the biggest trillion dollar corporations such as MMAGA -- a funny abbreviation for Microsoft, Meta, Amazon, Google and Apple.
+
+---
+
+Omni\*Web will attempt to improve Jekyll's documentation, as we shall do for other free software projects too, 
+
+This article itself will demonstrate several features of Omni*Web aiming at improving Jekyll documentation and promoting it, as well as introduce metaprogramming features that can be used to extend Jekyll's functionalities.
+
+One of Omni*Web most important innovation is Decentralised Full Stack Programming (DFSP).
+
+### Decentralised Full Stack Programming using Hash
+
+Full stack programming has evolved out of the need to coordinate web browser front end and server back end functionalities. Over many years, many frameworks have been developed and front end modules have now included mobile device environments. Their complexities have grown exponentially and we now proposed a decentralised programming paradigm based on hashes, greatly simplifying overall full stack operations. 
+
+To summarise the whole idea before delving into details, we present an example where a user responds to a post with a comment on a GitHub page, where the URL of the original post and the user's comment, as well as the user's identifier are represented by hashes, and these hashes can be hashed using a hash function to produce a root hash, representing the overall transaction. 
+
+The user may submit the transaction JSON and its hash to a server independently operating unrelated to the GitHub page server, as long as it understands and complies with the protocols determined by the hashes. 
+
+
+A user may claim the same identity with different hash identifiers as long as they can prove the chain of identities by verifying ciphers using the private key for each of the identities. 
+
+
+#### Jekyll
+
+Jekyll in a nutshell is like a pure front end MVC framework, so that mega websites like GitHub will feel safe to provide pseudo MVC features to its users, in this case, primarily programmers.
+
+Jekyll is the default markdown document parser on GitHub, which is very powerful, but unfortunately has some rather confusing documentation and not so easy to debug.
+
+
+
+
+
+
+
+- cdw: ak: x:
+- Enter the above in the nickname (adam) chat box. Click the nickname (adam) button to execute.
+- cdw: Read all colon definition words in SESSION()
+- ak: array_keys() extract array keys from associative array (JSON like)
+- x: sends chat box expressions by AJAX to backend.
+
+<img src="./s1.png">
+
+<img src="./s2.png">
+
+---
+
+### Decentralised Monetised Collaboration 
+
+Demon Collab 
+
+Demon’s Con
+
+Omni*DOC
+
+It is interesting how word tricks in English and Latin play out.
+
+The Latin root of “collaborate” is “con” + “laboro”, where “con” is a variation of “cum” meaning “with”.
+
+As such, Decentralised Monetised Collaboration is shortened as “Demon's Con”.
+
+We will tentatively use Demon's Con as the nickname for Decentralised Monetised Collaboration, as we have received feedback that the cryptocurrency industry now has such a bad reputation that we might as well use a Latin word trick to engage users. 
+
+We know some self proclaimed Christians have long associated cryptography with the works of Demons, in folklores like 666. We are interested in engaging in conversation with Christians or any self proclaimed believers in monotheistic religions as we are aware that there are many countries which still practise laws that may prosecute anyone unilaterally as conducting blasphemy, some punishable by death, in 2025 Anno Domino.
+
+However, bringing up Christian demons and 666 also appeals to a large number of fans who are critical of Christian traditions as well as those affected by bad publicity about cryptocurrency and decentralised technologies, bearing in mind that the Washington Wall Street elites prefer to brainwash the American population so that they continue to maintain their monopoly of power in politics and finance. 
+
+
+Decentralised Monetised Collaboration 
+
+Demon Collab 
+
+Demon’s Con
+
+As the name suggests, Decentralised Monetised Collaboration consists of 3 components: Decentralised infrastructure, Monetisation Legal Framework and Collaborative Transactions.
+
+Collaborative transactions are the most common as they include everything from Google documents to TikTok posts. 
+
+Decentralised infrastructure includes everything from I2P invisible internet project which enables everyone to set up server hosts connected to Internet without the Domain Name System, to Omnihash which is a novel hash algorithm for representing ownership of any kind of digital assets. 
+
+Monetised Legal Framework means employing decentralised hash algorithms to establish digital legal contracts, including loans, payments and investments. 
+
+What can we achieve by combining all 3 components of Decentralisation, Monetisation and Collaboration?
+
+Adding Decentralisation to Collaboration will produce a UNIFIED interface to collaborative transactions. In plain English, it will enable you to combine posts and comments from ALL social media platforms into one integrated platform. 
+
+For example, one of the biggest bottlenecks of chatting with artificial intelligence systems is that the conversation results cannot be automatically published, shared and put into collaboration with other users or AI systems.
+
+With Omni*DOC, where D stands for Decentralisation, O for Oro or gold in Spanish, C for collaboration, a user’s conversation with any AI systems can be republished, shared, commented and so on just like any existing social media posts. 
+
+Omni\*DOC will behave very differently from conventional social media platforms where the operator of the platform will appoint or employ moderators to filter inappropriate speeches. On Omni*DOC however, users themselves may make the decision to choose custom filters to filter out posts or comments that they themselves deem inappropriate. 
+
+Omni*DOC works by first converting any URL into a hash code, which can be anything from 53 bits to 512 bits or longer. 
+
+Secondly, the hash of URL of HURL will be shared amongst servers running Omni*Web modules.
+
+Thirdly, any of Omni*Web servers may decide to create cache copies of a given URL for further processing. 
+
+Up to this stage, Omni\*Web behaves like a Decentralised cache and search network, i.e. instead of a huge centralised search engine operated by one company such as Google or Microsoft, the power of Omni\*Web depends on the number server nodes participating. It basically works like Waybackmachine but its functionalities can be extended by any user or programmers, as long as they conform to Omni*Contract conditions and protocols. 
+
+Social media functionalities exist from step 4 onwards. Although there exist differences amongst social media platforms, different user interface elements are essentially functions which can be represented as paths in graph theory. Further, different paths are represented as hashes, as the ring properties of integers ensure hashes can be concatenated as input to produce an output hash which is also another integer. We may call this property type preservation, namely, the types of inputs and output are preserved. The type preservation property of hashes makes it convenient to manage various types of functions on social media applications. 
+
+First 3 stages, multiply servers. Applying hash in server address.
+
+Stage 4, multiply functionalities. Applying hash in data address. 
+
+In conventional MVC programming, function calls and data types are tightly coupled to types of data and how they are processed. In hash metaprogramming, everything is hash and hashes are compatible with each other due to type preservation property. 
+
+Hash applicable in server and data addresses due to type preservation property. 
+
+
+### Omni*DOC Example
+
+This document itself is an example of Omni*DOC anyone may comment, share and follow up etc or add functions they wish.
+
+Move this up as it is easiest to understand.
+
+For example, chat results with AI, repost, comments, follow up. 
+
+Demon Collab 
+
+Demon’s Con
+
+demonscon 
+
+links to backend, backend use I2P addresses
+
+- share
+- comment
+- like
+- dislike
+- etc.
+- clone! novel feature non existant in other social media platforms.
+
+<!-- {% assign author = site.data.people[page.author] %} -->
+
+{% assign title = 'site.data.people[page.author]' %}
+
+{{ title }}
+
+{% include my_snippet.html %}
+
+[Hello World!][1]
+[1]:javascript:alert('Hello World')
+
+[Omni*Web][1]
+[1]:javascript:m_oxmobile()
+
+[Hello World](javascript:%28function%28%29%7Balert%28%22Hello%20World%22%29%7D%29%28%29%3B)
+
+[Omni*Web](javascript:%28function%28%29%7Bm_oxmobile%28%29%7D%29%28%29%3B)
