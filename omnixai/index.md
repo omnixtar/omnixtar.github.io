@@ -1,11 +1,13 @@
 ---
-title: DJSON Decentralised JSON
+title: Omni*AI Token Trading
 ---
 
 {% include logo.html %}
 
 
-## **Omni*AI: Empowering Every Prospective Agent with Comprehensive Training**  
+## Omni*AI: GPU AI Token Trading Platform
+
+<!-- Empowering Every Prospective Agent with Comprehensive Training**  -->
 
 - *Tomorrow's revolution begins today.*
 
