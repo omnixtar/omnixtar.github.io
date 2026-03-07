@@ -6,7 +6,10 @@ title: DJSON Decentralised JSON
 
 
 ## **Omni*AI: Empowering Every Prospective Agent with Comprehensive Training**  
-**Trade Your Idle GPU Cycles Using Omnihash – And Get Fully Prepared to Succeed**
+
+- *Tomorrow's revolution begins today.*
+
+- **Trade Your Idle GPU Cycles Using Omnihash – And Get Fully Prepared to Succeed**
 
  <!-- ### Omni*Contract: Ownership & Rights of Use of Digital Asset (Source Code)
  <button type="button" onclick="window.open('https://yo6sgmfq7pfvvp2e4kcuhjtfg7wfltt63igwcukhbmuqm6lu3a3a.b32.i2p/oxm/oxm.php?nn=adam', '_blank').focus();">Like</button> -->
