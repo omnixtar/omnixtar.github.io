@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni*Hash - Decentralized GPU Marketplace</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Rajdhani', sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .brochure {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+            position: relative;
+        }
+        
+        /* Cover Page */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 119, 48, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(0, 212, 255, 0.2) 0%, transparent 50%);
+            padding: 4rem 2rem;
+        }
+        
+        .logo {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #00d4ff, #ff7730, #7877c6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            letter-spacing: 0.1em;
+            text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            color: #7877c6;
+            margin-bottom: 3rem;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+        
+        .hero-text {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            background: linear-gradient(90deg, #fff, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            max-width: 800px;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a0a0a0;
+            max-width: 600px;
+            margin-bottom: 3rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background: linear-gradient(45deg, #ff7730, #ff4b1f);
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(255, 119, 48, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 119, 48, 0.6);
+        }
+        
+        .hash-pattern {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.05;
+            background-image: 
+                repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(0, 212, 255, 0.1) 35px, rgba(0, 212, 255, 0.1) 70px),
+                repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255, 119, 48, 0.1) 35px, rgba(255, 119, 48, 0.1) 70px);
+            pointer-events: none;
+        }
+        
+        /* Section Styling */
+        .section {
+            padding: 5rem 3rem;
+            position: relative;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .section-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #ff7730, #00d4ff);
+        }
+        
+        .section-subtitle {
+            color: #7877c6;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Problem Section */
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .problem-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .problem-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #ff4b1f, #ff7730);
+        }
+        
+        .problem-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 119, 48, 0.5);
+            box-shadow: 0 10px 30px rgba(255, 119, 48, 0.2);
+        }
+        
+        .problem-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+        
+        .problem-title {
+            font-size: 1.3rem;
+            color: #ff7730;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        /* Solution Section */
+        .solution-container {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(120, 119, 198, 0.05) 100%);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #00d4ff;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-box:hover {
+            background: rgba(0, 212, 255, 0.1);
+            transform: translateX(10px);
+        }
+        
+        .feature-number {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2rem;
+            color: #7877c6;
+            opacity: 0.5;
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature-title {
+            font-size: 1.2rem;
+            color: #00d4ff;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        /* How It Works */
+        .process-steps {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 3rem;
+            position: relative;
+        }
+        
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, #ff7730, #00d4ff, #7877c6);
+            opacity: 0.3;
+            z-index: 0;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-circle {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #1a1a2e, #0a0a0f);
+            border: 3px solid #00d4ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            color: #00d4ff;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+        }
+        
+        .step-title {
+            font-size: 1.1rem;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .step-desc {
+            font-size: 0.9rem;
+            color: #a0a0a0;
+        }
+        
+        /* Code Example */
+        .code-section {
+            background: #0d0d12;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 3rem 0;
+            border: 1px solid rgba(120, 119, 198, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .code-section::before {
+            content: 'DJSON';
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.8rem;
+            color: #7877c6;
+            opacity: 0.5;
+        }
+        
+        .code-block {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.8;
+            color: #00ff88;
+            overflow-x: auto;
+        }
+        
+        .code-comment {
+            color: #7877c6;
+        }
+        
+        .code-string {
+            color: #ff7730;
+        }
+        
+        .code-key {
+            color: #00d4ff;
+        }
+        
+        /* Benefits Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 3rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .comparison-table th {
+            background: linear-gradient(90deg, #ff7730, #ff4b1f);
+            color: white;
+            padding: 1.5rem;
+            text-align: left;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .comparison-table td {
+            padding: 1.2rem 1.5rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .comparison-table tr:hover {
+            background: rgba(0, 212, 255, 0.05);
+        }
+        
+        .check {
+            color: #00ff88;
+            font-weight: bold;
+        }
+        
+        .cross {
+            color: #ff4b1f;
+            font-weight: bold;
+        }
+        
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(120, 119, 198, 0.1));
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+        
+        .stat-number {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            background: linear-gradient(45deg, #00d4ff, #7877c6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        /* Use Cases */
+        .use-case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .use-case-card {
+            background: linear-gradient(135deg, rgba(255, 119, 48, 0.1), rgba(255, 75, 31, 0.05));
+            border: 1px solid rgba(255, 119, 48, 0.3);
+            border-radius: 15px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .use-case-card::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 119, 48, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .use-case-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.3rem;
+            color: #ff7730;
+            margin-bottom: 1rem;
+        }
+        
+        .price-tag {
+            display: inline-block;
+            background: rgba(0, 212, 255, 0.2);
+            color: #00d4ff;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+        
+        /* Footer CTA */
+        .final-cta {
+            text-align: center;
+            padding: 6rem 3rem;
+            background: 
+                radial-gradient(circle at 50% 50%, rgba(120, 119, 198, 0.2) 0%, transparent 70%),
+                linear-gradient(180deg, transparent 0%, rgba(0, 212, 255, 0.05) 100%);
+            position: relative;
+        }
+        
+        .final-cta h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #fff, #00d4ff, #7877c6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .final-cta p {
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn-secondary {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background: transparent;
+            color: #00d4ff;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            border: 2px solid #00d4ff;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .btn-secondary:hover {
+            background: #00d4ff;
+            color: #0a0a0f;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #7877c6;
+            font-size: 0.9rem;
+        }
+        
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: #00d4ff;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: #ff7730;
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+            .cover {
+                min-height: auto;
+                page-break-after: always;
+            }
+            .section {
+                page-break-inside: avoid;
+            }
+            .cta-button, .btn-secondary {
+                background: #333 !important;
+                color: white !important;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5rem;
+            }
+            .hero-text {
+                font-size: 2rem;
+            }
+            .process-steps::before {
+                display: none;
+            }
+            .step {
+                min-width: 100%;
+            }
+        }
+        
+        /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .pulse {
+            animation: pulse 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="brochure">
+        <!-- Cover Page -->
+        <section class="cover">
+            <div class="hash-pattern"></div>
+            <div class="floating">
+                <h1 class="logo">OMNI*HASH</h1>
+                <p class="tagline">Decentralized GPU Marketplace</p>
+            </div>
+            <h2 class="hero-text">Turn Idle GPU Cycles Into Revenue</h2>
+            <p class="subtitle">The world's first domain-less, kernel-less, database-less compute marketplace powered by cryptographic proof and decentralized identity</p>
+            <a href="#get-started" class="cta-button">Start Monetizing →</a>
+        </section>
+
+        <!-- The Problem -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">The $100B Problem</h2>
+                <p class="section-subtitle">AI compute demand is exploding, yet GPU resources sit idle</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">⛓️</div>
+                    <h3 class="problem-title">Centralized Monopolies</h3>
+                    <p>Big Tech controls 80% of AI compute infrastructure. AWS, Azure, and Google Cloud charge 3-5x markup while imposing restrictive terms.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🔒</div>
+                    <h3 class="problem-title">Vendor Lock-in</h3>
+                    <p>Traditional platforms require KYC, domain registration, and proprietary APIs. Your reputation isn't portable across marketplaces.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">⏱️</div>
+                    <h3 class="problem-title">Payment Delays</h3>
+                    <p>30-60 day payment cycles, high platform fees (15-30%), and chargeback risks make GPU hosting economically unviable for many.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🔍</div>
+                    <h3 class="problem-title">Trust Deficit</h3>
+                    <p>How do you verify compute was actually performed? Centralized monitoring invades privacy and creates single points of failure.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Solution -->
+        <section class="section" style="background: rgba(0,0,0,0.3);">
+            <div class="section-header">
+                <h2 class="section-title">The Omni*Hash Solution</h2>
+                <p class="section-subtitle">Triple-less computing: Domain-less · Kernel-less · Database-less</p>
+            </div>
+            
+            <div class="solution-container">
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #ccc;">
+                    Omni*Hash leverages <strong>type-preserving hash chains</strong> and <strong>decentralized JSON (DJSON)</strong> to create a trustless marketplace where GPU providers and AI researchers trade directly—no intermediaries, no platform risk.
+                </p>
+                
+                <div class="feature-grid">
+                    <div class="feature-box">
+                        <div class="feature-number">01</div>
+                        <h3 class="feature-title">Self-Sovereign Identity</h3>
+                        <p>Your Omni*Hash is derived from your public key. No email, no KYC, no corporate gatekeepers. Own your reputation across all platforms.</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-number">02</div>
+                        <h3 class="feature-title">Cryptographic Verification</h3>
+                        <p>Proof-of-Compute via hash challenges. Verify work was done correctly without revealing proprietary data or model weights.</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-number">03</div>
+                        <h3 class="feature-title">Instant Escrow</h3>
+                        <p>Smart contracts lock payments in escrow until hash-verified completion. No chargebacks, no 30-day waits, minimal fees.</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-number">04</div>
+                        <h3 class="feature-title">I2P Network</h3>
+                        <p>Invisible Internet Protocol routing ensures domain-less operation. Censorship-resistant, surveillance-resistant, truly peer-to-peer.</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-number">05</div>
+                        <h3 class="feature-title">Type Preservation</h3>
+                        <p>Ring theory mathematics ensures hash operations preserve integer properties. Complex multi-party agreements simplify to hash arithmetic.</p>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <div class="feature-number">06</div>
+                        <h3 class="feature-title">Portable Reputation</h3>
+                        <p>Your transaction history is a hash chain. Bring your reputation to any Omni*Web node—no platform lock-in, ever.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">From idle GPU to revenue in 4 hash-verified steps</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-circle">1</div>
+                    <h3 class="step-title">Hash Your GPU</h3>
+                    <p class="step-desc">Generate DJSON listing with your Omni*Hash, specs, and pricing. Broadcast to I2P network.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-circle">2</div>
+                    <h3 class="step-title">Match & Contract</h3>
+                    <p class="step-desc">AI researchers discover your node via HURL. Omni*Contract locks payment in escrow.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-circle">3</div>
+                    <h3 class="step-title">Compute & Prove</h3>
+                    <p class="step-desc">Run workloads. Generate cryptographic proof-of-compute via hash challenges.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-circle">4</div>
+                    <h3 class="step-title">Verify & Pay</h3>
+                    <p class="step-desc">Consumer verifies hash proof. Escrow releases instantly. Reputation hash updated.</p>
+                </div>
+            </div>
+            
+            <!-- Code Example -->
+            <div class="code-section">
+                <pre class="code-block"><span class="code-comment">// Example: GPU Provider DJSON Listing</span>
+[
+  <span class="code-string">"2025-03-11T14:25:28.207+0000"</span>,  <span class="code-comment">// Timestamp</span>
+  <span class="code-string">"gpu_offer"</span>,                      <span class="code-comment">// Action type</span>
+  <span class="code-string">"CXAGcRKevA=="</span>,                   <span class="code-comment">// Provider Omni*Hash</span>
+  <span class="code-string">"HURL_GPU_SPECS"</span>,                 <span class="code-comment">// Hash of URL to specs</span>
+  {
+    <span class="code-key">"gpu_model"</span>: <span class="code-string">"NVIDIA_H100"</span>,
+    <span class="code-key">"vram_gb"</span>: <span class="code-string">80</span>,
+    <span class="code-key">"price_per_hour"</span>: <span class="code-string">2.50</span>,
+    <span class="code-key">"currency"</span>: <span class="code-string">"USDC"</span>,
+    <span class="code-key">"availability"</span>: <span class="code-string">"idle"</span>,
+    <span class="code-key">"proof_system"</span>: <span class="code-string">"hash_challenge"</span>
+  }
+]</pre>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section class="section" style="background: rgba(0,0,0,0.3);">
+            <div class="section-header">
+                <h2 class="section-title">Why Omni*Hash Wins</h2>
+                <p class="section-subtitle">Decentralized vs. Centralized GPU Marketplaces</p>
+            </div>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Traditional Cloud</th>
+                        <th>Centralized GPU Markets</th>
+                        <th>Omni*Hash</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Identity Required</strong></td>
+                        <td>Full KYC, Corporate Entity</td>
+                        <td>Email + Credit Card</td>
+                        <td><span class="check">✓</span> Public Key Only</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Platform Fees</strong></td>
+                        <td>30-50%</td>
+                        <td>15-25%</td>
+                        <td><span class="check">✓</span> &lt;5% Protocol Fee</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Payment Speed</strong></td>
+                        <td>30-60 days</td>
+                        <td>7-14 days</td>
+                        <td><span class="check">✓</span> Instant (Escrow)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Censorship Resistance</strong></td>
+                        <td><span class="cross">✗</span> Account Bans</td>
+                        <td><span class="cross">✗</span> Platform Policies</td>
+                        <td><span class="check">✓</span> I2P + Decentralized</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Verification Method</strong></td>
+                        <td>Trusted Hardware</td>
+                        <td>Screen Sharing</td>
+                        <td><span class="check">✓</span> Cryptographic Proof</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Reputation Portability</strong></td>
+                        <td><span class="cross">✗</span> Locked to Platform</td>
+                        <td><span class="cross">✗</span> Locked to Platform</td>
+                        <td><span class="check">✓</span> Hash-Chain Portable</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data Privacy</strong></td>
+                        <td>Provider Access</td>
+                        <td>Provider Access</td>
+                        <td><span class="check">✓</span> Zero-Knowledge Proofs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Stats -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Market Opportunity</h2>
+                <p class="section-subtitle">The decentralized compute revolution is here</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">$46B</div>
+                    <div class="stat-label">GPU Cloud Market 2025</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">GPU Utilization Gap</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">0.3s</div>
+                    <div class="stat-label">Hash Verification Time</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Platform Scalability</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases -->
+        <section class="section" style="background: rgba(0,0,0,0.3);">
+            <div class="section-header">
+                <h2 class="section-title">Monetization Models</h2>
+                <p class="section-subtitle">Choose your strategy. Set your price. Own your revenue.</p>
+            </div>
+            
+            <div class="use-case-grid">
+                <div class="use-case-card">
+                    <h3 class="use-case-title">🔥 Spot Market</h3>
+                    <p>Real-time auction for immediate compute needs. Perfect for burst workloads, rendering jobs, and experimental training runs.</p>
+                    <span class="price-tag">$0.80 - $3.50/hour</span>
+                </div>
+                
+                <div class="use-case-card">
+                    <h3 class="use-case-title">⚡ Reserved Instances</h3>
+                    <p>Long-term contracts for stable AI labs. Guaranteed availability, discounted rates, SLA-backed performance.</p>
+                    <span class="price-tag">$25k - $40k/month</span>
+                </div>
+                
+                <div class="use-case-card">
+                    <h3 class="use-case-title">🎯 Inference Endpoints</h3>
+                    <p>Host fine-tuned models for specific domains. Medical imaging, legal AI, financial forecasting—specialized premium pricing.</p>
+                    <span class="price-tag">$0.05 - $0.50/request</span>
+                </div>
+                
+                <div class="use-case-card">
+                    <h3 class="use-case-title">🔗 Federated Learning</h3>
+                    <p>Train models across distributed datasets without moving data. Privacy-preserving ML with hash-verified gradients.</p>
+                    <span class="price-tag">Per-epoch micropayments</span>
+                </div>
+                
+                <div class="use-case-card">
+                    <h3 class="use-case-title">🎮 Gamer GPU Pool</h3>
+                    <p>Monetize RTX 4090s while AFK. Automatic switching between gaming and compute. Zero configuration required.</p>
+                    <span class="price-tag">$500 - $2k/month passive</span>
+                </div>
+                
+                <div class="use-case-card">
+                    <h3 class="use-case-title">🏢 Enterprise Cluster</h3>
+                    <p>Data center providers list excess capacity. Hash-based compliance auditing for regulated industries.</p>
+                    <span class="price-tag">Custom enterprise contracts</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta" id="get-started">
+            <h2>Ready to Decentralize?</h2>
+            <p>Join the Omni*Web ecosystem. Turn your idle GPUs into revenue streams while maintaining complete sovereignty over your hardware and identity.</p>
+            
+            <div class="button-group">
+                <a href="https://omnixtar.github.io/contract" class="cta-button">Read Omni*Contract →</a>
+                <a href="https://github.com/omnixtar/omnixtar.github.io/" class="btn-secondary">View on GitHub</a>
+            </div>
+            
+            <div style="margin-top: 3rem; padding: 2rem; background: rgba(0,0,0,0.5); border-radius: 10px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <p style="font-family: 'Orbitron', sans-serif; color: #00d4ff; margin-bottom: 1rem;">Quick Start Command</p>
+                <code style="color: #ff7730; font-size: 0.9rem;">
+                    git clone https://github.com/omnixtar/omnixtar.github.io/<br>
+                    cd omnixtar.github.io && omnistart --gpu-marketplace
+                </code>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="https://omnixtar.github.io/contract">Omni*Contract</a>
+                <a href="https://github.com/omnixtar">GitHub</a>
+                <a href="https://i2p-projekt.i2p/">I2P Network</a>
+                <a href="mailto:contact@omnixtar.github.io">Contact</a>
+            </div>
+            <p>© 2025 Omni*Web Project. Decentralized computing for a sovereign future.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; opacity: 0.6;">
+                Powered by Type-Preserving Hash Mathematics · Ring Theory · FORTH-based Phoscript
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
