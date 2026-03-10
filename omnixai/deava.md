@@ -1,5 +1,7 @@
 ## DEAVA: Decentralised Actor-Viewer Architecture
 
+- *DEAVA ... the GUI of the AI and Blockchain revolutions ...*
+
 - The **Decentralized 3D Internet Is the Only Path to True Creative Freedom**  
 
 In the rush to build the next digital frontier—the so-called metaverse—most of the world has quietly surrendered control to a handful of powerful corporations headquartered in the United States. Platforms like Roblox, Decentraland, Meta's Horizon Worlds, and others promise immersive 3D worlds where anyone can create, play, and connect. Yet beneath the glossy avatars and virtual land sales lies a stark reality: these environments are not truly open. They are corporate fiefdoms where terms of service, opaque moderation teams, and geopolitical pressures can erase your creations, ban your account, or rewrite the rules overnight.
