@@ -1,4 +1,4 @@
-## **DEAVA: The Graphical User Interface for the AI and Blockchain Revolutions**
+## **DEAVA: the Graphical User Interface for the AI and Blockchain Revolutions**
 
 We are living through two of the most profound technological upheavals in human history: the **AI revolution**, which is redefining intelligence, creativity, and decision-making at machine speed, and the **blockchain revolution**, which is dismantling centralized trust models in favor of verifiable, permissionless, and sovereign systems. Yet for all their promise, both movements have suffered from a critical blind spot: **accessibility through intuitive, human-centered interfaces**.
 
