@@ -4,7 +4,7 @@ title: Why Omni*Web?
 
 {% include logo.html %}
 
-<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
+<img src="https://omnixtar.github.io/why/MMAGA-2023-2025.png">
 
 ## Why Omni*Web?
 
@@ -30,7 +30,7 @@ If you do not understand what *incomes of the users and free software programmer
 - [Technofeudalism vs. Technosocialism](https://omnixtar.github.io/why/#technofeudalism-vs-technosocialism)
 - [Conclusion: Codex Omnia Possibilia](https://omnixtar.github.io/why/#conclusion-codex-omnia-possibilia)
 
-
+<img src="https://omnixtar.github.io/why/MMAGA-2023-2024.png">
 
 ### Centralised vs. Decentralised
 
