@@ -1,6 +1,6 @@
 ## **Omnihash Ring Theory**
 
-**Omnihash ring theory** refers to the mathematical foundation claimed for **Omnihash** in the **Omni*Web** / **DJSON** system (developed by Liang Ng / omnixtar). It draws on basic properties from **ring theory**—specifically the ring structure of the integers (ℤ)—to explain why Omnihashes behave in a special, useful way for decentralized computing.
+**Omnihash ring theory** refers to the mathematical foundation claimed for **Omnihash** in the **Omnihash** / **DJSON** system (developed by Liang Ng / omnixtar). It draws on basic properties from **ring theory**—specifically the ring structure of the integers (ℤ)—to explain why Omnihashes behave in a special, useful way for decentralized computing.
 
 ### Quick Background on Ring Theory (Relevant Part)
 In abstract algebra, a **ring** is a set equipped with two binary operations (usually called addition and multiplication) that satisfy:
