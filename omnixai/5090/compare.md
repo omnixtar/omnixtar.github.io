@@ -17,6 +17,7 @@ Key variations:
 - Deductions mentioned: Electricity (~$0.3–$1.1/day), hardware depreciation.
 
 ### Comparison Table of Estimates (RTX 5090 Focus, 12h/day)
+
 | Source / Page | Main Model/Scenario | Realistic TPS (tokens/sec) | Daily Tokens (approx.) | Daily USD Equivalent | Annual USD Equivalent (gross) | Notes / Realism Adjustment |
 |---------------|---------------------|----------------------------|------------------------|----------------------|-------------------------------|----------------------------|
 | Omnixtar main (/5090) | Small 7B–8B high-batch | 3,500–5,841 | 150–250 billion | $300–$2,000 ($2–$8/1M) | $110k–$730k | Most balanced; realistic mixed use $100k–$400k/year; net after costs lower. |
