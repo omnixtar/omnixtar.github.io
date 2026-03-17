@@ -3,7 +3,7 @@ To calculate the equivalent USD earned by an RTX 5090 running as an AI server fo
 Based on recent benchmarks and specifications for the RTX 5090 (Blackwell architecture), here is its estimated performance for a common production model like Llama 3.1 8B (using optimized engines like vLLM or TensorRT-LLM):
  * Average Throughput: ~3,500 tokens per second (achievable with a batch size of 32+).
  * Daily Runtime: 12 hours (43,200 seconds).
- * Total Daily Tokens: 3,500 $\times$ 43,200 = \mathbf{151.2 \text{ million tokens}}.
+ * Total Daily Tokens: 3,500 $$\times$$ 43,200 = \mathbf{151.2 \text{ million tokens}}.
 2. Market Pricing (USD per 1M Tokens)
 Commercial AI services charge different rates based on the "intelligence" level of the model. We will compare the RTX 5090's output against three pricing tiers:
 
