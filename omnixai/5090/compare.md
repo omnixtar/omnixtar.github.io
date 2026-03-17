@@ -4,21 +4,8 @@ We asked the following 8 major AI services the following question. This articles
 
 - Assume RTX 5090 runs for 12 hours a day as AI server, calculate USD earned for equivalent tokens consumed on commercial AI services
 
-[Grok](https://omnixtar.github.io/omnixai/5090)
-
-[Claude](https://omnixtar.github.io/omnixai/5090/claude)
-
-[Gemini](https://omnixtar.github.io/omnixai/5090/gemini)
-
-[QianWen](https://omnixtar.github.io/omnixai/5090/qwen)
-
-[Kimi](https://www.kimi.com/share/19cfa0c0-c1c2-8677-8000-00002c551d2d)
-
-[DeepSeek](https://chat.deepseek.com/share/bs371s4fbytqkn82gv)
-
-[ChatGPT](https://chatgpt.com/s/t_69b8e35321708191a952c4d75c6a4cde)
-
-[Mistral](https://chat.mistral.ai/chat/38ac2d96-7c94-4250-9fb9-6b218f79bc78)
+[Grok](https://omnixtar.github.io/omnixai/5090) [Claude](https://omnixtar.github.io/omnixai/5090/claude) [Gemini](https://omnixtar.github.io/omnixai/5090/gemini) [QianWen](https://omnixtar.github.io/omnixai/5090/qwen) [Kimi](https://www.kimi.com/share/19cfa0c0-c1c2-8677-8000-00002c551d2d) [DeepSeek](https://chat.deepseek.com/share/bs371s4fbytqkn82gv) 
+[ChatGPT](https://chatgpt.com/s/t_69b8e35321708191a952c4d75c6a4cde) [Mistral](https://chat.mistral.ai/chat/38ac2d96-7c94-4250-9fb9-6b218f79bc78)
 
 ### Grok Summary
 
