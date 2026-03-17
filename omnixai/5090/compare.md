@@ -1,4 +1,4 @@
-## NVIDIA RTX 5090: Earn USD 100k using Omnihash AI Token Trading!!
+## NVIDIA RTX 5090: Earn USD 100k/YEAR using Omnihash AI Token Trading!!
 
 We asked the following 8 major AI services the following question. This articles is a summary by Grok:
 
