@@ -2,7 +2,9 @@
 
 - **the Digital Equivalent of the French Revolution**
 
-The **Omnihash** system (via the Omni*Contract and DJSON framework) marks a radical shift in how individuals can assert and enforce **ownership** over digital assets—code, documents, media, interactions, data streams, collaborative contributions, and even monetizable actions like likes or AI prompts. This stands in striking parallel to how the French Revolution awakened ordinary people to their **natural rights** to own and control **physical property**, dismantling centuries of feudal monopoly.
+The [**Omnihash**](https://omnixtar.github.io/contract/) system (via the Omni*Contract and DJSON framework) marks a radical shift in how individuals can assert and enforce **ownership** over digital assets—code, documents, media, interactions, data streams, collaborative contributions, and even monetizable actions like likes or AI prompts. This stands in striking parallel to how the French Revolution awakened ordinary people to their **natural rights** to own and control **physical property**, dismantling centuries of feudal monopoly.
+
+- YouTube: [DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.](https://www.youtube.com/watch?v=_w-E4Z4Ju5s)
 
 In pre-revolutionary France, land, labor, and wealth were concentrated in the hands of the monarchy, nobility, and clergy. The vast majority—peasants, artisans, merchants—were tenants, serfs, or subjects with no secure title to the fruits of their work. The Enlightenment philosophers (Locke, Rousseau, Montesquieu) and revolutionary thinkers reframed property not as a privilege granted by birth or king, but as a fundamental human right tied to labor and liberty. The **Declaration of the Rights of Man and of the Citizen** (1789) proclaimed:
 
