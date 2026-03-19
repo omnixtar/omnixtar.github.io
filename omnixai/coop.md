@@ -76,7 +76,7 @@ Start here:
 4. Run inference. 
 5. Compute your hash.
 
-**Omnihash isn’t a startup. It’s a startup *for* startups — owned by the coders who ship.**
+- **Omnihash isn’t just a startup. It’s a startup *for* startups — owned by the coders who ship.**
 
 The hash is waiting. Code runs first. Profits pay the co-op.
 
