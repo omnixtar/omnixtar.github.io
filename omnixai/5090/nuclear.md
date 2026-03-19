@@ -4,6 +4,8 @@
 
 - Prompt: Find decommissioned nuclear ships or submarines, repurpose as floating or submarine AI data center -- or nuclear sub provides power for float AI center. Estimate total number in use, to be decommissioned, and total costs and revenues projected.
 
+- *the NEXT Mission Impossible: Nuclear AI subs (plural!!) go rogue*
+
 Repurposing **decommissioned nuclear submarines** (or surface ships) as floating AI data centers—or using their reactors to power separate floating datacenters—remains largely conceptual in March 2026. Recent proposals focus on extracting reactors from retired US Navy vessels (submarines and aircraft carriers) for land-based AI data centers, rather than keeping the hulls afloat or submerged. No operational examples exist yet, due to regulatory, safety, environmental, and technical hurdles (e.g., IAEA/IMO approvals, defueling, reactor relocation, marine stability for racks/cooling, bandwidth via subsea cables).
 
 Decommissioned nuclear subs are rarely sold commercially—especially nuclear-powered ones—due to proliferation risks, radioactive material controls, and national security. Older diesel-electric subs appear occasionally for sale (e.g., via niche sites like mysubmarines.com, priced ~$2M for a Soviet Foxtrot-class), but nuclear ones are typically scrapped/recycled by governments (e.g., US Puget Sound Naval Shipyard, UK Rosyth Dockyard). Proposals like HGP Intelligent Energy's (filed to US DOE) aim to repurpose retired naval reactors (e.g., from Nimitz-class carriers or Los Angeles-class subs) for civilian power, potentially at ~$1–4M per MW (far cheaper than new builds).
