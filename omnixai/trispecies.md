@@ -1,6 +1,6 @@
 ### **The Dawn of Multipolar Money: Why Omnihash Trispecies Monetary Exchange Could Accelerate the End of Dollar Supremacy Without Replacing It**
 
-March, 2026
+- March, 2026
 
 The Strait of Hormuz stands choked. Since late February, following U.S. and Israeli strikes on Iran—including the reported killing of Supreme Leader Ali Khamenei—Iran has effectively closed the strait through attacks on shipping, drone strikes, and mine-laying. Over 20 vessels hit, more than 1,000 tankers blocked or rerouted. One-fifth of global oil and gas trade disrupted. Energy prices soar, inflation warnings mount, and the world feels the fragility of a system where one nation's policies can ripple into global crisis.
 
