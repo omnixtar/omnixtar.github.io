@@ -1,10 +1,10 @@
 ## Vision 2030: Omnihash Trispecies Monetary Exchange
 
-### **The Dawn of Multipolar Money: Why Omnihash Trispecies Monetary Exchange Could Accelerate the End of Dollar Supremacy Without Replacing It**
+- **The Dawn of Multipolar Money: Why Omnihash Trispecies Monetary Exchange Could Accelerate the End of Dollar Supremacy Without Replacing It
 
 - March, 2026
 
-The Strait of Hormuz stands choked. Since late February, following U.S. and Israeli strikes on Iran—including the reported killing of Supreme Leader Ali Khamenei—Iran has effectively closed the strait through attacks on shipping, drone strikes, and mine-laying. Over 20 vessels hit, more than 1,000 tankers blocked or rerouted. One-fifth of global oil and gas trade disrupted. Energy prices soar, inflation warnings mount, and the world feels the fragility of a system where one nation's policies can ripple into global crisis.
+The Strait of Hormuz stands choked. Since late February, following U.S. and Israeli strikes on Iran — including the reported killing of Supreme Leader Ali Khamenei — Iran has effectively closed the strait through attacks on shipping, drone strikes, and mine-laying. Over 20 vessels hit, more than 1,000 tankers blocked or rerouted. One-fifth of global oil and gas trade disrupted. Energy prices soar, inflation warnings mount, and the world feels the fragility of a system where one nation's policies can ripple into global crisis.
 
 Yet amid this chaos, a quiet technological shift is emerging that could prove far more consequential than any blockade. It is not another cryptocurrency, nor a BRICS currency, nor a return to the gold standard. It is [**Omnihash**](https://omnixtar.github.io/contract/) — a simple 53-bit base64 hash embedded in Decentralised JSON (DJSON) — designed to tag ownership, intent, and transactions in a truly multipolar monetary world.
 
