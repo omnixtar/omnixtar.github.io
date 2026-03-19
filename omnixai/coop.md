@@ -69,8 +69,12 @@ If you’re a free software programmer tired of building for extractive giants:
 - Take a credit note → code on your terms, get paid from real revenue.  
 - Hash your identity/work → become a verifiable co-owner in the ecosystem.
 
-Start here: https://omnixtar.github.io/contract  
-Issue/test a credit note. Fork a repo. Run inference. Compute your hash.
+Start here: 
+1. [Omnihash](https://omnixtar.github.io/contract)  
+2. Issue/test a credit note. 
+3. Fork a repo. 
+4. Run inference. 
+5. Compute your hash.
 
 **Omnihash isn’t a startup. It’s a startup *for* startups — owned by the coders who ship.**
 
