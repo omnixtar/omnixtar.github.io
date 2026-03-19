@@ -57,7 +57,10 @@ Omnihash makes them **decentralized creator economies** — no central DBs, auto
 - **Low risk, high leverage** — GPU cash flow starts immediately; code pays only after value proven.  
 - **Philosophical win** — free software principles + hash ownership = truly peer-operated internet.
 
-Projected: Year 1 platforms live + GPU revenue → $150M+ combined valuation on revenue multiples. Year 2: $200M+ ARR across the trio. Contributors capture real upside via hash-linked shares of profit.
+Projected: 
+- Year 1 platforms live + GPU revenue → $150M+ combined valuation on revenue multiples. 
+- Year 2: $200M+ ARR across the trio. 
+- Contributors capture real upside via hash-linked shares of profit.
 
 ### Join the Co-op
 If you’re a free software programmer tired of building for extractive giants:
