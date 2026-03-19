@@ -8,7 +8,9 @@ You know the drill: You pour months into open-source code, watch trillion-dollar
 
 What if we flipped the script? What if free software programmers could **collectively bootstrap our own internet-scale platforms**, paid performance-first, funded by real revenue from day one, and owned through simple cryptographic hashes instead of shareholder cap tables?
 
-Enter **Omnihash** — the startup co-operative built *by and for* coders like us.
+- YouTube: [DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.](https://www.youtube.com/watch?v=_w-E4Z4Ju5s)
+
+Enter [**Omnihash**](https://omnixtar.github.io/contract/) — the startup co-operative built *by and for* coders like us.
 
 ### Omnihash: Pure Hash-Based Ownership, No Blockchain Bloat
 Omnihash is dead-simple cryptography: SHA-256 → base64 → embedded in **DJSON** (Decentralised JSON).  
