@@ -1,6 +1,6 @@
 ## Vision 2030: Omnihash Trispecies Monetary Exchange
 
-- **The Dawn of Multipolar Money: Why Omnihash Trispecies Monetary Exchange Could Accelerate the End of Dollar Supremacy Without Replacing It
+- **The Dawn of Multipolar Money: Why Omnihash Trispecies Monetary Exchange Could Accelerate the End of Dollar Supremacy Without Replacing It**
 
 - March, 2026
 
