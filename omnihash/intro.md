@@ -8,6 +8,8 @@ This isn't inevitable. A quiet but profound alternative exists in [**Omnihash**]
 
 - YouTube: [DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.](https://www.youtube.com/watch?v=_w-E4Z4Ju5s)
 
+- YouTube: [Omni*Web: Crypto-Metaprogramming (CMP) as alternative to Model-View-Controller; towards Metanarchy](https://www.youtube.com/watch?v=P_M3PVn9J7I)
+
 Omnihash is that idea made concrete. It's not another cryptocurrency or blockchain gimmick. It's a compact, verifiable hash (base64-encoded, often around 53 bits of entropy from public-key derivations) embedded directly into everyday data structures called **Decentralised JSON (DJSON)**. Any digital thing—your photo, comment, document, even a "like"—gets an Omnihash proving ownership and provenance. Anyone can recompute it from the same input to confirm authenticity, no trusted third party required.
 
 This hash becomes your universal identifier, like a generalized Bitcoin address but for arbitrary assets. Attach an **Omni*Contract**—a clear legal-technical clause—and suddenly your work carries enforceable rights. Reading or viewing is free for individuals; commercial use (a company running your open-source code, an AI training on your posts) triggers royalties payable directly to you. Enforcement relies on the hash as immutable proof of intent, backed by real-world courts if needed. No platform skims 30%; no intermediary gatekeeps.
