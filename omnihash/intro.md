@@ -4,7 +4,9 @@
 
 The digital revolution promised freedom, but delivered a new feudalism. Everyday users—posting, liking, sharing, creating—remain serfs on the estates of trillion-dollar overlords: Microsoft, Meta, Amazon, Google, Apple (call them MMAGA for short). Your data fuels their empires; your contributions build their moats. You get scraps of convenience in return, while they harvest value without consent or compensation.
 
-This isn't inevitable. A quiet but profound alternative exists in **Omnihash** and **Phoscript**, tools that could finally deliver true digital sovereignty. Yet most people—especially everyday "Layer 1" users—remain unaware, trapped in the same mental fog that kept pre-revolutionary peasants from grasping liberty. Just as French revolutionaries rallied around "equality" to demand what the aristocracy hoarded, today's users need a simple, powerful idea: **you can own what you create online, mathematically and legally**.
+This isn't inevitable. A quiet but profound alternative exists in [**Omnihash**](https://omnixtar.github.io/contract/) and **Phoscript**, tools that could finally deliver true digital sovereignty. Yet most people—especially everyday "Layer 1" users—remain unaware, trapped in the same mental fog that kept pre-revolutionary peasants from grasping liberty. Just as French revolutionaries rallied around "equality" to demand what the aristocracy hoarded, today's users need a simple, powerful idea: **you can own what you create online, mathematically and legally**.
+
+- YouTube: [DJSON: Decentralised JSON -- ULTIMATE generalisation of Bitcoin address and blockchain, w/o MINING.](https://www.youtube.com/watch?v=_w-E4Z4Ju5s)
 
 Omnihash is that idea made concrete. It's not another cryptocurrency or blockchain gimmick. It's a compact, verifiable hash (base64-encoded, often around 53 bits of entropy from public-key derivations) embedded directly into everyday data structures called **Decentralised JSON (DJSON)**. Any digital thing—your photo, comment, document, even a "like"—gets an Omnihash proving ownership and provenance. Anyone can recompute it from the same input to confirm authenticity, no trusted third party required.
 
