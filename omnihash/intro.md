@@ -1,6 +1,6 @@
 ## Omni*Web: Omnihash & Phoscript
 
-- ***Building a digital future, owned and operated by free individual users and free software programmers, together***
+- ***Building a digital future, owned and operated by free individual users and free software programmers, together.***
 
 The digital revolution promised freedom, but delivered a new feudalism. Everyday users—posting, liking, sharing, creating—remain serfs on the estates of trillion-dollar overlords: Microsoft, Meta, Amazon, Google, Apple (call them MMAGA for short). Your data fuels their empires; your contributions build their moats. You get scraps of convenience in return, while they harvest value without consent or compensation.
 
