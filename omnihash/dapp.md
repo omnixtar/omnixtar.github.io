@@ -1,5 +1,8 @@
 ## Truly Decentralised Apps based on Omnihash
 
+- *... the evils of Centralised Apps ...*
+- *... and how Omnihash overcomes the evils ...*
+
 The centralized web has failed its users. For decades, individuals have poured time, creativity, and personal data into platforms controlled by a handful of trillion-dollar giants—Microsoft, Meta, Amazon, Google, and Apple (what some call the "MMAGA" cartel). These companies rake in billions (over $1.6 trillion in revenue in recent years alone) while the very people who generate the value—everyday users clicking "like," posting content, sharing ideas, and collaborating—receive nothing in return. We do not own the infrastructure. We do not operate it. And we certainly do not profit from it.
 
 This is not decentralization. It is feudalism dressed in silicon.
