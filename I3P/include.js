@@ -24,6 +24,9 @@ f_genkeys=function () {
         M.F(': save_auth savekp: ' + get_param.nn + ' AUTH_CSV: ; awt: rsa_oaep: save_auth ');
         console.log('after rsa_oaep:', M.S);
     } else {
+        // to simulate, use this branch, S0.K loaded: 
+        // 3 items on stack before AUTH_CSV: 
+        // previous case just genkeys with rsa_oaep: (OXW-20260330)
         M.S.push(S0.K.s_pbk); // 20230616 need s_pbk somehow!! for back end!!
         M.S.push(S0.K.pair);
         M.F(get_param.nn + ' AUTH_CSV:');
