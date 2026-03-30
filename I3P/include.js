@@ -5,6 +5,10 @@ function include(url) {
   document.body.appendChild(s);
 }
 
+include('js/omni.js')
+s=[]
+phosinit()
+
 wsm[0].send(JSON.stringify(["phos",0,2,3])) 
 
 // GenKeys
