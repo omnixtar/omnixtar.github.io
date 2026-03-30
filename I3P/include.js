@@ -29,3 +29,9 @@ f_genkeys=function () {
         M.F(get_param.nn + ' AUTH_CSV:');
     }
 }
+
+// AUTH_CSV:
+// https://github.com/omnixtar/omnixtar.github.io/blob/main/h/Phos/libphos.js
+
+// rsa_oaep: savekp:
+// https://github.com/omnixtar/omnixtar.github.io/blob/main/h/Phos/librsa.js
