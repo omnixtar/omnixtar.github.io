@@ -38,3 +38,5 @@ f_genkeys=function () {
 
 // rsa_oaep: savekp:
 // https://github.com/omnixtar/omnixtar.github.io/blob/main/h/Phos/librsa.js
+
+17:"req_auth_sc":["b64d:","4","orpb:","hex:","dup2:","rsa:","2","pick:","lkey:","swap:","recr:","b64e:","ON","ECHO","bv:","ec:","2","pick:","SP","ka:","AUTH","uss:",";"]
