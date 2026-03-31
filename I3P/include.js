@@ -13,13 +13,6 @@ wsm[0].send(JSON.stringify(["phos",0,2,3]))
 
 // GenKeys
 f_genkeys=function () {
-    alert('GenKeys');
-    S0 = M.S[0];
-    
-    // 20230602
-    // After GenKeys button is clicked, check dialogue box for text – must have filename for pem file, and optional password, or Phoscript expression, else execute default generate keys.
-    
-    // if S0.K is already loaded, just run AUTH_CSV: no need savekp:
     if (typeof S0.K !== 'object') {
         M.F(': save_auth savekp: ' + get_param.nn + ' AUTH_CSV: ; awt: rsa_oaep: save_auth ');
         console.log('after rsa_oaep:', M.S);
@@ -31,6 +24,10 @@ f_genkeys=function () {
         M.S.push(S0.K.pair);
         M.F(get_param.nn + ' AUTH_CSV:');
     }
+}
+
+f_auth=function () {
+    M.F('A_AUTH');
 }
 
 // AUTH_CSV:
