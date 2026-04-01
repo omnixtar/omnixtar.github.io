@@ -33,3 +33,50 @@
     }
     return buf;
   }
+
+  function importPublicKey(pem) {
+    const pemHeader = '-----BEGIN PUBLIC KEY-----';
+    const pemFooter = '-----END PUBLIC KEY-----';
+    const pemContents = pem.substring(pemHeader.length, pem.length - pemFooter.length);
+    const binaryDerString = window.atob(pemContents);
+    const binaryDer = str2ab(binaryDerString);
+    return window.crypto.subtle.importKey('spki', binaryDer, {
+        name: 'RSA-PSS',
+        hash: 'SHA-256'
+    }, true, ['verify']);
+}
+
+  async function verifyMessage(publicKey, encoded) {
+    // const signatureValue = document.querySelector(".rsa-pss .signature-value");
+    signatureValue.classList.remove("valid", "invalid");
+
+    // let encoded = getMessageEncoding();
+    let result = await window.crypto.subtle.verify(
+      {
+        name: "RSA-PSS",
+        saltLength: 32,
+      },
+      publicKey,
+      signature,
+      encoded
+    );
+
+    // signatureValue.classList.add(result ? "valid" : "invalid");
+return result;
+  }
+
+  function ab2str(buf) {
+    return String.fromCharCode.apply(null, new Uint8Array(buf));
+}
+
+  async function signMessage(signingKey,                             encoded) {
+    // const encoded = getMessageEncoding();
+    const signature = await window.crypto.subtle.sign(
+      {
+        name: "RSA-PSS",
+        saltLength: 32,
+      },
+      signingKey,
+      encoded
+    ); return signature;
+  }
