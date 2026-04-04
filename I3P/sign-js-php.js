@@ -40,3 +40,6 @@ async function signRequestData(data, privateKey) {
 
 // search SP secret phrase get file mod time
 php phos.php 0186db60 dmeta/Doh9EB_bFw\=\=/ swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:
+
+// js get HPBK
+f("btoa(S0.K.s_pbk) ev: h53: b64: path:")
