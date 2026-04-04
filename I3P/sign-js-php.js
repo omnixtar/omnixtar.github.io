@@ -47,3 +47,8 @@ php phos.php 0186db60 dmeta/Doh9EB_bFw\=\=/ swap: rgrep: 0 i: c1c: explode: 0 i:
 
 // js get HPBK
 f("btoa(S0.K.s_pbk) ev: h53: b64: path:")
+
+S0.$CDW.F_O.push("over:")
+f_over=function(){f("1 pick:")}
+JSON.stringify( S0.$CDW.F_O )
+'["dup:","dup:","to:","clog:","body","getn:","0","i:","div","ce:","2","pick:","ih:","ac:","over:"]' 
