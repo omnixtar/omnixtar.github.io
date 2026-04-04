@@ -38,6 +38,7 @@ async function signRequestData(data, privateKey) {
 // PHP
 // /home/hongwu/devel/2026/amphp/auth/_/verjs.php
 
+// js three.js wsc
 qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
 wsm[0].send(JSON.stringify(qs0.split(" ")))
 
