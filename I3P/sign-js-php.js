@@ -38,6 +38,9 @@ async function signRequestData(data, privateKey) {
 // PHP
 // /home/hongwu/devel/2026/amphp/auth/_/verjs.php
 
+qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
+wsm[0].send(JSON.stringify(qs0.split(" ")))
+
 // search SP secret phrase get file mod time
 php phos.php 0186db60 dmeta/Doh9EB_bFw\=\=/ swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:
 
