@@ -55,3 +55,18 @@ JSON.stringify( S0.$CDW.F_O )
 
 // ajax write hash file, get AUTH
 SESSION: AUTH i: je: dup: dup: hbp 3 pick: swap: 2 msss: w: ON ECHO bv: enl: x:
+
+
+// MUST have ";" at end of colon definition!!
+JSON.stringify( S0.$CDW.B_AUTH_U )
+'["SESSION:","AUTH","i:","je:","dup:","dup:","hbp","3","pick:","swap:","2","msss:","w:","ON","ECHO","bv:","enl:",";"]' 
+
+JSON.stringify( S0.$CDW.A_AUTH_U )
+'["B:","B_AUTH_U","F_O"]' 
+
+// last over: copy AUTH json to TOS
+JSON.stringify( S0.$CDW.F_O )
+'["dup:","dup:","to:","clog:","body","getn:","0","i:","div","ce:","2","pick:","ih:","ac:","over:"]' 
+
+// save SP to localStorage
+localStorage.setItem('SP', JSON.parse( s[s.length-1].split("\n")[0] ).SP ) 
