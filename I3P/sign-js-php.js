@@ -70,3 +70,8 @@ JSON.stringify( S0.$CDW.F_O )
 
 // save SP to localStorage
 localStorage.setItem('SP', JSON.parse( s[s.length-1].split("\n")[0] ).SP ) 
+
+// WSC (websocket client) in three.js get AUTH token file mod time
+qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
+"phos a9801bf1 dmeta/Doh9EB_bFw== swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
+wsm[0].send(JSON.stringify(qs0.split(" "))) 
