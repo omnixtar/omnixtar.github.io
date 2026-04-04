@@ -52,3 +52,6 @@ S0.$CDW.F_O.push("over:")
 f_over=function(){f("1 pick:")}
 JSON.stringify( S0.$CDW.F_O )
 '["dup:","dup:","to:","clog:","body","getn:","0","i:","div","ce:","2","pick:","ih:","ac:","over:"]' 
+
+// ajax write hash file, get AUTH
+SESSION: AUTH i: je: dup: dup: hbp 3 pick: swap: 2 msss: w: ON ECHO bv: enl: x:
