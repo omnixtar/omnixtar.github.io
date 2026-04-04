@@ -59,7 +59,10 @@ SESSION: AUTH i: je: dup: dup: hbp 3 pick: swap: 2 msss: w: ON ECHO bv: enl: x:
 
 // MUST have ";" at end of colon definition!!
 JSON.stringify( S0.$CDW.B_AUTH_U )
-'["SESSION:","AUTH","i:","je:","dup:","dup:","hbp","3","pick:","swap:","2","msss:","w:","ON","ECHO","bv:","enl:",";"]' 
+// '["SESSION:","AUTH","i:","je:","dup:","dup:","hbp","3","pick:","swap:","2","msss:","w:","ON","ECHO","bv:","enl:",";"]' 
+// new CDW need HBPK at bottom of stack
+'["SESSION:","AUTH","i:","PBK","i:","o_hash.json","l_cdwjs","h_pwd","SESSION:","AUTH","i:","je:","dup:","dup:","hbp","3","pick:","swap:","2","msss:","w:","ON","ECHO","bv:","enl:",";"]' 
+
 
 JSON.stringify( S0.$CDW.A_AUTH_U )
 '["B:","B_AUTH_U","F_O"]' 
@@ -75,3 +78,6 @@ localStorage.setItem('SP', JSON.parse( s[s.length-1].split("\n")[0] ).SP )
 qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
 "phos a9801bf1 dmeta/Doh9EB_bFw== swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"
 wsm[0].send(JSON.stringify(qs0.split(" "))) 
+
+// get miliseconds elapsed since file mod time
+s.push(JSON.parse(wsm[wsm.length-1]).split("_").join("") ); f("2date: nowr: -"); t()
