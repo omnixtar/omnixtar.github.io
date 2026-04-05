@@ -87,8 +87,13 @@ f_sp_ls=function(){localStorage.setItem('SP', JSON.parse( s[s.length-1].split("\
 
 // three.js
 f_tauth=function(){qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"; wsm[0].send(JSON.stringify(qs0.split(" "))); }
-function f_tauth()
 
 f_tdiff=function(){s.push(JSON.parse(wsm[wsm.length-1]).split("_").join("") ); f("2date: nowr: -");} 
 
+f_over=function(){f("1 pick:")}
+
 f("tauth: tdiff:")
+
+f_nowr=function(){s.push(new Date())}
+
+f_2date=function(){var z=s.pop(); s.push(new Date(z.slice(0,4), z.slice(4,6)-1, z.slice(6,8), z.slice(8,10), z.slice(10,12), z.slice(12,14)));}
