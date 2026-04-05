@@ -81,3 +81,14 @@ wsm[0].send(JSON.stringify(qs0.split(" ")))
 
 // get miliseconds elapsed since file mod time
 s.push(JSON.parse(wsm[wsm.length-1]).split("_").join("") ); f("2date: nowr: -"); t()
+
+// ajax /o
+f_sp_ls=function(){localStorage.setItem('SP', JSON.parse( s[s.length-1].split("\n")[0] ).SP )} 
+
+// three.js
+f_tauth=function(){qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" swap: rgrep: 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: s:"; wsm[0].send(JSON.stringify(qs0.split(" "))); }
+function f_tauth()
+
+f_tdiff=function(){s.push(JSON.parse(wsm[wsm.length-1]).split("_").join("") ); f("2date: nowr: -");} 
+
+f("tauth: tdiff:")
