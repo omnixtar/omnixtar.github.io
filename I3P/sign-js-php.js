@@ -97,3 +97,7 @@ f("tauth: tdiff:")
 f_nowr=function(){s.push(new Date())}
 
 f_2date=function(){var z=s.pop(); s.push(new Date(z.slice(0,4), z.slice(4,6)-1, z.slice(6,8), z.slice(8,10), z.slice(10,12), z.slice(12,14)));}
+
+// WSC-PHP additional safeguards and error
+php phos.php dd2dde5e dmeta/Doh9EB_bFw\=\=/ swap: '{"SP":"' swap: 2 mssx: rgrep: cx: 1 eq: : A 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: \; : B AUTH_FAILED \; ife: A B C s:
+
