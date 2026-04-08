@@ -114,3 +114,7 @@ f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ loca
 
 // need to have arguments like command line
 f_tauth1=function(){qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" 3 sjn: jd: 3 pick: 3 pick: 3 pick: AUTH_SP ARGV gbv: sn: 20 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); } 
+
+// success!! WSC-PHP t_auth
+f_tauth1=function(){qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" 3 sjn: jd: 3 pick: 3 pick: 3 pick: AUTH_SP ARGV gbv: sn: 20 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); } 
+
