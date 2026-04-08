@@ -107,3 +107,10 @@ f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ loca
 // add ; at end of CDW definition
 f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" =AUTH_SP cdwka: av: 0 i: 5 spln: ; ap: =AUTH_SP a2cd: AUTH_SP =AUTH_SP cdwka: ARGV gbv: sn: 10 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); } 
 
+
+f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" =AUTH_W cdwka: av: 0 i: 11 spln: ; ap: =AUTH_W a2cd: AUTH_SP ARGV gbv: sn: 10 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); }
+
+f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" =AUTH_A cdwka: av: 0 i: 9 spln: ; ap: =AUTH_A a2cd: AUTH_SP ARGV gbv: sn: 10 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); }
+
+// need to have arguments like command line
+f_tauth1=function(){qs0="phos "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" 3 sjn: jd: 3 pick: 3 pick: 3 pick: AUTH_SP ARGV gbv: sn: 20 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); } 
