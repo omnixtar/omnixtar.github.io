@@ -101,3 +101,6 @@ f_2date=function(){var z=s.pop(); s.push(new Date(z.slice(0,4), z.slice(4,6)-1, 
 // WSC-PHP additional safeguards and error
 php phos.php dd2dde5e dmeta/Doh9EB_bFw\=\=/ swap: '{"SP":"' swap: 2 mssx: rgrep: cx: 1 eq: : A 0 i: c1c: explode: 0 i: fmt: ddts: 2dts: \; : B AUTH_FAILED \; ife: A B C s:
 
+// WSC-3JS spln: a2cd: modify CDW for testing
+f_tauth1=function(){qs0="phos sn: "+ localStorage.getItem('SP') +" dmeta/"+ localStorage.getItem('HPBK') +" =AUTH_SP cdwka: av: 0 i: 6 spln: =AUTH_SP a2cd: =AUTH_SP cdwka: ARGV gbv: sn: 10 sjn: jd:"; wsm[0].send(JSON.stringify(qs0.split(" "))); }
+
