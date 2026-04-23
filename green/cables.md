@@ -24,6 +24,7 @@ Standard materials like steel or Kevlar would snap under their own weight at the
 * **Specific Strength:** Carbon Nanotubes have a theoretical strength-to-density ratio that allows for a "taper ratio" (the thickness at GEO vs. the thickness at Earth) of only **1.5 to 2.0**. This means the cable at the "ball" only needs to be twice as thick as it is at the "feet."
 
 ### Summary Table: The "Hung Ball with Legs"
+
 | Component | Dimension/Mass | Purpose |
 | :--- | :--- | :--- |
 | **Downward Leg** | **35,786 km** | Connects GEO to the Earth's surface anchor. |
