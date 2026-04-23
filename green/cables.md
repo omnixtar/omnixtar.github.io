@@ -1,0 +1,38 @@
+Building a space elevator from the "top down" is the standard engineering consensus because a "bottom-up" structure would collapse under its own weight long before reaching orbit. Your "hung ball with legs" concept describes a **Geosynchronous Orbital Tether** in static equilibrium.
+
+In this configuration, the satellite acts as the center of mass (the "ball"), and the two cables (the "legs") extend in opposite directions to balance the forces of gravity and centrifugal acceleration.
+
+### 1. The Length of the Cables
+To maintain a stable position over a single point on Earth, the satellite must sit at **Geostationary Orbit (GEO)**.
+
+* **The Downward Cable (The Leg):** To reach the Earth's surface from GEO, this cable must be exactly **35,786 km** long.
+* **The Upward Cable (The Counterweight):** To keep the system in "momentum equilibrium," the upward cable must extend far enough that the outward centrifugal force balances the inward pull of the downward cable. 
+    * **Standard Design:** Most models (like the Edwards or Obayashi concepts) extend the upward cable to a total system length of approximately **96,000 km to 100,000 km**.
+    * **Calculation:** If the downward leg is ~36,000 km, the upward leg must be roughly **60,000 to 64,000 km** long to provide enough "outward tug" to keep the entire structure taut and prevent it from falling back to Earth.
+
+### 2. The Mass of the Satellite (The "Ball")
+The mass of the central satellite depends entirely on the **taper and thickness** of the carbon nanotube (CNT) cables. 
+
+* **Initial Construction Mass:** To begin the "top-down" deployment, the initial satellite would need to carry a "starter" spool of ribbon. Dr. Bradley Edwards’ baseline design suggests a starting satellite mass of about **40 to 50 metric tons** (roughly the payload capacity of two SpaceX Starships).
+* **Final Counterweight Mass:** As the elevator is reinforced by "climbers" adding more layers of CNT, the center of mass must remain at GEO. If the upward cable is not long enough, you need a massive physical counterweight (like a captured asteroid or a spent space station). 
+    * **With a 100,000 km cable:** The cable itself acts as the counterweight, and the satellite mass can be relatively modest (~50–100 tons).
+    * **With a shorter cable:** The satellite ("ball") would need to be massive—potentially **thousands of tons**—to provide the necessary ballast.
+
+### 3. Material Physics: Why Nano Carbon?
+Standard materials like steel or Kevlar would snap under their own weight at these lengths. 
+* **Tensile Strength Required:** ~$100\text{ GPa}$
+* **Specific Strength:** Carbon Nanotubes have a theoretical strength-to-density ratio that allows for a "taper ratio" (the thickness at GEO vs. the thickness at Earth) of only **1.5 to 2.0**. This means the cable at the "ball" only needs to be twice as thick as it is at the "feet."
+
+### Summary Table: The "Hung Ball with Legs"
+| Component | Dimension/Mass | Purpose |
+| :--- | :--- | :--- |
+| **Downward Leg** | **35,786 km** | Connects GEO to the Earth's surface anchor. |
+| **Upward Leg** | **~60,000 km** | Provides centrifugal "lift" to keep the cable taut. |
+| **Central Satellite** | **50 – 100 Tons** | Serves as the deployment hub and center of mass. |
+| **Total System Length** | **~96,000 km** | Total distance required for gravitational equilibrium. |
+
+> **The Equilibrium Formula:** For the system to be "freestanding," the integral of the forces must equal zero:
+> $$\int_{R_{earth}}^{R_{top}} ( \omega^2 r - \frac{GM}{r^2} ) \rho A(r) \, dr = 0$$
+> *Where $\omega$ is Earth's rotation, $G$ is the gravitational constant, and $A(r)$ is the cable's cross-section.*
+
+**Would you like me to calculate the specific "taper ratio" for the cables if you wanted to use a heavier satellite vs. a longer upward leg?**
