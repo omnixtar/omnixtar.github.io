@@ -10,8 +10,8 @@ title: DJSON Decentralised JSON
 
 <button type="button" onclick="f(C_LIKE);">Like</button> 
 
-- On the Separation of Disclosure and Royalties of the Source Code
-July 21, 2024
+- On the **Separation of Disclosure and Royalties** of the Source Code
+- July 21, 2024
 	
 1. You, a human agent of a company or government agency, may read the source code without 
 	making payments to the author or authors, but if you  execute this program on behalf of 
