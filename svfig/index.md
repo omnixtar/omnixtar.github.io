@@ -14,7 +14,7 @@ title: Codex Omnia Possibilia
 ](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-04.pdf) [[YouTube]](https://youtu.be/PCLsZCarvQE)
 - [February 28 2026, BBF002 AGI Self-Identity Using Hash of Public Key & Reselling AI Server Tokens w. Omnihash](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-02.pdf) [[YouTube]](https://youtu.be/3HBvYSbDgjo)
   - [Grok summary](https://omnixtar.github.io/svfig/OXW-2026-02)
-- [January 24 2026, BBF001 Hilbert Hotel with Infinite Cabinets](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-1.pdf)
+- [January 24 2026, BBF001 Hilbert Hotel with Infinite Cabinets](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-1.pdf) [[YouTube]](https://youtu.be/WHW_Vnv9Nd0)
   - [January 24 2026, I3P: <iframe> + I2P Invisible Internet Project](https://omnixtar.github.io/svfig/I3P-iframe-I2P.pdf)
 - [November 15 2025, The roles of FORTH in
 blockchain technologies
