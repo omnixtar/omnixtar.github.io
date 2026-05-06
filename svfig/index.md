@@ -18,10 +18,10 @@ title: Codex Omnia Possibilia
   - [January 24 2026, I3P: <iframe> + I2P Invisible Internet Project](https://omnixtar.github.io/svfig/I3P-iframe-I2P.pdf)
 - [November 15 2025, The roles of FORTH in
 blockchain technologies
-and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf) [YouTube]](https://youtu.be/Pige2XAaCbk)
+and beyond (Summary & Updates)](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-11.pdf) [[YouTube]](https://youtu.be/Pige2XAaCbk)
 - [October 25 2025, The roles of FORTH in
 blockchain technologies
-and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf)
+and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf) [[YouTube]](https://youtu.be/pTXf8S4AzeQ)
 - [August 2025, Crypto-Metaprogramming:
 alternative to
 Model-View-Controller Architecture](https://omnixtar.github.io/svfig/Crypto-Metaprogramming-SVFIG-2025-08.pdf)
