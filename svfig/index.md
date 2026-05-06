@@ -26,7 +26,7 @@ and beyond](https://omnixtar.github.io/svfig/OXW-SVFIG-2025-10.pdf) [[YouTube]](
 alternative to
 Model-View-Controller Architecture](https://omnixtar.github.io/svfig/Crypto-Metaprogramming-SVFIG-2025-08.pdf)
 - [April 26 2025, How to share my latest FORTHish word
-with the world? DJSON + Phoscript = Omni*Web](https://omnixtar.github.io/svfig/SVFIG-2025-04.pdf)
+with the world? DJSON + Phoscript = Omni*Web](https://omnixtar.github.io/svfig/SVFIG-2025-04.pdf) [[YouTube]](https://youtu.be/vPwgB52qPdw)
 
 
 ### Codex Omnia Possibilia 
