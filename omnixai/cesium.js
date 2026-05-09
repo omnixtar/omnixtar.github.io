@@ -42,3 +42,13 @@ const blueBox = viewer.entities.add({
 });
     viewer.entities.add
 */
+
+/*
+  : add viewer.entities.add ;
+  : name "Blue box" ;
+  : position -114.0 40.0 300000.0 Cesium.Cartesian3.fromDegrees ;
+  : box dimensions material ;
+  : dimensions 400000.0 300000.0 500000.0 Cesium.Cartesian3 ；
+  : material Cesium.Color.BLUE ；
+  name position box add
+*/
