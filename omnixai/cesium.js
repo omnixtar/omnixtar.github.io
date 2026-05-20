@@ -61,3 +61,17 @@ s_add = ' blueBox = viewer.entities.add({\
     material: Cesium.Color.BLUE,\
   },\
 }); '
+
+t_add = s_add.split(' ')
+ta2=t_add
+ta2[28]='Cesium.Color.RED,'
+s_mod=ta2.join(' ')
+
+// Source - https://stackoverflow.com/a/73570333
+// Posted by emackey
+// Retrieved 2026-05-20, License - CC BY-SA 4.0
+viewer.entities.removeAll()
+
+eval(s_mod)
+
+s_add 28 Cesium.Color.RED, mod:
