@@ -87,4 +87,17 @@ s0=await gunzip(omnigz)
 eval(s0)
 omnistart()
 
+s_add = ' blueBox = viewer.entities.add({\
+  name: "Blue box",\
+  position: Cesium.Cartesian3.fromDegrees(-114.0, 40.0, 300000.0),\
+  box: {\
+    dimensions: new Cesium.Cartesian3(400000.0, 300000.0, 500000.0),\
+    material: Cesium.Color.BLUE,\
+  },\
+}); '
+
+// explain: senior programmer task
 f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=s.pop();console.log(s_in,n_x,s_arg);var ta=s_in.split(' ');ta[n_x]=s_arg;s_mod=ta.join(' ');console.log(s_mod); }
+
+// explain: junior programmer task
+f('s_add 28 Cesium.Color.RED, mod:')
