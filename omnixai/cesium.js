@@ -75,3 +75,4 @@ viewer.entities.removeAll()
 eval(s_mod)
 
 s_add 28 Cesium.Color.RED, mod:
+s_add color Cesium.Color.RED, mod:
