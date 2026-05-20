@@ -97,7 +97,8 @@ s_add = ' blueBox = viewer.entities.add({\
 }); '
 
 // explain: senior programmer task
-f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=s.pop();console.log(s_in,n_x,s_arg);var ta=s_in.split(' ');ta[n_x]=s_arg;s_mod=ta.join(' ');console.log(s_mod); }
+// f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=s.pop();console.log(s_in,n_x,s_arg);var ta=s_in.split(' ');ta[n_x]=s_arg;s_mod=ta.join(' ');console.log(s_mod); }
+f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=eval(s.pop());console.log(s_in,n_x,s_arg);var ta=s_in.split(' ');ta[n_x]=s_arg;s_mod=ta.join(' ');console.log(s_mod); eval(s_mod);}
 
 // explain: junior programmer task
 f('s_add 28 Cesium.Color.RED, mod:')
