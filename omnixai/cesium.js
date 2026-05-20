@@ -76,3 +76,15 @@ eval(s_mod)
 
 s_add 28 Cesium.Color.RED, mod:
 s_add color Cesium.Color.RED, mod:
+
+f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=s.pop();console.log(s_in,n_x,s_arg)}
+f('s_add 28 Cesium.Color.RED, mod:')
+
+// copy into browse console from
+// https://github.com/omnixtar/omnixtar.github.io/blob/main/js/omnigz.js
+gunzipinit()
+s0=await gunzip(omnigz)
+eval(s0)
+omnistart()
+
+f_mod=function(){var s_arg=s.pop(); var n_x=s.pop(); var s_in=s.pop();console.log(s_in,n_x,s_arg);var ta=s_in.split(' ');ta[n_x]=s_arg;s_mod=ta.join(' ');console.log(s_mod); }
