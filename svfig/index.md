@@ -10,6 +10,7 @@ title: Codex Omnia Possibilia
 </td></tr></table>
 
 ### SVFIG (Silicon Valley FORTH Interest Group)
+- [May 23 2026, BBF004 H3A Hilbertian Hashed Homoiconic Augmentation](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-05.pdf)
 - [April 25 2026, BBF003 FORTH everywhere -- even in AI llama.cpp 
 ](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-04.pdf) [[YouTube]](https://youtu.be/PCLsZCarvQE)
 - [February 28 2026, BBF002 AGI Self-Identity Using Hash of Public Key & Reselling AI Server Tokens w. Omnihash](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-02.pdf) [[YouTube]](https://youtu.be/3HBvYSbDgjo)
