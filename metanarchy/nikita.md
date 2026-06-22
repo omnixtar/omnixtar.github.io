@@ -1,5 +1,5 @@
 **MONKEY BUSINESS AND RED DAUGHTERS: HOLLYWOOD’S HERETICAL HEARTACHE**
-*How a junkie assassin and a Russian aristocrat triggered an existential crisis in Burbank*
+- *How a junkie assassin and a Russian aristocrat triggered an existential crisis in Burbank*
 
 **By Alistair Dry-Sponge**
 
