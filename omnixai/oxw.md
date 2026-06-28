@@ -1,3 +1,5 @@
+Omnihash & Phoscript intro
+
 https://omnixtar.github.io/omnixai/s-curve
 https://omnixtar.github.io/omnixai/b-omnihash
 https://omnixtar.github.io/omnixai/c-maps
