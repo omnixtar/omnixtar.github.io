@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 500"
+   height="500"
+   width="600"
+   version="1.1"
+   id="svg313"
+   sodipodi:docname="diagram.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview315"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.566"
+     inkscape:cx="212.00511"
+     inkscape:cy="250"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg313" />
+  <defs
+     id="defs232">
+    <linearGradient
+       y2="100%"
+       x2="100%"
+       y1="0%"
+       x1="0%"
+       id="bgGrad">
+      <stop
+         stop-color="#0a1f44"
+         offset="0%"
+         id="stop222" />
+      <stop
+         stop-color="#1e3a5f"
+         offset="100%"
+         id="stop224" />
+    </linearGradient>
+    <radialGradient
+       r="55"
+       cy="180"
+       cx="300"
+       id="glow"
+       fx="300"
+       fy="180"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.7638617,-60.302715)">
+      <stop
+         stop-opacity="0.8"
+         stop-color="#00d4ff"
+         offset="0%"
+         id="stop227" />
+      <stop
+         stop-opacity="0"
+         stop-color="#0066cc"
+         offset="100%"
+         id="stop229" />
+    </radialGradient>
+    <defs
+       id="defs295">
+      <marker
+         markerUnits="strokeWidth"
+         orient="auto"
+         refY="3"
+         refX="0"
+         markerHeight="10"
+         markerWidth="10"
+         id="arrow">
+        <path
+           fill="#ffffff"
+           d="M 0,0 V 6 L 9,3 Z"
+           id="path292" />
+      </marker>
+    </defs>
+    <marker
+       markerUnits="strokeWidth"
+       orient="auto"
+       refY="3"
+       refX="0"
+       markerHeight="10"
+       markerWidth="10"
+       id="arrow-1">
+      <path
+         fill="#ffffff"
+         d="M 0,0 V 6 L 9,3 Z"
+         id="path292-8" />
+    </marker>
+    <marker
+       markerUnits="strokeWidth"
+       orient="auto"
+       refY="3"
+       refX="0"
+       markerHeight="10"
+       markerWidth="10"
+       id="arrow-1-6">
+      <path
+         fill="#ffffff"
+         d="M 0,0 V 6 L 9,3 Z"
+         id="path292-8-4" />
+    </marker>
+  </defs>
+  <rect
+     fill="url(#bgGrad)"
+     height="500"
+     width="600"
+     id="rect234"
+     x="0"
+     y="0"
+     inkscape:export-filename="/home/hongwu/Downloads/OmnixAI.png"
+     inkscape:export-xdpi="192"
+     inkscape:export-ydpi="192" />
+  <ellipse
+     opacity="0.9"
+     stroke-width="4.85446"
+     stroke="#00d4ff"
+     fill="none"
+     cy="97.957809"
+     cx="305.11337"
+     id="circle236"
+     rx="67.889679"
+     ry="47.246712" />
+  <circle
+     opacity="0.6"
+     fill="url(#glow)"
+     r="55"
+     cy="119.69729"
+     cx="301.76385"
+     id="circle238"
+     style="fill:url(#glow)" />
+  <text
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="18px"
+     font-family="Arial, sans-serif"
+     y="86.318756"
+     x="303.06842"
+     id="text240">Omnihash</text>
+  <text
+     text-anchor="middle"
+     fill="#a0d4ff"
+     font-size="14px"
+     font-family="monospace"
+     y="111.49334"
+     x="304.62045"
+     id="text242">CXAGcRKevA==</text>
+  <line
+     y2="268.09616"
+     x2="135.58255"
+     y1="222.8633"
+     x1="295.91687"
+     id="line244"
+     style="opacity:0.7;stroke:#00d4ff;stroke-width:1.4653;stroke-dasharray:3.90745, 1.95373" />
+  <line
+     y2="268.26892"
+     x2="456.05658"
+     y1="222.8414"
+     x1="295.44281"
+     id="line246"
+     style="opacity:0.7;stroke:#00d4ff;stroke-width:1.46972;stroke-dasharray:3.91926, 1.95963" />
+  <line
+     y2="307.38712"
+     x2="295.90863"
+     y1="267.5018"
+     x1="135.59134"
+     id="line248"
+     style="opacity:0.7;stroke:#00d4ff;stroke-width:1.73128;stroke-dasharray:4.61675, 2.30837" />
+  <line
+     y2="307.85565"
+     x2="295.59329"
+     y1="267.50729"
+     x1="455.90555"
+     id="line250"
+     style="opacity:0.7;stroke:#00d4ff;stroke-width:1.74128;stroke-dasharray:4.6434, 2.3217" />
+  <rect
+     stroke-width="4"
+     stroke="#00d4ff"
+     fill="#2a4a7a"
+     rx="8"
+     height="100"
+     width="80"
+     y="217.87875"
+     x="65.74971"
+     id="rect254" />
+  <rect
+     fill="#1e3a5f"
+     height="40"
+     width="60"
+     y="227.87875"
+     x="75.74971"
+     id="rect256" />
+  <circle
+     fill="#ff6b6b"
+     r="12"
+     cy="287.87875"
+     cx="105.74971"
+     id="circle258" />
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="12px"
+     y="332.87875"
+     x="105.74971"
+     id="text260">Your GPU</text>
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="12px"
+     y="254.10449"
+     x="298.14029"
+     id="text260-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ffffff">Job Requests</text>
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="12px"
+     y="291.05139"
+     x="295.77127"
+     id="text260-3-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#ffffff">Results</text>
+  <text
+     text-anchor="middle"
+     fill="#a0d4ff"
+     font-size="10px"
+     y="202.77019"
+     x="114.5676"
+     id="text262"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#a0d4ff"><tspan
+       sodipodi:role="line"
+       id="tspan5312"
+       x="114.5676"
+       y="202.77019">Idle → Offer AI Tokens</tspan></text>
+  <rect
+     stroke-width="4"
+     stroke="#00d4ff"
+     fill="#2a4a7a"
+     rx="8"
+     height="100"
+     width="80"
+     y="217.87875"
+     x="445.74969"
+     id="rect266" />
+  <rect
+     fill="#1e3a5f"
+     height="40"
+     width="60"
+     y="227.87875"
+     x="455.74969"
+     id="rect268" />
+  <circle
+     fill="#ff6b6b"
+     r="10"
+     cy="287.87875"
+     cx="470.74969"
+     id="circle270" />
+  <circle
+     fill="#ff6b6b"
+     r="10"
+     cy="287.87875"
+     cx="500.74969"
+     id="circle272" />
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="12px"
+     y="332.87875"
+     x="485.74969"
+     id="text274">User X</text>
+  <text
+     text-anchor="middle"
+     fill="#a0d4ff"
+     font-size="10px"
+     y="197.54755"
+     x="488.84189"
+     id="text276"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#a0d4ff"><tspan
+       sodipodi:role="line"
+       id="tspan656"
+       x="488.84189"
+       y="197.54755">Bid/Purchase AI Token</tspan></text>
+  <circle
+     stroke-width="6"
+     stroke="#00ff9d"
+     fill="none"
+     r="45"
+     cy="417.74667"
+     cx="299.1795"
+     id="circle280" />
+  <circle
+     opacity="0.5"
+     fill="#004d33"
+     r="35"
+     cy="430"
+     cx="300"
+     id="circle282" />
+  <text
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#00ff9d"
+     font-size="20px"
+     y="425"
+     x="300"
+     id="text284">$</text>
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="14px"
+     y="445"
+     x="300"
+     id="text286">Income</text>
+  <text
+     text-anchor="middle"
+     fill="#a0ffa0"
+     font-size="12px"
+     y="368.35614"
+     x="297.12201"
+     id="text288">MYR 900–1800+/mo</text>
+  <path
+     d="M 253.80063,397.10386 Q 207.59804,383.74124 159.87739,353.09189"
+     id="path297"
+     style="fill:none;stroke:#ffffff;stroke-width:1.97283;marker-end:url(#arrow)" />
+  <path
+     d="m 445.74969,317.87875 q -43.67617,18.73308 -87.35234,56.19922"
+     id="path299"
+     style="fill:none;stroke:#ffffff;stroke-width:2.0226;marker-end:url(#arrow)" />
+  <path
+     d="m 355.18321,232.05268 q -46.8034,-8.24491 -103.86587,-0.81567"
+     id="path299-9"
+     style="fill:none;stroke:#ffffff;stroke-width:2.0226;marker-end:url(#arrow-1)" />
+  <path
+     d="m 237.58434,298.09135 q 46.75172,8.53306 103.85887,1.45545"
+     id="path299-9-3"
+     style="fill:none;stroke:#ffffff;stroke-width:2.0226;marker-end:url(#arrow-1-6)" />
+  <path
+     stroke-dasharray="2.58137, 2.58137"
+     d="m 149.08245,181.30852 q 61.62494,-29.36808 81.00824,-43.79565"
+     id="path301"
+     style="fill:none;stroke:#ffffff;stroke-width:2.0651;marker-end:url(#arrow);image-rendering:auto" />
+  <path
+     stroke-dasharray="2.80267, 2.80267"
+     d="m 369.71783,116.36209 q 80.27987,34.79303 104.10673,49.81608"
+     id="path303"
+     style="fill:none;stroke:#ffffff;stroke-width:2.24214;marker-end:url(#arrow)" />
+  <text
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#00d4ff"
+     font-size="28px"
+     font-family="Arial, sans-serif"
+     y="34.404312"
+     x="162.53203"
+     id="text307">Omni*AI + Omnihash</text>
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="18px"
+     font-family="Arial, sans-serif"
+     y="27.043381"
+     x="447.75485"
+     id="text309">Trade Idle GPU Cycles</text>
+  <text
+     text-anchor="middle"
+     fill="#ffffff"
+     font-size="18px"
+     font-family="Arial, sans-serif"
+     y="49.876427"
+     x="492.09442"
+     id="text309-9"
+     style="font-size:18px;font-family:Arial, sans-serif;text-anchor:middle;fill:#ffffff"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;font-family:Arial, sans-serif;-inkscape-font-specification:'Arial, sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan22920">-- Now Anyone Can!!</tspan></text>
+  <text
+     text-anchor="middle"
+     fill="#a0d4ff"
+     font-size="12px"
+     y="480"
+     x="300"
+     id="text311">Low Barrier • Hash-Verified • Decentralized •Omni*Web</text>
+</svg>
