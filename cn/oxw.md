@@ -3,6 +3,15 @@ Omnihash & Phoscript intro
 SVFIG list
 
 [S-curve](./s-curve)
+[b](b-omnihash)
+[c](c-maps)
+[d](d-phoscript)
+[e](e-separable)
+[f](f-lego)
+[g](g-incremental)
+[h](h-gundam)
+[i](i-hegemony)
+[j](j-china)
 
 https://omnixtar.github.io/omnixai/s-curve
 https://omnixtar.github.io/omnixai/b-omnihash
