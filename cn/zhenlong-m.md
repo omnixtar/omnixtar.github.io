@@ -2,15 +2,18 @@
 ## -- Omniscientia 全真道是那枚破局的“瞎眼一子”
 
 [S-curve](./s-curve)
-[b](b-omnihash)
-[c](c-maps)
-[d](d-phoscript)
+[全杂数](omnihash-cn)
+[b 合约](b-omnihash)
+[c 股权](c-maps)
+[d 开源地球](d-phoscript)
 [e](e-separable)
 [f](f-lego)
 [g](g-incremental)
 [h](h-gundam)
 [i](i-hegemony)
 [j](j-china)
+
+- 每节一句话总结
 
 - 以天龙八部围棋珍珑残局为比喻, 数字无产阶级已经面临背水一战的局面, 全真道大军是唯一能扭转乾坤的希望。
 
