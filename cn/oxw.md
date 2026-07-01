@@ -2,6 +2,8 @@ Omnihash & Phoscript intro
 
 SVFIG list
 
+[S-curve](./s-curve)
+
 https://omnixtar.github.io/omnixai/s-curve
 https://omnixtar.github.io/omnixai/b-omnihash
 https://omnixtar.github.io/omnixai/c-maps
