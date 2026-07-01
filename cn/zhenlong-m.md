@@ -6,12 +6,12 @@
 [b 合约](b-omnihash)
 [c 股权](c-maps)
 [d 开源地球](d-phoscript)
-[e](e-separable)
-[f](f-lego)
-[g](g-incremental)
-[h](h-gundam)
-[i](i-hegemony)
-[j](j-china)
+[e 变量名的牢笼](e-separable)
+[f 搭积木](f-lego)
+[g 木乃伊复活术](g-incremental)
+[h 高达改装厂](h-gundam)
+[i 自主的数字基础设施](i-hegemony)
+[j 中国企业参与投资](j-china)
 
 - 每节一句话总结
 
