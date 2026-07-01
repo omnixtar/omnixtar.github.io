@@ -24,6 +24,10 @@ title: DJSON Decentralised JSON
 
 ---
 
+### Omnihash
+
+Omnihash is a base64 encoded string of a hash of a user's public key (HPBK) for representing the user's identity (base form), as well as the base64 encoded string of a hash of a DJSON, comprising at least one user's HPBK (HPBK-A for user A), representing the ownership or association of said DJSON, representing a piece of digital asset, to said user (composite form).
+
 DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, representing the owner of this JSON object.
 
 
