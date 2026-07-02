@@ -31,15 +31,15 @@
 
 ---
 
-- **四、五大应用模块**
+## 五大应用模块
 
-### （A）Omnimessg——全杂数消息系统
+### （A）Omnimesg——全杂数消息系统
 
 基于 **Omnihash** 的去中心化加密消息传递网络，是Omni*Web生态的通讯底座。
 
-### （B）TMX三物种货币交易
+### （B）TMX三元货币交易
 
-**三物种货币交易系统（Trispecies Monetary Transactions, TMX）** 基于Omnimessg，融合：
+**三元货币交易系统（Trispecies Monetary Transactions, TMX）** 基于Omnimesg，融合：
 - 法币（Fiat）
 - 加密货币（Crypto）
 - 贵金属（Bullion）
