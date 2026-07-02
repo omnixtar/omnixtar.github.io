@@ -23,6 +23,7 @@ This **decoupling** is framed as the **technical foundation for digital emancipa
 
 ### **1. Conventional Programs vs. Stack Machine Scripts**
 
+
 | **Aspect**               | **Conventional Programs** (C++, Java, Python) | **Stack Machine Scripts** (Forth/Phoscript) | **Verification** |
 | -------------------------- | ----------------------------------------------- | -------------------------------------------- | ---------------- |
 | **Coupling**             | **Hardcoded at compile time** (functions, variables, and control flow are fixed). | **Decoupled at runtime** (words execute independently, data parcels pass between VMs). | ✅ **Valid** |
