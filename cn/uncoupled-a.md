@@ -24,7 +24,7 @@ This **decoupling** is framed as the **technical foundation for digital emancipa
 ### **1. Conventional Programs vs. Stack Machine Scripts**
 
 | **Aspect**               | **Conventional Programs** (C++, Java, Python) | **Stack Machine Scripts** (Forth/Phoscript) | **Verification** |
-|--------------------------|-----------------------------------------------|--------------------------------------------|----------------|
+| -------------------------- | ----------------------------------------------- | -------------------------------------------- | ---------------- |
 | **Coupling**             | **Hardcoded at compile time** (functions, variables, and control flow are fixed). | **Decoupled at runtime** (words execute independently, data parcels pass between VMs). | ✅ **Valid** |
 | **Execution Location**   | **Centralized** (runs on a single server or user machine). | **Distributed** (words can execute on **any VM**, anywhere). | ✅ **Valid** |
 | **Ownership**            | **Monolithic** (entire program owned by one entity). | **Granular** (each word has a **separate owner**, tracked via Omnihash). | ✅ **Valid** |
