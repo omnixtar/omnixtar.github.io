@@ -193,7 +193,7 @@ The document outlines **three key advantages** of decoupled stack machine script
 
 ### **1. Existing Precedents**
 | **Concept**               | **Existing Example** | **Relevance** |
-|---------------------------|-----------------------|---------------|
+| ------------------------- | -------------------- | ------------- |
 | **Decoupled Execution**   | **WebAssembly (WASM)** | Runs in any browser/VM. |
 | **Microtransactions**     | **Filecoin, Render**   | Pay per compute/storage. |
 | **Decentralized Identity**| **DID (Decentralized ID)** | Omnihash = DID for code. |
