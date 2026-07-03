@@ -5,3 +5,11 @@
 - “以道统艺，由艺臻道，道艺并进，形神俱备” ---- 北京大学新闻网 [斯文在兹，修身为本——楼宇烈先生的传统文化情怀](https://news.pku.edu.cn/mtbdnew/84d8f616956243cab238548a1b17237a.htm)
 
 Scientia 作为 "科学" Science 的词根, "臻" 含有实践, "格物致知" 的意思, 也是程序员的座右铭 -- 只有理论,没有代码,就是耍流氓。
+
+Omniscientia 全臻道 的基础部件是：
+
+1. Omnihash 全杂数
+
+1. Phoscript 符式词元
+
+Omni*Web 全臻网
