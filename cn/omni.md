@@ -15,7 +15,7 @@
 
 1. 本节以天龙八部 "围棋珍珑残局" 为比喻, 描述 "数字无产阶级" 已经面临背水一战的局面, 全臻道大军是唯一能扭转乾坤的希望。
 
-1. "全臻道" 架构由 [Omnihash 全杂数](omnihash-cn) 及  [Phoscript 符式词元](e-separable) 两大突破性算法组成。 
+1. "全臻道" 架构由 [Omnihash 全杂数 (定义)](omnihash-cn) 及  [Phoscript 符式词元](e-separable) 两大突破性算法组成。 
 - SVFIG, Phoscript YouTube, Omnihash
 
 1. Omnihash (全杂数) 的基本原理, 就是以 “公钥的哈希数” 取代中心化系统管理的用户账户。 这个以新换旧的动作, 就是珍珑局的瞎眼一子, 也是 “以空间换取时间” 的战术布置, 也是元宇宙空间里 “农村包围城市” 的体现。 

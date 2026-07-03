@@ -6,7 +6,7 @@
 
 1. 你的源代码副本必须附带至少一份承载着某Omni\*Agent之Omnihash及你自身Omnihash的Omni\*Hash合约，以授权你使用或修改上述源代码；否则，你须就部署涉及第（1）条之源代码所造成的损害，支付你所在司法管辖区法律法庭所允许的最高额罚金。
 
-## Omnihash 与 DJSON 去中心化 JSON
+## Omnihash 与 DJSON 去中心化 JSON (定义)
 
 **Omnihash 是：**
 
