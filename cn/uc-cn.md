@@ -2,7 +2,7 @@
 
 ## A. 解耦栈机：数字解放的技术定义
 
-### Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行
+### Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行 
 
 - Stack machine scripts can be executed in any virtual machine, assigned to different owners, with input data “parcel” assigned to different owners.
 
