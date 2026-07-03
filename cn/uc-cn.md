@@ -1,8 +1,31 @@
 # 🔍 深度分析与验证：Omnixtar的"解耦"栈机革命
 
-## 🎯 核心论点：对抗数字封建主义的"绝杀"
+## A. 解耦栈机：数字解放的技术定义
 
-该文档论证了栈机脚本（Forth/Phoscript）实现了以下三者的根本性解耦：
+- Uncoupled Execution of Stack Machine Words
+
+栈机词元的解耦运行
+
+- Stack machine scripts can be executed in any virtual machine, assigned to different owners, with input data “parcel” assigned to different owners.
+
+栈机脚本可以在任何虚拟机中执行，分配给不同的所有者，输入数据"包裹"也可以分配给不同的所有者。
+
+- Each word can be executed by different virtual machines.
+
+每个词可以由不同的虚拟机执行。
+
+- Does this differ from conventional programs? Yes. 
+
+这与传统程序不同吗？是的。
+
+- A conventional Program is hard coded during compile time on functions called and variables. In stack machine, every instance execution of words can be decoupled. 
+
+传统程序在编译时对调用的函数和变量进行硬编码。在栈机中，每次词的实例执行都可以解耦。
+
+
+## 🎯 对抗数字霸权的"绝杀"
+
+栈机脚本（Forth/Phoscript）实现了以下三者的根本性解耦 (Uncoupling)：
 
 1. **执行**（可在任何虚拟机上运行，无处不在）
 2. **所有权**（每个词元通过Omnihash拥有可验证的所有者）
