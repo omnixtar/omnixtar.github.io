@@ -4,7 +4,7 @@
 
 ### Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行 
 
-- Stack machine scripts can be executed in any virtual machine, assigned to different owners, with input data “parcel” assigned to different owners.
+- Stack machine scripts can be executed in any virtual machine, assigned to different owners, with input data “parcel” assigned to different owners. 
 
 栈机脚本可以在任何虚拟机中执行，分配给不同的所有者，输入数据"包裹"也可以分配给不同的所有者。
 
