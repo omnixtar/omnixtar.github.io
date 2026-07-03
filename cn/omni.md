@@ -31,7 +31,7 @@
 
 
 1. [[化整为零](uncoupled-a)] [[中文](uncoupled-def-cn)] [[Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行
-](uc-cn)] [[f-lego](f-lego)] [[g-incremental](g-incremental)]
+](uc-cn)] [[f-lego](f-lego)] [[g-incremental](g-incremental)] 
 
 1. [第三世界数字主权](i-hegemony)
 
