@@ -171,9 +171,10 @@ The **FCN + Omnihash + GRATIS** ecosystem grows **exponentially** due to **netwo
 3. **More GRATIS Demand** → **Higher token value** → **More incentives to create F(N) words**.
 
 **Growth Equation**:
-\[
+$$
 \frac{dC(F)}{dt} = k \times C(F) \times \text{GRATIS Price} \times \text{Incentives}
-\]
+$$
+
 - **C(F)**: Total F(N) words.
 - **k**: Growth rate constant.
 - **Incentives**: GRATIS rewards, royalties, etc.
