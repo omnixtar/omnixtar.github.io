@@ -33,6 +33,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
 ---
 
 ### **💡 Why This Has Never Been Done Before**
+
 | **Barrier** | **Traditional Approach** | **Omnihash + FCN Solution** |
 |-------------|--------------------------|-----------------------------|
 | **Ownership** | Centralized (GitHub, GitLab) | **Decentralized (Omnihash)** |
