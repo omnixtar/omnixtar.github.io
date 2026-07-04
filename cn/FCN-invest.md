@@ -147,6 +147,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
 ---
 
 ### **📊 Revenue Streams from the Goldmine**
+
 | **Revenue Stream** | **Description** | **TAM** | **GRATIS Capture** | **Example** |
 |--------------------|----------------|---------|--------------------|-------------|
 | **F(N) Royalties** | 1–5% GRATIS per F(N) reuse. | **$500B software market** | **$5B–$25B/year** | A company uses **Forthified React** → **pays 0.1% GRATIS per API call**. |
