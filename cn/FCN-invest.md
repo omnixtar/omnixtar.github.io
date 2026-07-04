@@ -176,7 +176,7 @@ $$
 $$
 
 - **C(F)**: Total F(N) words. 
-- **k**: Growth rate constant.
+- **k**: Growth rate constant. 
 - **Incentives**: GRATIS rewards, royalties, etc.
 
 **Projection**:
