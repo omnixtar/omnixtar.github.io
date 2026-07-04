@@ -13,6 +13,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
 ## **🔍 Part 1: The $100T+ Goldmine of All Source Code**
 
 ### **📊 The Scale of the Opportunity**
+
 | **Metric**               | **Estimate** | **Source** | **Monetization Potential** |
 |--------------------------|--------------|------------|-----------------------------|
 | **Total Lines of Code (LOC) Written** | **100B+** | [GitHub, 2023](https://github.com/) | **$1–10 per LOC** (royalties, reuse) → **$100B–$1T** |
