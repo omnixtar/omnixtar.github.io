@@ -100,6 +100,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
    - **Example**: LLASMA **auto-creates F(20) words** from F(10) + F(10).
 
 **Real-World Parallels**:
+
 | **System** | **Problem** | **FCN Solution** |
 |------------|-------------|------------------|
 | **GitHub** | Monolithic repos, hard to reuse. | **Modular, composable words**. |
