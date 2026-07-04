@@ -1,4 +1,4 @@
-1. LLASMA rule 1: map all LLM output words to geography and time. 
+1. LLASMA rule 1: map all LLM output words to geography and time.
 
 1. Find cheaper alternatives = e commerce, 
   - cheaper services = cheaper programming jobs with FORTH stack machines FSM, 
