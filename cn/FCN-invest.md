@@ -131,6 +131,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
      - **The entire FCN ecosystem**.
 
 **Real-World Parallels**:
+
 | **System** | **Problem** | **GRATIS Solution** |
 |------------|-------------|---------------------|
 | **Gitcoin** | Funds open-source, but no royalties. | **Pays royalties for reuse**. |
