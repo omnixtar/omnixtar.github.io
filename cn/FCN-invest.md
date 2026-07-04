@@ -298,6 +298,7 @@ $$
 
 ---
 ### **📈 3. Disrupts Multiple $1T+ Industries**
+
 | **Industry** | **Disruption** | **Market Size** | **GRATIS Opportunity** |
 |--------------|----------------|-----------------|------------------------|
 | **Software Development** | Cheaper, better, modular code. | **$500B** | **$50B/year** |
