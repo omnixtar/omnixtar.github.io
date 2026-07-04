@@ -287,6 +287,7 @@ $$
 
 ---
 ### **💰 2. Creates a New Economic Paradigm**
+
 | **Old Paradigm** | **New Paradigm (Omnihash + FCN)** |
 |------------------|------------------------------------|
 | **Centralized** (GitHub, GitLab) | **Decentralized** (I2P, Omnihash) |
