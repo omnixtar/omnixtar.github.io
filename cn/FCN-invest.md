@@ -179,6 +179,7 @@ The **FCN + Omnihash + GRATIS** ecosystem grows **exponentially** due to **netwo
 - **Incentives**: GRATIS rewards, royalties, etc.
 
 **Projection**:
+
 | **Timeframe** | **F(N) Words** | **Programmers** | **GRATIS Market Cap** | **Annual Revenue** |
 |---------------|-----------------|-----------------|------------------------|--------------------|
 | **12 Months** | 1M | 10,000 | $100M | $10M |
