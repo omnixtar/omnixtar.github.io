@@ -10,7 +10,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
 
 ---
 
-## **🔍 Part 1: The $100T+ Goldmine of All Source Code**
+## **🔍 Part 1: The $100T+ Goldmine of All Source Code** 
 
 ### **📊 The Scale of the Opportunity**
 
