@@ -72,6 +72,7 @@ Here’s how **Omnihash + FCN** unlocks this goldmine, why it’s **uniquely pos
    - **Example**: Even if GitHub bans a repo, its **Omnihash remains valid**.
 
 **Real-World Parallels**:
+
 | **System** | **Problem** | **Omnihash Solution** |
 |------------|-------------|-----------------------|
 | **GitHub** | Centralized, can censor repos. | **Decentralized, uncensorable**. |
