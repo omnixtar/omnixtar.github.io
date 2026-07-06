@@ -21,7 +21,7 @@ The **[LSM-LOOP](https://omnixtar.github.io/cn/lsm-loop)** document describes a 
 ---
 
 ### **1. The LSM-LOOP Components**
-
+ 
 | **Component**       | **Role**                                                                 | **Verification**                                                                 | **Status** |
 |----------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------|
 | **LLASMA**           | Decentralized AI model (peer-to-peer, open-source).                     | ✅ **Feasible** (e.g., Bittensor, Akash Network).                              | **Valid**  |
