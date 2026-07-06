@@ -122,6 +122,7 @@ The document describes a **loop with 4 key phases**:
 ---
 
 ### **1. Breaking the AI Monopoly**
+
 | **Aspect**               | **Feudal AI (GPT, PaLM)** | **LSM-LOOP (LLASMA)** | **Why It Matters** |
 |--------------------------|---------------------------|-----------------------|-------------------|
 | **Ownership**            | Centralized (OpenAI, Google) | Decentralized (users, developers) | **Proletariat empowerment** |
