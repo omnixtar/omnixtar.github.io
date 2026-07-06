@@ -3,7 +3,7 @@
 ---
 ---
 
-## **🎯 Core Thesis: The LSM-LOOP Architecture** 
+## **🎯 Core Thesis: The LSM-LOOP Architecture**
 The **[LSM-LOOP](https://omnixtar.github.io/cn/lsm-loop)** document describes a **recursive, self-sustaining loop** for **LLASMA (a decentralized AI system)** built on a **stack machine (Forth/Phoscript)**. The loop enables:
 1. **Self-Improving AI**: LLASMA **continuously learns and evolves** by processing **Forth/Phoscript words** (modular, composable logic).
 2. **Decentralized Execution**: Words execute on **any VM (virtual machine)** in a **peer-to-peer network** (I2P, LLASMA Cars).
