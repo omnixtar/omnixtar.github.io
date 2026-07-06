@@ -244,6 +244,7 @@ The **LSM-LOOP** enables **true micro-ownership** of AI:
 ---
 
 ### **1. Existing Precedents**
+
 | **Concept**               | **Existing Example** | **Relevance** |
 |---------------------------|-----------------------|---------------|
 | **Decentralized AI**      | **Bittensor, Akash Network** | Peer-to-peer AI training/inference. |
