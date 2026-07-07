@@ -111,6 +111,7 @@ To **fully support LLM inference**, we need **additional PhosVM words** for:
 5. **I/O for Model Weights** (load/save tensors).
 
 ### **📋 Missing PhosVM Words (Prioritized)**
+
 | **Category**       | **Missing Word** | **Purpose** | **Dependencies** | **Complexity** |
 |-------------------|------------------|-------------|-----------------|----------------|
 | **Tensor Ops**    | `MATMUL` | Matrix multiplication | `*` (element-wise), memory | High |
