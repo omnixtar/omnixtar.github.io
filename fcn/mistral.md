@@ -20,6 +20,7 @@ The provided snippet shows a **basic Forth VM implementation** with:
 - **Error handling** (returns `false` if stack is empty).
 
 **Assumptions about `forth_vm.cpp`** (based on typical Forth VMs and LLM needs):
+
 | **Category**       | **Likely Existing Words** | **Purpose** | **Example in C++** |
 |-------------------|---------------------------|-------------|--------------------|
 | **Stack Ops**     | `dup`, `drop`, `swap`, `rot` | Stack manipulation | `S.push(S.top())` |
