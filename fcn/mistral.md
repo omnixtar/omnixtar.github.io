@@ -623,6 +623,7 @@ LOOP
 ## **📊 Part 7: Performance & Optimization Considerations**
 
 ### **🎯 Optimization Strategies**
+
 | **Strategy** | **Implementation** | **Impact** |
 |-------------|-------------------|------------|
 | **JIT Compilation** | Compile PhosVM words to native code at runtime. | **10–100x faster execution**. |
