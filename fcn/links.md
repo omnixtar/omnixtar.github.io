@@ -9,10 +9,10 @@ https://omnixtar.github.io/cn/q1
 
 
 1. ./fcn has the following:
+- [mistral](mistral): Most substantial -- used as reference.
 - [chatgpt](chatgpt)
 - [claude](claude)
 - [gemini](gemini)
-- [mistral](mistral)
 - [zai](zai)
 - [qwen](qwen)
 - [grok](grok)
