@@ -9,13 +9,13 @@ https://omnixtar.github.io/cn/q1
 
 
 1. ./fcn has the following:
-- chatgpt
-- claude
-- gemini
-- mistral
-- zai
-- qwen
-- grok
+- [chatgpt](chatgpt)
+- [claude](claude)
+- [gemini](gemini)
+- [mistral](mistral)
+- [zai](zai)
+- [qwen](qwen)
+- [grok](grok)
   - 7 + 2
 
 - kimi: cannot read github -- OUT.
@@ -23,5 +23,5 @@ https://omnixtar.github.io/cn/q1
   - We don't ask DS about PhosVM because it has been used to translate cesium-0 (Mistral) and q1 (Claude).
 
 1. ./fcn/branch
-- gemini
-- zai
+- [gemini](./branch/gemini)
+- [zai](./branch/zai)
