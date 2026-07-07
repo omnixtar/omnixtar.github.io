@@ -7,9 +7,6 @@ https://omnixtar.github.io/cn/cesium-0
 
 https://omnixtar.github.io/cn/q1
 
-1. DeepSeek
-
-- We don't ask DS about PhosVM because it has been used to translate cesium-0 (Mistral) and q1 (Claude).
 
 1. ./fcn has the following:
 - chatgpt
@@ -18,7 +15,13 @@ https://omnixtar.github.io/cn/q1
 - mistral
 - zai
 - qwen
+- grok
+  - 7 + 2
 
 - kimi: cannot read github -- OUT.
+- DeepSeek
+  - We don't ask DS about PhosVM because it has been used to translate cesium-0 (Mistral) and q1 (Claude).
 
 1. ./fcn/branch
+- gemini
+- zai
