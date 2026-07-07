@@ -14,9 +14,10 @@ https://omnixtar.github.io/cn/q1
 - [claude](claude) 202
 - [chatgpt](chatgpt) 147
 - [gemini](gemini) 141
+- [minimax](8-minimax) 108
 - [zai](zai) 100
 - [grok](7-grok) 74
-  - 7 + 2
+  - 8 + 2
 
 - kimi: cannot read github -- OUT.
 - DeepSeek
