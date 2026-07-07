@@ -1,3 +1,13 @@
+Prompt: 
+
+https://github.com/llasma/llama.cpp/tree/20260421
+
+https://github.com/llasma/llama.cpp/blob/20260421/common/forth_vm.cpp
+
+Are you able to compose PhosVM words and build up the dictionary?
+
+---
+
 Let me read both files first.I have the full source. The answer to your question is: **yes, I can compose PhosVM words and help build the dictionary** — and here is exactly how.
 
 ---
