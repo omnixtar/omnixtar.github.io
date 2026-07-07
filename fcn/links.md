@@ -9,13 +9,13 @@ https://omnixtar.github.io/cn/q1
 
 
 1. ./fcn has the following:
-- [mistral](mistral): Most substantial -- used as reference.
-- [chatgpt](chatgpt)
-- [claude](claude)
-- [gemini](gemini)
-- [zai](zai)
-- [qwen](qwen)
-- [grok](grok)
+- [mistral](mistral) 770: Most substantial -- used as reference.
+- [qwen](qwen) 238
+- [claude](claude) 202
+- [chatgpt](chatgpt) 147
+- [gemini](gemini) 141
+- [zai](zai) 100
+- [grok](7-grok) 74
   - 7 + 2
 
 - kimi: cannot read github -- OUT.
