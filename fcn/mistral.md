@@ -644,6 +644,7 @@ void PhosVM::jit_compile(int ctx) {
 
 ---
 ### **📈 Benchmarking Goals**
+
 | **Metric** | **Target** | **Current (Estimate)** | **Improvement Needed** |
 |-----------|------------|-----------------------|------------------------|
 | **Inference Speed** | 10 tokens/sec | 1 token/sec | **10x** |
