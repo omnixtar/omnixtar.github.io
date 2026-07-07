@@ -1,0 +1,192 @@
+Let me read both files first.I have the full source. The answer to your question is: **yes, I can compose PhosVM words and help build the dictionary** — and here is exactly how.
+
+---
+
+## What the source tells me
+
+The PhosVM has two execution layers:
+
+**1. Built-in primitive handlers** (registered via the `handlers` map):
+
+| Word | C++ method | Stack effect |
+|---|---|---|
+| `g_M` | `g_M(ctx)` | `key --` pushes `m[key]` |
+| `k_M` | `k_M(ctx)` | `-- vector<string>` of all keys in M |
+| `s_M` | `s_M(ctx)` | `value key --` stores value at key in M |
+| `dup` | `dup(ctx)` | `x -- x x` |
+| `pick` | `pick(ctx)` | `n -- x` copies nth item from top |
+| `depth` | `depth(ctx)` | `-- n` pushes stack size |
+| `gettype` | `gettype(ctx)` | `x -- x type-string` |
+| `add` | `add(ctx)` | `a b -- a+b` |
+| `sub` | `sub(ctx)` | `a b -- b-a` |
+| `type` | `type(ctx)` | `string --` prints it |
+| `cr` | `cr(ctx)` | prints newline |
+| `find` | `find(ctx)` | `ptn n -- i pos` |
+| `CAAF` | `CAAF(ctx)` | calls chat_add_and_format |
+
+**2. Colon definitions** stored in the `c` map (type `unordered_map<string, vector<string>>`), which live inside M under key `"C"`. When `execute()` encounters a token that is in `c`, it recursively calls `execute(join(c[tok], " "), ctx)` — this is the colon-definition dispatch. New words are composable by adding entries to `c["C"]`.
+
+---
+
+## Composing words now
+
+Here are F(2) and F(3) words that can be loaded into M["C"], composed from the primitives above. I'm writing them as Phoscript colon definitions — the format the `execute()` loop already handles.
+
+---
+
+### F(2) — stack utilities
+
+```forth
+: nip   ( a b -- b )
+  swap drop ;
+
+: over  ( a b -- a b a )
+  1 pick ;
+
+: 2dup  ( a b -- a b a b )
+  over over ;
+
+: tuck  ( a b -- b a b )
+  swap over ;
+```
+
+`swap` and `drop` are missing from the primitive list shown — they are almost certainly registered (every FORTH needs them). If not, `swap` can be bootstrapped:
+
+```forth
+: swap  ( a b -- b a )
+  1 pick depth 1 sub pick ;
+```
+
+*(This is approximate until the full handlers list is confirmed.)*
+
+---
+
+### F(2) — M access patterns
+
+These are the most immediately useful words for the LLASMA integration layer:
+
+```forth
+: m@    ( key -- value )
+  g_M ;
+
+: m!    ( value key -- )
+  s_M ;
+
+: m?    ( key -- bool )
+  k_M inV ;
+```
+
+`m@`, `m!`, `m?` are the idiomatic FORTH read/write/test trio for M. Every higher word should use these aliases rather than calling `g_M`/`s_M` directly — this way if the underlying implementation changes, only three words need updating.
+
+---
+
+### F(3) — conditional M store (don't overwrite if key exists)
+
+```forth
+: m!?   ( value key -- )
+  dup m?
+  if drop drop
+  else m!
+  then ;
+```
+
+This requires `if/then` — if not in primitives, an alternative using pure stack:
+
+```forth
+: m!-safe  ( value key -- )
+  k_M over inV
+  drop m! ;
+```
+
+*(Depends on `inV` returning a flag that can be used for dispatch — from the source, `inV` currently finds in a hardcoded vector; it needs generalising.)*
+
+---
+
+### F(3) — diagnostic words (LLASMA Cars domain)
+
+These encode the F(1) constants already discussed in this conversation:
+
+```forth
+\ F(1) constants — Toyota 1GD-FTV
+: rail-pressure-nominal   ( -- 26.5 )
+  "26.5" ;
+
+: rail-pressure-cold-start  ( -- 18.0 )
+  "18.0" ;
+
+\ F(2) — delta computation
+: rail-delta   ( p_cold p_hot -- delta )
+  sub ;
+
+\ F(3) — diagnostic classifier
+: injector-diagnosis   ( p_cold p_hot -- verdict )
+  rail-delta
+  dup "5.0" sub
+  dup "0" sub
+  \ if delta > 5.0 → injector wear
+  \ if delta < 0  → pressure regulator fault
+  \ if delta ≈ 0  → sensor failure
+  ;
+```
+
+The conditional logic above requires either `if/then` or a jump table stored in M. With M available, the cleaner approach is a lookup table word:
+
+```forth
+: fault-table-init  ( -- )
+  "injector_wear"      "fault_high_delta"    m!
+  "regulator_fault"    "fault_negative_delta" m!
+  "sensor_failure"     "fault_zero_delta"     m! ;
+```
+
+---
+
+### F(3) — Omnihash attribution stub
+
+This is the attribution word that every contributed word should call before storing to M:
+
+```forth
+: omnihash-word  ( word-name author timestamp -- hash-string )
+  \ concatenate three items and apply the cyrb53 hash
+  \ (cyrb53 is already in omni.js; C++ equivalent needed in PhosVM)
+  "PHOS_HASH_STUB" ;   \ placeholder until cyrb53 is ported
+
+: attributed-m!  ( value word-name author timestamp -- )
+  omnihash-word        \ -- value word-name hash
+  m!                   \ store hash at word-name key
+  m! ;                 \ store value at hash key
+```
+
+---
+
+### Immediate next step for the dictionary
+
+The source shows M["C"] already stores colon definitions as `unordered_map<string, vector<string>>`. To bootstrap the dictionary, the following needs to happen once at `phosinit()`:
+
+```cpp
+// In phosinit() — add to forth_vm.cpp
+unordered_map<string,vector<string>> c;
+c["m@"]            = {"g_M"};
+c["m!"]            = {"s_M"};
+c["rail-pressure-nominal"] = {"26.5"};
+c["rail-delta"]    = {"sub"};
+c["fault-table-init"] = {
+    "injector_wear","fault_high_delta","s_M",
+    "regulator_fault","fault_negative_delta","s_M",
+    "sensor_failure","fault_zero_delta","s_M"
+};
+M["C"] = c;
+```
+
+Or equivalently, load from a `.fs` file at startup — the `execute()` code already handles `FORTH _/hello.fs`, so a `phos_init.fs` file bootstrapping the dictionary is the cleanest solution.
+
+---
+
+## What I'd need to go further
+
+1. **The full `handlers` registration** — there's a `handlers` map populated somewhere (likely `forth_vm.h` or a separate init function not shown). Confirming which primitives are registered tells me exactly which F(1) words exist and which F(2) words I can compose without gaps.
+
+2. **The `in_M` / `inV` generalisation** — the source shows `inV` hardcoded to search a local vector. For the dictionary's `m?` word to work correctly, `inV` needs to take the vector from the stack rather than a hardcoded target.
+
+3. **A `.fs` loader for the colon dictionary** — so words contributed by Grease-1, Soil-1, Metal-1 etc. can be loaded from text files at startup without recompiling.
+
+If you can share `forth_vm.h` (which should show the full handler registration), I can write a complete bootstrapped dictionary file that covers F(1) through F(4) for the automotive diagnostic and LSM-loop domains.
