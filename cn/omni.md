@@ -31,8 +31,10 @@
 
 简要: 全臻道 所有益处, 人工智能、 其他方面, 一段或一页简要。
 
-- 开源税 健在程序员 已故程序员家人或继承人
-
+- 开源税 
+  - 健在程序员 
+  - 已故程序员家人或继承人
+- 股份机制
 - 先说益处 再讲理论  
 
 1. [[化整为零](uncoupled-a)] [[中文](uncoupled-def-cn)] [[Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行 
