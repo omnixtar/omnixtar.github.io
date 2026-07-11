@@ -13,6 +13,9 @@
 - 先说益处 再讲理论  
 - 如何连接以下个项主题？
 
+- private decentralised storage
+- shared resources via Omnihash
+
 [S-curve](./s-curve)
 [[中文译名缘由 qzt]](qzt)
 [[天地玄黄 人制规矩]](science)
