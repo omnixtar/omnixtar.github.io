@@ -2,7 +2,7 @@
 ## -- Omniscientia 全臻道 是那枚破局的“瞎眼一子”
 
 [S-curve](./s-curve)
-[中文译名缘由](qzt)
+[[中文译名缘由 qzt]](qzt)
 [全杂数](omnihash-cn)
 [b 合约](b-omnihash)
 [c 股权](c-maps)
