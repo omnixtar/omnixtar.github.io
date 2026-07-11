@@ -28,7 +28,12 @@
 1. Omnihash 作为 [**新创业平台股份机制**](c-maps), 以 **Phoscript 符式词元** *复制谷歌地图*为吸引用户及业余程序员的宣传重点。
 - [五大应用模块](k-mod) [注解](5-mod) [简而言之](m-invest)
 - 新创业平台股份机制 md
- 
+
+简要: 全臻道 所有益处, 人工智能、 其他方面, 一段或一页简要。
+
+  1. 开源税 健在程序员 已故程序员家人或继承人
+
+- 先说益处 再讲理论  
 
 1. [[化整为零](uncoupled-a)] [[中文](uncoupled-def-cn)] [[Uncoupled Execution of Stack Machine Words 栈机词元的解耦运行 
 ](uc-cn)]  
