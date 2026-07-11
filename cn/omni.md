@@ -3,6 +3,7 @@
 
 [S-curve](./s-curve)
 [[中文译名缘由 qzt]](qzt)
+[[天地玄黄 人制规矩]](science)
 [全杂数](omnihash-cn)
 [b 合约](b-omnihash)
 [c 股权](c-maps)
