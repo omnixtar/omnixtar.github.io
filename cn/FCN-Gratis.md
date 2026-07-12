@@ -16,6 +16,7 @@ Below is a **detailed breakdown** of its benefits **outside AI** and **for AI**,
 
 ### **🏗️ 1. Software Development & Open Source**
 #### **Benefits:**
+
 | **Benefit**               | **Explanation**                                                                                     | **Impact**                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Micro-Ownership**       | Every function, module, or snippet is a **Forth/Phoscript word** with **Omnihash attribution**. | Developers **earn GRATIS** every time their code is used.                                  |
@@ -59,6 +60,7 @@ Below is a **detailed breakdown** of its benefits **outside AI** and **for AI**,
 
 ### **📊 2. Data Ownership & Privacy**
 #### **Benefits:**
+
 | **Benefit**               | **Explanation**                                                                                     | **Impact**                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Data as Capital**       | Data is **Forthified into words** with **Omnihash attribution**.                              | Users **own and monetize** their data.                                                     |
@@ -99,6 +101,7 @@ Below is a **detailed breakdown** of its benefits **outside AI** and **for AI**,
 
 ### **💼 3. Business & Enterprise Applications**
 #### **Benefits:**
+
 | **Benefit**               | **Explanation**                                                                                     | **Impact**                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Microservices 2.0**     | Business logic is **Forth/Phoscript words** that can run anywhere.                          | **No cloud lock-in**; switch providers without rewriting code.                            |
@@ -139,6 +142,7 @@ Below is a **detailed breakdown** of its benefits **outside AI** and **for AI**,
 
 ### **🎮 4. Gaming & Virtual Worlds**
 #### **Benefits:**
+
 | **Benefit**               | **Explanation**                                                                                     | **Impact**                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Player-Owned Assets**   | Game assets (characters, items) are **Forth/Phoscript words** with **Omnihash proof**.       | Players **truly own** their in-game items.                                                 |
@@ -184,6 +188,7 @@ Below is a **detailed breakdown** of its benefits **outside AI** and **for AI**,
 
 ### **🧠 1. Decentralized AI Training & Inference**
 #### **Benefits for AI:**
+
 | **Benefit**               | **Explanation**                                                                                     | **Impact on AI**                                                                               |
 |---------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **Privacy-Preserving AI** | AI models **train on local data** (no central server).                                         | **No data leaks**; users **retain control** of their data.                                   |
