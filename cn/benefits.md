@@ -12,7 +12,7 @@
 - 股份机制
 - 先说益处 再讲理论  
 - 如何连接以下个项主题？
-
+- onus probandi -- if don't believe, will not do: believe we can be on par or surpass commercial AI, based on pass records, Linux, Android, web servers, Bitcoin ....
 - private decentralised storage
 - shared resources via Omnihash
 
