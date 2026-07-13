@@ -24,7 +24,10 @@
 
 ### 三、从“佃农”到“自耕农”
 
-- FCN? GRATIS? 定义部件
+- FCN? GRATIS? 定义部件 -- 推广中文名词:
+  - FCN 符式词元化
+  - Omnihash 全杂数
+  - FCN + Omnihash = Omniscientia 全臻道
 
 传统AI生态中，用户只有两种角色：消费者（付费使用）或被采集者（数据被免费提取）。FCN+GRATIS框架创造了第三种角色——**产消者（Prosumer）**：既是生产者，也是消费者。
 
