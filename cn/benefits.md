@@ -16,7 +16,7 @@
 - private decentralised storage
 - shared resources via Omnihash
 
-[[GRATIS]](../fcn/c1)
+[[GRATIS][1]](../fcn/c1) [[2]](../fcn/c2) [[3]](../fcn/c3) [[4]](../fcn/c4) [[5]](../fcn/c5) [[6]](../fcn/c6)
 
 [S-curve](./s-curve)
 [[中文译名缘由 qzt]](qzt)
