@@ -18,6 +18,8 @@
 
 - 理论功能上限
 
+- 解释 GRATIS I2P
+
 这正是FCN（FORTHification）+ GRATIS + I2P框架所描绘的愿景。在这个框架中，三个核心技术组件共同支撑起算力“小农经济”的基础设施：
 
 - **I2P（Invisible Internet Project 隐形互联网项目）** 提供了匿名、抗审查的点对点网络，让用户可以共享计算资源而不暴露身份；
