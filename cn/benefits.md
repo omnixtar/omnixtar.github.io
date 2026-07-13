@@ -16,7 +16,8 @@
 - private decentralised storage
 - shared resources via Omnihash
 
-[[GRATIS][1]](../fcn/c1) [[2]](../fcn/c2) [[3]](../fcn/c3) [[4]](../fcn/c4) [[5]](../fcn/c5) [[6]](../fcn/c6)
+[[GRATIS][1]](../fcn/c1) 
+- FCN（FORTHification）+ GRATIS 作为进入 AI 代币市场的准零门槛机制潜力巨大，尤其适合那些被传统 AI 生态的高价或高门槛拒之门外的个人用户、爱好者和小型程序员。以下是对其运作方式、优势及现实局限性的结构化分析。[[2]](../fcn/c2) [[3]](../fcn/c3) [[4]](../fcn/c4) [[5]](../fcn/c5) [[6]](../fcn/c6)
 
 [S-curve](./s-curve)
 [[中文译名缘由 qzt]](qzt)
