@@ -24,6 +24,8 @@ title: DJSON Decentralised JSON
 
 ---
 
+### Omnihash & DJSON Decentralised JSON
+
 1. DJSON Decentralised JSON is a JSON object or its encoded string where at least one of the fields is an Omnihash, which is the hash of public key, representing the owner of this JSON object.
 
 
@@ -31,7 +33,7 @@ title: DJSON Decentralised JSON
 
 - Omnihash: DgV6_qnujw==
 
-1. A DJSON itself can be hashed to become another Omnihash.
+2. A DJSON itself can be hashed to become another Omnihash.
 
 
 ### DJSON & Omnihash in Action
