@@ -1,4 +1,4 @@
-> 原文出处：https://omnixtar.github.io/contract/
+> 原文出处：[https://omnixtar.github.io/contract/](https://omnixtar.github.io/contract/)
 
 ### Omni*Contract：数字资产（源代码）的所有权与使用权
 - **兼论源代码的披露与版税分离 ("察用分家")**
