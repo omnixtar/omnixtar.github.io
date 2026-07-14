@@ -24,11 +24,11 @@
 - 按 F12 打开浏览器控制台。
 - 运行以下代码：
 
-- `omnistart()`
-`j0=["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]`
-`s.push(JSON.stringify(j0))`
-`f('h53: b64: path:')`
-`s[s.length-1]`
+- `omnistart()`\
+`j0=["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]`\
+`s.push(JSON.stringify(j0))`\
+`f('h53: b64: path:')`\
+`s[s.length-1]`\
 
 
 （Omni）哈希的存在意味着相关的输入字符串已被送入哈希函数以得到（Omni）哈希，这 presumably 由第一方（或用户A）完成。第二方（除第一方之外的任何人，默认即您，用户B）可将相同的输入送入相同的哈希函数，得到相同的（Omni）哈希，以验证哈希的正确性，从而证明第一方确实执行了步骤（1）。步骤（2）意味着输入字符串与第一方的意图一致。步骤（3）是各方约定的默认推断。为方便起见，在含义明确时我们省略“Omni”前缀。
