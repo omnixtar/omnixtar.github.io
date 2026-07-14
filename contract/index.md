@@ -33,7 +33,7 @@ title: DJSON Decentralised JSON
 
   - Omnihash: DgV6_qnujw==
 
-2. A DJSON itself can be hashed to become another Omnihash.
+2\. A DJSON itself can be hashed to become another Omnihash.
 
 
 ### DJSON & Omnihash in Action
