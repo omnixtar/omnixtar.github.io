@@ -9,7 +9,7 @@
 **DJSON（去中心化JSON）** 是一个 JSON 对象或其编码字符串，其中至少有一个字段是 Omnihash，即用户公钥的哈希值，代表该 JSON 对象的所有者。
 
 
-```json
+- ```json
 ["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]
 ```
 
@@ -21,7 +21,7 @@
 - 按 F12 打开浏览器控制台。
 - 运行以下代码：
 
-```javascript
+- ```javascript
 omnistart()
 j0=["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]
 s.push(JSON.stringify(j0))
