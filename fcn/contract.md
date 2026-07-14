@@ -4,13 +4,18 @@
 
 你，作为公司或政府机构的人类代理人，可以阅读源代码而无需向作者支付费用；但如果你代表你的公司或机构将本程序用于商业目的，我们保留向你或你的公司/机构收取版税的权利。你的源代码副本应附带至少一份Omni*Hash合约，其中包含Omni*Agent的Omnihash和您自己的Omnihash，以授权您使用或修改所述源代码，否则您将因部署与第（1）条相关的源代码所造成的损害，承担您所在司法管辖区法律允许的最高处罚。
 
-**DJSON（去中心化JSON）** 是一个JSON对象或其编码字符串，其中至少有一个字段是Omnihash，代表该JSON对象的所有者。
+**Omnihash 与 DJSON 去中心化 JSON**
+
+**DJSON（去中心化JSON）** 是一个 JSON 对象或其编码字符串，其中至少有一个字段是 Omnihash，即用户公钥的哈希值，代表该 JSON 对象的所有者。
+
 
 ```json
 ["2025-10-24T14:25:28.207+0000","like","CXAGcRKevA==","CXAGcRKevA==","HymWBzfj9A==",{"repo":"https://github.com/omnixtar/omnixtar.github.io/","contract":"https://omnixtar.github.io/contract/","ghh":"https://github.com/omnixtar/omnixtar.github.io/commit/19bb258190d57d6246840bf8ccc8957ae880e341","datetime":"2025-10-24T04:41:21.000Z"}]
 ```
 
 **Omnihash: `DgV6_qnujw==`**
+
+2. DJSON 本身也可以被哈希，从而成为另一个 Omnihash。
 
 **自己动手试试：**
 - 按 F12 打开浏览器控制台。
