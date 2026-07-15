@@ -25,7 +25,8 @@
 - [**I2P（Invisible Internet Project 隐形互联网项目）**](https://i2p.net/zh/) 提供了匿名、抗审查的点对点网络，让用户可以共享计算资源而不暴露身份；
 - [**Omnihash 全杂数**](../fcn/contract) 作为不可变的加密指纹，确保代码、数据和计算任务的来源可溯、所有权明确；
 - [**Phoscript 符式词元**](https://omnixtar.github.io/cn/qzt#%E4%B8%89%E7%AC%A6%E5%BC%8F%E8%AF%8D%E5%85%83%E4%BB%A3%E7%A0%81%E7%9A%84%E9%80%9A%E7%94%A8%E7%BF%BB%E8%AF%91%E5%AE%98)
-- [**GRATIS 代币**](../fcn/a1) Grand Unified AI Token Trading Platform 统一 AI 代币交易平台: 构成激励层，用微支付奖励每一个贡献算力的参与者。
+- [**GRATIS代币**](../fcn/a1) Grand Unified AI Token Trading Platform 统一 AI 代币交易平台: 构成激励层，用微支付奖励每一个贡献算力的参与者。
+  - 拉丁语 GRATIS "免费": 隐喻 GRATIS代币**不需要用户付费**获得, 而是通过 **Omnihash 全杂数** 实现 **以用户的数字产权收费, 换取使用 AI词元的许可**。 
 
 三者合一，形成了一个点对点的算力市场——任何拥有闲置硬件的人都可以成为AI代币的供应方，并自动获得报酬。
 
