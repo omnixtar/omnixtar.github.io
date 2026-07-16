@@ -35,3 +35,7 @@ Phoscript engine works as follow:
 - screenshots of SVFIG pdf
   - cardinality
 
+- [June 27 2026, BBF005 Cardinality of FORTH words,
+Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-06.pdf) [[YouTube]](https://youtu.be/Qb2C_RftoiA)
+
+<img src="./cardinality.png">
