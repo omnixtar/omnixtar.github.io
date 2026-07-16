@@ -175,7 +175,9 @@ AI代理的质量不再是主观的营销宣称（“我们的模型感觉更聪
 ## 六、全民开源验证：全臻道最重要的贡献
 
 - LLASMA vs. FCN vs. LVI 解释名词
-- LVI --》 FCN --》 LLASMA
+- LVI → FCN → LLASMA
+  - FCN <-- Phoscript / need one section / page
+  - LLASMA <-- Phoscript / need one section / page
 
 VFCN解决了“AI不会验算”的技术缺陷。LVI提供了“AI纠正了几次”的度量标准。全杂数把“每一次验证”变成了可交易的数字资产。
 
