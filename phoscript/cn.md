@@ -32,3 +32,6 @@ Phoscript engine works as follow:
 
 将数据标记压入堆栈，并调用 `eval()` 来执行函数标记，即调用宿主编程语言中的函数。我们相信这种极简的栈式机器可以在**任何**已知编程语言中实现。
 
+- screenshots of SVFIG pdf
+  - cardinality
+
