@@ -20,6 +20,10 @@ Phoscript engine works as follow:
 
 以上的仿代码 (pseudocode) 虽然寥寥数行, 但却是自 Dijkstra 迪杰斯特拉 Shunting Yard Algorithm 调度场算法的核心, 用来实现各种程序语言的编译内核。 详情请参考以下视频。
 
+- Phoscript 符式词元实现了 "逆向调度场算法" Inverse Shunting Yard Algorithm, 使 FORTH 老符式程序语言的词元语法, 能在各种程序语言内 (宿主程序语言) 实现运行, 间接实现 "统一各种程序语言"。
+
+- Phoscript implements Inverse Shunting Yard Algorithm, making it possible to execute FORTH-like commands within various (ANY KNOWN) host programming languages, ultimately "unifiying all programming languages".
+
 <img src="./bisya.png">
 
 - [Bidirectional Shunting Yard Algorithm (BISYA) and Sandwich API Model: Unifying Programming Languages 双向调度场算法 (BISYA) 与 三明治模式: 统一各种程序语言](https://youtu.be/mYjKS0KiJVg)
