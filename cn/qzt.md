@@ -89,6 +89,9 @@ https://github.com/omnixtar/omnixtar.github.io/blob/main/js/omni.js line 73 Phos
 2\. 符式词元最重要的特点是：
 
 - **可以在任何程序语言内构成符式词语编译器，因此可以将任何程序语言代码编译成为符式词元代码。**
+- 详情请参考:
+  - [[符式词元原理]](../phoscript/cn)
+  - [Bidirectional Shunting Yard Algorithm (BISYA) and Sandwich API Model: Unifying Programming Languages 双向调度场算法 (BISYA) 与 三明治模式: 统一各种程序语言](https://youtu.be/mYjKS0KiJVg)
 
 这意味着什么？
 
