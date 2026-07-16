@@ -32,8 +32,18 @@ Phoscript engine works as follow:
 
 将数据标记压入堆栈，并调用 `eval()` 来执行函数标记，即调用宿主编程语言中的函数。我们相信这种极简的栈式机器可以在**任何**已知编程语言中实现。
 
+
+---
+### 符式词元的基数 (Cardinality)
+
 - screenshots of SVFIG pdf
   - cardinality
+
+- Phoscript enables us to define the **cardinality of a FORTH stack machine word** as **the number of primitive words used in its colon definition**, and this, in turn, enables **ALL SOURCE CODE** having been written by human programmers or AI agents, after translated using Phoscript engine, to become **“enumerable”** – thereby **searchable**, **modularised** and **composable**.
+
+- Phoscript 符式词元使我们能够将 FORTH 堆栈机器“词元”（word）的 **基数** 定义为在其冒号定义（colon definition）中所使用的原始词元（primitive words）的 **数量**。而这一点反过来又使得所有由人类程序员或 AI 代理编写的 **一切源代码**，在使用 Phoscript 引擎翻译之后，都变得 **“可枚举”（enumerable）**——从而具备 **可搜索**、**可模块化** 以及 **可组合** 的特性。
+
+
 
 - [June 27 2026, BBF005 Cardinality of FORTH words,
 Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-06.pdf) [[YouTube]](https://youtu.be/Qb2C_RftoiA)
