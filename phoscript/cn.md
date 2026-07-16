@@ -6,12 +6,10 @@ https://docs.google.com/document/d/1ktZW5yDH-hqTo-XlTJfrg0gQH5gocFjYdFEFI2cJ-k0/
 
 Phoscript 内核的最基本操作如下:
 
-A. 包含一个循环，将空格分隔的字符串分割为词元 token，
-
-B. [函数词元] 如果词元对标宿主语言的函数 (function), 并调用 `eval()` 来执行该函数。
+- A. 包含一个循环，将空格分隔的字符串分割为词元 token，
+- B. [函数词元] 如果词元对标宿主语言的函数 (function), 并调用 `eval()` 来执行该函数。
   - [数据词元] 否则, 将该数据词元推送到堆栈顶端。
-
-C. Phoscript 函数（函数词元） 从堆栈中获取输入，并将输出结果推送回堆栈顶端。
+- C. Phoscript 函数（函数词元） 从堆栈中获取输入，并将输出结果推送回堆栈顶端。
 
 
 
