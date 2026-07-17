@@ -99,6 +99,19 @@ AI算力“小农经济”的四大支柱:
 
 1. **对于游戏玩家和家庭用户**，可以在电脑空闲时将 GPU/CPU 算力贡献给网络，按处理的 token 数量或贡献的浮点运算量获得报酬。打游戏之余，设备还能“种地收成”。
 
+---
+
+### 📊 Consolidated Tabulation: Tokens Per Day (Trillions)
+
+| Scenario / Estimate Variation | Microsoft BitNet (Edge Fleet) | NVIDIA HBM Systems (Datacenter) | Capacity Ratio (BitNet : NVIDIA) |
+| :--- | :--- | :--- | :--- |
+| **Conservative Edge / High Datacenter** | **~940 – 3,760** Trillion | **~4,320 – 6,480** Trillion | 1 : 1.1 to 6.9 |
+| **Moderate / Balanced Baseline** | **~1,840 – 3,888** Trillion | **~1,300 – 3,500** Trillion | ~1.4 : 1 to 1.1 : 1 |
+| **Aggressive Edge / Conservative Datacenter** | **~7,776 – 10,260** Trillion | **~168 – 4,320** Trillion | ~1.8 : 1 to 61 : 1 |
+| **Theoretical Maximum (Upper Bound)** | **~1,151,400** Trillion *(1.15 Quintillion)* | **~300,000** Trillion | ~3.8 : 1 |
+
+---
+
 
 - **更多供应方 → 更低的算力成本 → 更高的使用量 → 更多的代币需求 → 更多的赚取机会**。
 
