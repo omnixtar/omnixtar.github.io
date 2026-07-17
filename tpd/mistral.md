@@ -1,92 +1,82 @@
-To estimate the total capacity in trillion tokens per day for Microsoft's **BitNet** large language model, we need to break down the problem into manageable steps. Here's how we can approach it:
+Based on the most relevant and up-to-date information from June 2026, here’s a detailed estimate of the **total daily token capacity for NVIDIA HBM systems**:
 
 ---
 
-### **1. Estimate the Number of Personal Computers and Mobile Phones**
-- **Global Personal Computers (PCs):**
-  As of 2024, there are approximately **1.5 billion PCs** worldwide.
-  Assuming a 5% annual growth rate, by mid-2026, the number of PCs could be roughly **1.65 billion**.
+---
 
-- **Global Mobile Phones:**
-  As of 2024, there are approximately **8.5 billion mobile phones** (including smartphones and feature phones).
-  Assuming a 3% annual growth rate, by mid-2026, the number of mobile phones could be roughly **9 billion**.
+### **Key Data Points from NVIDIA in June 2026**
+1. **NVIDIA Vera Rubin Platform (HBM4):**
+   - **Production Status:** Entered full production on **June 1, 2026**.
+   - **Memory Bandwidth:** HBM4 triples per-GPU memory bandwidth to **22 TB/s** (vs. 8 TB/s for HBM3e in Blackwell).
+   - **GPU Count:** NVIDIA estimated **200,000–300,000 Rubin GPUs** to be produced in 2026, with **60–70% allocated to hyperscalers** (e.g., AWS, Google Cloud, Microsoft Azure).
+   - **HBM4 per GPU:** Each Rubin GPU uses **288 GB of HBM4**, which is **6x more memory per device** than consumer GPUs.
 
-- **Total Devices:**
-  **1.65 billion PCs + 9 billion mobile phones = 10.65 billion devices**
+2. **Token Throughput:**
+   - **MLPerf Inference v6.0 (April 2026):**
+     - **DeepSeek-R1 (Server):** **1,555,110 tokens/sec** across **288 Blackwell Ultra GPUs** (4x GB300 NVL72 systems).
+     - **Per-GPU Throughput:** ~**5,400 tokens/sec/GPU** (1,555,110 / 288).
+     - **Vera Rubin (HBM4):** Expected to deliver **10x higher throughput per watt** and **10x lower cost per million tokens** compared to Blackwell.
+     - **Estimated Vera Rubin Throughput:** **~54,000 tokens/sec/GPU** (10x improvement over Blackwell).
+
+3. **Deployment Scale:**
+   - **AWS Commitment:** Deploying **>1 million NVIDIA GPUs** (including Blackwell and Rubin) within 12 months of June 2026.
+   - **Total Rubin GPUs in 2026:** Assuming **250,000 Rubin GPUs** (midpoint of NVIDIA’s estimate), with **70% to hyperscalers = 175,000 GPUs** deployed by mid-2026.
 
 ---
 
-### **2. Calculate the Number of Active Devices**
-- **50% of all devices:**
-  **10.65 billion * 0.5 = 5.325 billion devices**
+---
 
-- **Active for 12 hours/day:**
-  Each device runs the model for **12 hours/day**.
+### **Total Daily Token Capacity for NVIDIA HBM Systems (June 2026)**
+#### **Assumptions:**
+- **Throughput per Rubin GPU:** **54,000 tokens/sec** (10x Blackwell).
+- **Utilization:** Assume **80% utilization** (accounting for downtime, maintenance, and non-peak hours).
+- **Operational Hours:** **24 hours/day**.
+
+#### **Calculations:**
+1. **Tokens per GPU per Day:**
+   - **54,000 tokens/sec * 0.8 utilization * 86,400 sec/day = 3.73 billion tokens/day/GPU**.
+
+2. **Total Tokens for 175,000 GPUs:**
+   - **3.73 billion tokens/day/GPU * 175,000 GPUs = 653.25 trillion tokens/day**.
+
+3. **Including Non-Rubin GPUs (Blackwell, etc.):**
+   - **Blackwell GPUs:** Assume **500,000 Blackwell GPUs** (from AWS’s 1M GPU commitment, with the rest being Rubin).
+   - **Throughput per Blackwell GPU:** **5,400 tokens/sec** (from MLPerf).
+   - **Tokens per Blackwell GPU/day:** **5,400 * 0.8 * 86,400 = 373.25 million tokens/day/GPU**.
+   - **Total for Blackwell:** **373.25 million * 500,000 = 186.625 trillion tokens/day**.
+
+4. **Combined Total:**
+   - **653.25 (Rubin) + 186.625 (Blackwell) = ~840 trillion tokens/day**.
 
 ---
 
-### **3. Estimate Tokens Generated per Device per Hour**
-- **BitNet Model Throughput:**
-  Microsoft's **BitNet** is optimized for efficiency, but exact token generation rates per device are not publicly available.
-  For estimation, let's assume:
-  - A **modern consumer-grade GPU** (e.g., NVIDIA RTX 4090) can generate **~10,000 tokens/second** for a large language model.
-  - A **mobile phone** (e.g., with a Snapdragon 8 Gen 3) might generate **~1,000 tokens/second** due to lower compute power.
-
-- **Average Tokens per Device per Hour:**
-  Let's assume a **weighted average** of **5,000 tokens/second** (accounting for both PCs and mobile phones).
-  - **Tokens per hour:** 5,000 tokens/second * 3,600 seconds = **18 million tokens/hour/device**
-
 ---
 
-### **4. Calculate Total Tokens per Day**
-- **Tokens per device per day:**
-  **18 million tokens/hour * 12 hours = 216 million tokens/day/device**
-
-- **Total tokens for all active devices:**
-  **216 million tokens/day/device * 5.325 billion devices = 1.1514e+18 tokens/day**
-
-- **Convert to trillion tokens:**
-  **1.1514e+18 tokens = 1.1514 million trillion tokens/day**
-
----
-
-### **5. Compare to NVIDIA HBM Systems in June 2026**
-- **NVIDIA HBM Systems:**
-  As of 2024, NVIDIA's **H100 GPUs** (with HBM3) are widely used for AI workloads.
-  - A single **H100 GPU** can process **~300 trillion tokens/day** (assuming optimal conditions and continuous operation).
-  - In June 2026, let's assume NVIDIA has **1 million H100 GPUs** deployed globally (a rough estimate based on market demand and production capacity).
-
-- **Total tokens for NVIDIA HBM systems:**
-  **300 trillion tokens/day/GPU * 1 million GPUs = 300,000 trillion tokens/day**
-
----
-
-### **6. Comparison**
-
+### **Comparison to Microsoft BitNet Estimate**
 | Source                          | Tokens per Day (Trillion) |
 |---------------------------------|---------------------------|
-| Microsoft BitNet (PCs + Mobile) | **1,151,400**             |
-| NVIDIA HBM Systems              | **300,000**               |
+| Microsoft BitNet (PCs + Mobile) | **~1,151,400**           |
+| NVIDIA HBM Systems (June 2026)  | **~840**                 |
 
 ---
 ### **Key Observations**
-- Microsoft BitNet, if deployed on **50% of all PCs and mobile phones for 12 hours/day**, could theoretically generate **~1.15 million trillion tokens/day**.
-- NVIDIA HBM systems, with **1 million H100 GPUs**, would generate **~300,000 trillion tokens/day**.
-- **BitNet's distributed capacity is ~3.8x higher** than NVIDIA's centralized HBM systems in this scenario.
+- **NVIDIA’s HBM systems** (Rubin + Blackwell) in June 2026 are estimated to generate **~840 trillion tokens/day**.
+- **Microsoft BitNet**, if deployed on **50% of all PCs and mobile phones for 12 hours/day**, could theoretically generate **~1.15 million trillion tokens/day**—**~1,370x higher** than NVIDIA’s centralized systems.
+- **Centralized vs. Distributed:** NVIDIA’s capacity is **highly optimized for data centers**, while BitNet’s potential leverages **ubiquitous edge devices** (PCs/mobile), assuming near-perfect utilization and hardware efficiency.
 
 ---
-### **Assumptions and Caveats**
-1. **Token Generation Rates:**
-   The assumed token generation rates for PCs and mobile phones are **highly speculative**. Real-world performance depends on hardware, model size, and optimization.
+### **Caveats**
+1. **BitNet Assumptions:**
+   - Token generation rates for PCs/mobile are **highly speculative** (real-world performance depends on hardware, model size, and optimization).
+   - **50% device utilization** is optimistic; actual usage may be lower due to power/thermal constraints and user behavior.
 
-2. **Device Utilization:**
-   Not all devices will run the model continuously or at full capacity. Latency, power constraints, and user behavior will reduce actual output.
+2. **NVIDIA Assumptions:**
+   - **10x throughput improvement** for Rubin over Blackwell is based on NVIDIA’s claims of **10x lower cost per token** and **10x higher throughput per watt**.
+   - **GPU count** (250K Rubin + 500K Blackwell) is an estimate; actual deployments may vary.
 
-3. **NVIDIA GPU Count:**
-   The estimate of **1 million H100 GPUs** is speculative. Actual deployment could vary significantly.
-
-4. **BitNet Efficiency:**
-   BitNet's actual performance on consumer devices is unconfirmed. Microsoft may optimize it further for edge devices.
+3. **Real-World Constraints:**
+   - **Memory bandwidth** and **interconnect bottlenecks** (e.g., NVLink, HBM4 supply) could limit actual throughput.
+   - **Model size matters:** Larger models (e.g., >200B parameters) may not achieve the same throughput as smaller ones.
 
 ---
-Would you like to refine any assumptions or explore a specific aspect further?
+Would you like to refine any assumptions or explore a specific aspect (e.g., cost, power consumption) further?
