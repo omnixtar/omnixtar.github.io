@@ -101,6 +101,20 @@ AI算力“小农经济”的四大支柱:
 
 ---
 
+### 📊 综合数据表：每日 Token 处理量（单位：万亿 / Trillions）
+
+| 场景 / 估算差异 | 微软 BitNet（边缘设备集群） | NVIDIA HBM 系统（数据中心） | 容量比例（BitNet : NVIDIA） |
+| :--- | :--- | :--- | :--- |
+| **保守边缘 / 高数据中心估算** | **~940 – 3,760** 万亿 | **~4,320 – 6,480** 万亿 | 1 : 1.1 至 1 : 6.9 |
+| **中等 / 均衡基准** | **~1,840 – 3,888** 万亿 | **~1,300 – 3,500** 万亿 | 约 1.4 : 1 至 1.1 : 1 |
+| **激进边缘 / 保守数据中心估算** | **~7,776 – 10,260** 万亿 | **~168 – 4,320** 万亿 | 约 1.8 : 1 至 61 : 1 |
+| **理论最大值（上限）** | **~1,151,400** 万亿 *(115.14 亿亿 / Quintillion)* | **~300,000** 万亿 | 约 3.8 : 1 |
+
+---
+
+
+---
+
 ### 📊 Consolidated Tabulation: Tokens Per Day (Trillions)
 
 | Scenario / Estimate Variation | Microsoft BitNet (Edge Fleet) | NVIDIA HBM Systems (Datacenter) | Capacity Ratio (BitNet : NVIDIA) |
