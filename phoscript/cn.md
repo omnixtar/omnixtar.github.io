@@ -51,9 +51,9 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
 
 ## 符式词元的可组合性 (Composability)
 
-我们重复参考符式词元的操作原理:
+1. 我们重复参考符式词元的操作原理:
 
-1. Phoscript 内核的最基本操作如下:
+- Phoscript 内核的最基本操作如下:
   - A. 包含一个循环，将空格分隔的字符串分割为词元 token，
   - B. [函数词元] 如果词元对标宿主语言的函数 (function), 并调用 `eval()` 来执行该函数。
     - [数据词元] 否则, 将该数据词元推送到堆栈顶端。
