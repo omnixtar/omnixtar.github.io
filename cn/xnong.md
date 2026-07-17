@@ -99,6 +99,8 @@ AI算力“小农经济”的四大支柱:
 
 1. **对于游戏玩家和家庭用户**，可以在电脑空闲时将 GPU/CPU 算力贡献给网络，按处理的 token 数量或贡献的浮点运算量获得报酬。打游戏之余，设备还能“种地收成”。
 
+- show prompt, 1 detailed example, then give links to all 9 
+
 ---
 
 ### 📊 综合数据表：每日 Token 处理量（单位：万亿 / Trillions）
