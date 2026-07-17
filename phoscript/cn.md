@@ -1,3 +1,5 @@
+# Phoscript 符式词元 操作原理
+
 Minimal implementation of Phoscript, typically as a shell function in a host (third generation) programming language, starts with around 20 lines of JavaScript or equivalent (including PHP, Python, Java, C, C++, etc.) It consists of a loop, splitting a space delimited string into tokens, pushing data tokens onto the stack, and calling eval() to execute function tokens, calling function in the host programming language. We believe such minimalist stack machine can be implemented in ANY known programming language.
 
 https://docs.google.com/document/d/1ktZW5yDH-hqTo-XlTJfrg0gQH5gocFjYdFEFI2cJ-k0/edit?tab=t.0
@@ -34,7 +36,7 @@ Phoscript engine works as follow:
 
 
 ---
-### 符式词元的基数 (Cardinality)
+## 符式词元的基数 (Cardinality)
 
 - Phoscript enables us to define the **cardinality of a FORTH stack machine word** as **the number of primitive words used in its colon definition**, and this, in turn, enables **ALL SOURCE CODE** having been written by human programmers or AI agents, after translated using Phoscript engine, to become **“enumerable”** – thereby **searchable**, **modularised** and **composable**.
 
@@ -46,3 +48,15 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
 <img src="./cardinality.png">
 
 - stack --> no variables --> composable
+
+## 符式词元的可组合性 (Composability)
+
+我们重复参考符式词元的操作原理:
+
+1. Phoscript 内核的最基本操作如下:
+  - A. 包含一个循环，将空格分隔的字符串分割为词元 token，
+  - B. [函数词元] 如果词元对标宿主语言的函数 (function), 并调用 `eval()` 来执行该函数。
+    - [数据词元] 否则, 将该数据词元推送到堆栈顶端。
+  - C. Phoscript 函数（函数词元） 从堆栈中获取输入，并将输出结果推送回堆栈顶端。
+
+2. 由于 C 项的堆栈输入输出特性, 符式词元 Phoscript 的函数 function 不像传统程序语言的函数, 后者与 输入变量 input variables 及 输出变量 output vairables 高度绑定, 而前者并非如此, 请看以下案例:
