@@ -76,6 +76,9 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
 4\. Human programmers have been doing (3) in conventional programming languages. We need to educate or motivate them to convert existing program source code to F(N) AND build more words of F(N), where N is the cardinality, and F(N) is the set of FORTH/Phoscript words with cardinality N.
 - 人类程序员一直在用传统编程语言执行步骤（3）。我们需要教育或激励他们将现有的程序源代码转换为 F(N)，并构建更多基数为 N 的 FORTH/Phoscript 词元，其中 N 为基数，F(N) 是基数为 N 的所有 FORTH/Phoscript 词元构成的集合。
 
+This is a crucial step for **adding a verification stage** in AI LLM loop -- without it, even a trivial case of "1+1=2" cannot be verified!!
+- 这是在大语言模型（LLM）循环中 **添加验证环节的关键一步** —— 没有它，连 **“1+1=2”** 这样简单的例子都 **无法验证**！！
+
 5\. There may be secret undisclosed projects implementing FORTH/Phoscript like (3) -- but too sensitive to disclose.
 - 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——但其敏感性过高，不便披露。
 
