@@ -73,12 +73,11 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
   - For any chosen FORTH/Phoscript word from the dictioinary, add to existing composition, see if inputs are valid, and if outputs match with preset goals.
   - 从字典中选择任意一个 FORTH/Phoscript 词元，将其添加到现有组合中，检查输入是否有效，以及输出是否与预设目标匹配。
 
-  
-4\. Human programmers have been doing (3), to build more words of F(N), where N is the cardinality, and F(N) is the set of FORTH/Phoscript words with cardinality N.
-- 人类程序员一直在执行步骤（3），以构建更多基数更大的 F(N) 词元，其中 N 为基数，F(N) 是基数为 N 的所有 FORTH/Phoscript 词元构成的集合。
+4\. Human programmers have been doing (3) in conventional programming languages. We need to educate or motivate them to convert existing program source code to F(N) AND build more words of F(N), where N is the cardinality, and F(N) is the set of FORTH/Phoscript words with cardinality N.
+- 人类程序员一直在用传统编程语言执行步骤（3）。我们需要教育或激励他们将现有的程序源代码转换为 F(N)，并构建更多基数为 N 的 FORTH/Phoscript 词元，其中 N 为基数，F(N) 是基数为 N 的所有 FORTH/Phoscript 词元构成的集合。
 
-5\. There may be secret undisclosed projects implementing FORTH/Phoscript like (3) -- too important to disclose.
-- 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——其重要性过高，不便披露。
+5\. There may be secret undisclosed projects implementing FORTH/Phoscript like (3) -- but too sensitive to disclose.
+- 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——但其敏感性过高，不便披露。
 
 Many AI agents today are capable of (3).
 - 如今，许多 AI 代理已经能够执行步骤（3）。
