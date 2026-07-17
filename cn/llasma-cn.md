@@ -21,14 +21,14 @@ URL: https://github.com/llasma/llama.cpp/blob/20260421/CHANGES/README.md
 
 纯 C/C++ 实现的 LLM 推理，内嵌 cxxforth + Phoscript 栈式机器 + 微软 BitNet 支持
 
-LLASMA 是 [llama.cpp](https://github.com/ggerganov/llama.cpp)（基于 20260421 分支）的一个专用分支，它将以下两个受信任的基于 Forth 的栈式机器直接集成到推理循环中:
+LLASMA 是 [llama.cpp](https://github.com/ggerganov/llama.cpp)（基于 20260421 分支）的一个专用分支，它将以下两个受 Forth 栈式机器直接嵌入推理循环中:
 - A. [cxxforth](https://github.com/kristopherjohnson/cxxforth) 
 - B. [PhosVM](https://github.com/llasma/llama.cpp/blob/20260421/common/forth_vm.h)
 
 目标是创建 LLASMA 智能体：一种在以下两者之间保持清晰区分的系统：
 
-- **不可信的概率知识**（来自 LLM），以及
-- **可信的可执行技能**（在栈式机器中实现为可靠的 Forth 词 / Phoscript 原语）。
+- **不可信的概率知识** 来自 LLM 大语言模型, 
+- **可信的可执行技能** 在栈式机器中由 Forth/Phoscript 词元实现。
 
 ## B. 我们如何编码
 
