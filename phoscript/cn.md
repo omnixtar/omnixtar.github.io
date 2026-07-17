@@ -78,7 +78,7 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
 - 人类程序员一直在执行步骤（3），以构建更多基数更大的 F(N) 词元，其中 N 为基数，F(N) 是基数为 N 的所有 FORTH/Phoscript 词元构成的集合。
 
 5\. There may be secret undisclosed projects implementing FORTH/Phoscript like (3) -- too important to disclose.
-- 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——其重要性过高，不便披露。**
+- 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——其重要性过高，不便披露。
 
 Many AI agents today are capable of (3).
 - 如今，许多 AI 代理已经能够执行步骤（3）。
