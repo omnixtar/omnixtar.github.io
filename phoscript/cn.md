@@ -65,5 +65,20 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
     - [数据词元] 否则, 将该数据词元推送到堆栈顶端。
   - C. Phoscript 函数（函数词元） 从堆栈中获取输入，并将输出结果推送回堆栈顶端。
 
-2. 由于 C 项的堆栈输入输出特性, 符式词元 Phoscript 的函数 function 不像传统程序语言的函数, 后者与 输入变量 input variables 及 输出变量 output vairables 高度绑定, 而前者并非如此, 请看以下案例:
+2\. 由于 C 项的堆栈输入输出特性, 符式词元 Phoscript 的函数 function 不像传统程序语言的函数, 后者与 输入变量 input variables 及 输出变量 output vairables 高度绑定, 而前者并非如此, 请看以下案例:
 - [**符式词元的无变量绑定**](./ex2)
+
+3\. Pseudo code to compose new FORTH/Phoscript word:
+- 编写新的 FORTH/Phoscript 词元的仿代码:
+  - For any chosen FORTH/Phoscript word from the dictioinary, add to existing composition, see if inputs are valid, and if outputs match with preset goals.
+  - 从字典中选择任意一个 FORTH/Phoscript 词元，将其添加到现有组合中，检查输入是否有效，以及输出是否与预设目标匹配。
+
+  
+4\. Human programmers have been doing (3), to build more words of F(N), where N is the cardinality, and F(N) is the set of FORTH/Phoscript words with cardinality N.
+- 人类程序员一直在执行步骤（3），以构建更多基数更大的 F(N) 词元，其中 N 为基数，F(N) 是基数为 N 的所有 FORTH/Phoscript 词元构成的集合。
+
+5\. There may be secret undisclosed projects implementing FORTH/Phoscript like (3) -- too important to disclose.
+- 可能有一些未公开的秘密项目正在实现类似于步骤（3）的 FORTH/Phoscript 系统——其重要性过高，不便披露。**
+
+Many AI agents today are capable of (3).
+- 如今，许多 AI 代理已经能够执行步骤（3）。
