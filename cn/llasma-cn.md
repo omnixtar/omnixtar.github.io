@@ -1,3 +1,5 @@
+# LLASMA：Large Language + Stack Machine Architecture 大语言模型 + 栈式机器架构 = 大语言栈式架构
+
 https://github.com/llasma/llama.cpp/blob/20260421/CHANGES/README.md
 
 Update with PhosVM
@@ -10,7 +12,7 @@ URL: https://github.com/llasma/llama.cpp/blob/20260421/CHANGES/README.md
 
 [跳转到内容](https://github.com#start-of-content) ## 导航菜单 {{ message }} # README.md # README.md ## 文件元数据与控件 137 行（85 行代码）· 4.23 KB
 
-# LLASMA：Large Language + Stack Machine Architecture 大语言模型 + 栈式机器架构 = 大语言栈式架构
+
 
 - A. 引言
 - B. 我们如何编码
