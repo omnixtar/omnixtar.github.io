@@ -68,8 +68,8 @@ Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG
 2\. 由于 C 项的堆栈输入输出特性, 符式词元 Phoscript 的函数 function 不像传统程序语言的函数, 后者与 输入变量 input variables 及 输出变量 output vairables 高度绑定, 而前者并非如此, 请看以下案例:
 - [**符式词元的无变量绑定**](./ex2)
 
-3\. The **variable agnostic property** in item (2) enables implementation of the following pseudo code to compose new FORTH/Phoscript word:
-- 第2段的**符式词元的无变量绑定**, 成为自动编写新的 FORTH/Phoscript 词元的仿代码的基础:
+3\. The **variable agnostic property** in item (2) enables implementation of the following pseudo code to **compose new FORTH/Phoscript word**:
+- 第2段的 **符式词元的无变量绑定**, 成为 **自动编写新的 FORTH/Phoscript 词元** 的仿代码的基础:
   - For any chosen FORTH/Phoscript word from the dictioinary, add to existing composition, see if inputs are valid, and if outputs match with preset goals.
   - 从字典中选择任意一个 FORTH/Phoscript 词元，将其添加到现有组合中，检查输入是否有效，以及输出是否与预设目标匹配。
 
