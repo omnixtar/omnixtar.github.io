@@ -62,6 +62,7 @@ To estimate the total capacity in trillion tokens per day for Microsoft's **BitN
 ---
 
 ### **6. Comparison**
+
 | Source                          | Tokens per Day (Trillion) |
 |---------------------------------|---------------------------|
 | Microsoft BitNet (PCs + Mobile) | **1,151,400**             |
