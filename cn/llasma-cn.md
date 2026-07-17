@@ -10,7 +10,8 @@ URL: https://github.com/llasma/llama.cpp/blob/20260421/CHANGES/README.md
 
 [跳转到内容](https://github.com#start-of-content) ## 导航菜单 {{ message }} # README.md # README.md ## 文件元数据与控件 137 行（85 行代码）· 4.23 KB
 
-# LLASMA：大型语言 + 栈式机器架构
+# LLASMA：Large Language + Stack Machine Architecture
+大语言模型 + 栈式机器架构 = 大语言栈式架构
 
 - A. 引言
 - B. 我们如何编码
@@ -19,9 +20,13 @@ URL: https://github.com/llasma/llama.cpp/blob/20260421/CHANGES/README.md
 
 ## A. 引言
 
-纯 C/C++ 实现的 LLM 推理，内嵌 cxxforth 栈式机器 + 微软 BitNet 支持
+纯 C/C++ 实现的 LLM 推理，内嵌 cxxforth + Phoscript 栈式机器 + 微软 BitNet 支持
 
-LLASMA 是 [llama.cpp](https://github.com/ggerganov/llama.cpp)（基于 20260421 分支）的一个专用分支，它将一个受信任的基于 Forth 的栈式机器（通过 [cxxforth](https://github.com/kristopherjohnson/cxxforth) 实现）直接集成到推理循环中。目标是创建 LLASMA 智能体：一种在以下两者之间保持清晰区分的系统：
+LLASMA 是 [llama.cpp](https://github.com/ggerganov/llama.cpp)（基于 20260421 分支）的一个专用分支，它将以下两个受信任的基于 Forth 的栈式机器直接集成到推理循环中:
+- A. [cxxforth](https://github.com/kristopherjohnson/cxxforth) 
+- B. [PhosVM](https://github.com/llasma/llama.cpp/blob/20260421/common/forth_vm.h)
+
+目标是创建 LLASMA 智能体：一种在以下两者之间保持清晰区分的系统：
 
 - **不可信的概率知识**（来自 LLM），以及
 - **可信的可执行技能**（在栈式机器中实现为可靠的 Forth 词 / Phoscript 原语）。
