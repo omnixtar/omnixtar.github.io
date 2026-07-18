@@ -1,14 +1,14 @@
 Extract tabulate Microsoft BitNet vs. NVDIA HBM systems tokens per day figures from the following links：
 
-1. https://omnixtar.github.io/tpd/mistral
-1. https://omnixtar.github.io/tpd/gemini
-1. https://omnixtar.github.io/tpd/grok
-1. https://omnixtar.github.io/tpd/chatgpt
-1. https://omnixtar.github.io/tpd/claude
-1. https://omnixtar.github.io/tpd/kimi
-1. https://omnixtar.github.io/tpd/deepseek
-1. https://omnixtar.github.io/tpd/qwen
-1. https://omnixtar.github.io/tpd/zai
+1. [Mistral](https://omnixtar.github.io/tpd/mistral)
+1. [Gemini](https://omnixtar.github.io/tpd/gemini)
+1. [Grok](https://omnixtar.github.io/tpd/grok)
+1. [ChatGPT](https://omnixtar.github.io/tpd/chatgpt)
+1. [Claude](https://omnixtar.github.io/tpd/claude)
+1. [Kimi](https://omnixtar.github.io/tpd/kimi)
+1. [DeepSeek](https://omnixtar.github.io/tpd/deepseek)
+1. [QWen](https://omnixtar.github.io/tpd/qwen)
+1. [Z.ai](https://omnixtar.github.io/tpd/zai)
 
 Based on the extracted content from the provided links, the pages contain multiple **Fermi estimate scenarios** with varying assumptions regarding device counts, tokens-per-second throughput, and GPU installed bases. 
 
