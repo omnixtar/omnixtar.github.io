@@ -226,7 +226,7 @@ Omnihash 后台已可运行，只需前端开发。Phoscrip他 + Omnihash
 
 因此 AI 模型的需求，也开始升温。
 
-- A. 大厂AI
+- A. 大厂闭源AI
 - B. 大厂开源AI
 - C. 本地开源AI
 
