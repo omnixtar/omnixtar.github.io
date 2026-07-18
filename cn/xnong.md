@@ -154,7 +154,7 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
 **估算的 NVIDIA HBM 容量：** **约 4,320 万亿 至 6,480 万亿 Token/天**。
 
-**微软 BitNet 对比 NVIDIA HBM**
+### **微软 BitNet 对比 NVIDIA HBM 每日处理词元总量**
 
 - 估算的 BitNet 边缘容量：约 940 万亿 至 3,760 万亿 Token/天。
 - 估算的 NVIDIA HBM 容量：约 4,320 万亿 至 6,480 万亿 Token/天。
