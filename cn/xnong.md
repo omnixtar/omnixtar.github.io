@@ -195,10 +195,10 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
 到了 2026 年， AI 算力经济， 使得 I2P 的价值大大提升：
 
-- A. 用户(卖家)通过 Omnihash DJSON 把自家的算力资源(CPU，GPU，内存，硬盘，地理位置，时延) 在 GRATIS 平台上公布。 
+- A. 用户(卖家)通过 Omnihash DJSON 把自家的算力资源 (CPU，GPU，内存，硬盘，地理位置，I2P网址，时延) 在 GRATIS 平台上公布。 
 - B. 买家通过 Omnihash DJSON 竞价。
 - C. 双方同意以后， 生成 GRATIS 代币， 所有相关方面，包括见证人，各存一份记录。
-- D.买家在指定的时间， 向指定的 AI 伺服器发出 GRATIS 代表，申请执行任务。
+- D.买家在指定的时间， 向指定的 AI 伺服器(I2P网址)发出 GRATIS 代币，申请执行任务。
 - E. 指定的 AI 服务器，根据 GRATIS 代币的参数，执行指定的任务。
 - F. GRATIS 伺服器记录所有交易，通知各相关方面。
 
