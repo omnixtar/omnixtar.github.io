@@ -106,7 +106,7 @@ AI算力“小农经济”的四大支柱:
 - Estimate total capacity in trillion tokens per day of Microsoft BitNet large language model if 50% of all personal computers and mobile phones run 12 hours day.
 Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
-(微软Bitnet 是 纯CPU 无GPU 大语言模型。)
+**(微软Bitnet 是 纯CPU 无GPU 大语言模型。)**
 
 以下是从 9大人工智能平台 总结的答案：
 
