@@ -1,4 +1,4 @@
-Extract tabulate Microsoft BitNet vs. NVDIA HBM systems tokens per day figures from the following links：
+Extract & tabulate Microsoft BitNet vs. NVDIA HBM systems tokens per day figures from the following links：
 
 1. [Mistral](https://omnixtar.github.io/tpd/mistral)
 1. [Gemini](https://omnixtar.github.io/tpd/gemini)
