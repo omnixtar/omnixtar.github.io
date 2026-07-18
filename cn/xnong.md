@@ -202,6 +202,8 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 - E. 指定的 AI 服务器，根据 GRATIS 代币的参数，执行指定的任务。
 - F. GRATIS 伺服器记录所有交易，通知各相关方面。
 
+Omnihash 后台已可运行，只需前端开发。Phoscrip他 + Omnihash
+
 ---
 
 上键一次 打一字 取消上键 继续打字
