@@ -138,7 +138,7 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
 我们以下节选 [千问](../tpd/qwen-cn) 的答案说明数据:
 
-### **1. 微软 BitNet 边缘设备容量**
+**1. 微软 BitNet 边缘设备容量**
 - *保守估算（5 Token/秒）：*  
   43.55 亿台设备 × 5 Token/秒 × 43,200 秒 = **约 941 万亿 Token/天**。
 - *乐观估算（通过 NPU 达到 20 Token/秒）：*  
@@ -146,7 +146,7 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
 **估算的 BitNet 边缘容量：** **约 940 万亿 至 3,760 万亿 Token/天**。
 
-### **2. NVIDIA HBM 系统每日容量（2026年6月）**
+**2. NVIDIA HBM 系统每日容量（2026年6月）**
 - *保守估算（1000 万块 GPU）：*  
   1000 万块 GPU × 10,000 Token/秒 × 43,200 秒 = **约 4,320 万亿 Token/天**。
 - *乐观估算（1500 万块 GPU）：*  
