@@ -330,6 +330,9 @@ FCN+GRATIS+I2P框架所描绘的，是一种尚在萌芽中的可能性：将算
 
 不追求人人平等 只希望一步一步缩小贫富差距
 
+https://youtu.be/q5XP8xDcRJE?si=a5CyUBByKvduZzXV
+超级数据中心成为环保抗议焦点
+
 ---
 
 ## GRATIS Grand Unified AI Token Trading Platform
