@@ -187,6 +187,10 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 - [**Phoscript 符式词元**](https://omnixtar.github.io/cn/qzt#%E4%B8%89%E7%AC%A6%E5%BC%8F%E8%AF%8D%E5%85%83%E4%BB%A3%E7%A0%81%E7%9A%84%E9%80%9A%E7%94%A8%E7%BF%BB%E8%AF%91%E5%AE%98)
 - [**GRATIS代币**](../fcn/a1) Grand Unified AI Token Trading Platform 统一 AI 代币交易平台: 构成激励层，用微支付奖励每一个贡献算力的参与者。
 
+现在我们可以以 **全世界用户电脑及手机的总算力** 为目标, 深入讨论及分析用以上的 **四大支柱**, 将 全世界用户电脑及手机的总算力 转化为 **实际的金钱收入**。
+
+---
+
 
 - **更多供应方 → 更低的算力成本 → 更高的使用量 → 更多的代币需求 → 更多的赚取机会**。
 
