@@ -99,6 +99,14 @@ AI算力“小农经济”的四大支柱:
 
 1. **对于游戏玩家和家庭用户**，可以在电脑空闲时将 GPU/CPU 算力贡献给网络，按处理的 token 数量或贡献的浮点运算量获得报酬。打游戏之余，设备还能“种地收成”。
 
+为了给读者展示 GRATIS 统一AI代币平台 的潜在规模, 我们对 9 大人工智能平台提出了以下的问题:
+
+- “假设全球 50% 的个人电脑和智能手机每天运行 12 小时，请估算微软 BitNet 大型语言模型每日的总处理能力（以万亿 token 计）。并将其与 2026 年 6 月 NVIDIA HBM（高带宽内存）系统每日处理的总 token 数量进行比较。”
+
+- Estimate total capacity in trillion tokens per day of Microsoft BitNet large language model if 50% of all personal computers and mobile phones run 12 hours day.
+Compare to total daily tokens by NVIDIA HBM systems in June 2026.
+
+
 - show prompt, 1 detailed example, then give links to all 9 
 
 ---
