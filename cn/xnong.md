@@ -174,6 +174,8 @@ Compare to total daily tokens by NVIDIA HBM systems in June 2026.
 
 ---
 
+### AI小农经济的潜能规模 >= 大厂高端算力集群
+
 - **更多供应方 → 更低的算力成本 → 更高的使用量 → 更多的代币需求 → 更多的赚取机会**。
 
 根据预测:
