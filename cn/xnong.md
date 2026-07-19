@@ -321,6 +321,9 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
 
 3. 大语言堆栈机-B 与 大语言堆栈机-A 测试对话。
   - A. 测试 B 电脑的性能：有无GPU、每秒词元 Token 数量、每小时收入预测, 等等。
+  - B. 用户B 引荐 用户C，大语言堆栈机[A,B,C]相互对话。
+    - 用户C 引荐 用户D, 大语言堆栈机[A,B,C,D]相互对话。
+    - 以此类推。
 
 
 ---
