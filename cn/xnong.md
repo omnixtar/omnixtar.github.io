@@ -318,6 +318,7 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
   - C. I2P Java Invisible Inter Project router.
   - D. Omni*Web PHP Web module.
   - E. C++ LLASMA 大语言堆栈机
+    -  可以切换其他 AI 模型
 
 3. 大语言堆栈机-B 与 大语言堆栈机-A 测试对话。
   - A. 测试 B 电脑的性能：有无GPU、每秒词元 Token 数量、每小时收入预测, 等等。
