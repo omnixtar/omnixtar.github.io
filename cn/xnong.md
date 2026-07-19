@@ -309,6 +309,17 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
 
 以上从用户类型及系统部件深入分析了全臻道系统, 现在我们将以上复杂的论述下锅炒饭, 简约的论述 **全臻道传播培训模式**, 其复杂程度 **不会超过打麻将**。
 
+1. 用户B (新人) 向用户A (全臻道资深用户) 索取 全杂数用户码:
+  - https://omnixtar.github.io/h/
+
+2. 用户A 可以协助 用户B 安装以下软件, 或 用户B 可以自行安装(如果他也是行家)
+  - A. Linux 或 Windows+Virtualbox+Linux 或类似 MacOS 软件。
+  - B. Apache2 网页伺服器软件。
+  - C. I2P Java Invisible Inter Project router.
+  - D. Omni*Web PHP Web module.
+  - E. C++ LLASMA 大语言堆栈机
+
+
 ---
 
 ### 六、小农经济的优势：为什么它可能成功
