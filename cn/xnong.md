@@ -380,6 +380,8 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
 
 ab  3
 
+有投资 加速开发 没投资 慢慢拉人
+
 ---
 
 ### 六、小农经济的优势：为什么它可能成功
