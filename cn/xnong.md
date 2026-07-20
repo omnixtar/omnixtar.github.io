@@ -358,7 +358,7 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
   - C. 其他开源软件, 复制、变异, 有些赚钱, 有些不赚钱。
     - 符式词元 Omnihash 察用分家 开源税 都赚钱。
 
-3\. ab 
+3\. ab  3
 
 ---
 
