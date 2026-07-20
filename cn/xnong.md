@@ -369,7 +369,7 @@ https://chat.deepseek.com/share/jppc1brnn5mq3j4ntl
 3\. “道”的联想 
 - "道友" 这个称呼, 合乎现代网路游戏意境。
 - **全臻道道友**=用户+程序员
-- 算力集群 = 炼丹炉
+- [算力集群 = 炼丹炉](./liandan)
 
 ab  3
 
