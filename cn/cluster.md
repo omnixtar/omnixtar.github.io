@@ -23,6 +23,7 @@ Use **Omnimesg** to:
 The integration combines **Omnimesg**, **Omnihash**, **I2P**, and **Phoscript** to create a **zero-trust, metadata-resistant** communication and compute verification layer for GRATIS.
 
 ### **Components**
+
 | **Component**       | **Role**                                                                                     | **Technology**               |
 |---------------------|---------------------------------------------------------------------------------------------|------------------------------|
 | **Message Drop**    | Publicly visible "trash can" for signaling (e.g., GitHub issues, IPFS, or a dedicated GRATIS forum). | GitHub/IPFS                  |
