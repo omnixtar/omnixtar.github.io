@@ -255,6 +255,7 @@ To **incentivize participation**, GRATIS tokens can be used to:
 ---
 
 ## **5. Implementation Roadmap**
+
 | **Phase** | **Goal**                                                                                     | **Tasks**                                                                                     |
 |-----------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | **1**     | Prototype Omnimesg for GRATIS messaging.                                                     | - Implement Omnimesg in Phoscript.                                                          |
