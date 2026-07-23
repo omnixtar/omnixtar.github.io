@@ -111,7 +111,7 @@ The integration combines **Omnimesg**, **Omnihash**, **I2P**, and **Phoscript** 
 2. **Publish the Hash**:
    - Node A posts `H_R` to the **public trash can** (e.g., GitHub issue or IPFS).
    - Example: 
-```
+```json
      # GRATIS Compute Metrics
      - [H_R] 0xOMNI-7d8e9f1... (Node A's resources)
 ```
