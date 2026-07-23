@@ -326,6 +326,7 @@ To **incentivize participation**, GRATIS tokens can be used to:
 ---
 
 ## **7. Advantages of This Approach**
+
 | **Feature**               | **Benefit for GRATIS**                                                                                     |
 |---------------------------|---------------------------------------------------------------------------------------------------------|
 | **Decentralized**         | No single point of failure; no reliance on centralized servers.                                         |
@@ -341,6 +342,7 @@ To **incentivize participation**, GRATIS tokens can be used to:
 ---
 
 ## **8. Potential Challenges & Mitigations**
+
 | **Challenge**                          | **Mitigation**                                                                                     |
 |----------------------------------------|---------------------------------------------------------------------------------------------------|
 | **I2P Latency**                         | Use **geographically distributed I2P nodes** to reduce latency.                                         |
