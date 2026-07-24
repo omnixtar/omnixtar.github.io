@@ -25,6 +25,7 @@ This prospectus seeks to raise **$18.5 million** to procure and deploy **1,000 "
 To maximize capital efficiency and minimize single-point risks, we have standardized the "Minimum HBM Parameter Setup" into a **Standard Node Unit (SNU)**. This is the smallest physical unit capable of accessing the high-value HBM Blind Computing pool of the GRATIS Network.
 
 ### 1. SNU Hardware Specifications & Cost Breakdown
+
 | Component | Specifications | Estimated Cost (USD) | Role in GRATIS Network |
 | :--- | :--- | :--- | :--- |
 | **Core Compute (GPU)** | **1x NVIDIA A100 80GB PCIe** (HBM2e, 2TB/s bandwidth) | $9,500 | Runs 7B-70B privacy inference/fine-tuning; provides bare-metal "Blind Computing" power. |
