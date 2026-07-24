@@ -1,12 +1,12 @@
 # 【机密/公开】GRATIS Network 基础设施节点认购暨招股说明书
 **—— 认购“最小 HBM 节点”，构建 AWS / Azure 的主权免疫平替网络**
 
-**发行主体**：GRATIS Infrastructure SPV (特殊目的载体) / GRATIS Foundation
-**发行标的**：标准 HBM 算力节点单元 (Standard HBM Node Unit, SNU)
-**单份认购目标（股金/设备款）**：**$18,500 USD** （即“最小 HBM 参数设置”成本）
-**目标总融资额**：$18,500,000 USD (1,000 个 SNU)
-**预期年化 IRR**：**38% - 55%** (基于隐私溢价与代币增值模型)
-**日期**：2026年7月
+- **发行主体**：GRATIS Infrastructure SPV (特殊目的载体) / GRATIS Foundation
+- **发行标的**：标准 HBM 算力节点单元 (Standard HBM Node Unit, SNU)
+- **单份认购目标（股金/设备款）**：**$18,500 USD** （即“最小 HBM 参数设置”成本）
+- **目标总融资额**：$18,500,000 USD (1,000 个 SNU)
+- **预期年化 IRR**：**38% - 55%** (基于隐私溢价与代币增值模型)
+- **日期**：2026年7月
 
 ---
 
