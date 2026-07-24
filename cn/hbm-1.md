@@ -35,6 +35,14 @@
 | **Deployment & Ops** | Colocation rack, bandwidth, Phoscript environment initialization | $1,000 | Ensures physical isolation for I2P hidden services and memory-less execution. |
 | **Total per SNU** | **Complete Minimum HBM Node Setup** | **$18,500** | **The minimum subscription unit for investors** |
 
+| Component | Specifications | Estimated Cost (USD) | Role in GRATIS Network |
+| :--- | :--- | :--- | :--- |
+| **Core Compute (GPU)** | **1x NVIDIA A100 80GB PCIe** (HBM2e, 2TB/s bandwidth) | $9,500 | Runs 7B-70B privacy inference/fine-tuning; provides bare-metal "Blind Computing" power. |
+| **Compute & Memory** | 16-core AMD EPYC / 128GB ECC RAM / 2TB NVMe | $3,500 | Supports high-concurrency scheduling for the Phoscript memory sandbox and I2P garlic routing. |
+| **Network & Power** | 10Gbps NIC / 1600W Titanium PSU / Industrial Chassis | $1,500 | Ensures 24/7 high availability to avoid triggering network Slashing penalties. |
+| **Network Stake** | **1,000 GRATIS Tokens** (Valued at TGE) | $3,000 | **Core Threshold**: Used to post Omnihashes to the "trash can" to prevent spam and establish node reputation. |
+| **Deployment & Ops** | Colocation rack, bandwidth, Phoscript environment initialization | $1,000 | Ensures physical isolation for I2P hidden services and memory-less execution. |
+| **Total per SNU** | **Complete Minimum HBM Node Setup** | **$18,500** | **The minimum subscription unit for investors** |
 
 | 组件 | 规格参数 | 预估成本 (USD) | 在 GRATIS 网络中的作用 |
 | :--- | :--- | :--- | :--- |
