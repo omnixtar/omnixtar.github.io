@@ -512,6 +512,7 @@ If you want to **build a system like LLASMA**, here are **open-source tools** yo
 ---
 ---
 ## **10. Summary Table: LLASMA vs. Similar Systems**
+
 | **Feature**               | **LLASMA**                          | **DreamCoder**               | **Rosette**               | **Factor**               | **AutoML-Zero**          |
 |---------------------------|-------------------------------------|-----------------------------|---------------------------|--------------------------|--------------------------|
 | **Program Representation**| Phoscript words (stack-based)       | DSL functions               | Racket/Python programs    | Stack-based words        | Neural network ops      |
