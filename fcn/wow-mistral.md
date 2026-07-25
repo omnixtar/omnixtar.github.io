@@ -308,6 +308,7 @@ Here’s how it works in practice:
 ---
 ---
 ## **4. Comparison with Other Systems**
+
 | **System**               | **Composition Mechanism**               | **Formal Verification** | **Neural Prediction** | **Recursive Extension** | **Ownership Tracking** |
 |--------------------------|-----------------------------------------|-------------------------|------------------------|-------------------------|------------------------|
 | **FORTH**                | Stack-based words                        | ❌ No                   | ❌ No                  | ❌ No                   | ❌ No                  |
