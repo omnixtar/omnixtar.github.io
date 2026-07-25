@@ -10,6 +10,7 @@ title: Codex Omnia Possibilia
 </td></tr></table>
 
 ### SVFIG (Silicon Valley FORTH Interest Group)
+- [July 25 2026, BBF006 Extending “word embedding” in Large Language Model to include “stack-words” (stack machine words)](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-07.pdf)
 - [June 27 2026, BBF005 Cardinality of FORTH words,
 Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-06.pdf) [[YouTube]](https://youtu.be/Qb2C_RftoiA)
 - [May 23 2026, BBF004 H3A Hilbertian Hashed Homoiconic Augmentation](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-05.pdf) [[YouTube]](https://youtu.be/QV9o-ZoFQAQ)
