@@ -1567,12 +1567,13 @@ function Phos() {
         console.log('  aFGLA 2557 end  ', $v, $vk, S.length - 1, JSON.stringify(K));
         return K;
     }
+    function f_cbv() { // chat box value
+        M.S.push(window.S[1][1].value);
+    }
+    function f_hbp(){var data=bnToB64(cyrb53(s.pop())); 
+        s.push(data.split("/").join("_").split("+").join("-"))}
+
 }
-function f_cbv() { // chat box value
-    M.S.push(window.S[1][1].value);
-}
-function f_hbp(){var data=bnToB64(cyrb53(s.pop())); 
-  s.push(data.split("/").join("_").split("+").join("-"))}
 window.Phos = Phos;
 export {
     Phos
