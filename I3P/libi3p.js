@@ -98,8 +98,9 @@ function f_pick() {
         s.push(s[s.length - 1 - n]);
     }
 
-function f_hbp(){var data=bnToB64(cyrb53(s.pop())); 
-    s.push(data.split("/").join("_").split("+").join("-"))}
+function f_hbp(){var data=bnToB64(cyrb53(s.pop()));  s.push(data.split("/").join("_").split("+").join("-"))}
+
+function f_help(){alert("help");}
 
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
 delay(function(){
