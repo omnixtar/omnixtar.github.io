@@ -119,7 +119,8 @@ var Phos=function(){
             else if ($v[$l - 1] == ':') { // colon suffix word after symbol else : will fail
               var $fn = $v.substr(0, $l-1);
 
-              S0.CDW.push([ $v, $vk, {} ]); // for "look ahead" words like help: or control/branch words
+              // S0.CDW.push([ $v, $vk, {} ]); 
+              S0.CDW.push([ $v, $vk, arguments[0] ]); // for "look ahead" words like help: or control/branch words
                 // FGLA($WA); 
               if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
                 eval("f_"+$fn+"()")
