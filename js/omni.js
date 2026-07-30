@@ -165,7 +165,7 @@ console.log("  omni.js define S0 2026-01",S0)
 
 // HELP documentation
 S0.HELP={}
-HELP['help']=['help','help: to get help']
+S0.HELP['help']=['help','help: to get help']
 
 
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
