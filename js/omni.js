@@ -166,6 +166,9 @@ console.log("  omni.js define S0 2026-01",S0)
 // HELP documentation
 S0.HELP={}
 S0.HELP['help']=['help','help: to get help']
+S0.HELP['stack']=['show stack','s ev: a:']
+S0.HELP['eval']=['eval JS var','ev: a:']
+S0.HELP['alert']=['display TOS in alert window','a:']
 
 
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
