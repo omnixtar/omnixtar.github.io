@@ -169,6 +169,7 @@ S0.HELP['help']=['help','help: to get help']
 S0.HELP['stack']=['show stack','s ev: a:']
 S0.HELP['eval']=['eval JS var','ev: a:']
 S0.HELP['alert']=['display TOS in alert window','a:']
+console.log("S0.HELP",S0.HELP)
 
 
 var f_add=function(){s.push(parseInt(s.pop())+parseInt(s.pop()))}
