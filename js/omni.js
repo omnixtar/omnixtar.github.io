@@ -216,6 +216,9 @@ var nodes = s.pop()
 
 var omnistart=function(){setctxmenu();phosinit();}
 
+// 20260731
+omnistart()
+
 console.log("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.");
 alert("Welcome to Omni*Shell -- the Crypto-Metaprogramming Shell that light up (fiat lux) the (dark) 'Centralised' Internet.\n\n  Press F12 for Developer Tools. Choose Console.\n\n  Enter 'omnihelp()' for further instructions.");
 
