@@ -100,7 +100,11 @@ function f_pick() {
 
 function f_hbp(){var data=bnToB64(cyrb53(s.pop()));  s.push(data.split("/").join("_").split("+").join("-"))}
 
-function f_help(){alert("help "+S0.CDW+" "+Object.keys(S0.HELP));}
+function f_help(){
+    var n=S0.CDW[length];
+    var T=S0.CDW[n-1].split(' ');
+    alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T);
+}
 
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
 delay(function(){
