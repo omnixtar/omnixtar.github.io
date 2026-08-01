@@ -103,10 +103,14 @@ function f_hbp(){var data=bnToB64(cyrb53(s.pop()));  s.push(data.split("/").join
 function f_help(){
     var n=S0.CDW.length;
     var T=S0.CDW[n-1][0].split(' ');
+var K=Object.keys(S0.HELP)
     
 var str=S0.CDW[n-1][2][1]
 const result = str.replace(/[^a-zA-Z0-9]/g, '');
-alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T+" "+T.length+" "+S0.CDW[n-1]+" "+S0.CDW[n-1].length+" "+S0.CDW[n-1][2]+" "+S0.CDW[n-1][2].length+" "+result);
+var hstr
+if (K.includes(result)) hstr=result+" "+S0.HELP[result]; else hstr="no help found";
+alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T+" "+T.length+" "+S0.CDW[n-1]+" "+S0.CDW[n-1].length+" "+S0.CDW[n-1][2]+" "+S0.CDW[n-1][2].length+" "+result+" "+hstr);
+ 
 }
 
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
