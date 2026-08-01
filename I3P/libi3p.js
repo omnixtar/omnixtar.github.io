@@ -108,7 +108,7 @@ var K=Object.keys(S0.HELP)
 var str=S0.CDW[n-1][2][1]
 const result = str.replace(/[^a-zA-Z0-9]/g, '');
 var hstr
-if (K.includes(result)) hstr=result+": "+S0.HELP[result]; else hstr=result+" not found"; found";
+if (K.includes(result)) hstr=result+": "+S0.HELP[result]; else hstr=result+" not found";
 // alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T+" "+T.length+" "+S0.CDW[n-1]+" "+S0.CDW[n-1].length+" "+S0.CDW[n-1][2]+" "+S0.CDW[n-1][2].length+" "+result+" "+hstr);
 alert(hstr+" // topics: "+K);
  
