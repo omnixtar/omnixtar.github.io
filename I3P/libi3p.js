@@ -103,7 +103,7 @@ function f_hbp(){var data=bnToB64(cyrb53(s.pop()));  s.push(data.split("/").join
 function f_help(){
     var n=S0.CDW.length;
     var T=S0.CDW[n-1][0].split(' ');
-    alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T);
+    alert("help "+S0.CDW+" "+Object.keys(S0.HELP)+" "+n+" "+T+" "+T.length);
 }
 
 // clone button // must add 0 z: to force execute <-- last char must be : else right-click replaces innerHTML
