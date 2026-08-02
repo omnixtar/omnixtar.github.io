@@ -154,7 +154,7 @@ var Phos=function(){
               console.log('  in  CDW', $v);
               if (i>=ic) $CDW[CDN].push($v)
             }
-            else if (i<=ic) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
+            else if (i<=ic) {console.log("  i<=ic skip i",i,"ic",ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
             // else if (i<=t(S0.CDW)[1]) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
             else {
             // : cdw ... ; definition and execution need different conditions
