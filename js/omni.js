@@ -137,6 +137,8 @@ var Phos=function(){
         else $WA.map(e=>{ // variable i
             console.log(i, e);
             var $v=e, $vk=i; $l=$v.length; 
+
+            // set ic, execute only if i>ic to implement skip
             if (!c_cdw && $v==':') { // COLON DEFINITION WORD
               c_cdw=true;
               console.log('  CDW start ', W[i+1])
