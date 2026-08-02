@@ -82,13 +82,13 @@ var Phos=function(){
     S0.skip = 0;
     S0.CDW = [];
     S0.dlb = {};
+    var t = function(A){var L=A.length;return A[L-1]} // get top element of array
     var FGLA = function($WA) {
 
       // arguments[0].split(' ').map(e=>{
       var c_cdw=false; var i=0, ic, W=$WA;
 
       // test variable i (branch) 
-      // if (true) 
       if (true) $WA.map(e=>{ // WORD ARRAY
             console.log(i, e);
             var $v=e, $vk=i; $l=$v.length; 
@@ -173,6 +173,7 @@ var Phos=function(){
                   // FGLA($WA); 
                 if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
                   eval("f_"+$fn+"()")
+                console.log("  t(S0.CDW)",t(S0.CDW))
                 S0.CDW.pop(); 
               } else s.push(e)
             }
