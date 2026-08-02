@@ -83,54 +83,103 @@ var Phos=function(){
     S0.CDW = [];
     S0.dlb = {};
     var FGLA = function($WA) {
-    // arguments[0].split(' ').map(e=>{
-    var c_cdw=false; var i=0, ic, W=$WA;
-    $WA.map(e=>{ // WORD ARRAY
-          console.log(i, e);
-          var $v=e, $vk=i; $l=$v.length; 
-          if (!c_cdw && $v==':') { // COLON DEFINITION WORD
-             c_cdw=true;
-             console.log('  CDW start ', W[i+1])
-             ic = i+2; // start index of CDW
-             CDN=W[i+1]
-             $CDW[CDN]=[]
-          }
-          if (c_cdw) {
-            if ($v==';') {
-              console.log('  end CDW', $v);
-              c_cdw=false;
-            }
-            console.log('  in  CDW', $v);
-            if (i>=ic) $CDW[CDN].push($v)
-          } 
-          else {
-          // : cdw ... ; definition and execution need different conditions
-          
-            if (a_sym.indexOf($v)>=0) { // special tokens + - * / : 
-              f_sym[a_sym.indexOf($v)]()
-            } 
-            else if (in_array($v, array_keys($CDW))) {
-                var $WA = $CDW[$v];
-                if (end($WA) == ';') array_pop($WA); // remove ; in definition before execution
-                S0.CDW.push([ $v, $vk, {} ]); // console.log(1176, 'before FGLA', JSON.stringify(S0.CDW)); // await FGLA($WA);
-                FGLA($WA); S0.CDW.pop(); // console.log(1183, 'after FGLA', JSON.stringify(S0.CDW));
-                S0.cda = end(S0.CDW);
-            } 
-            else if ($v[$l - 1] == ':') { // colon suffix word after symbol else : will fail
-              var $fn = $v.substr(0, $l-1);
 
-              // S0.CDW.push([ $v, $vk, {} ]); 
-              S0.CDW.push([ $v, $vk, arguments[0] ]); // for "look ahead" words like help: or control/branch words
-                // FGLA($WA); 
-              if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
-                eval("f_"+$fn+"()")
-              S0.CDW.pop(); 
-            } else s.push(e)
+      // arguments[0].split(' ').map(e=>{
+      var c_cdw=false; var i=0, ic, W=$WA;
+
+      // test variable i (branch) 
+      // if (true) 
+      if (true) $WA.map(e=>{ // WORD ARRAY
+            console.log(i, e);
+            var $v=e, $vk=i; $l=$v.length; 
+            if (!c_cdw && $v==':') { // COLON DEFINITION WORD
+              c_cdw=true;
+              console.log('  CDW start ', W[i+1])
+              ic = i+2; // start index of CDW
+              CDN=W[i+1]
+              $CDW[CDN]=[]
+            }
+            if (c_cdw) {
+              if ($v==';') {
+                console.log('  end CDW', $v);
+                c_cdw=false;
+              }
+              console.log('  in  CDW', $v);
+              if (i>=ic) $CDW[CDN].push($v)
+            } 
+            else {
+            // : cdw ... ; definition and execution need different conditions
+            
+              if (a_sym.indexOf($v)>=0) { // special tokens + - * / : 
+                f_sym[a_sym.indexOf($v)]()
+              } 
+              else if (in_array($v, array_keys($CDW))) {
+                  var $WA = $CDW[$v];
+                  if (end($WA) == ';') array_pop($WA); // remove ; in definition before execution
+                  S0.CDW.push([ $v, $vk, {} ]); // console.log(1176, 'before FGLA', JSON.stringify(S0.CDW)); // await FGLA($WA);
+                  FGLA($WA); S0.CDW.pop(); // console.log(1183, 'after FGLA', JSON.stringify(S0.CDW));
+                  S0.cda = end(S0.CDW);
+              } 
+              else if ($v[$l - 1] == ':') { // colon suffix word after symbol else : will fail
+                var $fn = $v.substr(0, $l-1);
+
+                // S0.CDW.push([ $v, $vk, {} ]); 
+                S0.CDW.push([ $v, $vk, arguments[0] ]); // for "look ahead" words like help: or control/branch words
+                  // FGLA($WA); 
+                if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
+                  eval("f_"+$fn+"()")
+                S0.CDW.pop(); 
+              } else s.push(e)
+            }
+            i++
           }
-          i++
-        }
-        )
-    }
+          ) // $WA.map()
+        else $WA.map(e=>{ // variable i
+            console.log(i, e);
+            var $v=e, $vk=i; $l=$v.length; 
+            if (!c_cdw && $v==':') { // COLON DEFINITION WORD
+              c_cdw=true;
+              console.log('  CDW start ', W[i+1])
+              ic = i+2; // start index of CDW
+              CDN=W[i+1]
+              $CDW[CDN]=[]
+            }
+            if (c_cdw) {
+              if ($v==';') {
+                console.log('  end CDW', $v);
+                c_cdw=false;
+              }
+              console.log('  in  CDW', $v);
+              if (i>=ic) $CDW[CDN].push($v)
+            } 
+            else {
+            // : cdw ... ; definition and execution need different conditions
+            
+              if (a_sym.indexOf($v)>=0) { // special tokens + - * / : 
+                f_sym[a_sym.indexOf($v)]()
+              } 
+              else if (in_array($v, array_keys($CDW))) {
+                  var $WA = $CDW[$v];
+                  if (end($WA) == ';') array_pop($WA); // remove ; in definition before execution
+                  S0.CDW.push([ $v, $vk, {} ]); // console.log(1176, 'before FGLA', JSON.stringify(S0.CDW)); // await FGLA($WA);
+                  FGLA($WA); S0.CDW.pop(); // console.log(1183, 'after FGLA', JSON.stringify(S0.CDW));
+                  S0.cda = end(S0.CDW);
+              } 
+              else if ($v[$l - 1] == ':') { // colon suffix word after symbol else : will fail
+                var $fn = $v.substr(0, $l-1);
+
+                // S0.CDW.push([ $v, $vk, {} ]); 
+                S0.CDW.push([ $v, $vk, arguments[0] ]); // for "look ahead" words like help: or control/branch words
+                  // FGLA($WA); 
+                if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
+                  eval("f_"+$fn+"()")
+                S0.CDW.pop(); 
+              } else s.push(e)
+            }
+            i++
+          }
+          ) // $WA.map() variable i
+    } // functoin FGLA
     this.F = function () {
         // console.log('  2021  1138 ', VM);
         var e;
