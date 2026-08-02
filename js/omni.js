@@ -154,8 +154,8 @@ var Phos=function(){
               console.log('  in  CDW', $v);
               if (i>=ic) $CDW[CDN].push($v)
             }
-            // else if (i<ic) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
-            else if (i<=t(S0.CDW)[1]) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
+            else if (i<=ic) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
+            // else if (i<=t(S0.CDW)[1]) {console.log("  i<ic",i,ic,"t(S0.CDW)",t(S0.CDW))} // (i>ic) skip ??
             else {
             // : cdw ... ; definition and execution need different conditions
             
@@ -177,6 +177,7 @@ var Phos=function(){
                   // FGLA($WA); 
                 if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
                   eval("f_"+$fn+"()")
+                ic=t(S0.CDW)[1]
                 console.log("  t(S0.CDW)",t(S0.CDW),"i",i,"ic",ic)
                 S0.CDW.pop(); 
               } else s.push(e)
