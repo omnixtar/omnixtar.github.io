@@ -89,7 +89,7 @@ var Phos=function(){
       var c_cdw=false; var i=0, ic, W=$WA;
 
       // test variable i (branch) 
-      if (true) $WA.map(e=>{ // WORD ARRAY
+      if (false) $WA.map(e=>{ // WORD ARRAY
             console.log(i, e);
             var $v=e, $vk=i; $l=$v.length; 
             if (!c_cdw && $v==':') { // COLON DEFINITION WORD
