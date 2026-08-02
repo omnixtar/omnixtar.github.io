@@ -105,7 +105,7 @@ function f_help(){
     var T=S0.CDW[n-1][0].split(' ');
 var K=Object.keys(S0.HELP)
 
-console.log("  in help i", S0.CDW[n-1][1])
+console.log("  in help i", S0.CDW[n-1][1], S0.CDW[n-1][1]++)
     
 var str=S0.CDW[n-1][2][1]
 const result = str.replace(/[^a-zA-Z0-9]/g, '');
