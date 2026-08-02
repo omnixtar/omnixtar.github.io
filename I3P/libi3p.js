@@ -104,6 +104,8 @@ function f_help(){
     var n=S0.CDW.length;
     var T=S0.CDW[n-1][0].split(' ');
 var K=Object.keys(S0.HELP)
+
+console.log("  in help i", S0.CDW[n-1][1])
     
 var str=S0.CDW[n-1][2][1]
 const result = str.replace(/[^a-zA-Z0-9]/g, '');
