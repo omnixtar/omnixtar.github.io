@@ -176,7 +176,7 @@ var Phos=function(){
                   // FGLA($WA); 
                 if (typeof eval("f_"+$fn)!=="undefined") // console.log('is func', $v, typeof eval("f_"+$fn))
                   eval("f_"+$fn+"()")
-                console.log("  t(S0.CDW)",t(S0.CDW))
+                console.log("  t(S0.CDW)",t(S0.CDW),"i",i,"ic",ic)
                 S0.CDW.pop(); 
               } else s.push(e)
             }
