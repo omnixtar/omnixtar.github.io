@@ -126,4 +126,6 @@ delay(function(){
 // new convention _x for colon definition words
 
 // no need to load omnistart() --> will override libphos.js
-setctxmenu()
+
+// setctxmenu is included in omnistart()!!
+// setctxmenu()
