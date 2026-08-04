@@ -28,3 +28,21 @@ ArrayBuffer { byteLength: 8 }
 ab2str(s[24])
 "5eca3a6a" 
 ```
+
+```js
+s.push(S0.K.pair.publicKey)
+s.push(ab2str(D3))
+f("aecr:")
+
+s.push(S0.K.pair.privateKey)
+f("swap: dcr:")
+libphosm1 r 
+Array [ "dcr:", "swap:" ]
+libphosm.js line 11 > srcScript:1171:21
+undefined
+s[24]
+ArrayBuffer { byteLength: 8 }
+
+ab2str(s[24])
+"5eca3a6a" 
+```
