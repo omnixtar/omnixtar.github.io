@@ -10,7 +10,7 @@ title: Codex Omnia Possibilia
 </td></tr></table>
 
 ### SVFIG (Silicon Valley FORTH Interest Group)
-- [August 22 2026, BBF007 Title: Bootstrapping Delta AGI using Delta AI – Why Frontier AIs are nice but not essential?](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-08.pdf) [[YouTube]](https://youtu.be/E8QnhUzmJDw)
+- [August 22 2026, BBF007 Bootstrapping Delta AGI using Delta AI – Why Frontier AIs are nice but not essential?](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-08.pdf) [[YouTube]](https://youtu.be/E8QnhUzmJDw)
 - [July 25 2026, BBF006 Extending “word embedding” in Large Language Model to include “stack-words” (stack machine words)](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-07.pdf) [[YouTube]](https://youtu.be/E8QnhUzmJDw)
 - [June 27 2026, BBF005 Cardinality of FORTH words,
 Inverse Turing Test and defining AGI](https://omnixtar.github.io/svfig/OXW-SVFIG-2026-06.pdf) [[YouTube]](https://youtu.be/Qb2C_RftoiA)
