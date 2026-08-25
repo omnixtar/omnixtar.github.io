@@ -40,6 +40,8 @@
   - **2027 年底**：推出 OmniBeta，支持多团队开发高质量的特定领域应用。
   - **2028 年**：达到 500,000 个词（包含 Cesium.js 物理/地球模拟等“接地 AI”），形成足以抗衡科技巨头的开源 AGI 力量（类比当年 Linux 击败专有 Unix 系统）。
 
+<img src="./dai-overview.png">
+
 <img src="./dai-goals.png">
 
 
