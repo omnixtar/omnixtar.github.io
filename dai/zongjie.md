@@ -1,4 +1,4 @@
-## 增量智能
+## 增量智能 Delta Artificial Intelligence
 
 以下是对该视频演讲《Bootstrapping Delta AGI using Delta AI》的深度分析与总结：
 
