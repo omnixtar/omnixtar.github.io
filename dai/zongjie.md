@@ -36,9 +36,16 @@
 演讲者规划了一个名为“Omni”的去中心化 AI 协作生态，旨在解决自由软件开发者“贡献大、收益小”的痛点，将“审查”转变为“用户端过滤”：
 - **Omniscientia & Gratis**：去中心化的 AI 共享对话论坛与 AI 算力/代币交易平台。利用全球闲置的 GPU/CPU 算力，通过代币化激励开发者。
 - **发展路线图**：
+  - llama.cpp PhosVM: 50 words
+  - JavaScript + PHP Phoscript: 150 words
+  - Omniscientia+GRATIS: 500 words (2026 Q4)
+  - LLASMA FORTH Stack Machine Words: 5000 words (2027 Q2)
+  - OmniBeta (domain specific applications / programmer teams): 50K words (2027)
+  - Cesium.js + Physics: 50K words (2027)
   - **2027 Q2**：积累 5,000 个 Forth 词。
   - **2027 年底**：推出 OmniBeta，支持多团队开发高质量的特定领域应用。
   - **2028 年**：达到 500,000 个词（包含 Cesium.js 物理/地球模拟等“接地 AI”），形成足以抗衡科技巨头的开源 AGI 力量（类比当年 Linux 击败专有 Unix 系统）。
+  - Delta AGI: 500K words (2028)
 
 <img src="./dai-overview.png">
 
