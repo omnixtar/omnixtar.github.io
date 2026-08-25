@@ -34,7 +34,9 @@
 
 ### 四、 项目愿景与生态路线图
 演讲者规划了一个名为“Omni”的去中心化 AI 协作生态，旨在解决自由软件开发者“贡献大、收益小”的痛点，将“审查”转变为“用户端过滤”：
-- **Omniscientia & Gratis**：去中心化的 AI 共享对话论坛与 AI 算力/代币交易平台。利用全球闲置的 GPU/CPU 算力，通过代币化激励开发者。
+- **Omniscientia & GRATIS**：[[参考链接]](https://omnixtar.github.io/dai/cn_youtube#omniscientia-%E5%85%B1%E4%BA%ABai%E5%AF%B9%E8%AF%9D-%E4%B8%8E-gratis-ai%E4%BB%A3%E5%B8%81%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0)
+  - Omniscientia 去中心化的 AI 共享对话论坛，通过代币化激励开发者，以 Omnihash 建立合作协议，分享代码，相互协作，共同开发。 
+  - GRATIS AI算力/代币交易平台。利用全球闲置的 GPU/CPU 算力，通过 Omnihash 代币化进行算力交易。
 - **发展路线图**：
   - **2026 Q2**：llama.cpp PhosVM: 50 words
     - JavaScript + PHP Phoscript: 150 words
