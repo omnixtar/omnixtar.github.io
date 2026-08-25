@@ -39,7 +39,7 @@
   - **2026 Q2**：llama.cpp PhosVM: 50 words
     - JavaScript + PHP Phoscript: 150 words
   - **2026 Q4**：Omniscientia+GRATIS: 500 words (2026 Q4)
-  - **2027 Q2**：积累 5,000 个 Forth 词。 
+  - **2027 Q2**：积累 5,000 个 Forth 弗式堆栈机词元。 
     - LLASMA FORTH Stack Machine Words: 5000 words (2027 Q2)
   - **2027 Q4**：推出 OmniBeta，支持多团队开发高质量的特定领域应用。
     - OmniBeta (domain specific applications / programmer teams): 50K words (2027)
