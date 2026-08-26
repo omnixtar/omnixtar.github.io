@@ -30,6 +30,7 @@ title: DELTA Decentralised JSON
 ]](https://omnixtar.github.io/dai/osgt)
 - C. [[从法国大革命到数字产权]](https://omnixtar.github.io/dai/cn_revolution)
 - D. [[元宇宙自治]](https://omnixtar.github.io/dai/cn_metanarchy)
+- E. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
 
 
 ### DJSON: Decentralised JSON
