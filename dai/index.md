@@ -22,6 +22,8 @@ title: DELTA Decentralised JSON
 
 - A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube)
+  - 中文译名备注:
+    - 1. 
 - B. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
 ]](https://omnixtar.github.io/dai/osgt)
 - C. [[从法国大革命到数字产权]](https://omnixtar.github.io/dai/cn_revolution)
