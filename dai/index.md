@@ -19,6 +19,11 @@ title: DELTA Decentralised JSON
 -->
 
 ## Delta Operations: Forces behind Scientific Progress 
+
+- A. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
+]](https://omnixtar.github.io/dai/osgt)
+
+
 ### DJSON: Decentralised JSON
 
 It is believed that modern science was kick started by Sir Isaac Newton's or Gottfried Wilhelm von Leibniz's calculus, which is the mathematics about calculating differences.
