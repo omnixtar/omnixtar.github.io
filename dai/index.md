@@ -18,7 +18,7 @@ title: DELTA Decentralised JSON
 <img src="./s1.png">
 -->
 
-## Delta Operations: Forces behind Scientific Progress 
+## 构建 无量智 Delta AI 生态：Omniscientia 与 GRATIS 的双轮驱动
 
 - A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube)
