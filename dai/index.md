@@ -20,8 +20,11 @@ title: DELTA Decentralised JSON
 
 ## Delta Operations: Forces behind Scientific Progress 
 
-- A. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
+- A. [[增量智能 Delta Artificial Intelligence]](https://omnixtar.github.io/dai/cn_youtube)
+- B. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
 ]](https://omnixtar.github.io/dai/osgt)
+- C. [[从法国大革命到数字产权]](https://omnixtar.github.io/dai/cn_revolution)
+- D. [[元宇宙自治]](https://omnixtar.github.io/dai/cn_metanarchy)
 
 
 ### DJSON: Decentralised JSON
