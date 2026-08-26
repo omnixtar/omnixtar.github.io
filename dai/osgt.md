@@ -1,4 +1,8 @@
-### 构建无量智生态：Omniscientia 与 GRATIS 的双轮驱动
+## 构建 无量智 Delta AI 生态：Omniscientia 与 GRATIS 的双轮驱动
+
+- A. [[GRATIS算力交易平台 收入估算 **2027** **$247 万** **2030** **$8,640 万**]](https://omnixtar.github.io/dai/gratis)
+- B. [[GRATIS：用户即股东 数字无产阶级共建高端算力新基建]](https://omnixtar.github.io/dai/gudong)
+
 
 #### 一、 时代痛点：算力垄断与开源剥削
 当前，AI 代理的运行成本日益高昂，但矛盾的是，全球范围内却存在着海量未被充分利用的闲置 GPU 与 CPU 算力。与此同时，支撑现代 AI 繁荣的底层基石——自由软件与开源代码，其创造者却长期面临“贡献被无偿攫取”的困境。科技巨头（如微软、OpenAI、Anthropic）大量整合开源成果以构建专有壁垒，而真正的开发者却难以获得对等的商业补偿。
