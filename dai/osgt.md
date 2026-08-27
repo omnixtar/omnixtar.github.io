@@ -4,7 +4,7 @@
 - B. [[GRATIS：用户即股东 数字无产阶级共建高端算力新基建]](https://omnixtar.github.io/dai/gudong)
 - C. [[🔍 科技创业生态中的真实风险
 ]](https://omnixtar.github.io/dai/chuangye)
-- D. [[全臻道：算力平权之路，还是资本老千局的终结者？
+- D. [[全臻道：算力平权之路，终结资本老千局
 ]](https://omnixtar.github.io/dai/ost)
 
 
