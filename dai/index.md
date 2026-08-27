@@ -6,7 +6,6 @@ title: DELTA Decentralised JSON
 <table><tr><td><img src="https://omnixtar.github.io/m/img/icon-oxw.png" height="60"></td><td><h2>Omni*Web</h2></td></tr></table> 
 </td>
 <td>
-<table><tr><td></td><td></td></tr></table>
 </td></tr></table>
 
 <!-- 
