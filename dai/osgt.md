@@ -2,6 +2,10 @@
 
 - A. [[GRATIS算力交易平台 收入估算 [**2027** **$247万**] [**2030** **$8,640万**]]](https://omnixtar.github.io/dai/gratis)
 - B. [[GRATIS：用户即股东 数字无产阶级共建高端算力新基建]](https://omnixtar.github.io/dai/gudong)
+- C. [[🔍 科技创业生态中的真实风险
+]](https://omnixtar.github.io/dai/chuangye)
+- D. [[全臻道：算力平权之路，还是资本老千局的终结者？
+]](https://omnixtar.github.io/dai/ost)
 
 
 #### 一、 时代痛点：算力垄断与开源剥削
