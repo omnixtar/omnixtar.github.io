@@ -1,5 +1,5 @@
 ---
-title: DELTA Decentralised JSON
+title: 无量智 Delta AI
 ---
 <table><tr>
 <td>
