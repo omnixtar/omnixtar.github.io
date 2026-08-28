@@ -30,7 +30,9 @@ title: 无量智 Delta AI
 - C. [[从法国大革命到数字产权]](https://omnixtar.github.io/dai/cn_revolution)
 - D. [[元宇宙自治]](https://omnixtar.github.io/dai/cn_metanarchy)
 - E. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
-- F. https://omnixtar.github.io/phoscript/cn
+- F. [[Phoscript 符式词元 操作原理
+]](https://omnixtar.github.io/phoscript/cn) 
+  - [[Omnihash 全杂数]](https://omnixtar.github.io/cn/omnihash-cn)
 
 
 ### DJSON: Decentralised JSON
