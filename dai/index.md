@@ -17,7 +17,8 @@ title: 无量智 Delta AI
 <img src="./s1.png">
 -->
 
-## 构建 《无量智 Delta AI》 生态：Omniscientia 与 GRATIS 的双轮驱动
+## 构建 《无量智 Delta AI》 生态
+## -- Omniscientia 全臻道 GRATIS LLASMA-roc 网律乐
 
 - A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube)
