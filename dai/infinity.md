@@ -1,4 +1,5 @@
-# **Hilbert Infinity Dance Hall：商业价值与革命性潜力**
+# **Hilbert Infinity Dance Hall 希尔伯特无限舞厅
+## 商业价值与革命性潜力
 
 ---
 
