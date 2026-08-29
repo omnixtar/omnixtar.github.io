@@ -1,4 +1,5 @@
-# LLASMA-roc 技术简介：用 C++ Stack Machine 连接分布式实时信号网络
+# LLASMA-roc 技术简介
+- **用 C++ Stack Machine 连接分布式实时信号网络**
 
 ## 1. 什么是 LLASMA-roc？
 
