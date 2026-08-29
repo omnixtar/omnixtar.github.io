@@ -3,17 +3,17 @@
 
 ## 1. 什么是 LLASMA-roc？
 
-**LLASMA-roc** 是一个将 **LLASMA 的 C++ Stack Machine / Forth-style 程序执行模型**与 **Roc Toolkit 的实时网络音频传输能力**结合起来的分布式计算框架。
+**LLASMA-roc** 是一个将 [**LLASMA 的 C++ Stack Machine / Forth-style 程序执行模型**](https://github.com/llasma/llama.cpp/tree/20260421/CHANGES)与 [**Roc Toolkit 的实时网络音频传输能力**](https://github.com/omnixtar/roc-toolkit) 结合起来的分布式计算框架。
 
 它的基本思想非常简单：
 
-> **LLASMA 负责“如何计算和组合”，Roc 负责“如何让实时信号在计算机之间流动”。**
+- **LLASMA 负责“如何计算和组合”，Roc 负责“如何让实时信号在计算机之间流动”。**
 
 LLASMA-roc 因而可以被理解为：
 
-> **一个以 Stack Machine 为控制语言、以 Roc 为实时信号传输层的分布式信号处理网络。**
+- **一个以 Stack Machine 为控制语言、以 Roc 为实时信号传输层的分布式信号处理网络。**
 
-它最初可以从音频开始，但设计目标并不限于音乐播放器或网络广播，而是探索一种更加通用的 **distributed real-time signal processing network**。
+它最初可以从音频开始，但设计目标并不限于音乐播放器或网络广播，而是探索一种更加通用的 **分布式实时信号处理网络 distributed real-time signal processing network**。
 
 ---
 
