@@ -1,4 +1,4 @@
-## **突破资本垄断：LLASMA-ROC + Omnihash + Phoscript 如何重塑财富分配的历史周期**
+## **突破资本垄断：LLASMA-ROC 网律乐 + Omnihash 全杂数 + Phoscript 符式词元 如何重塑财富分配的历史周期**
 
 ---
 
