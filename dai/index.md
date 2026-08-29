@@ -17,7 +17,7 @@ title: 无量智 Delta AI
 <img src="./s1.png">
 -->
 
-## 构建 《无量智 Delta AI》 生态
+## 构建 《全臻网 无量智 Omni*Web Delta AI》 生态
 ### -- Omniscientia 全臻道、 GRATIS 词元代币交易平台、 LLASMA-roc 网律乐
 
 - A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
