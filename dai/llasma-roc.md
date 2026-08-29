@@ -1,4 +1,4 @@
-# LLASMA-roc 技术简介
+# LLASMA-roc 网律乐 技术简介
 ## **用 C++ Stack Machine 连接分布式实时信号网络**
 
 ---
@@ -16,6 +16,8 @@ LLASMA-roc 因而可以被理解为：
 - **一个以 Stack Machine 为控制语言、以 Roc 为实时信号传输层的分布式信号处理网络。**
 
 它最初可以从音频开始，但设计目标并不限于音乐播放器或网络广播，而是探索一种更加通用的 **分布式实时信号处理网络 distributed real-time signal processing network**。
+
+- **LLASMA-roc 中文名 《网律乐》, 字面意思是“用网络规律(程序+协议)生成的音乐(音频)”。**
 
 ---
 
