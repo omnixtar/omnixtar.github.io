@@ -42,6 +42,7 @@ title: 无量智 Delta AI
 
 全臻网 Omni\*Web 以 Omnihash 全杂数 及 Phoscript 符式词元 为基础算法, 构建 去中心化 AI 对话分享平台 Omniscientia -- 拉丁文原意 “全能知识”。 Scientia 知识 也是 Science 科学 的词根，切音为 “臻道”，故名“全臻道”。 以“全臻道”延伸到 Omni\*Web 成为“全臻网”。  
 
+---
 
 ### DJSON: Decentralised JSON
 
