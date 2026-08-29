@@ -7,7 +7,7 @@
 
 **LLASMA-roc** 是一个将 [**LLASMA 的 C++ Stack Machine / Forth-style 程序执行模型**](https://github.com/llasma/llama.cpp/tree/20260421/CHANGES)与 [**Roc Toolkit 的实时网络音频传输能力**](https://github.com/omnixtar/roc-toolkit) 结合起来的分布式计算框架。
 
-它的基本思想非常简单：
+它的基本构思非常简单：
 
 - **LLASMA 负责“如何计算和组合”，Roc 负责“如何让实时信号在计算机之间流动”。**
 
@@ -64,7 +64,7 @@ BROADCAST
 
 因此，LLASMA 的重点不是单纯“让 LLM 写更多代码”，而是：
 
-> **让 LLM 学会组合一个可执行、可验证、可扩展的程序词汇。**
+- **让 LLM 学会组合一个可执行、可验证、可扩展的程序词汇。**
 
 这与 Forth 的 stack-machine 思想天然契合。
 
@@ -118,7 +118,7 @@ SEND
 
 因此：
 
-> **Phoscript 提供程序组合，LLASMA 提供 AI-assisted program composition，Roc 提供实际的实时网络信号传输。**
+- **Phoscript 提供程序组合，LLASMA 提供 AI-assisted program composition，Roc 提供实际的实时网络信号传输。**
 
 ---
 
@@ -141,7 +141,7 @@ roc-recv
 
 这意味着 Roc 已经提供了 LLASMA-roc 所需要的一个非常重要的底层能力：
 
-> **让不同计算机上的实时信号进入同一个网络。**
+- **让不同计算机上的实时信号进入同一个网络。**
 
 ---
 
@@ -337,7 +337,7 @@ Stack Machine 则负责描述：
 
 这就是 **Hilbert Infinity Dance Club** 的技术含义：
 
-> **不是一个拥有无限频道的巨大服务器，而是一个可以不断增加节点和信号路径的可组合网络。**
+- **不是一个拥有无限频道的巨大服务器，而是一个可以不断增加节点和信号路径的可组合网络。**
 
 ---
 
@@ -380,11 +380,11 @@ AI-generated signal
 
 于是 LLASMA-roc 的概念逐渐从：
 
-> distributed audio network
+- distributed audio network
 
 扩展为：
 
-> **distributed programmable signal network**
+- **distributed programmable signal network**
 
 ---
 
@@ -510,7 +510,7 @@ LLASMA-roc 最有意思的地方，不是“AI 可以控制一个音频播放器
 
 而是可以进一步把：
 
-> **网络中的节点、数据流和信号路径**
+- **网络中的节点、数据流和信号路径**
 
 抽象成 Stack Machine 中的对象。
 
@@ -539,7 +539,7 @@ NODE-C SEND
 
 它描述的是：
 
-> **一个分布式计算拓扑。**
+- **一个分布式计算拓扑。**
 
 这意味着 Stack Machine 的“stack”最终不只是保存整数、字符串或对象。
 
@@ -555,7 +555,7 @@ processing graphs
 
 此时，LLASMA 就从一个本地程序执行环境进一步变成：
 
-> **a programmable distributed signal machine.**
+- **a programmable distributed signal machine.**
 
 ---
 
@@ -563,11 +563,11 @@ processing graphs
 
 因此，可以把 LLASMA-roc 定义为：
 
-> **LLASMA-roc is a C++ stack-machine-based distributed real-time signal-processing framework that combines LLASMA's programmable Forth-style execution model with Roc Toolkit's real-time network streaming infrastructure.**
+- **LLASMA-roc is a C++ stack-machine-based distributed real-time signal-processing framework that combines LLASMA's programmable Forth-style execution model with Roc Toolkit's real-time network streaming infrastructure.**
 
 中文：
 
-> **LLASMA-roc 是一个基于 C++ Stack Machine 的分布式实时信号处理框架，将 LLASMA 的 Forth 风格可组合执行模型与 Roc Toolkit 的实时网络流媒体基础设施结合起来，使普通 CPU 计算机能够作为可编程的信号生产、处理、转发和广播节点加入同一个网络。**
+- **LLASMA-roc 是一个基于 C++ Stack Machine 的分布式实时信号处理框架，将 LLASMA 的 Forth 风格可组合执行模型与 Roc Toolkit 的实时网络流媒体基础设施结合起来，使普通 CPU 计算机能够作为可编程的信号生产、处理、转发和广播节点加入同一个网络。**
 
 它的核心公式可以浓缩为：
 
