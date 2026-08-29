@@ -27,6 +27,8 @@ title: 无量智 Delta AI
       2. 作为品牌名词，我们采用“无限增量”=“无量”+“智能”=“无量智”。
 - B. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
 ]](https://omnixtar.github.io/dai/osgt)
+  - [[LLASMA-ROC 网律乐 + Omnihash 全杂数 + Phoscript 符式词元：去中心化的财富重新分配
+]](https://omnixtar.github.io/dai/s-curve)
 - C. [[从法国大革命到数字产权]](https://omnixtar.github.io/dai/cn_revolution)
 - D. [[元宇宙自治]](https://omnixtar.github.io/dai/cn_metanarchy)
 - E. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
