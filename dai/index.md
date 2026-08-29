@@ -38,6 +38,11 @@ title: 无量智 Delta AI
   - [[Omnihash 全杂数 原理]](https://omnixtar.github.io/cn/omnihash-cn)
 
 
+### 全臻网 Omni*Web 名称由来
+
+全臻网 Omni\*Web 以 Omnihash 全杂数 及 Phoscript 符式词元 为基础算法, 构建 去中心化 AI 对话分享平台 Omniscientia -- 拉丁文原意 “全能知识”。 Scientia 知识 也是 Science 科学 的词根，切音为 “臻道”，故名“全臻道”。 以“全臻道”延伸到 Omni\*Web 成为“全臻网”。  
+
+
 ### DJSON: Decentralised JSON
 
 It is believed that modern science was kick started by Sir Isaac Newton's or Gottfried Wilhelm von Leibniz's calculus, which is the mathematics about calculating differences.
