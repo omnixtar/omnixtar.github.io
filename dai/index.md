@@ -43,6 +43,7 @@ title: 无量智 Delta AI
 全臻网 Omni\*Web 以 Omnihash 全杂数 及 Phoscript 符式词元 为基础算法, 构建 去中心化 AI 对话分享平台 Omniscientia -- 拉丁文原意 “全能知识”。 Scientia 知识 也是 Science 科学 的词根，切音为 “臻道”，故名“全臻道”。 以“全臻道”延伸到 Omni\*Web 成为“全臻网”。  
 
 [[Omnihash]](https://omnixtar.github.io/cn/omnihash-cn) 是一种代表各类数字资产（包括一般信息和程序代码）及其所属用户身份及所有权的哈希数（又称“杂凑数”），故名“全杂数”。
+  - Omnihash 全杂数 是 Omni*Web 全臻网 最重要的突破之一， 它 **以去中心化的加密算法** 定义了 数字化时代的 **数字资产所有权** 及 **其所属法人的身份**。 其意义堪比 [[**法国大革命**]](https://omnixtar.github.io/dai/cn_revolution)， 在工业革命初期， 为所有人， 尤其当年下层的农民和工人， 确定了前所未有的 **财产所有权**（产权）。
 
 [[Phoscript 符式词元]](https://omnixtar.github.io/phoscript/cn) 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH（符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种主体程序语言（host programming language），成为一种普世界面语言（universal interface language），即一种可以成翻译各种主体程序语言的元编程语言，并简化学习及使用编程语言的难度，总结为 unify & simplify 统一及简化各种程序语言。
 
