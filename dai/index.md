@@ -44,6 +44,8 @@ title: 无量智 Delta AI
 
 Omnihash 是一种代表各类数字资产（包括一般信息和程序代码）及其所属用户身份及所有权的哈希数（又称“杂凑数”），故名“全杂数”。
 
+Phoscript 符式词元 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH （符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种主体程序语言（host programming language），成为
+
 ---
 
 ### DJSON: Decentralised JSON
