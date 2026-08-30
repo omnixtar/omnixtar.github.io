@@ -8,6 +8,8 @@
 - [[LLASMA-roc 网律乐 技术简介]](https://omnixtar.github.io/dai/llasma-roc)
 - [[Hilbert Infinity Dance Hall 希尔伯特无限舞厅
 ]](https://omnixtar.github.io/dai/infinity)
+  - 这是一个基于西方用户习惯的提议， 舞厅跳舞作为一种社交活动和企业生态， 从维也纳的华尔兹时代就开始了。
+  - 相对于舞厅跳舞， 自民国时期开始的电台音乐文化更加适合亚洲， 由电台传播音乐， 从周璇到周杰伦， 历久不衰， 所以提议 “令伯电台”。
 - [[令伯电台]](https://omnixtar.github.io/dai/%E4%BB%A4%E4%BC%AF%E7%94%B5%E5%8F%B0)
 
 ### **历史的周期性困境：S 曲线与社会矛盾的永恒轮回**
