@@ -46,6 +46,11 @@ Omnihash 是一种代表各类数字资产（包括一般信息和程序代码�
 
 Phoscript 符式词元 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH（符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种主体程序语言（host programming language），成为一种普世界面语言（universal interface language），即一种可以成翻译各种主体程序语言的元编程语言，并简化学习及使用编程语言的难度，总结为 unify & simplify 统一及简化各种程序语言。
 
+本文描述 Omni*Web 全臻网 基于 Omnihash 全杂数 及 Phoscript 符式词元 开发的三大应用：
+- Omniscientia 全臻道 去中心化 AI 对话分享平台
+- GRATIS Grand Unified AI Token Trading Platform 去中心化人工智能词元代币交易平台
+- LLASMA-roc 网律乐 “用网络规律(程序+协议)生成的音乐(音频)”
+
 ---
 
 ### DJSON: Decentralised JSON
