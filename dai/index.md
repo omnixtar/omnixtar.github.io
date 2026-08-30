@@ -49,7 +49,7 @@ Phoscript 符式词元 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 �
 本文描述 Omni*Web 全臻网 基于 Omnihash 全杂数 及 Phoscript 符式词元 开发的三大应用，为普通用户及开源程序员在 AI 时代以**零门槛、零资金**， 集思广益， 联合开发顶级水平的，**全民共创**的**去中心化超级 AI 平台**：
 - [[Omniscientia 全臻道 去中心化 AI 对话分享平台]](https://omnixtar.github.io/dai/osgt)
 - [[GRATIS Grand Unified AI Token Trading Platform 去中心化人工智能词元代币交易平台]](https://omnixtar.github.io/dai/osgt)
-- [[LLASMA-roc 网律乐 “用网络规律(程序+协议)生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve)
+- [[LLASMA-roc 网律乐 “用网络规律（程序+协议）生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve)
 
 ---
 
