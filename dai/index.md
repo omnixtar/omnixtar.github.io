@@ -60,4 +60,5 @@ title: 无量智 Delta AI
   - Omniscientia 全臻道 和 GRATIS 分别代表 AI 的**软件(代码)**和**硬件(算力)**的**交易平台**， 以 Omnihash 全杂数 **使代码和算力转换成为股权， 变成可以被交易的商品**。
 - [[LLASMA-roc 网律乐 “用网络规律（程序+协议）生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve)
   - Omnihash 全杂数 **使音乐、音频及混音算法及代码转换成为股权， 变成可以被交易的商品**。
+  
 ---
