@@ -52,7 +52,7 @@ title: 无量智 Delta AI
     - （III） 以上任何一类， 第一类的单一公钥哈希码， 或第二类复合字串的哈希码， 再连接其他数字资产字串， 或其他复合哈希码， 成为复合字串， 再生成哈希码， 周而复始。
     - 以上的算法， 可以在个人用户的手机或电脑前端生成， 不牵涉其他大公司的后端电脑伺服器， 保障了个人数字资产的私密性， 成为去中心化加密算法的基础。  
 
-[**[Phoscript 符式词元]**](https://omnixtar.github.io/phoscript/cn) 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH（符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种主体程序语言（host programming language），成为一种普世界面语言（universal interface language），即一种可以成翻译各种主体程序语言的元编程语言，并简化学习及使用编程语言的难度，总结为 unify & simplify 统一及简化各种程序语言。
+[**[Phoscript 符式词元]**](https://omnixtar.github.io/phoscript/cn) 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH（符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种宿主程序语言（host programming language），成为一种普世界面语言（universal interface language），即一种可以成翻译各种宿主程序语言的元编程语言，并简化学习及使用编程语言的难度，总结为 unify & simplify 统一及简化各种程序语言。
   - Omnihash 全杂数 使 Phoscript符式词元 及其他程序语言的**代码转换成为股权**， 变成可以被交易的商品。
   - Phoscript 符式词元 将编程简化成为一种**人人可以上手的技能**，再将这种技能变成 **Omnihash 全杂数股权**， 成为使人人能够入场的 **AI时代创业入场券**。
 
