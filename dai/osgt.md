@@ -1,4 +1,5 @@
 ## 构建 无量智 Delta AI 生态：Omniscientia 与 GRATIS 的双轮驱动
+  - Omniscientia 全臻道 和 GRATIS 分别代表 AI 的**软件(代码)**和**硬件(算力)**的交易论坛， 以 Omnihash 全杂数 使代码和算力**转换成为股权， 变成可以被交易的商品**。
 
 - A. [[GRATIS算力交易平台 收入估算 [**2027** **$247万**] [**2030** **$8,640万**]]](https://omnixtar.github.io/dai/gratis)
 - B. [[GRATIS：用户即股东 数字无产阶级共建高端算力新基建]](https://omnixtar.github.io/dai/gudong)
