@@ -52,11 +52,12 @@ title: 无量智 Delta AI
 
 [**[Phoscript 符式词元]**](https://omnixtar.github.io/phoscript/cn) 演变自 1968 年由 Charles H. Moore 查尔斯.摩尔 发明的 FORTH（符式）元编程程序语言（metaprogramming language），可以植入（embedded）各种主体程序语言（host programming language），成为一种普世界面语言（universal interface language），即一种可以成翻译各种主体程序语言的元编程语言，并简化学习及使用编程语言的难度，总结为 unify & simplify 统一及简化各种程序语言。
   - Omnihash 全杂数 使 Phoscript符式词元 及其他程序语言的**代码转换成为股权**， 变成可以被交易的商品。
+  - Phoscript 符式词元 将编程简化成为一种**人人可以上手的技能**，再将这种技能变成 **Omnihash 全杂数股权**， 成为使人人能够入场的 **AI时代创业入场券**。
 
 本文描述 Omni*Web 全臻网 基于 Omnihash 全杂数 及 Phoscript 符式词元 开发的三大应用，为普通用户及开源程序员在 AI 时代以**零门槛、零资金**， 集思广益， 联合开发顶级水平的，**全民共创**的**去中心化超级 AI 平台**：
 - [[Omniscientia 全臻道 去中心化 AI 对话分享平台]](https://omnixtar.github.io/dai/osgt)
 - [[GRATIS Grand Unified AI Token Trading Platform 去中心化人工智能词元代币交易平台]](https://omnixtar.github.io/dai/osgt)
   - Omniscientia 全臻道 和 GRATIS 分别代表 AI 的**软件(代码)**和**硬件(算力)**的**交易平台**， 以 Omnihash 全杂数 **使代码和算力转换成为股权， 变成可以被交易的商品**。
 - [[LLASMA-roc 网律乐 “用网络规律（程序+协议）生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve)
-
+  - Omnihash 全杂数 **使音乐、音频及混音算法及代码转换成为股权， 变成可以被交易的商品**。
 ---
