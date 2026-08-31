@@ -20,7 +20,7 @@ title: 无量智 Delta AI
 ## 构建 《全臻网 无量智 Omni*Web Delta AI》 生态
 ### -- Omniscientia 全臻道、 GRATIS 词元代币交易平台、 LLASMA-roc 网律乐
 
-- A. (YouTube视频) [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
+- A. (YouTube视频) [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI) [[Bilibili 副本]](https://www.bilibili.com/video/BV1JXt864EBX/)
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube) [[视频重点摘要]](https://omnixtar.github.io/dai/zongjie)
   - 中文译名备注:
     通用的中文翻译名词如下 --
