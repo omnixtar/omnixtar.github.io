@@ -20,8 +20,9 @@ title: 无量智 Delta AI
 ## 构建 《全臻网 无量智 Omni*Web Delta AI》 生态
 ### -- Omniscientia 全臻道、 GRATIS 词元代币交易平台、 LLASMA-roc 网律乐
 
-- A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
+- A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》(YouTube)]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube)
+  - zongjie
   - 中文译名备注:
     - 1. 通用的中文翻译名词如下:
       - Delta 增量; Intelligence 智能; Artificial 人工; General 通用。
@@ -60,5 +61,5 @@ title: 无量智 Delta AI
   - Omniscientia 全臻道 和 GRATIS 分别代表 AI 的**软件(代码)**和**硬件(算力)**的**交易平台**， 以 Omnihash 全杂数 **使代码和算力转换成为股权， 变成可以被交易的商品**。
 - [[LLASMA-roc 网律乐 “用网络规律（程序+协议）生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve)
   - Omnihash 全杂数 **使音乐、音频及混音算法及代码转换成为股权， 变成可以被交易的商品**。
-  
+
 ---
