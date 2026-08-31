@@ -38,6 +38,7 @@ title: 无量智 Delta AI
 ]](https://omnixtar.github.io/phoscript/cn) 
   - [[Omnihash 全杂数 原理]](https://omnixtar.github.io/cn/omnihash-cn)
 
+---
 
 ### 全臻网 Omni*Web 名称由来
 
