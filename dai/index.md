@@ -21,8 +21,7 @@ title: 无量智 Delta AI
 ### -- Omniscientia 全臻道、 GRATIS 词元代币交易平台、 LLASMA-roc 网律乐
 
 - A. [[《基于增量智能（Delta AI）的增量通用人工智能（AGI）自举框架》(YouTube视频)]](https://www.youtube.com/watch?v=WFcDZ5WjfeI)
-  - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube)
-  - [[视频重点摘要]](https://omnixtar.github.io/dai/zongjie)
+  - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube) [[视频重点摘要]](https://omnixtar.github.io/dai/zongjie)
   - 中文译名备注:
     - 1. 通用的中文翻译名词如下:
       - Delta 增量; Intelligence 智能; Artificial 人工; General 通用。
