@@ -42,7 +42,7 @@ title: 无量智 Delta AI
 
 全臻网 Omni\*Web 以 Omnihash 全杂数 及 Phoscript 符式词元 为基础算法, 构建 去中心化 AI 对话分享平台 Omniscientia -- 拉丁文原意 “全能知识”。 Scientia 知识 也是 Science 科学 的词根，切音为 “臻道”，故名“全臻道”。 以“全臻道”延伸到 Omni\*Web 成为“全臻网”。  
 
-[**[Omnihash]**](https://omnixtar.github.io/cn/omnihash-cn) 是一种代表各类数字资产（包括一般信息和程序代码）及其所属用户身份及所有权的哈希数（又称“杂凑数”），故名“全杂数”。
+[**[Omnihash]**](https://omnixtar.github.io/cn/omnihash-cn) 是一种**代表各类数字资产（包括一般信息、程序代码及算力）**及其所属用户身份及所有权的**哈希数**（又称“杂凑数”），故名**“全杂数”**。
   - Omnihash 全杂数 是 Omni*Web 全臻网 最重要的突破之一， 它 **以去中心化的加密算法** 定义了 数字化时代的 **数字资产所有权** 及 **其所属法人的身份**。 其意义堪比 [[**法国大革命**]](https://omnixtar.github.io/dai/cn_revolution)， 在工业革命初期， 为所有人， 尤其当年下层的农民和工人， 确定了前所未有的 **财产所有权**（产权）。
   - 去中心化加密算法， 即主要为： 
     - （I） 以公钥字串的哈希码表示资产所属用户身份。 
