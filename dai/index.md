@@ -24,7 +24,7 @@ title: 无量智 Delta AI
   - [[中文字幕讲稿]](https://omnixtar.github.io/dai/cn_youtube) [[视频重点摘要]](https://omnixtar.github.io/dai/zongjie)
   - 中文译名备注:
     - 1. 通用的中文翻译名词如下:
-      - Delta 增量; Intelligence 智能; Artificial 人工; General 通用。
+      Delta 增量; Intelligence 智能; Artificial 人工; General 通用。
       2. 作为品牌名词，我们采用“无限增量”=“无量”+“智能”=“无量智”。
 - B. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
 ]](https://omnixtar.github.io/dai/osgt)
