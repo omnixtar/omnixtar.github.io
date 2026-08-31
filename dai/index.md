@@ -25,15 +25,15 @@ title: 无量智 Delta AI
   - 中文译名备注:
     通用的中文翻译名词如下 --
       Delta 增量; Intelligence 智能; Artificial 人工; General 通用。
-      2. 作为品牌名词，我们采用“无限增量”=“无量”+“智能”=“无量智”。
+    - 作为品牌名词，我们采用“无限增量”=“无量”+“智能”=“无量智”。
 - B. [[Omniscientia 共享AI对话平台 与 GRATIS AI代币交易平台
 ]](https://omnixtar.github.io/dai/osgt)
   - [[LLASMA-ROC 网律乐 + Omnihash 全杂数 + Phoscript 符式词元：去中心化的财富重新分配
 ]](https://omnixtar.github.io/dai/s-curve)
-- C. [[从法国大革命到 Metanarchy 元宇宙自治]](https://omnixtar.github.io/dai/cn_revolution)
-- D. [[元宇宙自治 Metanarchy 无形政府]](https://omnixtar.github.io/dai/cn_metanarchy)
-- E. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
-- F. [[Phoscript 符式词元 操作原理
+- C. 历史背景、哲学、法律定义 [[从法国大革命到 Metanarchy 元宇宙自治]](https://omnixtar.github.io/dai/cn_revolution)
+- [[元宇宙自治 Metanarchy 无形政府]](https://omnixtar.github.io/dai/cn_metanarchy)
+- D. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
+- E. 技术背景及定义 [[Phoscript 符式词元 操作原理
 ]](https://omnixtar.github.io/phoscript/cn) 
   - [[Omnihash 全杂数 原理]](https://omnixtar.github.io/cn/omnihash-cn)
 
