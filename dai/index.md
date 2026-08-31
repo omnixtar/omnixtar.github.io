@@ -32,7 +32,7 @@ title: 无量智 Delta AI
 ]](https://omnixtar.github.io/dai/s-curve)
 - C. 历史背景、哲学、法律定义 [[从法国大革命到 Metanarchy 元宇宙自治]](https://omnixtar.github.io/dai/cn_revolution)
   - [[元宇宙自治 Metanarchy 无形政府]](https://omnixtar.github.io/dai/cn_metanarchy)
-- D. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 完整视频+pdf]](https://omnixtar.github.io/svfig/)
+- D. [[SVFIG Silicon Valley FORTH Interest Group 硅谷弗式兴趣小组 视频系列+pdf]](https://omnixtar.github.io/svfig/)
 - E. 技术背景及定义 [[Phoscript 符式词元 操作原理
 ]](https://omnixtar.github.io/phoscript/cn) 
   - [[Omnihash 全杂数 原理]](https://omnixtar.github.io/cn/omnihash-cn)
