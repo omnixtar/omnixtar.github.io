@@ -7,6 +7,7 @@
 ]](https://omnixtar.github.io/dai/chuangye)
 - D. [[全臻道 Omniscientia：算力平权之路，终结资本老千局
 ]](https://omnixtar.github.io/dai/ost)
+- E. [[教育与收入的保障]](https://omnixtar.github.io/dai/chuancheng)
 
 
 #### 一、 时代痛点：算力垄断与开源剥削
