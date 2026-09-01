@@ -1,6 +1,6 @@
 ## **全知之必要：为何开放培训网络是AI时代的安全网**
 
-- GRATIS 收入， 网律乐 YouTube 前景， Omniscientia 教育， B部分： 教育与收入保障
+- GRATIS 收入， 网律乐 YouTube 前景 新式社交媒体 收入， Omniscientia 教育， B部分： 教育与收入保障
 
 ---
 
