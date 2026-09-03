@@ -9,10 +9,10 @@
 - [[**Omniscientia（全知系统，亦称“全臻道”）**]](https://omnixtar.github.io/dai/osgt)  
   它不只是一个 **AI 对话与分享平台**。通过 **Phoscript 符式词元** **简化并统一编程语言**，并以 **Omnihash 全杂数** 确认教员与学员的**数字产权**，它让 AI 时代最关键的教育——**元编程与去中心化加密算法**——以**零资本、零门槛**的方式，**像数学一样普及**。由此，所有普通用户和开源软件程序员都能掌握**在 AI 时代安身立命的专业知识**，并像电影《创：战纪》（TRON）中的 USER（用户）那样，成为 AI 系统的**实际主人（owner）与操控者（operator）**。
 
-- **GRATIS** [[Grand Unified AI Token Trading Platform 去中心化人工智能词元代币交易平台]](https://omnixtar.github.io/dai/osgt)
+- [[**GRATIS Grand Unified AI Token Trading Platform 去中心化人工智能词元代币交易平台**]](https://omnixtar.github.io/dai/osgt)
   让用户通过**出售个人电脑或手机的冗余算力**获取收入，把闲置的计算资源转化为可持续的经济来源。
 
-- **网律乐（LLASMA-roc）** [[“用网络规律（程序+协议）生成的音乐(音频)”]](https://omnixtar.github.io/dai/s-curve) 
+- [[**网律乐（LLASMA-roc） “用网络规律（程序+协议）生成的音乐(音频)”**]](https://omnixtar.github.io/dai/s-curve) 
   新一代超级社交媒体。相比抖音、YouTube 等中心化平台，它能承载**大规模、多用户音频交互与混合算法所需的算力和带宽**。用户不仅可**出售冗余算力与网络带宽**，也能像传统平台那样成为主播，或**担任平台特有的新角色**，如 DJ、网络电台主持人等。
 
 在一个人工智能可能加剧不平等的时代——知识获取和经济机会越来越多地被算法、付费墙与专有系统所控制——Omni*Web 全臻网提供了一条根本性的替代路径。这不仅仅是一套技术框架，更是数字时代的社会契约：它确保人类知识的延续，也在机器重塑世界的过程中维护人的尊严。
