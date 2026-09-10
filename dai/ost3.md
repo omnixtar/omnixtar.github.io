@@ -1,4 +1,5 @@
-# Omniscientia — A Decentralised AI System Owned by Its Users
+# Omniscientia 
+## -- A Decentralised AI System Owned & Operated by Free Users & Programmers
 
 Artificial intelligence is developing at extraordinary speed.
 
