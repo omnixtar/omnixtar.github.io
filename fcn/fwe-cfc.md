@@ -1,4 +1,4 @@
-# FORTH Word Execution vs Conventional Function Calls
+## FORTH Word Execution vs Conventional Function Calls
 
 Most modern programming languages treat the **function call** as the fundamental unit of software composition:
 
