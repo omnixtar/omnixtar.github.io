@@ -1,5 +1,7 @@
 ## Why Omnihash referrals $$\rightarrow$$ building blocks of Omniscientia
 
+<img src="./why.jpeg">
+
 - Why would Omnihash referrals become the building blocks of a decendetralised AI ecosystem? 
 
 Because when human beings form a network, they utilise resources that each of them owns. The resources owned by one man are limited. The resources owned by a thousand human beings are enormous.
