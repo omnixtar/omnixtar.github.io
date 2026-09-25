@@ -4,7 +4,8 @@
 
 Because when human beings form a network, they utilise resources that each of them owns. The resources owned by one man are limited. The resources owned by a thousand human beings are enormous.
 
-This gives the Omnihash-referral idea a deeper foundation: **the referral network is not merely a social graph; it can become a mechanism for aggregating otherwise fragmented resources.**
+This gives the Omnihash-referral idea a deeper foundation: 
+- **the referral network is not merely a social graph; it can become a mechanism for aggregating otherwise fragmented resources.**
 
 A useful distinction is:
 
