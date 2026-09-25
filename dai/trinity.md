@@ -1,5 +1,7 @@
 ## Trinity of Omniscientia: Babylonia, GRATIS & LLASMA-roc
 
+<img src="./trinity.jpeg">
+
 1. At the initial phase of Omniscintia, LLASMA-roc real time audio sharing and mixing platform plays a crucial role as influencers such as musicians and DJs will use it to create a new kind of music and recruit more users and programmers to Omniscientia.
 
 1. GRATIS Grand Unified AI Token Trading Platform will enable users, programmers, companies and governments to trade idle CPU GPU resources, thus greatly reducing the costs of AI tokens and enabling all human beings to become providers of AI tokens instead of passive consumers.
