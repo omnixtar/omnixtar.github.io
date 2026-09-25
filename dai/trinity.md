@@ -157,9 +157,12 @@ $$
 &&
 \text{People + compute}\\
 \downarrow&&\downarrow\\
-\multicolumn{3}{c}{
-\textbf{OMNISCITIENTIA NETWORK}
-}\\
+% \multicolumn{3}{c}{
+% \textbf{OMNISCITIENTIA NETWORK}
+% }\\
+\textbf{Babylonia AI}
+&\leftarrow&
+\textbf{Omnifish / Omnihash}\\
 \downarrow&&\downarrow\\
 \textbf{Babylonia AI}
 &\leftarrow&
