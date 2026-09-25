@@ -1,4 +1,6 @@
-# OMNISCIENTIA
+# OMNISCIENTIA & Omnihash Referrals
+
+<img src="./refer.jpeg">
 
 ## Are you frustrated with paying for AI service tokens — and wondering whether AI will become another bottomless, involuntary tax?
 
