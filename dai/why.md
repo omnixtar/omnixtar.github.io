@@ -1,4 +1,4 @@
-## Why Omnihash referrals --> building blocks of Omniscientia
+## Why Omnihash referrals $$\rightarrow$$ building blocks of Omniscientia
 
 Why would Omnihash referrals become the building blocks of a decendetralised AI ecosystem? 
 
