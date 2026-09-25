@@ -161,7 +161,7 @@ $$
 % \textbf{OMNISCITIENTIA NETWORK}
 % }\\
 \textbf{OMNISCITIENTIA}
-&\dot&
+&\circ&
 \textbf{NETWORK}\\
 \downarrow&&\downarrow\\
 \textbf{Babylonia AI}
