@@ -160,9 +160,9 @@ $$
 % \multicolumn{3}{c}{
 % \textbf{OMNISCITIENTIA NETWORK}
 % }\\
-\textbf{Babylonia AI}
-&\leftarrow&
-\textbf{Omnifish / Omnihash}\\
+\textbf{OMNISCITIENTIA}
+&\dot&
+\textbf{NETWORK}\\
 \downarrow&&\downarrow\\
 \textbf{Babylonia AI}
 &\leftarrow&
