@@ -4,6 +4,10 @@ Omniscientia is an open source project that coordinates ordinary users and progr
 
 <img src="./children.jpeg">
 
+From the simplest act of making a referral of a vendor to a friend, so that the users and companies concerned understand the new definition of ownership of digital assets, Omniscientia aims to scale such awareness to millions of people, so that ordinary users and free software programmers may have the abilities to own and operate our own AI systems, without becoming slaves of the new AI technofeudal lords, just like peasants and workers of the French Revolution, finally achieving Liberty, Equality and Fraternity, but in a new digital era.
+
+<img src="./a2z.jpeg">
+
 <img src="./refer.jpeg">
 
 - [Why Omnihash referrals 
