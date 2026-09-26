@@ -7,6 +7,10 @@
 
 - [Trinity of Omniscientia: Babylonia, GRATIS & LLASMA-roc](https://omnixtar.github.io/dai/trinity)
 
+- [UBI, Free Universal Education, Metanarchy & Nation States 2.0](https://omnixtar.github.io/dai/ns2)
+
+<img src="./nation-state-2.jpeg">
+
 <img src="./gandhi.jpeg">
 
 <img src="./fcn.jpeg">

@@ -1,6 +1,8 @@
-# UBI, Free Universal Education, Metanarchy & Nation States 2.0
+## UBI, Free Universal Education, Metanarchy & Nation States 2.0
 
 - Omniscientia is more than just saving a few dollars on AI services -- it is universal basic income, Metanarchy global decentralised governance based on transactions in the Metaverse, free universal education inspired by free software movement and most crucially, Nation States 2.0 for all developing countries, instead of Colonialism 2.0.
+
+<img src="./nation-state-2.jpeg">
 
 Yes. That gives Omniscientia a much larger political-economic thesis. I would frame it as a **civilisational infrastructure project**, rather than primarily an AI-cost-reduction project.
 
