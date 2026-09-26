@@ -1,11 +1,19 @@
 - [OMNISCIENTIA & Omnihash Referrals](https://omnixtar.github.io/dai/refer)
 
+<img src="./refer.jpeg">
+
 - [Why Omnihash referrals 
  building blocks of Omniscientia](https://omnixtar.github.io/dai/why)
 
+ <img src="./why.jpeg">
+
 - [Referrals do not need additional cash](https://omnixtar.github.io/dai/referrals)
 
+<img src="./referrals.jpeg">
+
 - [Trinity of Omniscientia: Babylonia, GRATIS & LLASMA-roc](https://omnixtar.github.io/dai/trinity)
+
+<img src="./trinity.jpeg">
 
 - [UBI, Free Universal Education, Metanarchy & Nation States 2.0](https://omnixtar.github.io/dai/ns2)
 
