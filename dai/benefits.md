@@ -1,5 +1,7 @@
 - [OMNISCIENTIA & Omnihash Referrals](https://omnixtar.github.io/dai/refer)
 
+<img src="./children.jpeg">
+
 <img src="./refer.jpeg">
 
 - [Why Omnihash referrals 
@@ -30,4 +32,3 @@
 
 <img src="./fcn.jpeg">
 
-<img src="./children.jpeg">
