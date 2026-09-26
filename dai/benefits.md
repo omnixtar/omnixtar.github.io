@@ -1,8 +1,9 @@
-https://omnixtar.github.io/dai/refer
+- [OMNISCIENTIA & Omnihash Referrals](https://omnixtar.github.io/dai/refer)
 
-https://omnixtar.github.io/dai/why
+- [Why Omnihash referrals 
+ building blocks of Omniscientia](https://omnixtar.github.io/dai/why)
 
-https://omnixtar.github.io/dai/referrals
+- [Referrals do not need additional cash](https://omnixtar.github.io/dai/referrals)
 
 
 
