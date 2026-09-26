@@ -37,6 +37,10 @@ Omnihash and Phoscript are the fundamental building blocks of Omniscientia, whic
 
 Omnihash is a hash code system for representing ownerships of digital assets by associating the hash of a user's public key, representing the user's identity, with any other hash or hashes or string or strings, collectively representing digital assets of any kind, hence the prefix Omni, ranging from any text, source code, photo, videos and other documents.
 
+- [Omnihash QR Code Demo](https://omnixtar.github.io/h/)
+- [Omnihash Contract](https://omnixtar.github.io/contract/)
+
+
 <img src="./omnihash.jpeg">
 
 The definition of Omnihash as presented above is evidently too complicated for men or women on the street to understand, but they need to, as this issue is as fundamental as peasants and workers before the French Revolution given the rights to own properties such as land, but they may not be literate enough to understand the issues. As such, we have devised a referral program where anyone promoting Omnihash to friends and associates may receive a reward, however small it is. 
