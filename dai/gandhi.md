@@ -1,5 +1,7 @@
 # Gandhi vs. Omniscientia
 
+<img src="./gandhi.jpeg">
+
 - Omniscientia has a Gandhian parallel -- Gandhi initiated hand woven cloth campaign to boycott British textile and broke its economy; developing countries use Omniscientia to avoid paying tributes, literally, to superpowers.
 
 There is a useful historical parallel, with an important distinction: Gandhi's **swadeshi/khadi movement** was explicitly about economic self-reliance and reducing dependence on British manufactured textiles. Omniscientia could be presented as a **digital-era analogue of economic self-reliance**, rather than as a literal repetition of the independence struggle.
