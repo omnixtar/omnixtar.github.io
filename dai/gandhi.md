@@ -1,4 +1,4 @@
-# Gandhi vs. Omniscientia
+# -- Gandhi vs. Omniscientia
 
 <img src="./gandhi.jpeg">
 
