@@ -19,6 +19,8 @@
 
 <img src="./nation-state-2.jpeg">
 
+<img src="./colonial2.jpeg">
+
 - [Gandhi vs. Omniscientia](https://omnixtar.github.io/dai/gandhi)
 
 <img src="./gandhi.jpeg">
@@ -27,3 +29,5 @@
 ](https://omnixtar.github.io/dai/fcn)
 
 <img src="./fcn.jpeg">
+
+<img src="./children.jpeg">
