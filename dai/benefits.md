@@ -1,6 +1,6 @@
 - [OMNISCIENTIA & Omnihash Referrals](https://omnixtar.github.io/dai/refer)
 
-Omniscientia is an open source project to coordinate ordinary users and programmers in order to create a truly decentralised Artificial Intelligence ecosystem, which is in turn fully owned and operated by users and free software programmers.
+Omniscientia is an open source project that coordinates ordinary users and programmers in order to create a truly decentralised Artificial Intelligence ecosystem, which is in turn fully owned and operated by users and free software programmers.
 
 <img src="./children.jpeg">
 
