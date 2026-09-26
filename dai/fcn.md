@@ -1,4 +1,4 @@
-# FORTHification
+# -- FORTHification & Omniscientia
 
 <img src="./fcn.jpeg">
 
