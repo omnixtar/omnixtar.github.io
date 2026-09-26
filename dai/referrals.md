@@ -1,3 +1,8 @@
+## Referrals do not need additional cash
+
+- Omnihash Referral: goods and services → promotion without extra cash payments by vendors. 
+
+- AI tokens, for CPU GPU resources on user's nodes, or owned by companies on Omniscientia, incentivise Omnihash referrals, contributing to positive feedback.
 
 <img src="./referrals.jpeg">
 
