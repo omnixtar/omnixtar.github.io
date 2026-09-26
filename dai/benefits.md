@@ -1,5 +1,7 @@
 - [OMNISCIENTIA & Omnihash Referrals](https://omnixtar.github.io/dai/refer)
 
+Omniscientia is an open source project to coordinate ordinary users and programmers in order to create a truly decentralised Artificial Intelligence ecosystem, which is in turn fully owned and operated by users and free software programmers.
+
 <img src="./children.jpeg">
 
 <img src="./refer.jpeg">
@@ -15,6 +17,8 @@
 
 - [Trinity of Omniscientia: Babylonia, GRATIS & LLASMA-roc](https://omnixtar.github.io/dai/trinity)
 
+Omnihash and Phoscript are the fundamental building blocks of Omniscientia, which in turn comprises three other modules, firstly LLASMA-roc real time audio sharing and mixing platform, secondly GRATIS Grand Unified AI Token Trading Platform and thirdly Babylonia AI conversation sharing platform.
+
 <img src="./trinity.jpeg">
 
 - [UBI, Free Universal Education, Metanarchy & Nation States 2.0](https://omnixtar.github.io/dai/ns2)
@@ -27,8 +31,12 @@
 
 <img src="./gandhi.jpeg">
 
+Omnihash is a hash code system for representing ownerships of digital assets by associating the hash of a user's public key, representing the user's identity, with any other hash or hashes or string or strings, collectively representing digital assets of any kind, hence the prefix Omni, ranging from any text, source code, photo, videos and other documents.
+
 - [FORTHification & Omniscientia
 ](https://omnixtar.github.io/dai/fcn)
+
+Phoscript is a metaprogramming language derived from FORTH programming language, implemented as a metaprogramming shell within a host programming language, which mapped FORTH like reverse polish notation expressions to functions of the host programming language.
 
 <img src="./fcn.jpeg">
 
