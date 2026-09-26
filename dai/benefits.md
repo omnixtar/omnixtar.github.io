@@ -11,6 +11,11 @@
 
 <img src="./nation-state-2.jpeg">
 
+- [Gandhi vs. Omniscientia](https://omnixtar.github.io/dai/gandhi)
+
 <img src="./gandhi.jpeg">
+
+- [FORTHification & Omniscientia
+](https://omnixtar.github.io/dai/fcn)
 
 <img src="./fcn.jpeg">
