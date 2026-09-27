@@ -1,6 +1,8 @@
 ## Malaysian Nature Society
 ### 5 Elements Community Activities 
 
+<img src="./5elements.jpeg">
+
 金木水火土
 
 金 metal: cycling (bicycles are made of metal) -- travel to paths inaccessible by cars; healthy sports for all; huge revenues from tourists.

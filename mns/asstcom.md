@@ -1,6 +1,8 @@
 ## Malaysian Nature Society
 ### Assistant Committee in MNS State branches
 
+<img src="./asstcom.jpeg">
+
 Executive Committee EXCO in MNS State branches have become a misnomer as their members have little time and money to actually execute tasks.
 
 They are more like Cabinet -- comprising Ministers who need Ministries and bureaucrats to actually get work done.
