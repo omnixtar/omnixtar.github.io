@@ -1,3 +1,5 @@
+<img src="./5-scenes.jpeg">
+
 ### 1. The Miami Beach Warm-Up
 
 * **Setting:** A sun-drenched Miami beachside resort inside the MMAGA Enclave, framed by turquoise water and pastel lifeguard towers.
