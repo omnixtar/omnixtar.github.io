@@ -62,6 +62,8 @@
 
 ### 4. The Silicon Server Room Infiltration
 
+<img src="./4-network.jpeg">
+
 * **Setting:** A massive, humming server farm belonging to an arrogant AI influencer who is live-streaming his centralized pyramid scheme.
 
 
