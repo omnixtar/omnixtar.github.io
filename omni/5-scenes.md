@@ -22,6 +22,8 @@
 
 ### 2. The Cuban Midnight Drop
 
+<img src="./2-cuban.jpeg">
+
 * **Setting:** A moonlit coastline in Cuba, jagged cliffs overlooking dark, churning surf.
 
 
