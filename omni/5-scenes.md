@@ -42,6 +42,8 @@
 
 ### 3. The Citadel Bedroom Intrusion
 
+<img src="./3-mmaga.jpeg">
+
 * **Setting:** A high-security, plush penthouse suite deep inside the MMAGA Citadel, guarded by biometric locks.
 
 
