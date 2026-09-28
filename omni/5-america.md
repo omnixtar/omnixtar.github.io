@@ -1,3 +1,7 @@
+- MMAGA regime was hoping to create a new pyramid scheme with AI and cryptocurrencies. Omniscientia beat them using the same but open source version -- empowering people instead of scam.
+
+<img src="./45-AI-crypto.jpeg">
+
 - Initially, many AI I influencers refused to acknowledge Omniscientia and its Omnihash and Phoscript, dismissing them to be too good to be true -- as they go against their American centralized pyramid paradigm.
 
 <img src="./46-influencers.jpeg">
