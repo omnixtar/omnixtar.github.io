@@ -1,3 +1,7 @@
+- Omnihash and Phoscript source code is fewer than 50 lines of JavaScript or equivalent -- perhaps the biggest inverse cost performance ratio ever in computing history.
+
+<img src="./47-50lines.jpeg">
+
 - Draw diagrams depicting functions of source code of Omnihash and Phoscript.
 
 <img src="./48-omnihash.jpeg">
