@@ -1,5 +1,9 @@
 # NIKITA II: THE UN-AMERICAN CUT
 
+<img src="./5-scenes.jpeg">
+
+- [Scene Excerpts](./5-scenes.md)
+
 ## Executive Summary & Production Pitch
 
 ---
