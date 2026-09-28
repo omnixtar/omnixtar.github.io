@@ -82,6 +82,8 @@
 
 ### 5. The Viral Referral Flashmob
 
+<img src="./5-viral.jpeg">
+
 * **Setting:** A crowded, neon-lit university campus square surrounded by corporate billboards.
 
 
