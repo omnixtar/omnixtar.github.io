@@ -4,6 +4,8 @@
 
 - AI tokens, for CPU GPU resources on user's nodes, or owned by companies on Omniscientia, incentivise Omnihash referrals, contributing to positive feedback.
 
+- Referral is a crucial step in building up user / programmer / customer trusts -- we need to get past the scrutiny of user / programmer / customer one by one to build up trust on Omnihash, which is completely new to most people.
+
 <img src="./referrals.jpeg">
 
 Yes. This makes the mechanism substantially clearer: **the referral reward does not necessarily have to be another cash payment from the vendor.** The vendor can contribute value to the network by allocating AI-token credits, while those tokens represent access to distributed computing resources.
