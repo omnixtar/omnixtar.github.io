@@ -10,7 +10,7 @@ From the simplest act of making a referral of a vendor to a friend, so that the 
 
 <img src="./refer.jpeg">
 
-- [Why Omnihash referrals 
+- [Why Omnihash referrals $$\rightarrow$$
  building blocks of Omniscientia](https://omnixtar.github.io/dai/why)
 
  <img src="./why.jpeg">
