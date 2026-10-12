@@ -1,5 +1,8 @@
 ## PROJECT PROPOSAL: PROJECT NGX (NVIDIA GB10 COMMUNITY ACCELERATION)
 Sub-title: Democratizing High-Performance AI Infrastructure for Local Communities and Talent Cultivation in Malaysia
+
+<img src="./ngx.jpg">
+
 ## 1. Executive Summary
 Project NGX aims to accelerate Malaysia's digital sovereignty by establishing a decentralized, community-shared AI compute network powered by NVIDIA GB10 (Blackwell) NGX-class systems. By deploying these ultra-compact AI supercomputers in authorized local laboratories and residential developer nodes, the project removes the high-cost barrier to sovereign AI engineering. Leveraging the open-source Omnihash GRATIS Grand Unified AI Token Trading Platform, local developers can remotely access, share, and monetize idle compute blocks. This initiative acts as a grassroots multiplier to organically train, upskill, and scale high-tier AI programming talent across the Malaysian population.
 ------------------------------
