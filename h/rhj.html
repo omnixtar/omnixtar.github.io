@@ -519,6 +519,12 @@ function hpp(n)
       return h[n+1]
   }else console.log("h["+n+"] undefined")
 }
+function clone_s(n) { // clone string cell
+  var temp1=document.getElementById("s"+n)
+  var clone=temp1.cloneNode(true)
+  clone.id='s'+(n+1)
+  temp1.after(clone)
+}
 console.log("// 20261017 Recursive Hash Joint Property")
 </script>
 
