@@ -525,10 +525,20 @@ function clone_s(n) { // clone string cell
   clone.id='s'+(n+1)
   temp1.after(clone)
 }
+function clone_h_d(n) { // clone hash div debug
+  var temp1=document.getElementById("h"+n)
+  var clone=temp1.cloneNode(true)
+  clone.id='h'+(n+1)
+  temp1.after(clone)
+}
 function clone_h(n) { // clone hash div
   var temp1=document.getElementById("h"+n)
   var clone=temp1.cloneNode(true)
   clone.id='h'+(n+1)
+  var b=clone.querySelector('#b'+n)
+  b.id='b'+(n+1)  
+  var s=clone.querySelector('#s'+n)
+  s.id='s'+(n+1)  
   temp1.after(clone)
 }
 // '<div id="h0"><button id="b0" class="btn btn-primary">Omnihash</button><br><textarea id="s0" rows="2" style="width:300px;font-size:14px;"></textarea></div>'
