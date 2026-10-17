@@ -598,7 +598,7 @@ function waitUntilElementPresent(cssLocator, timeoutInSeconds) {
             clearInterval(checkExist);
             document.querySelectorAll(cssLocator)[0].style.display='none'
             document.querySelectorAll(cssLocator)[1].style.display='none'
-	    document.querySelectorAll(cssLocator)[2].style.display='none'
+	    // document.querySelectorAll(cssLocator)[2].style.display='none'
             return;
         } else if (endTime < new Date().getTime()) {
             clearInterval(checkExist);
