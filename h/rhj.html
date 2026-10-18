@@ -560,7 +560,7 @@ function clone_h(n) { // clone hash div h0
   b.id='b'+(n+1)
   b.innerHTML='h'+(n+1)
   b.onclick=function(){
-    console.log("  b ",b.id.substr(1))
+    console.log("  b ",b.id.substr(1),"hd",hd)
     b.innerHTML=hmm(b.id.substr(1))
     // if(id h<n+1> undefined)clone_h(n+1)
     // check id h<n+1> first ??
