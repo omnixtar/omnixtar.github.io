@@ -431,6 +431,9 @@ $('#omni').click(async function () {
       z0=await compress(s_up)
       s_djs=s_url+"/oxm/upline.php?z="+urlenc(z0) 
 
+      // 20261018 Recursive Hash Joint
+      mk_h0(document.getElementById("dmhs"))
+
     });
 
 var z0, s_djs;
