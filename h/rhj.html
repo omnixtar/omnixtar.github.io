@@ -522,10 +522,10 @@ function hpp(n) // h plus plus
 function hmm(n) // h minus minus
 {
   // h[n+1]=H(s[n]+h[n])
-  if(h.length==0)h[0]=f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) )   
-  if(typeof h[n]!=="undefined"){
-  h[n+1]=H(s_(n)+h[n]) // function s to call instant values from UI?
-      return h[n+1]
+  if(h.length==0){h[0]=f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) );return h[0];   }
+  else if(typeof h[n]!=="undefined"){
+  h[n]=H(s_(n-1)+h[n-1]) // function s to call instant values from UI?
+      return h[n]
   }else console.log("h["+n+"] undefined")
 }
 function clone_s(n) { // clone string cell
