@@ -553,7 +553,9 @@ function clone_h(n) { // clone hash div h0
   temp1.after(clone)
 }
 // '<div id="h0"><button id="b0" class="btn btn-primary">Omnihash</button><br><textarea id="s0" rows="2" style="width:300px;font-size:14px;"></textarea></div>'
-var mk_h0=function(h0){h0.insertAdjacentHTML('afterend', '<div id="h0"><button id="b0" class="btn btn-primary">h0</button><br><textarea id="s0" rows="2" style="width:300px;font-size:14px;"></textarea></div>');}
+var mk_h0=function(h0){h0.insertAdjacentHTML('afterend', '<div id="h0"><button id="b0" class="btn btn-primary">h0</button><br><textarea id="s0" rows="2" style="width:300px;font-size:14px;"></textarea></div>');var me=document.getElementById("h0");var b=me.querySelector("#b0");
+console.log(b.outerHTML)
+}
 // mk_h0(document.getElementById("dmhs")) // init h0
 console.log("// 20261017 Recursive Hash Joint Property")
 </script>
