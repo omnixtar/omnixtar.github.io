@@ -557,6 +557,9 @@ function clone_h(n) { // clone hash div h0
   var b=clone.querySelector('#b'+n)
   b.id='b'+(n+1)
   b.innerHTML='h'+(n+1)
+  b.onclick=function(){
+    console.log("  b ",b.id.substr(1))
+    b.innerHTML=hmm(b.id.substr(1))}
   var s=clone.querySelector('#s'+n)
   s.id='s'+(n+1)  
   temp1.after(clone)
