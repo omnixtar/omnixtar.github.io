@@ -523,11 +523,11 @@ function hmm(n) // h minus minus
 {
   // h[n+1]=H(s[n]+h[n])
   if(h.length==0){h[0]=f_path( bnToB64( cyrb53( btoa(S0.K.s_pbk) ) ) );return h[0];   }
-  else // if(typeof h[n]!=="undefined")
+  else if(n>0) // if(typeof h[n]!=="undefined")
   {
   h[n]=H(s_(n-1)+h[n-1]) // function s to call instant values from UI?
       return h[n]
-  } // else console.log("h["+n+"] undefined")
+  }else return h[0] // else console.log("h["+n+"] undefined")
 }
 function clone_s(n) { // clone string cell
   var temp1=document.getElementById("s"+n)
