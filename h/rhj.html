@@ -576,6 +576,7 @@ hd[0]='h0'
 console.log(b) // console.log(b.outerHTML)
 b.onclick=function(){
   console.log("hd",hd)
+  if(hd.length<2)clone_h(0)
   b.innerHTML=hmm(0)}
 }
 // mk_h0(document.getElementById("dmhs")) // init h0
