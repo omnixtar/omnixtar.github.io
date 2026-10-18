@@ -531,7 +531,17 @@ function clone_h_d(n) { // clone hash div debug
   clone.id='h'+(n+1)
   temp1.after(clone)
 }
-function clone_h(n) { // clone hash div
+function clone_h_d_o(n) { // clone hash div Omnihash
+  var temp1=document.getElementById("h"+n)
+  var clone=temp1.cloneNode(true)
+  clone.id='h'+(n+1)
+  var b=clone.querySelector('#b'+n)
+  b.id='b'+(n+1)  
+  var s=clone.querySelector('#s'+n)
+  s.id='s'+(n+1)  
+  temp1.after(clone)
+}
+function clone_h(n) { // clone hash div h0
   var temp1=document.getElementById("h"+n)
   var clone=temp1.cloneNode(true)
   clone.id='h'+(n+1)
