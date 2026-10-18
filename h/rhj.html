@@ -567,7 +567,7 @@ function clone_h(n) { // clone hash div h0
     // check id h<n+1> first ??
     // need hash div array hd=[]
     // if(hd.length<2)clone_h(0)
-    if(hd.length==(parseInt(b.id.substr(1))+1))clone_h(b.id.substr(1))
+    if(hd.length==(parseInt(b.id.substr(1))+1))clone_h(parseInt(b.id.substr(1)))
     }
   var s=clone.querySelector('#s'+n)
   s.id='s'+(n+1)  
