@@ -1,0 +1,1 @@
+wsphos=function(sp){socket.send(JSON.stringify(["phos",sp]))}
